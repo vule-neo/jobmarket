@@ -1,0 +1,1507 @@
+{
+  "mean": 56581.28,
+  "count": 262,
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "results": [
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-05-19T15:43:07Z",
+      "contract_time": "full_time",
+      "description": "We currently have a vacancy for an AI/ML Engineer (Python) fluent in English, to offer his/her services as an expert who will be based in Vienna , Austria . The work will be carried out either in the company’s premises or on site at customer premises. In the context of the first assignment, the successful candidate will be integrated in the Development team of the company that will closely cooperate with a major client’s IT team on site. Your tasks Development of AI/ML models; AI solution analy…",
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTczNDEwMzg4NiIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.tAHJDTGnZSTHqVuX7pCNbVxNfpXCqEbekvtnGtf_u_k",
+      "title": "AI/ML Engineer (Python)",
+      "id": "5734103886",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "other-general-jobs",
+        "label": "Sonstige/Allgemeine Stellen"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "EUROPEAN DYNAMICS"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5734103886?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "id": "5838132825",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT-Stellen"
+      },
+      "company": {
+        "display_name": "Resourceful Talent Group",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5838132825?utm_medium=api&utm_source=5fbaef93",
+      "contract_type": "permanent",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-12T12:44:14Z",
+      "contract_time": "full_time",
+      "salary_is_predicted": "0",
+      "description": "We are seeking a Python Developer experienced with Fast API to join our backend team for a FinTech-related project. You’ll be responsible for developing, maintaining, and optimizing APIs that power a mobile financial application. Responsibilities: • Design, develop, and maintain RESTful APIs using Fast • Collaborate with frontend (React Native) developers to ensure smooth data flow and integration. • Implement secure, efficient, and scalable backend logic for financial operations. • Write clean…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzODEzMjgyNSIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.CB1IcZG9TXxJXIjH0gkecShjVCHgqTzjLrVkgLqlTec",
+      "title": "Python Developer (Fast API / FinTech Project)",
+      "location": {
+        "display_name": "Österreich",
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "id": "5732692412",
+      "company": {
+        "display_name": "Bitpanda",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT-Stellen"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5732692412?utm_medium=api&utm_source=5fbaef93",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-05-18T00:19:11Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1NzMyNjkyNDEyIn0.W6pjHKWniXOkeLsTxRvv8mMLMpoTlbDfpeFm7fRZwtM",
+      "title": "Software Engineer, Python (Asset Pricing & Hedging)",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "salary_is_predicted": "0",
+      "description": "Who we are We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works acro…"
+    },
+    {
+      "created": "2026-07-30T16:44:43Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODIxMTk2MzY0In0.PE0YnKHR9-ylsnlZoZm--aqFMHeA-JdQyHDkEAsZRrs",
+      "title": "Internship: Python Software Engineer (m/f/d)",
+      "location": {
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz-Umgebung",
+          "Gratkorn"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Gratkorn, Graz-Umgebung"
+      },
+      "salary_is_predicted": "0",
+      "description": "We are looking for a working student in our Competence Center for Crypto and Security at NXP. In this role as student Python Software Engineer you will be able to apply and expand your knowledge in Python programming based on your existing experience and your interests to influence new innovative security technologies in NXP’s products and to ensure that NXP’s products achieve best in class security. The responsibilities of this exciting, varied role will include: Developing activities in a Pyt…",
+      "latitude": 47.143949,
+      "contract_time": "part_time",
+      "company": {
+        "display_name": "NXP Semiconductors",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5821196364",
+      "longitude": 15.35819,
+      "redirect_url": "https://www.adzuna.at/details/5821196364?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-06-04T00:27:05Z",
+      "description": "Who we are We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works acro…",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1NzUxMjQ5MTI5In0.OKSDE0sOtuNNbdtuOJkCNAL2WuEevLo1V2cBp23WKSs",
+      "title": "Software Engineer, Rust & Python (Asset Pricing & Hedging)",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "id": "5751249129",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "Bitpanda",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5751249129?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "salary_min": 114400,
+      "description": "For a challenging AI and data transformation project with a client in the telecommunications sector, we are looking for an experienced Python Developer – Generative AI / RAG (m/f/d) in Vienna. The focus of the role is on the development of modern, data-driven AI applications and production-ready Retrieval-Augmented Generation solutions. We are looking for an experienced Python developer with a strong analytical mindset who can design, implement and optimize scalable backend services, data-proce…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODEyOTcxNDk0In0.I7-oaTWhAl6Tkt5IZAJusat4FfiKyrSEzcPnGi5NlDQ",
+      "title": "Python Developer – Generative AI / RAG (m/f/d)",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-07-24T01:23:17Z",
+      "longitude": 16.354031,
+      "id": "5812971494",
+      "salary_max": 124800,
+      "latitude": 48.208144,
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5812971494?utm_medium=api&utm_source=5fbaef93",
+      "contract_type": "contract",
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Qualysoft"
+      }
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-07-23T01:24:55Z",
+      "contract_time": "part_time",
+      "latitude": 47.143949,
+      "description": "We are looking for a student who is currently studying in or near Graz and is keen to put their theoretical knowledge into practice by supporting our automotive NFC Customer Application engineering team. This part-time position focuses primarily on Python-based software tooling, with additional exposure to embedded development in C. You will work alongside experienced engineers and contribute to real-world automotive projects. Key Responsibilities: Develop and maintain internal software tools i…",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODExNTE5NDQ4In0.9RhfueFBVHMj3zTTxEAZDZPjbU8PgDRaAzKrJvBt6tw",
+      "title": "Internship: Python Tooling & Embedded Systems (C) (m/f/d)",
+      "location": {
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz-Umgebung",
+          "Gratkorn"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Gratkorn, Graz-Umgebung"
+      },
+      "id": "5811519448",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "company": {
+        "display_name": "NXP Semiconductors",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5811519448?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 15.35819
+    },
+    {
+      "id": "5868408800",
+      "category": {
+        "label": "Unknown",
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "STEINER-HITECH GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5868408800?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 16.354031,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-09-03T07:29:20Z",
+      "latitude": 48.208144,
+      "description": "Unser Kunde ist ein weltweit führendes Entwicklungs- und Produktionsunternehmen und Spezialist in der Schienenfahrzeug Branche. Für das Kompetenzzentrum in Wien, wo sowohl die Planung, Design, und Produktion stattfindet, suchen wir einen Data Engineer (w/m/d), der/die Cloud-Infrastrukturen mitgestaltet, eigene Ideen einbringt und technische Lösungen bis zum produktiven Einsatz begleitet. Data Engineer (w/m/d) € 3.500 bis € 5.500 AWS Python SQL Homeoffice Kantine Datenpipelines und ELT-Prozesse …",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODY4NDA4ODAwIn0.Wyve6qNqFPk1gveqwKpikujKMg_lAwjdmAoJvH_wQjw",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich"
+      },
+      "title": "Data Engineer (w/m/d)"
+    },
+    {
+      "latitude": 47.492553,
+      "salary_min": 3800,
+      "salary_max": 4150,
+      "title": "Software-Entwickler (m/w/d)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1MDkxMDMxMzgwIn0.DUdiF1NMc54WYQMJIPuKz0SyAfh_FbVIoVIOSpZ00RU",
+      "location": {
+        "display_name": "Reith bei Kitzbühel, Kitzbühel",
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Kitzbühel",
+          "Reith bei Kitzbühel"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "description": "con10com besteht seit 2004 und hat seinen Schwerpunkt rund um das Thema Content. Dabei reicht das Portfolio von medienneutraler Werbemittelproduktion über Datenmigration und -pflege bis hin zur Entwicklung und Integration von Softwarelösungen. Unseren Mitarbeitern steht somit ein interessantes und modernes Betätigungsfeld offen. Wir suchen ab sofort: Aufgaben Neu- und Weiterentwicklung von Funktionen und Arbeitsabläufen Fehleranalyse und -behebung Erstellung und Wartung von Schnittstellen zu Dr…",
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-03-13T10:51:06Z",
+      "redirect_url": "https://www.adzuna.at/details/5091031380?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 12.323185,
+      "id": "5091031380",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "con10com"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      }
+    },
+    {
+      "created": "2026-03-10T23:48:49Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1NjYxMDYyMDUxIn0.NQ7sNtGIIQO7zTw75PsKdSLDOffRTh78MzD6UZTjP6g",
+      "location": {
+        "display_name": "Thal, Graz-Umgebung",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz-Umgebung",
+          "Thal"
+        ]
+      },
+      "title": "Full Stack Developer: Geospatial & ML Systems",
+      "description": "Salary: €70,000 (Scaling with qualification/seniority) Core Tech: .NET, Python, React (Modern Frontend) Focus: Bridging the gap between High-Resolution Data and Machine Learning The Role As a Full Stack Developer at Cyclomedia, you won’t be boxed into a single application. You will be working across our software ecosystem. Your mission is to build the internal platforms and user-facing tools that process, visualize, and label the world’s most accurate street-level data. You will act as the tech…",
+      "salary_is_predicted": "0",
+      "salary_min": 70000,
+      "latitude": 47.082537,
+      "salary_max": 70000,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "cyclomedia"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "id": "5661062051",
+      "longitude": 15.352525,
+      "redirect_url": "https://www.adzuna.at/details/5661062051?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "latitude": 48.135473,
+      "salary_is_predicted": "0",
+      "description": "Unser Kunde ist ein weltweit führendes Entwicklungs- und Produktionsunternehmen und Spezialist in der Schienenfahrzeug Branche. Für das Kompetenzzentrum in Wien, wo sowohl die Planung, Design, und Produktion stattfindet, suchen wir einen Data Engineer (w/m/d), der/die Cloud-Infrastrukturen mitgestaltet, eigene Ideen einbringt und technische Lösungen bis zum produktiven Einsatz begleitet. Data Engineer (w/m/d) € 3.500 bis € 5.500 AWS Python SQL Homeoffice Kantine",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien",
+          "Liesing"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Liesing, Wien"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2NzE1NDMyNiIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.1bwm6rU-CjQjBupZSLb0hhm9nvsotq1qtnbshPWiGw4",
+      "title": "Data Engineer (w/m/d)",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-09-02T15:58:42Z",
+      "redirect_url": "https://www.adzuna.at/details/5867154326?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 16.28417,
+      "id": "5867154326",
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "STEINER-HITECH GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-07-16T06:56:32Z",
+      "title": "Software Test Automation Engineer (w/m/x)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODAyMjc2MjkxIn0.YIzojatZw00obOd6ooGHm8IHepWbwmwzGJ4GR8K8Rys",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ],
+        "display_name": "Österreich"
+      },
+      "salary_is_predicted": "0",
+      "description": "Software Test Automation Engineer (w/m/x) Wir suchen dich! Wir sind ein wachsendes & innovatives Team, das mit der mobilen Ladeeinheit NRGkick & fortschrittlichen Smart Services international Maßstäbe setzt. Bei uns vereinen sich Entwicklung, Produktion, Vermarktung und Vertrieb unter einem Dach. Dein zukünftiges Aufgabengebiet Du erstellst, wartest und führst automatisierte und manuelle Testfälle durch, um die Qualität unserer Software auf höchstem Niveau zu halten. Du entwickelst unser Testsy…",
+      "id": "5802276291",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "DiniTech GmbH"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Stellen für Hochschulabsolventen",
+        "tag": "graduate-jobs"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5802276291?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "longitude": 16.354031,
+      "redirect_url": "https://www.adzuna.at/details/5863061082?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "label": "Unknown",
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "Bundesanstalt Statistik Österreich",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5863061082",
+      "description": "Statistik Austria ist die führende, unabhängige Anbieterin von Daten und Informationen für Bürger:innen, Wirtschaft, Wissenschaft, Politik und Verwaltung. Auf Basis wissenschaftlich hochwertiger Statistiken und Analysen zeichnen wir ein umfassendes und objektives Bild der österreichischen Gesellschaft und Wirtschaft. Mit ihrem breiten Portfolio an Zahlen und Daten liefert Statistik Austria als zentrale Informationsquelle die Grundlagen für eine faktenorientierte öffentliche Debatte und evidenzb…",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MzA2MTA4MiIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.20hPdsX3memm1ipPyYCMTJVVgGUk-rWuxvU1kLsrXE4",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "title": "Softwareentwickler:in für Skriptspracheninfrastruktur",
+      "latitude": 48.208144,
+      "created": "2026-08-31T18:20:08Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "salary_is_predicted": "0",
+      "description": "Deine Aufgaben: Der Bereich Data Engineering zeichnet sich durch ein engagiertes, teamorientiertes Arbeitsumfeld aus. Gemeinsam mit deinem Team und Kollegen/-innen aus unseren Geschäftsfeldern entwickelst du unsere Datenplattformen kontinuierlich weiter. Du schaffst so die Basis für innovative und zukunftsweisende digitale Geschäftsmodelle. Konkret bedeutet das: Weiterentwicklung, Automatisierung und Integration unserer modernen, skalierbaren Datenplattformen Deployment-Automatisierung von Plat…",
+      "title": "Data Platform Engineer (m/w/d)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzMzU2MjY1MyIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.DDrejgWyX-OVhebjdHgOPqfcvqtEGruJoaRW0RED4x0",
+      "location": {
+        "display_name": "Österreich",
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "contract_time": "full_time",
+      "salary_min": 46662,
+      "salary_max": 46662,
+      "created": "2026-08-08T16:47:03Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.at/details/5833562653?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "label": "Unknown",
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Fronius"
+      },
+      "id": "5833562653"
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5786102015?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "NXP Semiconductors",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz-Umgebung",
+          "Gratkorn"
+        ],
+        "display_name": "Gratkorn, Graz-Umgebung"
+      },
+      "contract_time": "part_time",
+      "latitude": 47.143949,
+      "salary_max": 1040,
+      "longitude": 15.35819,
+      "id": "5786102015",
+      "description": "In an environment of growth and innovative product development for Automotive Secure Car Access, we seek to strengthen our team with a working student located in Graz, who would like to support our validation team part-time, in parallel to their studies. Your Tasks: Developing of test sequences in e.g. NI TestStand, LabVIEW, Python Debugging and execution of validation tests Analyzing and reporting test results Your Profile: Ongoing studies in Electrical Engineering, Information and Computer En…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4NjEwMjAxNSIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.1f1p9kVffw6MUWTg5CnCvu5TYFVO_-oVVJjlfbbDxwQ",
+      "title": "Internship: UWB Validation Engineer (m/f/d)",
+      "salary_min": 1040,
+      "created": "2026-07-03T00:58:28Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.at/details/5606824611?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "Qualysoft",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "salary_is_predicted": "0",
+      "latitude": 48.208144,
+      "salary_max": 117000,
+      "longitude": 16.354031,
+      "id": "5606824611",
+      "title": "MLOps Engineer",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYwNjgyNDYxMSIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.YYfiSCdnWsBv7OQoyxRXbCPddu-D-MgcnVjtQccIAoo",
+      "description": "Für ein Enterprise-KI-Projekt wird ein erfahrener MLOps Engineer gesucht. Ziel ist der Aufbau und Betrieb regelkonformer, skalierbarer End-to-End Machine-Learning-Workflows von der Entwicklung bis zum produktiven Einsatz. Rahmenbedingungen Start: ASAP Laufzeit: Ende 2026, Verlängerung möglich Auslastung: 100 % Arbeitsmodell: Remote bevorzugt, gelegentliche Vor-Ort-Termine nach Absprache €400 - €450 a day Aufgaben Aufbau und Betrieb von End-to-End Data-Science- und ML-Workflows Implementierung v…",
+      "salary_min": 104000,
+      "created": "2026-01-30T21:52:00Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "salary_min": 74144,
+      "salary_max": 74144,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1NjIyNTg1MzE3In0.SsTscDRwx1zYSoRMEemA94G_C5NcztXWkBY_5sY-qf0",
+      "title": "Windows - Systemadministrator:in",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_is_predicted": "0",
+      "description": "Aufgaben Sicherstellung eines stabilen Betriebs der Serverlandschaft Unterstützung des Teams im Microsoft- und Virtualisierungs-Umfeld Aufbau und Konfiguration neuer virtualisierter Serverumgebungen und Optimierung bestehender Weiterentwicklung in den Bereichen Automatisierung, Security, Compliance und Standardisierung Automatisierung komplexer Workflows mit Script- oder Programmiersprachen Fehleranalyse, Monitoring und Dokumentation Schnittstelle zum Linux- und Netzwerkbetrieb Qualifikation Ti…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-02-10T14:48:36Z",
+      "redirect_url": "https://www.adzuna.at/details/5622585317?utm_medium=api&utm_source=5fbaef93",
+      "id": "5622585317",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Voquz IT-Solutions GmbH"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      }
+    },
+    {
+      "description": "Overview At the Esri R&D Center - Vienna, Austria, we drive innovation in Indoor Positioning System (IPS) technology to enhance the capabilities of indoor mapping for both casual and power users across various platforms and devices. As a talented software engineer experienced in GIS technology, you will work with a growing team to translate user requirements into the design of high-quality products for our customers. Understanding how our users apply ArcGIS to real-world scenarios, you will con…",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1NzA4NzY4MTQwIn0.uAaeuS0DJgHilkOiAQ1685UIkrN8HiWetBXZLMdaUvM",
+      "title": "Product Engineer II - Indoor Positioning Systems",
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Österreich"
+      },
+      "created": "2026-04-24T00:09:53Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.at/details/5708768140?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Stellen aus PR, Werbung & Marketing",
+        "tag": "pr-advertising-marketing-jobs"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Esri"
+      },
+      "id": "5708768140"
+    },
+    {
+      "created": "2026-08-31T04:57:28Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MjcyNTc0NSIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.t6s4r4sDJJjOM96rs6DsI3QNA7Vp52T5ivOGoKzPxLE",
+      "location": {
+        "display_name": "Schwarzach, Bregenz",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Vorarlberg",
+          "Bregenz",
+          "Schwarzach"
+        ]
+      },
+      "title": "Softwareprogrammierer (m/w/d)",
+      "salary_is_predicted": "0",
+      "description": "Softwareprogrammierer (m/w/d) in Dornbirn Du möchtest Softwarelösungen entwickeln, programmieren und weiterentwickeln? Du arbeitest strukturiert, analytisch und hast Freude an technologischen Herausforderungen? Dann bieten wir Dir als Softwareprogrammierer (m/w/d) eine spannende Karrierechance in einem innovativen Unternehmen im Raum Bregenz & Dornbirn. Deine Aufgaben als Softwareprogrammierer (m/w/d) Entwicklung, Test und Pflege von Softwarelösungen gemäß Anforderungen und Spezifikationen Schr…",
+      "latitude": 47.416269,
+      "contract_time": "full_time",
+      "company": {
+        "display_name": "Aktiva Personalmanagement GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5862725745",
+      "contract_type": "permanent",
+      "longitude": 9.777739,
+      "redirect_url": "https://www.adzuna.at/details/5862725745?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5675539092?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "Evolia",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "label": "Beraterstellen",
+        "tag": "consultancy-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "latitude": 48.208144,
+      "salary_max": 62790,
+      "contract_time": "full_time",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "salary_is_predicted": "0",
+      "longitude": 16.354031,
+      "id": "5675539092",
+      "salary_min": 62790,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY3NTUzOTA5MiIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.y9l7FySuEjJutf-GMoJ6OIsvHPyBegzL2qBZ1z0i0Yc",
+      "title": "VMware Cloud Foundation Automation Consultant (m/w/d)",
+      "description": "VMware Cloud Foundation Automation Consultant (m/w/d) Als VMware Cloud Foundation Automation Consultant (m/w/d) kombinierst du technisches Know-how mit einer klaren Beratungsorientierung. Du arbeitest eng mit Kunden zusammen, identifizierst Automatisierungspotenzial und analysierst konkrete Anforderungen. Du wirkst an der Entwicklung von Konzepten sowie an Architektur- und Lösungsdesigns mit und stellst sicher, dass diese technisch realisierbar sind. Über den gesamten Projektverlauf begleitest …",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-03-22T22:42:07Z"
+    },
+    {
+      "id": "5696092727",
+      "longitude": 15.439358,
+      "created": "2026-04-10T23:56:47Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Start: ASAP Dauer: Unbefristet Auslastung: Teilzeit (ab 30h) / Vollzeit Ort: Graz / Remote (nach Absprache vor Ort) Für ein wachsendes, technologiegetriebenes Umfeld suchen wir eine engagierte Persönlichkeit im Bereich Odoo-Entwicklung/in. In dieser Rolle gestalten Sie aktiv moderne ERP-Lösungen, verbinden Architekturverständnis mit Fullstack-Kompetenz und bringen innovative Technologien insbesondere AI-Tools effizient zum Einsatz. €640 - €680 a day Ihre Aufgaben Entwicklung und Weiterentwicklu…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY5NjA5MjcyNyIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.trLFoJVbA543PlIyOQo5_HmUxLT3oc8gJLhVqtzA17w",
+      "title": "Odoo-Entwickler/in (m/w/d)",
+      "salary_min": 166400,
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Qualysoft"
+      },
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.at/details/5696092727?utm_medium=api&utm_source=5fbaef93",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Graz, Steiermark"
+      },
+      "salary_max": 176800,
+      "latitude": 47.070503
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/land/ad/5744378694?se=WiLwBd6n8RG3wLV0hmxVNw&utm_medium=api&utm_source=5fbaef93&v=3782AB205CB0CA6B91387BA223BEA492F84A3333",
+      "id": "5744378694",
+      "company": {
+        "display_name": "Avanade Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1NzQ0Mzc4Njk0In0.deO-HdWFqpJp58LzYWnRKjIylF7tNsQ9uytNtyuA4ZE",
+      "title": "Data Engineering Consultant (w/m/x) - Austria",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "description": "Data Engineering Consultant (w/m/x)Avanade ist ein führender Anbieter von digitalen und Cloud-Diensten, Business Solutions und designorientierten Anwendungen. Als Joint Venture von Microsoft und Accenture sind wir das größte Beratungsunternehmen für Microsoft-Technologien. Wir unterstützen unsere Kunden in Cloud, Modern Workplace, Business Applications, Data & AI und Security und legen Wert auf unsere PeopleFirst Mentalität.Das Jahresbruttogehalt für diese Position beginnt gemäß IT-Kollektivver…",
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-05-29T09:18:38Z"
+    },
+    {
+      "created": "2026-07-03T12:22:53Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Data Engineering Consultant (w/m/x)Avanade ist ein führender Anbieter von digitalen und Cloud-Diensten, Business Solutions und designorientierten Anwendungen. Als Joint Venture von Microsoft und Accenture sind wir das größte Beratungsunternehmen für Microsoft-Technologien. Wir unterstützen unsere Kunden in Cloud, Modern Workplace, Business Applications, Data & AI und Security und legen Wert auf unsere PeopleFirst Mentalität.Das Jahresbruttogehalt für diese Position beginnt gemäß IT-Kollektivver…",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4NjcwOTgyNCIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.D6O6cS6MGZQ7MXdQztAxcytTU0_u-P22ariz39P1TNY",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Innsbruck"
+        ],
+        "display_name": "Innsbruck, Tirol"
+      },
+      "title": "Data Engineering Consultant (w/m/x) - Austria",
+      "latitude": 47.264585,
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "Avanade Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5786709824",
+      "longitude": 11.40202,
+      "redirect_url": "https://www.adzuna.at/land/ad/5786709824?se=WiLwBd6n8RG3wLV0hmxVNw&utm_medium=api&utm_source=5fbaef93&v=F1D15537009AE4A988364268D34923C690EB8F7A"
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/land/ad/5786709815?se=WiLwBd6n8RG3wLV0hmxVNw&utm_medium=api&utm_source=5fbaef93&v=09C3473A87B515D374A5688A6802D7B48C0D5E7E",
+      "id": "5786709815",
+      "company": {
+        "display_name": "Avanade Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Österreich"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4NjcwOTgxNSIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.jT_QwT8ppeudPFeouW6D3qXwojp86hfcMI4JG_mZnyQ",
+      "title": "Data Engineering Consultant (w/m/x) - Austria",
+      "salary_is_predicted": "0",
+      "description": "Data Engineering Consultant (w/m/x)Avanade ist ein führender Anbieter von digitalen und Cloud-Diensten, Business Solutions und designorientierten Anwendungen. Als Joint Venture von Microsoft und Accenture sind wir das größte Beratungsunternehmen für Microsoft-Technologien. Wir unterstützen unsere Kunden in Cloud, Modern Workplace, Business Applications, Data & AI und Security und legen Wert auf unsere PeopleFirst Mentalität.Das Jahresbruttogehalt für diese Position beginnt gemäß IT-Kollektivver…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-07-03T12:22:52Z"
+    },
+    {
+      "id": "5856921561",
+      "longitude": 9.777739,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-26T16:53:27Z",
+      "salary_min": 40929,
+      "title": "Softwareprogrammierer (m/w/d) in Dornbirn",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODU2OTIxNTYxIn0.lyHXCm2d-v5efWlNZd-YAn4qtEClei7gl6FJgz_yYk8",
+      "description": "Softwareprogrammierer (m/w/d) in Dornbirn Du möchtest Softwarelösungen entwickeln, programmieren und weiterentwickeln? Du arbeitest strukturiert, analytisch und hast Freude an technologischen Herausforderungen? Dann bieten wir Dir als Softwareprogrammierer (m/w/d) eine spannende Karrierechance in einem innovativen Unternehmen im Raum Bregenz & Dornbirn. Deine Aufgaben als Softwareprogrammierer (m/w/d) Entwicklung, Test und Pflege von Softwarelösungen gemäß Anforderungen und Spezifikationen Schr…",
+      "company": {
+        "display_name": "Aktiva Personalmanagement",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5856921561?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 47.416269,
+      "salary_max": 40929,
+      "contract_time": "full_time",
+      "location": {
+        "display_name": "Schwarzach, Bregenz",
+        "area": [
+          "Österreich",
+          "Vorarlberg",
+          "Bregenz",
+          "Schwarzach"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_is_predicted": "0"
+    },
+    {
+      "longitude": 16.354031,
+      "redirect_url": "https://www.adzuna.at/details/5851331105?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "VIENNA INSURANCE GROUP",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5851331105",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1MTMzMTEwNSIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.IsCjydBNCaVswno1ww_zxuiDmPP7AZwDyG8jIZQMYVs",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "title": "Data Engineer (all genders) - Configuration Focus",
+      "description": "Die Vienna Insurance Group ist die führende Versicherungsgruppe in Zentral- und Osteuropa (CEE). Mit rund 34.000 Mitarbeiter:innen in mehr als 50 Versicherungsgesellschaften und Pensionskassen in 30 Ländern arbeiten wir täglich für rund 33 Millionen Kund:innen. Dies mit Erfolg, daher hat die VIG Gruppe ein „A“-Rating mit positivem Ausblick. Engagement, Kompetenz und Serviceorientierung zeichnen uns einerseits aus, ein buntes Team mit verschiedenen Talenten und spannenden Arbeitsbereichen in ein…",
+      "salary_is_predicted": "0",
+      "latitude": 48.208144,
+      "created": "2026-08-21T18:14:31Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-09-03T18:28:28Z",
+      "latitude": 48.208144,
+      "salary_is_predicted": "0",
+      "description": "WIR SUCHEN DICH - BEWIRB DICH JETZT BEI FRANKSTAHL DATA SCIENTIST / ML ENGINEER (M/W/D) (Vollzeit | Hybrid 2 Tage Homeoffice für unseren Standort 2353 Guntramsdorf oder Standort 1020 Wien) Über Uns: Frankstahl steht seit über 140 Jahren für Verlässlichkeit, Leidenschaft und Innovation im Stahlgroßhandel. Gegründet 1880 in Wien, zählt das österreichische Familienunternehmen heute mit über 700 Mitarbeitenden in zehn europäischen Ländern zu den größten und fortschrittlichsten Stahlhandelsunternehm…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2OTMzMTUyNSIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.r-7sQtvp_LpLY5GF9kBR4UUCeBSFJ_6NeY62yyGhvAc",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "title": "DATA SCIENTIST / ML ENGINEER (M/W/D)",
+      "id": "5869331525",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "FRANKSTAHL Rohr- und Stahlhandelsges. m.b.H."
+      },
+      "redirect_url": "https://www.adzuna.at/details/5869331525?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 16.354031
+    },
+    {
+      "latitude": 48.208144,
+      "description": "Sie sind technikbegeistert, lösen komplexe IT-Herausforderungen mit Leidenschaft und schätzen ein Arbeitsumfeld, in dem Sie aktiv mitgestalten und Prozesse vorantreiben können? Dann freuen wir uns auf Ihre Bewerbung. Zur Verstärkung des IT-Teams unseres Kunden, suchen wir zum ehestmöglichen Eintritt eine:n IT-Systemadministrator (all genders) Vollzeit 38,5 Stunden | Dienstort: Wien, mit Reisetätigkeit zu Standorten in NÖ und Steiermark Über unseren Kunden: Die Heintel Gruppe ist ein führendes U…",
+      "salary_is_predicted": "0",
+      "title": "IT-Systemadministrator (all genders)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2OTMzNDEzMyIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.WnXutKCW4mhz9CYppf__hJ79bTGDnr_ruZNfl09elfs",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-09-03T18:29:09Z",
+      "redirect_url": "https://www.adzuna.at/details/5869334133?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 16.354031,
+      "id": "5869334133",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT-Stellen"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "PMC International GmbH"
+      }
+    },
+    {
+      "created": "2026-08-20T07:17:01Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "MEDI-21180 Universitätsassistent:in (Praedoc) Medizinische Universität Innsbruck Institut für RNA Biologie und Genomik Teilzeit, befristet ab sofort Für die vorgesehene Verwendungsgruppe B1, GH 1 beträgt das kollektivvertragliche Mindestentgelt derzeit bei einer 30-Stunden-Woche brutto € 39.649,05. Dieser Betrag kann sich eventuell auf Basis der kollektivvertraglichen Vorschriften durch die Anrechnung tätigkeitsspezifischer Vorerfahrungen sowie durch sonstige mit den Besonderheiten des Arbeitsp…",
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Innsbruck"
+        ],
+        "display_name": "Innsbruck, Tirol"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0OTMwMjExNiIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.MagNKHbdXnWWdl8Zodengi9MjwPa4wjR5aRuSqI9VIE",
+      "title": "MEDI-21180 Universitätsassistent:in (Praedoc)",
+      "latitude": 47.264585,
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "Medizinische Universität Innsbruck",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5849302116",
+      "longitude": 11.40202,
+      "redirect_url": "https://www.adzuna.at/details/5849302116?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5784930929?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "company": {
+        "display_name": "skadii",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5784930929",
+      "description": "to the top. togetHer. DevOps Developer (w/m/d) Du schaffst die digitale Grundlage für mehrere Entwicklungsteams und sorgst für eine automatisierte, skalierbare und sichere Infrastruktur . Dabei ermöglichst du es den EntwicklerInnen, mehrmals täglich Code auszuliefern, und stellst gleichzeitig die Stabilität der Systeme auch bei hoher Last sicher. Du verwaltest Cloud‑Ressourcen in AWS oder Azure konsequent über IaC‑Tools und verantwortest Monitoring, On‑Call‑Rotation sowie Post‑Mortems zur konti…",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4NDkzMDkyOSIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.GExmG2IofYoy6rHgeU3NEwQ3pSvf032JEIbDOgXwryo",
+      "title": "DevOps Developer (w/m/d)",
+      "location": {
+        "display_name": "Österreich",
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2026-07-02T06:43:48Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5850611759?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 16.354031,
+      "id": "5850611759",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_max": 83000,
+      "latitude": 48.208144,
+      "salary_min": 46000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODUwNjExNzU5In0.6mkPdzeO5CgE9L_U1_6StcpPCMM3thnRf0AYLO-VSHg",
+      "title": "IAM Software Engineer (m/w/d)",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich"
+      },
+      "description": "Mitgestaltung und Weiterentwicklung von IAM-Architekturen Design, Implementierung und Optimierung von IAM-Prozessen Analyse, Support und Troubleshooting bestehender IAM-Systeme Mitarbeit an spannenden IAM-Projekten und Möglichkeit zur Projektleitung Technische Unterstützung und Schulung von Kund:innen im Rahmen von Managed Services IT-Ausbildung oder vergleichbare praktische Erfahrung Mind. 3 Jahre Berufserfahrung im IAM-Umfeld Erfahrung aus mindestens 2-3 IAM-Projekten Ausgeprägte Hands-on-Men…",
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-21T07:38:09Z"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-14T07:33:48Z",
+      "salary_is_predicted": "0",
+      "description": "to the top. togetHer. Software QA Automation Engineer (w/m/d) In dieser Rolle schreibst du Code, um Software zu prüfen und Regressionen zu verhindern. Du verantwortest den Aufbau unserer Testing-Strategie und entwickelst unsere Auto-Testing Suite mit Tools wie Cypress, Playwright oder Selenium weiter. Dabei erstellst du E2E-Tests und integrierst diese in unsere CI/CD-Pipelines. Zusätzlich führst du Load Tests durch und etablierst gemeinsam mit den Entwicklungsteams Best Practices im Bereich Qua…",
+      "location": {
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ]
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MTM4MjQwNyIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.wyn1KSGqlxzSP2tprgIjr_kK2ke0ufhsfpZmjQKVcww",
+      "title": "Software QA Automation Engineer (w/m/d)",
+      "id": "5841382407",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "skadii"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5841382407?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Axess AG"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5735641335?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 47810,
+      "latitude": 47.749376,
+      "contract_time": "full_time",
+      "location": {
+        "display_name": "Anif, Salzburg-Umgebung",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Salzburg",
+          "Salzburg-Umgebung",
+          "Anif"
+        ]
+      },
+      "salary_is_predicted": "0",
+      "id": "5735641335",
+      "longitude": 13.065028,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-05-21T00:21:05Z",
+      "salary_min": 47810,
+      "title": "QA Engineer (m/w/d)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1NzM1NjQxMzM1In0.wpzVBD9b_IW_IhBllp_hPiAVGvN2diDs1madbfC47pQ",
+      "description": "Deine Aufgaben Als QA Engineer wirst du Teil eines Teams, das hochkomplexe Zutritts- und Ticketinglösungen entwickelt und betreibt. Deine Mission: Die Qualität unserer Systeme sicherstellen – von Hardware über Firmware bis zur Software. Du automatisierst Tests, analysierst Fehlerbilder, arbeitest eng mit Entwicklung, DevOps und Produktmanagement zusammen und bringst moderne Testmethoden inklusive KI‑gestützter Automatisierung ein. Deine Aufgaben im Detail: Entwicklung, Pflege und Erweiterung au…"
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5737221993?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Axess AG"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "id": "5737221993",
+      "location": {
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ]
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1NzM3MjIxOTkzIn0.6RNDwedvsC-U9FkWHNU0jmnU0BPKHIPd9Dis82hh9Us",
+      "title": "QA Engineer (m/w/d)",
+      "description": "QA Engineer (m/w/d) Anif Vollzeit Festanstellung Deine Aufgaben Als QA Engineer wirst du Teil eines Teams, das hochkomplexe Zutritts- und Ticketinglösungen entwickelt und betreibt. Deine Mission: Die Qualität unserer Systeme sicherstellen – von Hardware über Firmware bis zur Software. Du automatisierst Tests, analysierst Fehlerbilder, arbeitest eng mit Entwicklung, DevOps und Produktmanagement zusammen und bringst moderne Testmethoden inklusive KI‑gestützter Automatisierung ein. Deine Aufgaben …",
+      "salary_is_predicted": "0",
+      "created": "2026-05-22T06:02:08Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-21T18:14:31Z",
+      "latitude": 48.208144,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1MTMzMTAzNyIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.ITfISkwNGGsWXabkfQDQTf3ktxjeap-t1GY1yMi8V2o",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "title": "Data & Analytics - Data Engineer (all genders)",
+      "description": "The Vienna Insurance Group is the leading insurance group in Central and Eastern Europe (CEE). With around 34,000 employees working across more than 50 insurance companies and pension funds in 30 countries, we serve approximately 33 million customers every day. Our success speaks for itself: the VIG Group holds an A credit rating with a positive outlook . What sets us apart is our commitment, expertise, and customer focus, as well as our diverse team of talented people working in a wide range o…",
+      "salary_is_predicted": "0",
+      "id": "5851331037",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "VIENNA INSURANCE GROUP"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5851331037?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 16.354031
+    },
+    {
+      "longitude": 16.354031,
+      "redirect_url": "https://www.adzuna.at/details/5793745175?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "KSV1870",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "id": "5793745175",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5Mzc0NTE3NSIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.yQvAjmF1FK0tFTSUfPPlEKalDEJKCRPG0PEVBCKOuA4",
+      "title": "Testmanager:in in Wien",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich"
+      },
+      "description": "Für unseren Standort in Wien suchen wir zum sofortigen Eintritt eine:n Testmanager:in in Wien Ihr Aufgabengebiet: Entwicklung von Testfällen und Überprüfung der Funktionalität und Kompatibilität Analyse von Systemanforderungen und Design-Dokumenten Durchführung von Integrationstests und Dokumentation der Ergebnisse Problem Identifikation und Lösung in Jira und Confluence Entwicklung und Pflege von automatisierten Tests Monitoring der automatisierten Tests Aktive Beteiligung an Reviews, Feedback…",
+      "salary_is_predicted": "0",
+      "latitude": 48.208144,
+      "created": "2026-07-09T06:46:37Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "Pineapple Recruiting GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5764531982",
+      "redirect_url": "https://www.adzuna.at/details/5764531982?utm_medium=api&utm_source=5fbaef93",
+      "created": "2026-06-15T20:39:02Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Unser Kunde ist ein wachstumsorientiertes Technologieunternehmen mit moderner, hybrider IT-Infrastruktur. Zur Verstärkung des IT-Teams suchen wir eine:n erfahrene:n Linux Administrator (w/m/x). Aufgaben Technische Verantwortung für definierte Bereiche der Infrastruktur – von der Konzeption über Planung bis zur Umsetzung und Weiterentwicklung Aufbau und Weiterentwicklung der Linux-basierten Server- und Plattformlandschaft (On-Premises und Hybrid Cloud) Entwicklung und Pflege von Automatisierungs…",
+      "salary_is_predicted": "0",
+      "title": "Linux Admin (wm/x)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1NzY0NTMxOTgyIn0.aXxHOYczfZzHOSdI4fvrKkPaqdO1xU9RuOkh5Dzwv4I",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "salary_min": 58000,
+      "salary_max": 65000
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NjQwNjgxMCIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.gEFxqVc_0kd_ESN3Pi6kbBY45zxfk2_KjtoaxpJNFk4",
+      "location": {
+        "area": [
+          "Österreich",
+          "Vorarlberg",
+          "Bludenz",
+          "Nenzing"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Nenzing, Bludenz"
+      },
+      "title": "Analytics Engineer (m/w/d) [84278]",
+      "salary_is_predicted": "0",
+      "description": "Analytics Engineer (m/w/d) Forschung / Entwicklung | Job-ID 84278 One Passion. Many Opportunities. Technik ist Deine Leidenschaft und Innovation Dein Antrieb? Bei Liebherr in Nenzing entwickelst Du mit einem motivierten Team Technologien von morgen und stellst sicher, dass unsere Produkte höchsten Qualitätsansprüchen gerecht werden. Vertrauen und Verantwortung prägen dabei Deinen Arbeitsalltag. Lust, Teil unserer Projekte zu werden? Das erwartet Dich Extraktion von Wissen aus Daten Ableitung vo…",
+      "latitude": 47.17457,
+      "created": "2026-08-26T07:08:38Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 9.656511,
+      "redirect_url": "https://www.adzuna.at/details/5856406810?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Liebherr-Werk Nenzing GmbH"
+      },
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5856406810"
+    },
+    {
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "company": {
+        "display_name": "World-Direct eBusiness solutions",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5743997205?utm_medium=api&utm_source=5fbaef93",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Innsbruck-Land",
+          "Sistrans"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Sistrans, Innsbruck-Land"
+      },
+      "contract_time": "full_time",
+      "salary_max": 61000,
+      "latitude": 47.236956,
+      "id": "5743997205",
+      "longitude": 11.450901,
+      "created": "2026-05-29T00:28:20Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Neueste Technologien im Cloud-Umfeld sind deine Leidenschaft und du hast Freude daran, Kommunikation zu ermöglichen und zu vereinfachen? Du arbeitest an Unified-Communications-Projekten, die wirklich einen Unterschied machen und eine lebenswerte digitale Zukunft ermöglichen. In einem internationalen Team entwickelst du die größte Cloud-Telefonanlage Österreichs weiter und beschäftigst dich mit der Integration von Collaboration-Tools wie z. B. Microsoft Teams und Zoom. Zu deinen täglichen Aufgab…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1NzQzOTk3MjA1In0.NX6hCTedkGmS72Iy9iWVprHKoOkn2imjNunSqdrDL9c",
+      "title": "UC DevOps Engineer (m/w/d)",
+      "salary_min": 61000
+    },
+    {
+      "contract_time": "full_time",
+      "latitude": 48.290256,
+      "salary_max": 13000,
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Linz, Oberösterreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Oberösterreich",
+          "Linz"
+        ]
+      },
+      "redirect_url": "https://www.adzuna.at/details/5295595477?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "karriere.at"
+      },
+      "salary_min": 12000,
+      "description": "DIES IST NUR EIN TEST UND KEIN AKTUELLER JOB! Sind Sie bereit, Ihre Fähigkeiten in einem dynamischen IT-Umfeld einzusetzen und innovative Lösungen zu entwickeln? Bei karriere.at in Linz, Österreich, bieten wir Ihnen die Möglichkeit, als Young Professional in einem hybriden Arbeitsmodell tätig zu werden. In dieser Rolle werden Sie Teil eines engagierten Teams, das an der Spitze der Informationstechnologie und Dienstleistungen steht. Entwicklung und Implementierung von Softwarelösungen zur Optimi…",
+      "title": "UBIO Testjob  CustomFields",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1Mjk1NTk1NDc3In0.OcpILpX42cqgMPzlAuvfRz51fW5JE3Y-Ov3q834Xnzg",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-07-10T12:40:26Z",
+      "longitude": 14.293495,
+      "id": "5295595477"
+    },
+    {
+      "title": "IT Security & Identity Engineer (m/w/d)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODQyMTM4NTg0In0.M5WVId2G68TNl3eUgUBQSVaCFyAM72xI8GDkyQ_bT7k",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ],
+        "display_name": "Österreich"
+      },
+      "salary_is_predicted": "0",
+      "description": "Job Description IT Security & Identity Engineer (m/w/d) As an IT Security & Identity Engineer, you will play a key role in protecting Vusion's global digital environment by securing identities, applications, cloud services and privileged access. You will collaborate with Infrastructure, Cloud, Digital Workplace, HR and Application teams to ensure secure access to business resources while supporting the company's Zero Trust strategy. Responsibilities Design, implement and continuously improve Id…",
+      "created": "2026-08-14T22:04:48Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.at/details/5842138584?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "Vusion",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5842138584"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MzE0NDc3MiIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.nGErSgJi_BbHbp7rPPFfZwaD21quhtMk8ymuaYnlAnY",
+      "title": "Software Engineer (m/w/d)",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Kärnten",
+          "Sankt Veit an der Glan",
+          "Althofen"
+        ],
+        "display_name": "Althofen, Sankt Veit an der Glan"
+      },
+      "salary_is_predicted": "0",
+      "description": "Flex is the diversified manufacturing partner of choice that helps market-leading brands design, build and deliver innovative products that improve the world. A career at Flex offers the opportunity to make a difference and invest in your growth in a respectful, inclusive, and collaborative environment. If you are excited about a role but don't meet every bullet point, we encourage you to apply and join us to create the extraordinary. Job Summary Flex, als der Partner in Fertigungslösungen, unt…",
+      "latitude": 46.878981,
+      "contract_time": "full_time",
+      "created": "2026-08-15T16:48:34Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 14.456929,
+      "redirect_url": "https://www.adzuna.at/details/5843144772?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "Flex",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5843144772"
+    },
+    {
+      "salary_max": 145600,
+      "latitude": 48.208144,
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "company": {
+        "display_name": "Qualysoft",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5616189943?utm_medium=api&utm_source=5fbaef93",
+      "contract_type": "contract",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-02-05T22:10:28Z",
+      "salary_min": 135200,
+      "description": "Für ein langfristig angelegtes Daten- und KI-Programm wird ein Databricks AI / ML Engineer (m/w/d) gesucht. Ziel ist die Entwicklung, Implementierung und der Betrieb skalierbarer Machine-Learning- und LLM-Lösungen auf Azure Databricks von der Datenaufbereitung über Feature Engineering bis hin zu MLOps, Deployment und Monitoring. Der Fokus liegt auf Big-Data-Engineering , ML/LLM-Workloads , MLOps-Automatisierung sowie der nahtlosen Integration in das Microsoft-Ökosystem. €520 - €560 a day Rahmen…",
+      "title": "Databricks AI / ML Engineer (m/w/d)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYxNjE4OTk0MyIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.1ljeK0fjHUwPOrbC6EKC-o9GCCDUkGSiCF4CiMihm4o",
+      "id": "5616189943",
+      "longitude": 16.354031
+    },
+    {
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Graz, Steiermark",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz"
+        ]
+      },
+      "contract_time": "full_time",
+      "latitude": 47.070503,
+      "salary_max": 62400,
+      "redirect_url": "https://www.adzuna.at/details/5727379844?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Trever"
+      },
+      "description": "Your Responsibilities Develop, implement, and continuously refine a comprehensive QA strategy and process for our SaaS platform. Design, build, and maintain robust automated test suites (unit, integration, regression) using tools and languages like Go, Python, Postman, and AWS. Take charge of the release cycle, managing deployments across environments to ensure smooth, high-quality, and predictable launches. Conduct essential end-to-end and smoke tests, and apply strategic manual testing where …",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTcyNzM3OTg0NCIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.VlVxPHemCe7keDFoZUG_C7csf92_gCQ6xAPamZsrMhc",
+      "title": "Software Development Engineer in Test (F/M/X)",
+      "salary_min": 38400,
+      "created": "2026-05-13T00:13:34Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 15.439358,
+      "id": "5727379844"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-06-17T06:57:58Z",
+      "salary_min": 60000,
+      "latitude": 48.208144,
+      "salary_max": 75000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc2NjM0MjA4NiIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.01GGl25XVAG1LV2bJgNo64viN9vV4-JR2swcgOSL4uk",
+      "title": "Network and Security Engineer (m/w/d)",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich"
+      },
+      "salary_is_predicted": "0",
+      "description": "Betrieb, Optimierung und Weiterentwicklung moderner Netzwerk- und Security-Infrastrukturen Administration und Konfiguration von Fortinet-Lösungen (FortiGate, FortiManager, FortiAnalyzer) Umsetzung von Firewall-, VPN- und Segmentierungskonzepten Analyse und Troubleshooting im 2nd- und 3rd-Level-Support Mitarbeit an Infrastruktur-, Netzwerk- und Security-Projekten Durchführung von Security-Hardening- und Optimierungsmaßnahmen Monitoring, Dokumentation und Performance-Analyse der Netzwerklandschaf…",
+      "id": "5766342086",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5766342086?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 16.354031
+    },
+    {
+      "created": "2026-07-29T16:43:53Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "General information Entity Amundi, the leading European asset manager, ranking among the top 10 global players (1), offers its 100 million clients - retail, institutional and corporate - a complete range of savings and investment solutions in active and passive management, in traditional or real assets. This offering is enhanced with IT tools and services to cover the entire savings value chain. A subsidiary of the Crédit Agricole group and listed on the stock exchange, Amundi currently manages…",
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Österreich",
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODE5ODQ1NjY2In0.h0bRRLR8aj6YVi5qPbccNab9nXQ1LPfsbyd4wWk7FEY",
+      "title": "VIE programme - ALTO Support and Application Support / Development m/w/d",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "company": {
+        "display_name": "Amundi",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5819845666",
+      "redirect_url": "https://www.adzuna.at/details/5819845666?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "title": "Student Employee Digital & AI Enablement",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1NzUxNTMxNjU0In0.qKepm654Jq5ST7Zzhy1BtdmiTIzrFkmVvjV_-OgJscg",
+      "location": {
+        "display_name": "Leoben",
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Leoben",
+          "Leoben"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "description": "Be part of our team! AT&S is a leading global manufacturer of high-end IC substrates and printed circuit boards . AT&S industrializes leading-edge technologies for its core business segments Mobile Devices & Substrates, Automotive & Aerospace, Industrial and Medical and high-performance computing for AI applications. We are looking for talent eager to shape the future of our interconnected world . With plants in Austria, China, India, Malaysia and sales offices around the globe, we offer excell…",
+      "salary_is_predicted": "0",
+      "latitude": 47.37121,
+      "created": "2026-06-04T05:54:45Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 15.085172,
+      "redirect_url": "https://www.adzuna.at/details/5751531654?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "AT & S Austria Technologie & Systemtechnik Aktiengesellschaft"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "graduate-jobs",
+        "label": "Stellen für Hochschulabsolventen"
+      },
+      "id": "5751531654"
+    },
+    {
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "iTEC Informationssysteme AG"
+      },
+      "id": "5796456848",
+      "longitude": 11.388521,
+      "contract_type": "permanent",
+      "redirect_url": "https://www.adzuna.at/details/5796456848?utm_medium=api&utm_source=5fbaef93",
+      "created": "2026-07-11T04:37:48Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "description": "Product Owner Data Platform & Operations (w/m/d) 38,5 Stunden pro Woche • unbefristet • Frühester Beginn ab sofort Für unseren Kunden im Raum Innsbruck suchen wir ab sofort einen Product Owner Data Platform & Operations (w/m/d) zur Verstärkung des Teams. Deine Aufgaben: Requirements Engineering und Backlog-Management in enger Abstimmung mit den Stakeholdern Du steuerst ein Entwicklungsteam und arbeitest dabei mit agilen Projektmanagement-Methoden Ein stabiler Betrieb sowie die Einhaltung der Ar…",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Innsbruck-Land",
+          "Mutters"
+        ],
+        "display_name": "Mutters, Innsbruck-Land"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5NjQ1Njg0OCIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.qyHEBH0owF7Y2RBZyCu58xzg4qR8p_eZb5doA19n3ok",
+      "title": "Product Owner Data Platform & Operations (w/m/d)",
+      "contract_time": "full_time",
+      "latitude": 47.221832
+    },
+    {
+      "latitude": 48.139481,
+      "salary_max": 46662,
+      "contract_time": "full_time",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Oberösterreich",
+          "Wels-Land",
+          "Thalheim bei Wels"
+        ],
+        "display_name": "Thalheim bei Wels, Wels-Land"
+      },
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.at/details/5836823556?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "Fronius",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "salary_min": 46662,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzNjgyMzU1NiIsInMiOiJXaUx3QmQ2bjhSRzN3TFYwaG14Vk53In0.Sz2ZIHNS6xTFaKyLO7Egf8zKnrJaX1kliqOaejT3_sA",
+      "title": "Software Developer für HiL Systeme (m/w/d)",
+      "description": "Deine Aufgaben: Mit der Entwicklung unserer Wechselrichter sorgen wir für nachhaltige Energieversorgung und entwickeln unsere Produkte von der Hardware bis zur Software selbst. Durch das Simulieren unserer Wechselrichterfirmware mittels Hardware-in-the-Loop Systemen (HiL) können Weiterentwicklungen digital verifiziert werden. Damit wird sichergestellt, dass alle Sicherheits- und netzrelevanten Features zuverlässig funktionieren und die jeweiligen Standards und Normen eingehalten werden. Als HiL…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-11T16:47:46Z",
+      "longitude": 14.03498,
+      "id": "5836823556"
+    },
+    {
+      "created": "2026-09-02T23:14:17Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "description": "Gestalte die Zukunft sicherer Systeme – zwischen Cyber Defense, Netzwerktechnik und Governance. Du möchtest an der Schnittstelle von moderner IT, Sicherheit und Infrastruktur arbeiten? In dieser vielseitigen Position bist du Teil eines engagierten Security-Teams, das aktiv an der Absicherung komplexer Systeme, Netzwerke und Prozesse arbeitet. Ob Analyse von Cyber-Bedrohungen, Weiterentwicklung physischer Sicherheitslösungen oder Aufbau von Governance-Strukturen – hier gestaltest du die digitale…",
+      "title": "IT Security & Infrastructure Specialist",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiV2lMd0JkNm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODY3NTkzMTQwIn0.bDvDtyTuMC2bc55HWuHliwQfze4OGdDpEbp9YOFWne4",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ],
+        "display_name": "Österreich"
+      },
+      "salary_max": 80,
+      "salary_min": 50,
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "McHunters",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5867593140",
+      "redirect_url": "https://www.adzuna.at/details/5867593140?utm_medium=api&utm_source=5fbaef93"
+    }
+  ]
+}

@@ -1,0 +1,738 @@
+{
+  "mean": 38437,
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "results": [
+    {
+      "latitude": 47.2529,
+      "redirect_url": "https://www.adzuna.at/details/5859318668?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Völs, Innsbruck-Land",
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Innsbruck-Land",
+          "Völs"
+        ]
+      },
+      "id": "5859318668",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTklFUUI5Nm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODU5MzE4NjY4In0.MkmTegwHdI0OsIrAGDumVpyqnJ2RD796VwuBVHoZlhs",
+      "longitude": 11.32315,
+      "title": "Business Data Analyst*in",
+      "salary_is_predicted": "0",
+      "description": "Unser Unternehmen ist mit rund 300 Lebensmittelmärkten und 170 Baguette Filialen sowie dem eigenen Produktionsbetrieb MPREIS Lebensmittelherstellung einer der größten privaten Arbeitgeber in Tirol. Als Tiroler Familienunternehmen sind wir in der Region zuhause. Wir stehen für Vertrauen, Innovationskraft und Nachhaltigkeit. Chancengleichheit, echte Wertschätzung und ein Miteinander auf Augenhöhe zählen zu unseren zentralen Werten. Denn nur gemeinsam können wir unseren Kund*innen das Einkaufserle…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-28T07:09:08Z",
+      "company": {
+        "display_name": "MPREIS Warenvertriebs GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
+    },
+    {
+      "contract_time": "full_time",
+      "company": {
+        "display_name": "InspHire",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-07-23T01:26:09Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Reporting: Reports to the CTO. Works closely with the CEO and CMO for weekly insights and priorities. Location: Strong preference for on-site in Cyprus or relocation. A company that is building a next-generation, AI-powered adult playground designed for full gamification and massive scale is looking for a Product Data Analyst. The company operates in a fast-paced \"startup mode,\" prioritizing aggressive iteration and high workloads paired with significant rewards like performance bonuses and lon…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTklFUUI5Nm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODExNTIxMzIzIn0.qE2RD3KyMtjKEAh4RkWqctrX_UplrdyFevD98LKFWWM",
+      "title": "Product Data Analyst",
+      "salary_is_predicted": "0",
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "id": "5811521323",
+      "redirect_url": "https://www.adzuna.at/details/5811521323?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Österreich"
+      }
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Mercor"
+      },
+      "created": "2026-08-30T09:08:40Z",
+      "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Analyst / Insights Experts Type: Contract Compensation: $80–$160/hour Location: Remote Role Responsibilities Review and assess domain-specific documents for quality, accuracy, and relevance. Provide structured feedback to improve document stan…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MTk4NzE5OCIsInMiOiJOSUVRQjk2bjhSR0FxdW1hNXZVZUhnIn0.ZQ_W0T6b72g3pi9RuGtr11zsKcMzDNh90VhgHC_MMJw",
+      "title": "Data Analyst - Insights Specialist",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.at/details/5861987198?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "id": "5861987198"
+    },
+    {
+      "created": "2026-09-02T18:29:15Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "ORTOPROBAN Leitner GmbH & Co. KG"
+      },
+      "description": "Gestalten Sie mit uns die Zukunft der Gesundheitsversorgung! Wir sind ein renommiertes Sanitätshaus – ein Familienunternehmen mit einer 100-jährigen Geschichte mit derzeit 14 Standorten in Wien und zwei Standorten in Niederösterreich. Im Mittelpunkt unserer Arbeit stehen die persönlichen Bedürfnisse der Kunden, eine einfühlsame Betreuung und die optimale Lösung des individuellen Anliegens. Neben der Herstellung und Anpassung orthopädietechnischer Heilbehelfe und Hilfsmittel beinhaltet unser umf…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown"
+      },
+      "salary_is_predicted": "0",
+      "title": "Data Analyst (m/w/d) – Vollzeit",
+      "longitude": 16.354031,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2NzMxNTc0MiIsInMiOiJOSUVRQjk2bjhSR0FxdW1hNXZVZUhnIn0.BenxWvTEmDI_bNKy456cx-WWz-aCVJGBAJiLgX0Yu8I",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "redirect_url": "https://www.adzuna.at/details/5867315742?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.208144,
+      "id": "5867315742"
+    },
+    {
+      "created": "2026-09-02T15:59:23Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "ORTOPROBAN Leitner GmbH & Co. KG"
+      },
+      "description": "Gestalten Sie mit uns die Zukunft der Gesundheitsversorgung! Wir sind ein renommiertes Sanitätshaus – ein Familienunternehmen mit einer 100-jährigen Geschichte mit derzeit 14 Standorten in Wien und zwei Standorten in Niederösterreich. Im Mittelpunkt unserer Arbeit stehen die persönlichen Bedürfnisse der Kunden, eine einfühlsame Betreuung und die optimale Lösung des individuellen Anliegens. Neben der Herstellung und Anpassung orthopädietechnischer Heilbehelfe und Hilfsmittel beinhaltet unser umf…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "pr-advertising-marketing-jobs",
+        "label": "Stellen aus PR, Werbung & Marketing",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTklFUUI5Nm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODY3MTU0NTk4In0._B5v_-C6F3TefoLFgpXU1imWEBnh5gtAq9twFgfcjBg",
+      "longitude": 16.370243,
+      "salary_is_predicted": "0",
+      "title": "Data Analyst (m/w/d) – Vollzeit",
+      "latitude": 48.208604,
+      "redirect_url": "https://www.adzuna.at/details/5867154598?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien",
+          "Innere Stadt"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Innere Stadt, Wien"
+      },
+      "id": "5867154598"
+    },
+    {
+      "description": "About the Role Do you love numbers, understand online shopper behavior, are passionate about unlocking real business insights from raw data? Then you’ve come to the right place! As a Data Analyst (f/m/d) in our global eCommerce team, you will focus entirely on what you do best: data analysis, insight generation, and business impact. You won't have to build tracking setups or spend all day coding dashboards—your primary focus is on analyzing user paths, identifying bottlenecks in the funnel, and…",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien",
+          "Döbling"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Döbling, Wien"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5822412186?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.2483,
+      "title": "eCommerce Data Analyst (m/w/d)",
+      "longitude": 16.304844,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgyMjQxMjE4NiIsInMiOiJOSUVRQjk2bjhSR0FxdW1hNXZVZUhnIn0.jWYRE0xThR-OGoUi-0LSEq0BAQ7bbT9oyK5wx9odLnU",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Stellen aus Fertigung",
+        "tag": "manufacturing-jobs"
+      },
+      "salary_min": 36000,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "woom Bikes"
+      },
+      "salary_max": 36000,
+      "created": "2026-07-31T16:44:09Z",
+      "contract_time": "full_time",
+      "id": "5822412186",
+      "salary_is_predicted": "0"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "QA_12607 QA Data Analyst (m/w/d) Quality Assurance Innsbruck, Österreich FachkräfteVollzeit 38,5 hUnbefristet Bewerben Unsere Quality Assurance Abteilung sorgt für die Integrität unserer Produkte, Exzellenz in Prozessen sowie die Einhaltung regulatorischer Vorgaben. Dabei bewegen wir uns an der Schnittstelle zwischen Produktion und Datenanalyse und entwickeln laufend neue Möglichkeiten, Daten gezielt für die Prozessüberwachung und Produktfreigabe einzusetzen. Unser Ziel ist es, Risiken frühzeit…",
+      "company": {
+        "display_name": "MED-EL Medical Electronics",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-07-10T06:46:13Z",
+      "id": "5795100806",
+      "latitude": 47.264585,
+      "redirect_url": "https://www.adzuna.at/details/5795100806?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Innsbruck"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Innsbruck, Tirol"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5NTEwMDgwNiIsInMiOiJOSUVRQjk2bjhSR0FxdW1hNXZVZUhnIn0.MHzwVBLNflaSgILv6ZK2vL8hMVIcFKUoLF7pdNw7aUo",
+      "longitude": 11.40202,
+      "salary_is_predicted": "0",
+      "title": "QA Data Analyst (m/w/d)",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      }
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Pernod Ricard"
+      },
+      "created": "2026-05-24T00:32:58Z",
+      "contract_time": "full_time",
+      "description": "Want to join a fast-moving company, among convivial teams to contribute to the business value growth of a dynamic market ? We are looking for a Sales Data Analyst for Pernod Ricard Austria ! You will be based at Vienna , Austria. Please note that this is a 12-month VIE contract starting from 01/02/2024 which is only open to EU nationals under 29 years old. The VIE will be in charge of Sales Analysis and Business Development for Pernod Ricard Austria. You will be the internal advisory function f…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "title": "Sales Data Analyst - Austria - February 2024",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTklFUUI5Nm44UkdBcXVtYTV2VWVIZyIsImkiOiI1NzM5MjIxNzE2In0.AEGZZVfwTHSgB3W6ThT6uFvx6HWqj3swMEjezQ2MUuI",
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5739221716?utm_medium=api&utm_source=5fbaef93",
+      "id": "5739221716"
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5863094493?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "id": "5863094493",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTklFUUI5Nm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODYzMDk0NDkzIn0.dLX0o24NUsI9HmACQae5-2myfF1nSBiLrQjNe0lekXU",
+      "salary_is_predicted": "0",
+      "title": "Game Data Analyst — Social-Casino / Mobile Games",
+      "description": "What are you working on? The name of the project(s): New Social-Casino IP (title undisclosed), Sweepstakes-Model Slots/Poker Title (US market, unannounced) At what stage of the project(s)? New internal studio being built from the ground up Genres: Casino, Casual Platforms: Mobile, Social, iOS, Android Our Client Our client is an established, global mobile-games and utility-apps publisher with more than a decade in the market. One of their self-developed titles has passed 10M downloads on Google…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "display_name": "DNA325",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-08-31T19:28:59Z"
+    },
+    {
+      "description": "Are you a detail-oriented individual with a passion for research and a good understanding of national and local geography? This freelance opportunity allows you to work at your own pace and from the comfort of your own home.",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_type": "contract",
+      "company": {
+        "display_name": "Telus Digital",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-08-23T03:50:33Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Innere Stadt, Wien",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Innere Stadt"
+        ]
+      },
+      "redirect_url": "https://www.adzuna.at/details/5853188221?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.208604,
+      "id": "5853188221",
+      "category": {
+        "tag": "pr-advertising-marketing-jobs",
+        "label": "Stellen aus PR, Werbung & Marketing",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "Freelance: Online Data Analyst Austria - German Language",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTklFUUI5Nm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODUzMTg4MjIxIn0.orXH888WfNENGb9WbgzJL_6ab7Qmlm6cdmGDRRP8Md8",
+      "longitude": 16.370243
+    },
+    {
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Stellen aus PR, Werbung & Marketing",
+        "tag": "pr-advertising-marketing-jobs"
+      },
+      "title": "Freelance: Online Data Analyst Austria - German Language",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1Mzc2ODAyNCIsInMiOiJOSUVRQjk2bjhSR0FxdW1hNXZVZUhnIn0.a9_1tk1n88ynK9Ab5VVZ2ix0nbPp3fbBTtRYP6AoxSQ",
+      "location": {
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ]
+      },
+      "redirect_url": "https://www.adzuna.at/details/5853768024?utm_medium=api&utm_source=5fbaef93",
+      "id": "5853768024",
+      "company": {
+        "display_name": "Telus Digital",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-08-23T18:15:11Z",
+      "description": "Are you a detail-oriented individual with a passion for research and a good understanding of national and local geography? This freelance opportunity allows you to work at your own pace and from the comfort of your own home. In this role, you will be working on a project aimed at enhancing the content and quality of digital maps that are used by millions of people worldwide Completing research and evaluation tasks in a web-based environment such as verifying and comparing data, and determining …",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_type": "contract"
+    },
+    {
+      "company": {
+        "display_name": "Innio",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-08-15T16:47:37Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Description As a Data Analyst with focus for Data & AI at INNIO, you will drive and support the development, implementation, and improvement of INNIO’s data-driven management steering approach. This includes the analysis of large data sets to derive actionable insights, identify trends, define KPIs and develop sustainable data solutions that support the company’s strategy. At the very heart of this steering approach is the building and continuous development of sustainable data products and ana…",
+      "salary_is_predicted": "0",
+      "title": "Advanced Data Analyst – Data & AI (m/f/d)",
+      "longitude": 11.766291,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MzE0NDQ4NSIsInMiOiJOSUVRQjk2bjhSR0FxdW1hNXZVZUhnIn0.EjU6v0zmodE6AzKkm6oSQx0YcJRnl32LM8YuyDNsIE8",
+      "category": {
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "id": "5843144485",
+      "location": {
+        "display_name": "Jenbach, Schwaz",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Schwaz",
+          "Jenbach"
+        ]
+      },
+      "latitude": 47.402859,
+      "redirect_url": "https://www.adzuna.at/details/5843144485?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzMjI4NjMyMSIsInMiOiJOSUVRQjk2bjhSR0FxdW1hNXZVZUhnIn0.ra0yOptGxrsT_-mMhJBsSsH_f6rhRqnaCwU4I9uaYpU",
+      "salary_is_predicted": "0",
+      "title": "Remote Part-time Online Data Analyst - German (AT)",
+      "salary_min": 20800,
+      "category": {
+        "tag": "other-general-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Sonstige/Allgemeine Stellen"
+      },
+      "id": "5832286321",
+      "redirect_url": "https://www.adzuna.at/details/5832286321?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "salary_max": 33280,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "TELUS Digital"
+      },
+      "created": "2026-08-07T21:35:48Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Are you a detail-oriented individual with a passion for research and a good understanding of national and local geography? This freelance opportunity allows you to work at your own pace and from the comfort of your own home. Tasks In this role, you will be working on a project aimed at enhancing the content and quality of digital maps that are used by millions of people worldwide Completing research and evaluation tasks in a web-based environment such as verifying and comparing data, and determ…"
+    },
+    {
+      "title": "Data Analyst/Scientist (w/m/d), Vollzeit (38,5 Std./Woche)",
+      "longitude": 15.439358,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4MDYwMjc3MSIsInMiOiJOSUVRQjk2bjhSR0FxdW1hNXZVZUhnIn0.VlcJsYkbA9YL3nYetVk2eAHLvVTXEIugoNGnP-Zl9CY",
+      "category": {
+        "label": "Stellen aus PR, Werbung & Marketing",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "pr-advertising-marketing-jobs"
+      },
+      "salary_min": 27636,
+      "location": {
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz"
+        ],
+        "display_name": "Graz, Steiermark",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5780602771?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 47.070503,
+      "description": "Niceshops , eine Onlinehändlerin und E-Commerce-Dienstleisterin made in Austria. Unser Headquarter ist im steirischen Saaz, weitere Standorte bereichern Graz und Wien. Wir wollen unsere hohen Qualitätsansprüche halten und ausbauen. Das Beste daran? Wir wollen nicht nur, wir tun auch. Gemeinsam mit dir! Du bist fest davon überzeugt, dass alle wichtigen Entscheidungen auf Daten basieren sollten und der Datenstrom dabei niemals abreißen darf? Du brennst für Insights und hast Freude daran, aus Rohd…",
+      "salary_is_predicted": "0",
+      "id": "5780602771",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "niceshops GmbH"
+      },
+      "salary_max": 27636,
+      "created": "2026-06-29T00:49:56Z",
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTklFUUI5Nm44UkdBcXVtYTV2VWVIZyIsImkiOiI1NzQ0Mzc4Njk0In0.f8HjOS39s6ADmDjHKvQxGl9iaKTPzG5Svp10qmqt5SI",
+      "title": "Data Engineering Consultant (w/m/x) - Austria",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.at/land/ad/5744378694?se=NIEQB96n8RGAquma5vUeHg&utm_medium=api&utm_source=5fbaef93&v=3782AB205CB0CA6B91387BA223BEA492F84A3333",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "id": "5744378694",
+      "created": "2026-05-29T09:18:38Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Avanade Inc."
+      },
+      "description": "Data Engineering Consultant (w/m/x)Avanade ist ein führender Anbieter von digitalen und Cloud-Diensten, Business Solutions und designorientierten Anwendungen. Als Joint Venture von Microsoft und Accenture sind wir das größte Beratungsunternehmen für Microsoft-Technologien. Wir unterstützen unsere Kunden in Cloud, Modern Workplace, Business Applications, Data & AI und Security und legen Wert auf unsere PeopleFirst Mentalität.Das Jahresbruttogehalt für diese Position beginnt gemäß IT-Kollektivver…",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "longitude": 11.40202,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4NjcwOTgyNCIsInMiOiJOSUVRQjk2bjhSR0FxdW1hNXZVZUhnIn0.J7NScUdrX8Q6oTlmza1kqkS8pfgpigafOQO-ovr-V7g",
+      "title": "Data Engineering Consultant (w/m/x) - Austria",
+      "salary_is_predicted": "0",
+      "latitude": 47.264585,
+      "redirect_url": "https://www.adzuna.at/land/ad/5786709824?se=NIEQB96n8RGAquma5vUeHg&utm_medium=api&utm_source=5fbaef93&v=F1D15537009AE4A988364268D34923C690EB8F7A",
+      "location": {
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Innsbruck"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Innsbruck, Tirol"
+      },
+      "id": "5786709824",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Avanade Inc."
+      },
+      "created": "2026-07-03T12:22:53Z",
+      "description": "Data Engineering Consultant (w/m/x)Avanade ist ein führender Anbieter von digitalen und Cloud-Diensten, Business Solutions und designorientierten Anwendungen. Als Joint Venture von Microsoft und Accenture sind wir das größte Beratungsunternehmen für Microsoft-Technologien. Wir unterstützen unsere Kunden in Cloud, Modern Workplace, Business Applications, Data & AI und Security und legen Wert auf unsere PeopleFirst Mentalität.Das Jahresbruttogehalt für diese Position beginnt gemäß IT-Kollektivver…",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "category": {
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTklFUUI5Nm44UkdBcXVtYTV2VWVIZyIsImkiOiI1Nzg2NzA5ODE1In0.8bK2haeR3jYb8pdupM3G1kkBCTJlmHPCccRss63OgHM",
+      "title": "Data Engineering Consultant (w/m/x) - Austria",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.at/land/ad/5786709815?se=NIEQB96n8RGAquma5vUeHg&utm_medium=api&utm_source=5fbaef93&v=09C3473A87B515D374A5688A6802D7B48C0D5E7E",
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Österreich"
+      },
+      "id": "5786709815",
+      "company": {
+        "display_name": "Avanade Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-07-03T12:22:52Z",
+      "description": "Data Engineering Consultant (w/m/x)Avanade ist ein führender Anbieter von digitalen und Cloud-Diensten, Business Solutions und designorientierten Anwendungen. Als Joint Venture von Microsoft und Accenture sind wir das größte Beratungsunternehmen für Microsoft-Technologien. Wir unterstützen unsere Kunden in Cloud, Modern Workplace, Business Applications, Data & AI und Security und legen Wert auf unsere PeopleFirst Mentalität.Das Jahresbruttogehalt für diese Position beginnt gemäß IT-Kollektivver…",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "description": "Avanade ist ein führender Anbieter von digitalen und Cloud-Diensten, Business Solutions und designorientierten Anwendungen. Als Joint Venture von Microsoft und Accenture sind wir das größte Beratungsunternehmen für Microsoft-Technologien. Wir unterstützen unsere Kunden in Cloud, Modern Workplace, Business Applications, Data & AI und Security und legen Wert auf unsere PeopleFirst Mentalität.Das Jahresbruttogehalt für diese Position beginnt gemäß IT-Kollektivvertrag, abhängig von Qualifikation un…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "display_name": "Avanade Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-07-22T12:27:46Z",
+      "latitude": 47.264585,
+      "redirect_url": "https://www.adzuna.at/land/ad/5810754244?se=NIEQB96n8RGAquma5vUeHg&utm_medium=api&utm_source=5fbaef93&v=9B4151F3A0E2EF69221B70C708E08817196788DD",
+      "location": {
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Innsbruck"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Innsbruck, Tirol"
+      },
+      "id": "5810754244",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "longitude": 11.40202,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgxMDc1NDI0NCIsInMiOiJOSUVRQjk2bjhSR0FxdW1hNXZVZUhnIn0.IETiQFRpysJWpZeoSjhi3NO2SJOvntbutJbAqC3KDlw",
+      "salary_is_predicted": "0",
+      "title": "Analytics Solution Architect (w/m/x) - Austria"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Avanade ist ein führender Anbieter von digitalen und Cloud-Diensten, Business Solutions und designorientierten Anwendungen. Als Joint Venture von Microsoft und Accenture sind wir das größte Beratungsunternehmen für Microsoft-Technologien. Wir unterstützen unsere Kunden in Cloud, Modern Workplace, Business Applications, Data & AI und Security und legen Wert auf unsere PeopleFirst Mentalität.Das Jahresbruttogehalt für diese Position beginnt gemäß IT-Kollektivvertrag, abhängig von Qualifikation un…",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Avanade Inc."
+      },
+      "created": "2026-07-03T12:22:52Z",
+      "id": "5786709811",
+      "redirect_url": "https://www.adzuna.at/land/ad/5786709811?se=NIEQB96n8RGAquma5vUeHg&utm_medium=api&utm_source=5fbaef93&v=7EA031D41D2AA06AC235C901D092C4A8E372F667",
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTklFUUI5Nm44UkdBcXVtYTV2VWVIZyIsImkiOiI1Nzg2NzA5ODExIn0.8JT0RWZBIaJMy939U9DA0URED3S034-HT1iA02O_UMI",
+      "salary_is_predicted": "0",
+      "title": "Analytics Solution Architect (w/m/x) - Austria",
+      "category": {
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown"
+      }
+    },
+    {
+      "description": "Avanade ist ein führender Anbieter von digitalen und Cloud-Diensten, Business Solutions und designorientierten Anwendungen. Als Joint Venture von Microsoft und Accenture sind wir das größte Beratungsunternehmen für Microsoft-Technologien. Wir unterstützen unsere Kunden in Cloud, Modern Workplace, Business Applications, Data & AI und Security und legen Wert auf unsere PeopleFirst Mentalität.Das Jahresbruttogehalt für diese Position beginnt gemäß IT-Kollektivvertrag, abhängig von Qualifikation un…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-11-14T03:41:00Z",
+      "company": {
+        "display_name": "Avanade Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "redirect_url": "https://www.adzuna.at/land/ad/5495018365?se=NIEQB96n8RGAquma5vUeHg&utm_medium=api&utm_source=5fbaef93&v=5A5647203F8ED732A408B81A7389F360C04B4C9A",
+      "id": "5495018365",
+      "category": {
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown"
+      },
+      "salary_is_predicted": "0",
+      "title": "Analytics Solution Architect (w/m/x) - Austria",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ5NTAxODM2NSIsInMiOiJOSUVRQjk2bjhSR0FxdW1hNXZVZUhnIn0.jdyt2WB1Pqu3Tz0v7gskYeQ8bkD9QXBz2ymbn-JFW9k"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "We develop & operate entertainment software. As the technology arm of the ADMIRAL Group, we are passionate about creating an innovative product experience for our customers and becoming one of the leading technology providers in the sports betting sector, both nationally and internationally. Working at ADMIRAL Technologies means being part of an internationally successful group and still experiencing the flexibility and spirit of a start-up. Develop yourself and with us the software solutions o…",
+      "created": "2026-08-21T18:14:31Z",
+      "company": {
+        "display_name": "ADMIRAL Technologies",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5851331127",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "redirect_url": "https://www.adzuna.at/details/5851331127?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.208144,
+      "title": "Data Engineer - Focus Apache Flink (m/f/x)",
+      "salary_is_predicted": "0",
+      "longitude": 16.354031,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTklFUUI5Nm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODUxMzMxMTI3In0.LrWnKFCarsCltGw8KKYddPiH6sj2YQ-vhJeD1DVZWTE",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen"
+      }
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5840359466?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ]
+      },
+      "id": "5840359466",
+      "category": {
+        "tag": "consultancy-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Beraterstellen"
+      },
+      "salary_min": 50000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MDM1OTQ2NiIsInMiOiJOSUVRQjk2bjhSR0FxdW1hNXZVZUhnIn0.4a4dsEOp7doKKkFhuPCG2Yy1YRuMMznVluWL72L5u6o",
+      "title": "Data Engineering Consultant (w/m/x) - Austria",
+      "salary_is_predicted": "0",
+      "description": "Data Engineering Consultant (w/m/x) Avanade ist ein führender Anbieter von digitalen und Cloud-Diensten, Business Solutions und designorientierten Anwendungen. Als Joint Venture von Microsoft und Accenture sind wir das größte Beratungsunternehmen für Microsoft-Technologien. Wir unterstützen unsere Kunden in Cloud, Modern Workplace, Business Applications, Data & AI und Security und legen Wert auf unsere PeopleFirst Mentalität. Das Jahresbruttogehalt für diese Position beginnt gemäß IT-Kollektivv…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "company": {
+        "display_name": "Avanade",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-08-13T16:46:54Z",
+      "salary_max": 50000
+    },
+    {
+      "description": "Description As an intern in the Reliability & Digital Engineering team at INNIO, you will help analyze operating data from Jenbacher gas engines to understand how reliably they perform in the field. Your work will focus on turning raw fleet data into simple, clear reliability insights that engineers use to improve product design and maintenance concepts. You will work on clearly defined analysis tasks with coaching from experienced reliability and digital engineers. No prior reliability enginee…",
+      "salary_min": 32383,
+      "category": {
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown"
+      },
+      "title": "Internship - Reliability Data Analysis (RAM) (m/f/d)",
+      "longitude": 11.766291,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NjkyMTU3NyIsInMiOiJOSUVRQjk2bjhSR0FxdW1hNXZVZUhnIn0.JRWzvV84Pq5VCjxzuy7rlJ9sBS2__-sHcQ0RMbxAHE8",
+      "location": {
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Schwaz",
+          "Jenbach"
+        ],
+        "display_name": "Jenbach, Schwaz",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "latitude": 47.402859,
+      "redirect_url": "https://www.adzuna.at/details/5856921577?utm_medium=api&utm_source=5fbaef93",
+      "created": "2026-08-26T16:53:28Z",
+      "company": {
+        "display_name": "Innio",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_max": 32383,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_type": "contract",
+      "salary_is_predicted": "0",
+      "id": "5856921577"
+    },
+    {
+      "description": "Avanade ist ein führender Anbieter von digitalen und Cloud-Diensten, Business Solutions und designorientierten Anwendungen. Als Joint Venture von Microsoft und Accenture sind wir das größte Beratungsunternehmen für Microsoft-Technologien. Wir unterstützen unsere Kunden in Cloud, Modern Workplace, Business Applications, Data & AI und Security und legen Wert auf unsere PeopleFirst Mentalität. Das Jahresbruttogehalt für diese Position beginnt gemäß IT-Kollektivvertrag, abhängig von Qualifikation u…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Avanade"
+      },
+      "salary_max": 60000,
+      "created": "2026-07-18T01:24:27Z",
+      "redirect_url": "https://www.adzuna.at/details/5805464651?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ]
+      },
+      "id": "5805464651",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Stellen aus PR, Werbung & Marketing",
+        "tag": "pr-advertising-marketing-jobs"
+      },
+      "salary_min": 60000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTklFUUI5Nm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODA1NDY0NjUxIn0.gfYsAo-RSNl8MVECfPTAQNiud_m8OXGSa8ZHzvgJwto",
+      "title": "Analytics Solution Architect (w/m/x) – Austria",
+      "salary_is_predicted": "0"
+    },
+    {
+      "description": "What we build Most companies find out about supplier insolvencies, cyber attacks, factory fires or floods that affect their supply chain when it's already a crisis. Prewave exists to change that. We're an AI-native company giving BMW Group, Hilti and Lufthansa real-time visibility into supply chain risks before they become headlines. We're looking for a Technical Operations Specialist (f/m/d) who takes ownership of the data-focused, technical side of getting our platform to work for enterprise …",
+      "title": "Technical Operations Specialist (f/m/d)",
+      "longitude": 16.399872,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgyNzkxNjc2NCIsInMiOiJOSUVRQjk2bjhSR0FxdW1hNXZVZUhnIn0.Nwh5EzC1YNeD0nlyK6FhQBo_HAxBGnj9odmxOv5cXe8",
+      "salary_min": 36000,
+      "category": {
+        "tag": "logistics-warehouse-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Stellen aus Logistik & Lagerhaltung"
+      },
+      "location": {
+        "display_name": "Leopoldstadt, Wien",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Leopoldstadt"
+        ]
+      },
+      "latitude": 48.213836,
+      "redirect_url": "https://www.adzuna.at/details/5827916764?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 36000,
+      "created": "2026-08-04T16:45:39Z",
+      "company": {
+        "display_name": "Prewave",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "id": "5827916764"
+    }
+  ],
+  "count": 25
+}

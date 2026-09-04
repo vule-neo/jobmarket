@@ -1,0 +1,1516 @@
+{
+  "mean": 63049.83,
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "count": 77,
+  "results": [
+    {
+      "salary_max": 61000,
+      "redirect_url": "https://www.adzuna.at/details/5826812948?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Accenture"
+      },
+      "title": "AI & Data Science Consultant (all genders)",
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Innere Stadt"
+        ],
+        "display_name": "Innere Stadt, Wien"
+      },
+      "salary_min": 61000,
+      "id": "5826812948",
+      "longitude": 16.370243,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-03T21:33:16Z",
+      "latitude": 48.208604,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1ODI2ODEyOTQ4In0.CbEaZDG7dn7YEjLZsajoLsXloGpARvhfey8i_6ye3uw",
+      "description": "Deine Mission Du möchtest durch deine datengetriebene & analytische Denkweise, Problemlösungskompetenz und Affinität für moderne KI-Lösungen die spannendsten Herausforderungen verschiedener Industrien bewältigen? Dann bist du in der Data Science Practice genau richtig: Angesiedelt zwischen Strategy und Technology kombinieren wir Branchenerfahrung mit technischem Know-How, entwickeln innovative KI- und Data-Science-Lösungen und treiben die KI-Transformation unserer Kunden messbar voran. Dabei id…",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      }
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5791536712?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 45738,
+      "title": "Data Science Engineer (f/m/d)",
+      "contract_time": "full_time",
+      "description": "What we build Most companies find out about supplier insolvencies, cyber attacks, factory fires or floods that affect their supply chain when it's already a crisis. Prewave exists to change that. We're an AI-native company giving BMW Group, Hilti and Lufthansa real-time visibility into supply chain risks before they become headlines. We're looking for a Data Science Engineer who takes ownership of turning vast, complex data into actionable intelligence from day one. Someone who uses AI as a def…",
+      "id": "5791536712",
+      "location": {
+        "display_name": "Leopoldstadt, Wien",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Leopoldstadt"
+        ]
+      },
+      "salary_min": 45738,
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "Prewave",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1NzkxNTM2NzEyIn0.uaEnhWVQjpMdVx3XUMpLSRM9ZD-Y4zYHyqCSILgqpGk",
+      "category": {
+        "label": "Stellen aus Logistik & Lagerhaltung",
+        "tag": "logistics-warehouse-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.399872,
+      "created": "2026-07-08T01:15:42Z",
+      "latitude": 48.213836
+    },
+    {
+      "category": {
+        "label": "Unknown",
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "STELLENANGEBOTE BEI HR WORKS Wir freuen uns, dass du dich für die Stellenangebote bei HR WORKS interessierst! Gestalte mit uns die Zukunft von HR WORKS und werde Teil unseres begeisterten Teams, das sich mit Leidenschaft und Hingabe der Entwicklung von HR-Software widmet! Als erfolgreicher Anbieter von B2B-Software sind wir immer auf der Suche nach außergewöhnlichen Talenten, die mit uns zusammenarbeiten möchten. Lass dich von unserem innovativen Unternehmen und unserem motivierten Team inspiri…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1ODE1MzQ0NCIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.rRdvRKgM1inzoNMqjox_dAjuh_RZYCC74H0XbMXfC80",
+      "latitude": 48.194856,
+      "created": "2026-08-27T12:41:51Z",
+      "id": "5858153444",
+      "longitude": 16.350023,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Mariahilf"
+        ],
+        "display_name": "Mariahilf, Wien"
+      },
+      "contract_time": "part_time",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "HRworks GmbH"
+      },
+      "salary_is_predicted": "0",
+      "title": "Studentische Aushilfe (m/w/d) Outbound / Sales Data Science (geringfügig)",
+      "redirect_url": "https://www.adzuna.at/details/5858153444?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "company": {
+        "display_name": "FRANKSTAHL Rohr- und Stahlhandelsges. m.b.H.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "title": "DATA SCIENTIST / ML ENGINEER (M/W/D)",
+      "redirect_url": "https://www.adzuna.at/details/5869331525?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "label": "Unknown",
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "WIR SUCHEN DICH - BEWIRB DICH JETZT BEI FRANKSTAHL DATA SCIENTIST / ML ENGINEER (M/W/D) (Vollzeit | Hybrid 2 Tage Homeoffice für unseren Standort 2353 Guntramsdorf oder Standort 1020 Wien) Über Uns: Frankstahl steht seit über 140 Jahren für Verlässlichkeit, Leidenschaft und Innovation im Stahlgroßhandel. Gegründet 1880 in Wien, zählt das österreichische Familienunternehmen heute mit über 700 Mitarbeitenden in zehn europäischen Ländern zu den größten und fortschrittlichsten Stahlhandelsunternehm…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1ODY5MzMxNTI1In0.rrdq4OkVMWcTzCvpfbtuh3qe7NGKdAskRLU3FZLEO_w",
+      "created": "2026-09-03T18:28:28Z",
+      "latitude": 48.208144,
+      "id": "5869331525",
+      "longitude": 16.354031,
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5812971192?utm_medium=api&utm_source=5fbaef93",
+      "salary_is_predicted": "0",
+      "title": "Data Scientist (f/m/x)",
+      "company": {
+        "display_name": "MacroArray Diagnostics",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "full_time",
+      "location": {
+        "display_name": "Österreich",
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5812971192",
+      "created": "2026-07-24T01:22:56Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgxMjk3MTE5MiIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.ScinoX3Xg-Bz3b3n-xsYs3tXWQ_KQF_nG5PLwMR-aL0",
+      "description": "We have revolutionized allergy diagnostics and have been operating successfully in around 100 countries for over 10 years with our diagnostic products and patented technologies. Our products help clarify allergies in a single step – for humans and animals alike. Allergies are diagnosed in a highly specific manner so that patients receive support from their specialists without delay. We increase quality of life, enable personalized treatment, advance research, and contribute to a more efficient …",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "healthcare-nursing-jobs",
+        "label": "Stellen aus Gesundheitswesen & Pflege"
+      }
+    },
+    {
+      "id": "5809625641",
+      "longitude": 16.28417,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "latitude": 48.135473,
+      "created": "2026-07-21T21:21:20Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1ODA5NjI1NjQxIn0.3AZmPV96TYHZpd3VHVCsWIHUWxvasAhb1g4xE9A4ogY",
+      "description": "We have revolutionized allergy diagnostics and have been operating successfully in around 100 countries for over 10 years with our diagnostic products and patented technologies. Our products help clarify allergies in a single step – for humans and animals alike. Allergies are diagnosed in a highly specific manner so that patients receive support from their specialists without delay. We increase quality of life, enable personalized treatment, advance research, and contribute to a more efficient …",
+      "category": {
+        "tag": "other-general-jobs",
+        "label": "Sonstige/Allgemeine Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5809625641?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "MacroArray Diagnostics GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Scientist (f/m/x)",
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Liesing, Wien",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Liesing"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "company": {
+        "display_name": "Fronius",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "full_time",
+      "salary_is_predicted": "0",
+      "title": "Data Platform Engineer (m/w/d)",
+      "salary_max": 46662,
+      "redirect_url": "https://www.adzuna.at/details/5833562653?utm_medium=api&utm_source=5fbaef93",
+      "salary_min": 46662,
+      "location": {
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ]
+      },
+      "created": "2026-08-08T16:47:03Z",
+      "id": "5833562653",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Deine Aufgaben: Der Bereich Data Engineering zeichnet sich durch ein engagiertes, teamorientiertes Arbeitsumfeld aus. Gemeinsam mit deinem Team und Kollegen/-innen aus unseren Geschäftsfeldern entwickelst du unsere Datenplattformen kontinuierlich weiter. Du schaffst so die Basis für innovative und zukunftsweisende digitale Geschäftsmodelle. Konkret bedeutet das: Weiterentwicklung, Automatisierung und Integration unserer modernen, skalierbaren Datenplattformen Deployment-Automatisierung von Plat…",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1ODMzNTYyNjUzIn0.Z9rnFItkMQBb0XXHzBYOt3xSVuzpVBDMbDELx-wv_NA"
+    },
+    {
+      "longitude": 14.005883,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5862950768",
+      "latitude": 48.14932,
+      "created": "2026-08-31T15:51:20Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2Mjk1MDc2OCIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.ywVeqUWDOJvcKymy8Ob40Ey3ahUvS6bbnYrS5tABLW4",
+      "description": "Als führender Value Textile Discounter mit Filialen in Deutschland, Österreich, Italien, Slowenien, Tschechien, Kroatien und Polen, einem eigenen Onlineshop sowie über 10.000 Mitarbeiterinnen und Mitarbeitern international zählt die NKD-Firmengruppe zu den größten Unternehmen im Textileinzelhandel. Das Angebot reicht von aktueller Mode für die ganze Familie und funktionaler Sportbekleidung über Heimtextilien und saisonale Dekorationsartikel bis hin zu ausgewählten Markensortimenten. Als zukunft…",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5862950768?utm_medium=api&utm_source=5fbaef93",
+      "title": "Mitarbeiter*in Mietvertragsverwaltung (m/w/d)",
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "NKD Österreich GmbH"
+      },
+      "location": {
+        "area": [
+          "Österreich",
+          "Oberösterreich",
+          "Wels"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wels, Oberösterreich"
+      }
+    },
+    {
+      "salary_min": 70000,
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "redirect_url": "https://www.adzuna.at/details/5820145539?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 100000,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "R&C Request GmbH"
+      },
+      "title": "Teamlead Data Operations (m/w/d)",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1ODIwMTQ1NTM5In0.Uhz0lyHE5uPSExAyP5oLfn2U_2CLIA_bTcjW_E2o5bk",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "description": "Fachliche und disziplinäre Führung eines internationalen Data-Operations-Teams Fokus auf People Management, Teamentwicklung und agile Steuerung Sicherstellung des stabilen Betriebs und der Weiterentwicklung einer modernen Data & Analytics Plattform Aufgaben Disziplinäre und fachliche Leitung von Data Engineers, Analytics Engineers und Architects Ressourcenplanung, Priorisierung und Prozessoptimierung im DataOps-Umfeld Schnittstelle und Koordination zwischen Fachbereichen, Data Science, BI und I…",
+      "id": "5820145539",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-07-29T21:28:32Z"
+    },
+    {
+      "title": "Platform Engineer (AI / Data Platform)",
+      "redirect_url": "https://www.adzuna.at/details/5606824844?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 117000,
+      "contract_type": "contract",
+      "id": "5606824844",
+      "description": "Für ein anspruchsvolles KI- und Datenplattform-Projekt im Enterprise-Umfeld wird ein erfahrener Platform Engineer gesucht. Ziel ist der Aufbau, Betrieb und die Weiterentwicklung einer stabilen, skalierbaren On-Premise AI- und Data-Plattform zur Unterstützung von Data-Science- und KI-Projekten. Rahmenbedingungen Start: ASAP Laufzeit: Ende 2026, Verlängerung möglich Auslastung: 100 % Arbeitsmodell: Remote bevorzugt, gelegentliche Vor-Ort-Termine nach Absprache €400 - €450 a day Aufgaben Aufbau, K…",
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Qualysoft"
+      },
+      "salary_min": 104000,
+      "location": {
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2026-01-30T21:52:11Z",
+      "latitude": 48.208144,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.354031,
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYwNjgyNDg0NCIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.jQ4d3AIFS7AP0FVGmkQfdGOI3KYSC-inPxTFfmSe1fg"
+    },
+    {
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Leopoldstadt"
+        ],
+        "display_name": "Leopoldstadt, Wien"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5866101347?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "FRANKSTAHL Rohr- und Stahlhandelsges. m.b.H."
+      },
+      "title": "DATA SCIENTIST / ML ENGINEER (M/W/D)",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2NjEwMTM0NyIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.omT6unWfOdbGhXg2LWaFVJ9u2PcAkhi-ckuz1Qmes7U",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT-Stellen"
+      },
+      "description": "WIR SUCHEN DICH - BEWIRB DICH JETZT BEI FRANKSTAHL DATA SCIENTIST / ML ENGINEER (M/W/D) (Vollzeit | Hybrid 2 Tage Homeoffice für unseren Standort 2353 Guntramsdorf oder Standort 1020 Wien) Über Uns: Frankstahl steht seit über 140 Jahren für Verlässlichkeit, Leidenschaft und Innovation im Stahlgroßhandel. Gegründet 1880 in Wien, zählt das österreichische Familienunternehmen heute mit über 700 Mitarbeitenden in zehn europäischen Ländern zu den größten und fortschrittlichsten Stahlhandelsunternehm…",
+      "id": "5866101347",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.399872,
+      "created": "2026-09-02T03:58:31Z",
+      "latitude": 48.213836
+    },
+    {
+      "contract_time": "full_time",
+      "title": "Consultant Data & Insights (m/w/x)",
+      "redirect_url": "https://www.adzuna.at/details/5855275896?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 52000,
+      "description": "Über die Stelle und unser Unternehmen Du zerlegst komplexe Fragestellungen – und führst Umfrage-, Verhaltens- und Geodaten zu einer Antwort zusammen. Wien (Home-Office möglich) · ab sofort · unbefristet · Vollzeit 38,5 h/Woche Reppublika Research & Analytics ist ein Full-Service-Institut mit Standorten in Wien und München. Wir verbinden Umfragen mit Verhaltens-, Clickstream- und Geodaten und entwickeln daraus Studien, die über klassische Marktforschung hinausgehen. Für unser Team suchen wir ein…",
+      "id": "5855275896",
+      "location": {
+        "display_name": "Wieden, Wien",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Wieden"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_min": 45000,
+      "company": {
+        "display_name": "Tito & Friends Dienstleistungs GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1ODU1Mjc1ODk2In0.30ExSQaHKmBDfv8Oft8aWZgkqKBe7jkj9AscSjpPHCo",
+      "created": "2026-08-25T12:41:12Z",
+      "latitude": 48.193045,
+      "longitude": 16.369061,
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "company": {
+        "display_name": "Fronius",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "salary_min": 46662,
+      "location": {
+        "display_name": "Thalheim bei Wels, Wels-Land",
+        "area": [
+          "Österreich",
+          "Oberösterreich",
+          "Wels-Land",
+          "Thalheim bei Wels"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "longitude": 14.03498,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-14T16:52:03Z",
+      "latitude": 48.139481,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MTkwMzQzNCIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.aCl3ytJFUH32CY59e-82yyhxD2eJ6g0TuE1hubBP4DI",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5841903434?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 46662,
+      "contract_time": "full_time",
+      "title": "MLOps / Platform Engineer (m/w/d)",
+      "id": "5841903434",
+      "description": "Zur Verstärkung unseres Data Science & AI Teams suchen wir einen MLOps/Platform Engineer (m/w/d) für den Aufbau und Betrieb der Infrastruktur hinter unseren KI-Systemen. Zum Verantwortungsbereich gehören die Services, auf die sich unsere Teams täglich verlassen, wovon die meisten auf Kubernetes laufen . Wenn du als Kubernetes-/DevOps Engineer lösungsorientiert arbeitest und im Zentrum der Entwicklung und Skalierung unserer KI-Produkte tätig sein möchtest, freuen wir uns auf deine Bewerbung. Dei…"
+    },
+    {
+      "location": {
+        "display_name": "Österreich",
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Dynamis"
+      },
+      "salary_is_predicted": "0",
+      "title": "Data Scientist II",
+      "redirect_url": "https://www.adzuna.at/details/5811520344?utm_medium=api&utm_source=5fbaef93",
+      "description": "Dynamis is seeking a Data Scientist II to apply machine learning, statistical analysis, and network analytics to BSA data and other Government-provided data sources in support of FinCEN's efforts to combat financial crimes—including terrorist financing, proliferation financing, cyber-crime, and complex money laundering. Backed by Dynamis's deep bench of financial intelligence and data science expertise, the Data Scientist II transforms large, disparate datasets into actionable results and clear…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1ODExNTIwMzQ0In0.Fam0HuJsh6D8-02aT5JY1ob13sV2l2M2-l-OhnU9-zw",
+      "created": "2026-07-23T01:25:38Z",
+      "id": "5811520344",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Landstraße"
+        ],
+        "display_name": "Landstraße, Wien"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5844279243?utm_medium=api&utm_source=5fbaef93",
+      "title": "Postdoc Position: Wearable Data Analysis for ME/CFS and Post-COVID",
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "Complexity Science Hub",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "full_time",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0NDI3OTI0MyIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.GSCk_l70Lsa4sFFYqXWpjht9SQz1404uVUd1Nv9xzQ4",
+      "description": "WE SEARCH FOR We are looking for a postdoctoral researcher to join the TRACK-PEM project, which investigates post-exertional malaise (PEM) in people with ME/CFS and post-COVID condition. PEM is a worsening of symptoms following physical or mental activity. At present, PEM is mainly assessed through interviews and questionnaires, while objective measures that capture how it develops in daily life are still lacking. The successful candidate will develop and apply modern data science and machine l…",
+      "category": {
+        "label": "Unknown",
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "longitude": 16.393873,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5844279243",
+      "created": "2026-08-16T16:47:26Z",
+      "latitude": 48.197021
+    },
+    {
+      "longitude": 16.318037,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5788554009",
+      "created": "2026-07-05T01:04:34Z",
+      "latitude": 48.083676,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4ODU1NDAwOSIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.9ybVlQgFc1kkr3E0sC-cVMQWlUdktN14sm4iQVtfXFA",
+      "description": "Gestalte die Digitalisierung im Gesundheitswesen – Deine Initiativbewerbung bei CGM Österreich! Suchst du eine Möglichkeit, beim österreichischen Marktführer innovative Lösungen für das Gesundheitswesen mitzugestalten und findest keine passende Ausschreibung? Du möchtest mit innovativen IT-Lösungen die Gesundheitsversorgung nachhaltig verbessern? Du suchst einen Job mit Sinn, in dem Deine Talente zählen und du die Zukunft aktiv mitgestalten kannst? Wir bei CompuGroup Medical (CGM) sind immer of…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5788554009?utm_medium=api&utm_source=5fbaef93",
+      "salary_is_predicted": "0",
+      "title": "Initiativbewerbung bei CGM in Österreich",
+      "company": {
+        "display_name": "CompuGroup Medical",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "location": {
+        "display_name": "Wiener Neudorf, Mödling",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Niederösterreich",
+          "Mödling",
+          "Wiener Neudorf"
+        ]
+      }
+    },
+    {
+      "location": {
+        "display_name": "Nenzing, Bludenz",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Vorarlberg",
+          "Bludenz",
+          "Nenzing"
+        ]
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Liebherr-Werk Nenzing GmbH"
+      },
+      "salary_is_predicted": "0",
+      "title": "Analytics Engineer (m/w/d) [84278]",
+      "redirect_url": "https://www.adzuna.at/details/5856406810?utm_medium=api&utm_source=5fbaef93",
+      "description": "Analytics Engineer (m/w/d) Forschung / Entwicklung | Job-ID 84278 One Passion. Many Opportunities. Technik ist Deine Leidenschaft und Innovation Dein Antrieb? Bei Liebherr in Nenzing entwickelst Du mit einem motivierten Team Technologien von morgen und stellst sicher, dass unsere Produkte höchsten Qualitätsansprüchen gerecht werden. Vertrauen und Verantwortung prägen dabei Deinen Arbeitsalltag. Lust, Teil unserer Projekte zu werden? Das erwartet Dich Extraktion von Wissen aus Daten Ableitung vo…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1ODU2NDA2ODEwIn0.7GYNwBPiJA48CMhkvsRb5Aze9YJv3CcySChXb9jOSaM",
+      "created": "2026-08-26T07:08:38Z",
+      "latitude": 47.17457,
+      "id": "5856406810",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 9.656511
+    },
+    {
+      "description": "Entwicklung und Umsetzung einer unternehmensweiten KI-Strategie in enger Zusammenarbeit mit der Geschäftsführung Identifikation, Analyse und Priorisierung von Einsatzmöglichkeiten für Künstliche Intelligenz in Produktion, Logistik und Verwaltung Bewertung und Auswahl geeigneter KI-Technologien sowie Entwicklung praxisnaher Anwendungsfälle Planung, Koordination und Umsetzung von KI-Projekten – von der Konzeption bis zum erfolgreichen Rollout Eigenständige Entwicklung, Implementierung und Betreuu…",
+      "id": "5819845870",
+      "redirect_url": "https://www.adzuna.at/details/5819845870?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 60000,
+      "contract_time": "full_time",
+      "title": "AI Transformation Engineer (w/m/d)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgxOTg0NTg3MCIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.N9OQor4zncs8F-3WsOWRszXZ7NvATB1yGL8QLy0pAZM",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "longitude": 11.713548,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "latitude": 47.348457,
+      "created": "2026-07-29T16:44:22Z",
+      "location": {
+        "display_name": "Schwaz",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Schwaz",
+          "Schwaz"
+        ]
+      },
+      "salary_min": 60000,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "ergatis Personalmanagement"
+      },
+      "salary_is_predicted": "0"
+    },
+    {
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Österreich"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "XXXLdigital - Part of XXXL Group"
+      },
+      "salary_is_predicted": "0",
+      "title": "Data Scientist (Marketing) (m/w/d)",
+      "redirect_url": "https://www.adzuna.at/details/5862773276?utm_medium=api&utm_source=5fbaef93",
+      "description": "Die XXXLutz Unternehmensgruppe ist in den 80 Jahren ihres Bestehens stetig gewachsen, betreibt über 400 Einrichtungshäuser in 14 europäischen Ländern und beschäftigt mehr als 27.300 Mitarbeiter. Mit einem Jahresumsatz von 6,4 Milliarden Euro ist die XXXLutz Gruppe einer der drei größten Möbelhändler der Welt. Zudem werden bereits 24 Onlineshops in den Vertriebsschienen XXXLutz, Möbelix und Mömax betrieben. Willkommen bei XXXLdigital, wo digitale Innovation echte Wirkung zeigt. Als digitale Orga…",
+      "category": {
+        "label": "Stellen aus Wissenschaft & Qualitätssicherung",
+        "tag": "scientific-qa-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2Mjc3MzI3NiIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.2qnbRfClVCd5iSfvdPWH-hn-kfGGFFnCrnCl5Xop_G0",
+      "created": "2026-08-31T07:30:01Z",
+      "id": "5862773276",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "latitude": 48.208604,
+      "created": "2026-08-31T03:58:24Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.370243,
+      "id": "5862673092",
+      "description": "Die XXXLutz Unternehmensgruppe ist in den 80 Jahren ihres Bestehens stetig gewachsen, betreibt über 400 Einrichtungshäuser in 14 europäischen Ländern und beschäftigt mehr als 27.300 Mitarbeiter. Mit einem Jahresumsatz von 6,4 Milliarden Euro ist die XXXLutz Gruppe einer der drei größten Möbelhändler der Welt. Zudem werden bereits 24 Onlineshops in den Vertriebsschienen XXXLutz, Möbelix und Mömax betrieben. Willkommen bei XXXLdigital, wo digitale Innovation echte Wirkung zeigt. Als digitale Orga…",
+      "category": {
+        "tag": "scientific-qa-jobs",
+        "label": "Stellen aus Wissenschaft & Qualitätssicherung",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MjY3MzA5MiIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.2Q4We_NmYMWt1PEj5T8tvNqJ0cG2ElQNEal9VWkm92k",
+      "salary_is_predicted": "0",
+      "title": "Data Scientist (Digital Marketing) (m/w/d)",
+      "company": {
+        "display_name": "XXXLdigital - Part of XXXL Group",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5862673092?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "display_name": "Innere Stadt, Wien",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Innere Stadt"
+        ]
+      }
+    },
+    {
+      "company": {
+        "display_name": "SPAR Österreichische Warenhandels-AG",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "title": "SPAR ICS Praktikant (m/w/d)",
+      "redirect_url": "https://www.adzuna.at/details/5863830047?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ]
+      },
+      "created": "2026-09-01T07:10:13Z",
+      "id": "5863830047",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "SPAR ICS Praktikant (m/w/d) Wir sind das \"I\" und \"T\" in Retail Dienstort: Salzburg, Villach Ausmaß: Vollzeit/Teilzeit SPAR ICS ist die IT-Gesellschaft der SPAR Österreich-Gruppe und kümmert sich um sämtliche IT-Belange von SPAR, INTERSPAR und SES Spar European Shopping Centers. Wir sind über 700 kluge Köpfe und haben zwei Agenden: Das reibungslose Einkaufserlebnis aller SPAR-Kund:innen in 5 Ländern und die digitalen Geschäftsprozesse „hinter den Regalen“ im Konzern. Für was schlägt dein IT-Herz…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MzgzMDA0NyIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.5Apm4mMNhO3KR0Nc_pQ47H_vbH9MLxReQk1TrJldcOA"
+    },
+    {
+      "salary_min": 70000,
+      "location": {
+        "display_name": "Mödling",
+        "area": [
+          "Österreich",
+          "Niederösterreich",
+          "Mödling",
+          "Mödling"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Architekt (m/w/d)",
+      "salary_is_predicted": "0",
+      "salary_max": 110000,
+      "redirect_url": "https://www.adzuna.at/details/5743037596?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "Entwicklung und Weiterentwicklung von Modellierungsstandards für moderne BI- und Analytics-Plattformen Mitgestaltung und Aufbau eines unternehmensweiten Datenkatalogs Konzeption und Modellierung von Datenstrukturen in unterschiedlichen Use-Cases und Systemlandschaften Entwicklung semantischer Datenmodelle zur Optimierung der Datenarchitektur Unterstützung bei der Analyse und Definition fachlicher Datenanforderungen Gestaltung effizienter Datenaustauschprozesse zwischen verschiedenen Systemen un…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1NzQzMDM3NTk2In0.SzMa__X-W_jcoNTQ2-8bVG_ZuSXac9X16Pnge0Fn7tM",
+      "latitude": 48.082903,
+      "created": "2026-05-28T06:59:47Z",
+      "id": "5743037596",
+      "longitude": 16.290828,
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "description": "Als führender Value Textile Discounter mit Filialen in Deutschland, Österreich, Italien, Slowenien, Tschechien, Kroatien und Polen, einem eigenen Onlineshop sowie über 10.000 Mitarbeiterinnen und Mitarbeitern international zählt die NKD-Firmengruppe zu den größten Unternehmen im Textileinzelhandel. Das Angebot reicht von aktueller Mode für die ganze Familie und funktionaler Sportbekleidung über Heimtextilien und saisonale Dekorationsartikel bis hin zu ausgewählten Markensortimenten. Als zukunft…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MzkxMzA2NyIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.5USdkbFkowSKFgMHjl6Z1YOTklIKkreJlf0ywoaFUOE",
+      "created": "2026-09-01T07:34:23Z",
+      "latitude": 48.166893,
+      "longitude": 14.016819,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5863913067",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Oberösterreich",
+          "Wels"
+        ],
+        "display_name": "Wels, Oberösterreich"
+      },
+      "title": "Mitarbeiter*in Mietvertragsverwaltung (m/w/d)",
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "NKD Österreich GmbH"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5863913067?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "company": {
+        "display_name": "Liebherr-Werk Nenzing GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "title": "Data Governance Expert (m/w/d) [83792]",
+      "redirect_url": "https://www.adzuna.at/details/5811869672?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich",
+          "Vorarlberg",
+          "Bludenz",
+          "Nenzing"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Nenzing, Bludenz"
+      },
+      "latitude": 47.17457,
+      "created": "2026-07-23T07:06:15Z",
+      "id": "5811869672",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 9.656511,
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "Data Governance Expert (m/w/d) Informationstechnologie / Software | Job-ID 83792 One Passion. Many Opportunities. Du begeisterst Dich für Daten, Innovationen und Technologien von morgen? Bei Liebherr in Nenzing kannst Du Deine Leidenschaft in einem Umfeld leben, das sowohl von Vertrauen als auch von Weiterentwicklung geprägt ist und die Zukunft unseres Unternehmens aktiv mitgestalten. Has Du mit Deiner Erfahrung Lust Teil unserer zukünftigen Projekte zu sein? Das erwartet Dich Entwicklung, Impl…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgxMTg2OTY3MiIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.p4T2TEAXRjp13w67R4jGEidCtTs8SFVWe-ASzoIDkOg"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgyMzMxNDE5OSIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.mqD_nnYgY2FSkvn8mR7K5a-CqXdJNu2yZ9Rj5Q814xM",
+      "description": "IDea_Lab - Das interdisziplinäre digitale Labor der Universität Graz Professur für Machine Learning Methods 2 Veröffentlichung: 29.07.2026 Stellenprofil: § 98 UG Stellenart: Professur Brutto Jahresgehalt: €93986.20 Wochenstunden: 40 h/W Bewerbungsfrist: 16.09.2026 Verwendungsgruppe: A1 Dienstbeginn: 01.10.2027 Anstellungsverhältnis: Unbefristet Stellenbeschreibung Die Professur fokussiert auf die methodischen Grundlagen und Anwendungen probabilistischer Machine‑Learning‑Methoden im interdiszipl…",
+      "category": {
+        "label": "Stellen für Hochschulabsolventen",
+        "tag": "graduate-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "longitude": 15.439358,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5823314199",
+      "created": "2026-08-01T06:56:29Z",
+      "latitude": 47.070503,
+      "location": {
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Graz, Steiermark"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5823314199?utm_medium=api&utm_source=5fbaef93",
+      "salary_is_predicted": "0",
+      "title": "Professur für Machine Learning Methods 2",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Universität Graz"
+      }
+    },
+    {
+      "longitude": 16.354031,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5799533236",
+      "created": "2026-07-14T07:12:52Z",
+      "latitude": 48.208144,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5OTUzMzIzNiIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.wms9PI1M_j_PETX7GTDzEqKqY9z9oIThd7YRGNk_qfA",
+      "description": "Leitung von ERP-Transformationsprojekten bei Kunden unterschiedlicher Branchen in agilen Umfeldern mit Verantwortung für Zeit, Budget und Qualität Konzeption und Umsetzung integrierter Prozess- und Systemdesigns im Cloud-ERP-Umfeld (z. B. R2R, O2C, P2P) Präsentation von Lösungsansätzen auf Fach- und Managementebene Unterstützung von Kunden nach Go-Live bei der nachhaltigen Verankerung neuer Prozesse und Systeme Identifikation und Hebung von Optimierungs- und Mehrwertpotenzialen innerhalb besteh…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT-Stellen"
+      },
+      "salary_max": 90000,
+      "redirect_url": "https://www.adzuna.at/details/5799533236?utm_medium=api&utm_source=5fbaef93",
+      "salary_is_predicted": "0",
+      "title": "Manager Cloud ERP Transformation (m/w/d)",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "salary_min": 70000
+    },
+    {
+      "category": {
+        "tag": "consultancy-jobs",
+        "label": "Beraterstellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "Digitl ist ein junges und innovatives Unternehmen im Bereich Marketing und Cloud-Technologie. In einem kollaborativen und funktionsübergreifenden Umfeld entwickeln wir neue Konzepte, um unsere Kunden aus den unterschiedlichsten Branchen in eine digital-getriebene Zukunft zu führen. Sei Teil davon, und bring als Consultant im Bereich Digital Analytics deine eigenen frischen und zukunftsweisenden Ideen ein, um diese mit Experten aus deinem Team oder mit Google als direkten Ansprechpartner umzuset…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0NTEyOTY1MCIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.JP70wcInV-6LWlHbyVBLCfhuuv5EcyI1G-8tUIosfcQ",
+      "created": "2026-08-17T13:43:58Z",
+      "id": "5845129650",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Digitl GmbH"
+      },
+      "title": "Consultant - Digital Analytics (All Genders) for Vienna",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.at/details/5845129650?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "id": "5779530727",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-06-28T00:49:08Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1Nzc5NTMwNzI3In0.em85JPvfzwOnCaw1m54L149wrbEvOe7DZbo2KojtbSg",
+      "category": {
+        "tag": "consultancy-jobs",
+        "label": "Beraterstellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "Digitl ist ein junges und innovatives Unternehmen im Bereich Marketing und Cloud-Technologie. In einem kollaborativen und funktionsübergreifenden Umfeld entwickeln wir neue Konzepte, um unsere Kunden aus den unterschiedlichsten Branchen in eine digital-getriebene Zukunft zu führen. Sei Teil davon, und bring als Consultant im Bereich Digital Analytics deine eigenen frischen und zukunftsweisenden Ideen ein, um diese mit Experten aus deinem Team oder mit Google als direkten Ansprechpartner umzuset…",
+      "salary_max": 45000,
+      "redirect_url": "https://www.adzuna.at/details/5779530727?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "digitl.com"
+      },
+      "salary_is_predicted": "0",
+      "title": "Consultant - Digital Analytics (All Genders) for Vienna",
+      "salary_min": 45000,
+      "contract_type": "contract",
+      "location": {
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ]
+      }
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5841374110?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "Personalservice Plus GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "title": "Werkstudent Data Analytics (m/w/x)",
+      "location": {
+        "display_name": "Lannach, Deutschlandsberg",
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Deutschlandsberg",
+          "Lannach"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "id": "5841374110",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 15.318485,
+      "created": "2026-08-14T07:29:58Z",
+      "latitude": 46.945202,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MTM3NDExMCIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.Mnaz4PZvRllbeCvnI1gvRBvUfP1QIzhc6BBUNzvc6rE",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "graduate-jobs",
+        "label": "Stellen für Hochschulabsolventen"
+      },
+      "description": "Die Personalservice Plus GmbH ist ein Unternehmen für Personalbereitstellung und Vermittlung von Arbeitskräften. Qualifizierte Mitarbeiter/Innen bilden die Basis für den Erfolg eines jeden Unternehmens. Wir suchen für unseren Kunden in Lannach ab sofort: Werkstudent Data Analytics (m/w/x) Ihre Aufgaben: Identifikation und Definition von Kennzahlenlogiken (KPIs) in Zusammenarbeit mit Fachbereichen Analyse und Strukturierung von Datenquellen (Systeme, Tabellen, Spalten, Filterlogiken) Verifikatio…"
+    },
+    {
+      "created": "2026-09-03T18:28:40Z",
+      "latitude": 47.070503,
+      "id": "5869332188",
+      "longitude": 15.439358,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "IVM spezialisiert sich seit 40 Jahren auf die Ziele ihrer Projektpartner*innen und ihrer Kunden im technischen Umfeld. Mit Hilfe unserer technisch affinen Wissensträger*innen schaffen wir jeden Wunsch zu erfüllen. Werden Sie Consultant bei IVM und arbeiten Sie an spannenden Projekten bei den Top Unternehmen Österreichs! Job-Nr.: 107228 Einsatzort: Großraum Graz Fachbereich: Software & IT Art der Anstellung: Vollzeit Gehalt (Brutto/Monat): von 4.800 bis 5.600 Euro Analyse bestehender Qualitätspr…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Sonstige/Allgemeine Stellen",
+        "tag": "other-general-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1ODY5MzMyMTg4In0.3IuWcjmU5_I5BGuUyxizJrd5wUHqwhiYRnvWXpjYf2c",
+      "company": {
+        "display_name": "IVM Technical Consultants",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Spezialist*in Digitalisierung und KI (m/w/d)",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.at/details/5869332188?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "display_name": "Graz, Steiermark",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz"
+        ]
+      }
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1NzEzOTU4MzI4In0.f4m7LnYkbUwDtFD_5CDEN21D7t41F7YJNdbnzTzM1Sc",
+      "category": {
+        "label": "Unknown",
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "In dieser Rolle entwickelst du KI-Lösungen, die einen echten Mehrwert schaffen. Du arbeitest an Anwendungen rund um LLMs, RAG und agentenbasierte Systeme und begleitest Projekte vom ersten Prototyp bis zum skalierbaren Produktiveinsatz. Mit einem modernen Tech‑Stack, viel Gestaltungsspielraum und einem agilen Umfeld bieten wir dir die ideale Basis, um deine Expertise einzubringen und gemeinsam KI‑Technologien weiter voranzutreiben. Deine Aufgaben: Spezialisierung auf Retrieval-Augmented Generat…",
+      "id": "5713958328",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 14.03498,
+      "latitude": 48.139481,
+      "created": "2026-04-30T00:17:54Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Oberösterreich",
+          "Wels-Land",
+          "Thalheim bei Wels"
+        ],
+        "display_name": "Thalheim bei Wels, Wels-Land"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5713958328?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Fronius"
+      },
+      "contract_time": "full_time",
+      "salary_is_predicted": "0",
+      "title": "AI Engineer (m/w/d)"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2NjU3MDIyNiIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.BeRkrBeLHmNXdAx1ADTcgINeLn1QZRI931bxo7TpzJ0",
+      "category": {
+        "tag": "consultancy-jobs",
+        "label": "Beraterstellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "Gestalte mit uns die Zukunft der Arbeit – Schritt für Schritt. Bei Austrotherm entsteht Innovation durch Neugier und gemeinsames Ausprobieren. Künstliche Intelligenz wird die Arbeitswelt nachhaltig verändern. Du unterstützt den sinnvollen und nachhaltigen Einsatz von KI im Unternehmen – praxisnah und mit Mehrwert. Gemeinsam im Team wirst DU  KI-Use-Cases gemeinsam mit den Fachabteilungen identifizieren, analysieren und bewerten Projekte und Produktentwicklungen mit generativer AI (Agentic Engin…",
+      "id": "5866570226",
+      "longitude": 16.0556,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-09-02T07:33:20Z",
+      "latitude": 47.873439,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Niederösterreich",
+          "Wiener Neustadt-Land",
+          "Waldegg"
+        ],
+        "display_name": "Waldegg, Wiener Neustadt-Land"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5866570226?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Austrotherm GmbH"
+      },
+      "salary_is_predicted": "0",
+      "title": "AI Business Consultant/Analyst (m/w/d) Digitalisierung & Innovation"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Austrotherm GmbH"
+      },
+      "title": "AI Business Consultant/Analyst (m/w/d) Digitalisierung & Innovation",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.at/details/5866570218?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ]
+      },
+      "created": "2026-09-02T07:33:20Z",
+      "id": "5866570218",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Gestalte mit uns die Zukunft der Arbeit – Schritt für Schritt. Bei Austrotherm entsteht Innovation durch Neugier und gemeinsames Ausprobieren. Künstliche Intelligenz wird die Arbeitswelt nachhaltig verändern. Du unterstützt den sinnvollen und nachhaltigen Einsatz von KI im Unternehmen – praxisnah und mit Mehrwert. Gemeinsam im Team wirst DU  KI-Use-Cases gemeinsam mit den Fachabteilungen identifizieren, analysieren und bewerten Projekte und Produktentwicklungen mit generativer AI (Agentic Engin…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "consultancy-jobs",
+        "label": "Beraterstellen"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2NjU3MDIxOCIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.fX7TrT9q7fV_wBEV2XFBjiwz99S-lTMcTMIB9Acuw4E"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.354031,
+      "created": "2026-02-20T22:31:02Z",
+      "latitude": 48.208144,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzODkwNDY3NyIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.to02VzIDh2cZWxIKHw4W_LpGt35Y0QU5dt4vzwQYe5g",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "Volksbank Wien",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_min": 43465,
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "id": "5638904677",
+      "description": "Für alle, die gemeinsam wachsen wollen. Es ist unser Ziel der modernste dezentrale Bankensektor Österreichs zu sein. Wir sind stark in der Region verankert und mit unserer genossenschaftlichen Idee unterstützen wir unsere Kundinnen/ Kunden ihre Ziele bzw. Wünsche zu erreichen . Wenn Du auf der Suche nach einem sinnstiftenden Job in der Bank-& Finanzwelt bist, Verantwortung übernehmen möchtest und Freude am Mitgestalten hast, dann sollten wir uns kennenlernen. Bewirb Dich noch heute! Gestalte De…",
+      "salary_max": 43465,
+      "redirect_url": "https://www.adzuna.at/details/5638904677?utm_medium=api&utm_source=5fbaef93",
+      "title": "Data Managerin/Manager Spezialisierung Metadatenmodellierung (w/m/d)",
+      "contract_time": "full_time"
+    },
+    {
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.at/details/5606824611?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 117000,
+      "title": "MLOps Engineer",
+      "description": "Für ein Enterprise-KI-Projekt wird ein erfahrener MLOps Engineer gesucht. Ziel ist der Aufbau und Betrieb regelkonformer, skalierbarer End-to-End Machine-Learning-Workflows von der Entwicklung bis zum produktiven Einsatz. Rahmenbedingungen Start: ASAP Laufzeit: Ende 2026, Verlängerung möglich Auslastung: 100 % Arbeitsmodell: Remote bevorzugt, gelegentliche Vor-Ort-Termine nach Absprache €400 - €450 a day Aufgaben Aufbau und Betrieb von End-to-End Data-Science- und ML-Workflows Implementierung v…",
+      "id": "5606824611",
+      "salary_min": 104000,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich"
+      },
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Qualysoft"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1NjA2ODI0NjExIn0.2Phu3x3f9fGaC4VtzBXeevmFqLgVXKN1dojMwBPoNfE",
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.354031,
+      "created": "2026-01-30T21:52:00Z",
+      "latitude": 48.208144
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Qualysoft"
+      },
+      "salary_is_predicted": "0",
+      "salary_min": 135200,
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "latitude": 48.208144,
+      "created": "2026-07-03T00:56:53Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.354031,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4NjA5ODkwNyIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.DXhQOoY8pvkIO1TFr6yInUNt-aQEagaUCvXxQ6Ylz8I",
+      "title": "AI Architect / AI Solution Architect (m/f/d)",
+      "redirect_url": "https://www.adzuna.at/details/5786098907?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 145600,
+      "contract_type": "contract",
+      "id": "5786098907",
+      "description": "For a challenging AI transformation project with a client in the telecommunications sector, we are looking for an experienced AI Architect / AI Solution Architect (m/f/d) in Vienna. The focus is not on classical IT architecture, but on the conception, evaluation and implementation of modern Artificial Intelligence and Generative AI architectures. We are looking for an experienced personality who can strategically assess AI technologies, develop scalable architectures and drive innovative AI sol…"
+    },
+    {
+      "category": {
+        "label": "Unknown",
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1Njc3NDEyNjA3In0.pY51vU55R37_WKu6rHPbC3Szle5cLizSDsJ23d-r8DU",
+      "latitude": 48.208144,
+      "created": "2026-03-24T22:47:42Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.354031,
+      "location": {
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_min": 38473,
+      "company": {
+        "display_name": "Volksbank Wien",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "description": "Für alle, die gemeinsam wachsen wollen. Es ist unser Ziel der modernste dezentrale Bankensektor Österreichs zu sein. Wir sind stark in der Region verankert und mit unserer genossenschaftlichen Idee unterstützen wir unsere Kundinnen/ Kunden ihre Ziele bzw. Wünsche zu erreichen . Wenn Du auf der Suche nach einem sinnstiftenden Job in der Bank-& Finanzwelt bist, Verantwortung übernehmen möchtest und Freude am Mitgestalten hast, dann sollten wir uns kennenlernen. Bewirb Dich noch heute! Gestalte De…",
+      "id": "5677412607",
+      "contract_time": "full_time",
+      "title": "Expertin/Experte Data Engineer (w/m/d)",
+      "redirect_url": "https://www.adzuna.at/details/5677412607?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 38473
+    },
+    {
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "Bei uns dreht sich alles um Wachstum. Ob für die Region , unsere Kund:innen oder im eigenen Arbeitsbereich – wir suchen Menschen, die ihre Stärken einbringen, Verantwortung für ihre Aufgaben übernehmen und gemeinsam mit dem Team etwas bewegen wollen. Wenn Du Freude an Zusammenarbeit hast, Dich fachlich wie persönlich weiterentwickeln möchtest und gerne aktiv mitgestaltest , dann sollten wir uns kennenlernen. Bewirb Dich noch heute! Gestalte Deine Zukunft - mit Deinen Kompetenzen Du analysierst …",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc2MTg1MTU1NSIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.S3b8TzYmXQxF9HB2555ey0auHTzSmN0dDC1x3Biw950",
+      "latitude": 48.197021,
+      "created": "2026-06-13T00:42:54Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.393873,
+      "id": "5761851555",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien",
+          "Landstraße"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Landstraße, Wien"
+      },
+      "salary_is_predicted": "0",
+      "title": "Data Managerin/Manager für Künstliche Intelligenz (w/m/d)",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Volksbank Wien"
+      },
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.at/details/5761851555?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "latitude": 48.208144,
+      "created": "2026-08-21T18:14:31Z",
+      "longitude": 16.354031,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5851331105",
+      "description": "Die Vienna Insurance Group ist die führende Versicherungsgruppe in Zentral- und Osteuropa (CEE). Mit rund 34.000 Mitarbeiter:innen in mehr als 50 Versicherungsgesellschaften und Pensionskassen in 30 Ländern arbeiten wir täglich für rund 33 Millionen Kund:innen. Dies mit Erfolg, daher hat die VIG Gruppe ein „A“-Rating mit positivem Ausblick. Engagement, Kompetenz und Serviceorientierung zeichnen uns einerseits aus, ein buntes Team mit verschiedenen Talenten und spannenden Arbeitsbereichen in ein…",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1MTMzMTEwNSIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.SJev7q4zTFS5WefEqn6ENKpaoECqc8W7_RCgpToisfg",
+      "salary_is_predicted": "0",
+      "title": "Data Engineer (all genders) - Configuration Focus",
+      "company": {
+        "display_name": "VIENNA INSURANCE GROUP",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5851331105?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      }
+    },
+    {
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz"
+        ],
+        "display_name": "Graz, Steiermark"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5814941391?utm_medium=api&utm_source=5fbaef93",
+      "salary_is_predicted": "0",
+      "title": "Professur für Data Analysis 2",
+      "company": {
+        "display_name": "Universität Graz",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgxNDk0MTM5MSIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.lemUXQxRwG5dGIEvsTjAl_ojiE-yi45EM9lIfuO3-NA",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Stellen für Hochschulabsolventen",
+        "tag": "graduate-jobs"
+      },
+      "description": "IDea_Lab - Das interdisziplinäre digitale Labor der Universität Graz Professur für Data Analysis 2 Veröffentlichung: 15.07.2026 Stellenprofil: § 98 UG Stellenart: Professur Brutto Jahresgehalt: €93986.20 Wochenstunden: 40 h/W Bewerbungsfrist: 09.09.2026 Verwendungsgruppe: A1 Dienstbeginn: 01.10.2027 Anstellungsverhältnis: Unbefristet Stellenbeschreibung Die Professur beschäftigt sich mit den Grundlagen und der Anwendung von natürlicher Sprachverarbeitung (Natural Language Processing, NLP) im in…",
+      "longitude": 15.439358,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5814941391",
+      "created": "2026-07-25T07:01:18Z",
+      "latitude": 47.070503
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1MDkyMzQ4NyIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.2pxfM3ekb-wPUR1QmFWwSg2FGtz9Db6R63htZgtrTLc",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.369061,
+      "created": "2026-08-21T12:39:55Z",
+      "latitude": 48.193045,
+      "location": {
+        "display_name": "Wieden, Wien",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Wieden"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_min": 43000,
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Tito & Friends Dienstleistungs GmbH"
+      },
+      "description": "Über die Stelle und unser Unternehmen Datenanalyse & Visualisierung in der Marktforschung Festanstellung, 30-38,5 Stunden pro Woche – Standort Wien oder Remote (basierend in Österreich) Werde Teil unseres Teams bei Talk Online Panel Sprachen : Fließend Deutsch Erfahrung : Erste Berufserfahrung von Vorteil, aber kein Muss Ausbildung : Studium im Bereich Forschung, Statistik, Sozialwissenschaften o. Ä. Anstellung : Unbefristete Festanstellung (ab 30 Wochenstunden bis Vollzeit, 38,5h möglich) Über…",
+      "id": "5850923487",
+      "redirect_url": "https://www.adzuna.at/details/5850923487?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 48000,
+      "title": "Projektmanager Datenanalyse & Dashboards",
+      "contract_time": "part_time"
+    },
+    {
+      "location": {
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Innsbruck"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Innsbruck, Tirol"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5841382390?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "MED-EL Medical Electronics",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Engineer, IT (m/w/d)",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MTM4MjM5MCIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.hAuv4EzDSm_J0OtZWpBlxCYUD6QN3AdCk5tmywdwX0s",
+      "description": "IT_12608 Data Engineer, IT (m/w/d) Information Technology Innsbruck, Österreich FachkräfteVollzeit 38,5 hUnbefristet Bewerben Als IT Abteilung ermöglichen wir digitale Prozesse und stellen zuverlässige IT-Services im gesamten Unternehmen bereit. Unser Data & Analytics Team arbeitet eng mit den Fachbereichen zusammen, um Data-Warehouse-, Datenplattform- und Business-Intelligence-Lösungen zu entwickeln, zu betreuen, zu warten und zu steuern. Damit schaffen wir die Grundlage für fundierte und date…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "id": "5841382390",
+      "longitude": 11.40202,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "latitude": 47.264585,
+      "created": "2026-08-14T07:33:47Z"
+    },
+    {
+      "id": "5867204810",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-09-02T17:35:59Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1ODY3MjA0ODEwIn0.eZy7dBdHaWdPLACJJ4Nx2rRa_KAn0Fgv8sDLfo4F_XI",
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "QuantCo is offering up to ten AI Builder Grants to exceptional Bachelor’s and Master’s students enrolled at universities in Austria, Germany, and Switzerland . Grant recipients will receive a Max 5x subscription for Claude over five months, valued at over $500 per person to power their own AI projects, explore emerging tools, and gain exposure to state-of-the-art developments in artificial intelligence. At QuantCo, our global teams of quants, AI and software engineers collaborate heavily with s…",
+      "redirect_url": "https://www.adzuna.at/details/5867204810?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "QuantCo",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "QuantCo AI Builder Grant",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Österreich"
+      }
+    },
+    {
+      "title": "Data Engineer - Focus Apache Flink (m/f/x)",
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "ADMIRAL Technologies"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5851331127?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "created": "2026-08-21T18:14:31Z",
+      "latitude": 48.208144,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.354031,
+      "id": "5851331127",
+      "description": "We develop & operate entertainment software. As the technology arm of the ADMIRAL Group, we are passionate about creating an innovative product experience for our customers and becoming one of the leading technology providers in the sports betting sector, both nationally and internationally. Working at ADMIRAL Technologies means being part of an internationally successful group and still experiencing the flexibility and spirit of a start-up. Develop yourself and with us the software solutions o…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT-Stellen"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1MTMzMTEyNyIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.sUf2mNHza8WhXQA3lMKD0wgm8jf3vmBh_f-MYzJBSeA"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzODQwMDQ4MCIsInMiOiJWc3lzMzkybjhSR3hXcDRBNDZHM1FBIn0.AIGahCxQD3wqvJVHP3syshygA6bW1lRIttu99UQ0TG4",
+      "category": {
+        "label": "Beraterstellen",
+        "tag": "consultancy-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "longitude": 16.298167,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-12T16:46:51Z",
+      "latitude": 48.137322,
+      "salary_min": 46800,
+      "location": {
+        "display_name": "Liesing, Wien",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Liesing"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "NAVAX"
+      },
+      "salary_is_predicted": "0",
+      "description": "Dein Beitrag zur Lösung Moderne AI-Lösungen gemeinsam mit Kund:innen von der Idee bis zur produktiven Umsetzung entwickeln. AI-Potenziale in Geschäftsprozessen erkennen, Use Cases ableiten und realistische Roadmaps entwickeln. Workshops, Discovery Sessions und Beratungstermine moderieren und technische Möglichkeiten verständlich übersetzen. Lösungen rund um Generative AI, Copilot, AI Agents, Automatisierung und datengetriebene Anwendungen konzipieren und begleiten. Presales und Sales bei Angebo…",
+      "id": "5838400480",
+      "salary_max": 46800,
+      "redirect_url": "https://www.adzuna.at/details/5838400480?utm_medium=api&utm_source=5fbaef93",
+      "contract_time": "full_time",
+      "title": "AI Consultant (m/w/d)"
+    },
+    {
+      "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Supply Chain Analyst based in Austria. This role offers an exciting opportunity for an early-career analyst to apply data and technology to real-world supply chain challenges. You will analyze complex datasets to uncover trends, risks, and opportunities that can improve operational performance. Working across Supply Chain, Finance, Procurement, R&D, engineering, and …",
+      "category": {
+        "label": "Stellen aus Logistik & Lagerhaltung",
+        "tag": "logistics-warehouse-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1ODY5MDczODcwIn0.uNmM04OeozIatonf_y2DNUIC1XGGHU6NWB08xEe4GWo",
+      "created": "2026-09-03T17:21:23Z",
+      "id": "5869073870",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ],
+        "display_name": "Österreich"
+      },
+      "salary_min": 288000,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Jobgether"
+      },
+      "contract_time": "full_time",
+      "title": "Supply chain Analyst",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.at/details/5869073870?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 288000
+    },
+    {
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ],
+        "display_name": "Österreich"
+      },
+      "salary_is_predicted": "0",
+      "title": "Freelance Agent Evaluation Engineer",
+      "company": {
+        "display_name": "Mindrift",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "part_time",
+      "redirect_url": "https://www.adzuna.at/details/5867152034?utm_medium=api&utm_source=5fbaef93",
+      "description": "Please submit your CV in English and indicate your level of English proficiency. Mindrift connects specialists with project-based AI opportunities for leading tech companies, focused on testing, evaluating, and improving AI systems. Participation is project-based, not permanent employment. We're building a dataset to evaluate AI coding agents - how well a model handles real-world developer tasks. You'll create challenging tasks and evaluation criteria within realistic simulated environments: Bu…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Sonstige/Allgemeine Stellen",
+        "tag": "other-general-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1ODY3MTUyMDM0In0.My__ahxNooRrX1vEdSAmoDcv9rv_1Pg05M_Mz1u8cdk",
+      "created": "2026-09-02T15:56:45Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5867152034"
+    },
+    {
+      "latitude": 48.208144,
+      "created": "2026-09-02T10:26:01Z",
+      "longitude": 16.354031,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5866723502",
+      "category": {
+        "tag": "engineering-jobs",
+        "label": "Technikerstellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "Job Description ABOUT US: Reporting to the Head of Quants you will be working closely with your colleagues in Quants but also various product owners, developers and traders company wide. Our department is responsible for creating predictive models for both pre-match and in-play betting markets in various sports. This typically requires cleaning up, visualizing, analyzing and interpreting relevant data, as well as implementing the created models in Java and testing them. Publishing and maintaini…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1ODY2NzIzNTAyIn0.wDbCNlDMBAh0BkGhdviDmJoB3Pf1H-6jNorpFU4xIRU",
+      "title": "Data Scientist (m/f/d)",
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Sportradar"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5866723502?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich"
+      }
+    },
+    {
+      "id": "5827916754",
+      "description": "WER AN MORGEN DENKT, MUSS HEUTE HANDELN Du willst nicht nur über die Energiewende reden, sondern sie aktiv mitgestalten? Dann bist du bei ImWind genau richtig! Als einer der größten Erzeuger erneuerbarer Energien in Österreich treiben wir den Ausbau von Windkraft und Photovoltaik-Energie seit vielen Jahren voran. Aufgrund unseres starken Wachstums und des Zusammenschlusses mit Wien Energie erweitern wir unser Team der technischen Betriebsführung am Standort Wien. Wir sind ein ambitioniertes Tea…",
+      "title": "Data & Monitoring Engineer*in (m/w/d)",
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.at/details/5827916754?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 46800,
+      "created": "2026-08-04T16:45:37Z",
+      "latitude": 48.194856,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.350023,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1ODI3OTE2NzU0In0.zItPCieG2_1v_9bYgNuiPtU_dHvJRxOV2T_T9UjMxM8",
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "ImWind",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Mariahilf"
+        ],
+        "display_name": "Mariahilf, Wien"
+      },
+      "salary_min": 46800
+    },
+    {
+      "salary_min": 45000,
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Österreich"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5797411936?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 45000,
+      "salary_is_predicted": "0",
+      "title": "Junior Finance Automation Specialist (m/w/d) 20H",
+      "contract_time": "part_time",
+      "company": {
+        "display_name": "Europ Assistance Österreich",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVnN5czM5Mm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1Nzk3NDExOTM2In0.aQBcycML9tErnFYvQsKtRnymc3rPnC27gOh_I2cofto",
+      "description": "Das erwartet Dich bei uns You Live – We Care Gestalte mit uns die digitale Zukunft von Finance & Accounting! Du möchtest dein Studium mit spannender Praxiserfahrung verbinden und interessierst dich für Automatisierung, künstliche Intelligenz und digitale Geschäftsprozesse? Dann bist du bei uns genau richtig. In dieser Rolle arbeitest du an der Schnittstelle von Finance, IT und Digitalisierung. Gemeinsam mit erfahrenen Kolleg:innen analysierst du bestehende Prozesse, identifizierst Automatisieru…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Stellen aus Buchhaltung & Finanzwesen",
+        "tag": "accounting-finance-jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5797411936",
+      "created": "2026-07-12T01:09:01Z"
+    }
+  ]
+}

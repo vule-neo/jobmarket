@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "redirect_url": "https://www.adzuna.at/details/5836823553?utm_medium=api&utm_source=5fbaef93",
+      "title": "Full Stack Developer - Java & React (f/m/d)",
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "ecosio"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ],
+        "display_name": "Österreich"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5836823553",
+      "created": "2026-08-11T16:47:46Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiWEE3MUE5Nm44Ukd4V3A0QTQ2RzNRQSIsImkiOiI1ODM2ODIzNTUzIn0.4wXvGmJuW23N5acVnKqpNuzyKmMmAMcQggJOCU11pvM",
+      "description": "Company Description ecosio is a fast-growing, innovative service company and a leading provider of B2B integration, specialising in electronic data interchange (EDI), Web EDI and e-invoicing. ecosio is part of Vertex, Inc., a leading global provider of indirect tax solutions listed on Nasdaq (VERX). Our brand slogan is Connections That Work as we believe strong connections are central to successful business relationships - both external and internal. At ecosio, we hire individuals from all back…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      }
+    }
+  ],
+  "count": 1,
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults"
+}

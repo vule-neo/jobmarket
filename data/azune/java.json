@@ -1,0 +1,1500 @@
+{
+  "results": [
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "IBM"
+      },
+      "created": "2026-08-06T12:37:40Z",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and crea…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "Java Developer mit Kafka (f/m/x)",
+      "salary_is_predicted": "0",
+      "longitude": 16.354031,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODMwMzIxNjMyIn0.AYLF4N_if09YLnJu1ocw1kcUMDe7TLscoVngJ48EVew",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "redirect_url": "https://www.adzuna.at/land/ad/5830321632?se=eAqW9d2n8RGAquma5vUeHg&utm_medium=api&utm_source=5fbaef93&v=F25D54088862004DDFA308F9690259557259A23B",
+      "latitude": 48.208144,
+      "id": "5830321632"
+    },
+    {
+      "salary_min": 81120,
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "longitude": 16.354031,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NTQ0NDcwOSIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.yaZtSyVg_0EpSnv7c1R-URz-8dAX58jp0UXo-IccSpI",
+      "title": "Angular / Java Entwickler*in",
+      "redirect_url": "https://www.adzuna.at/details/5855444709?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.208144,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "description": "IT I Wien I Hybrid I 39 Stunden I Ab 01.11.2026 Unsere Software Entwicklung umfasst viele unterschiedliche Software Produkte für unsere interne Nutzung sowie für unsere Kund*innen. Dazu gehören beispielsweise unsere Web Applikationen, Apps, große Datenbankensysteme für die Stammdatenerfassung, Berechnungen, Geospatialdaten und vieles mehr. Für die Entwicklung mit Angular / Java suchen wir nun Unterstützung. Wenn du dich sowie unsere Produkte gerne voranbringen möchtest, dann freuen wir uns auf …",
+      "salary_is_predicted": "0",
+      "id": "5855444709",
+      "contract_time": "full_time",
+      "salary_max": 81120,
+      "company": {
+        "display_name": "Agrarmarkt Austria",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-08-25T16:51:50Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Description Location: Vienna, Austria Working hours: Full-time With our unified SaaS platform deltaconX, we simplify regulatory compliance, to streamline transaction reporting processes. Since the market launch in 2013, we have been committed to helping businesses meet evolving regulatory demands efficiently. Our platform is the one stop shop for our clients to be compliant with key regulations like EMIR, MiFIR, SFTR, REMIT, MAS, HKMA and many more. As we continue to grow through our Go-Global …",
+      "company": {
+        "display_name": "deltaconX",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-05-27T00:27:08Z",
+      "contract_time": "full_time",
+      "id": "5741688838",
+      "location": {
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ]
+      },
+      "redirect_url": "https://www.adzuna.at/details/5741688838?utm_medium=api&utm_source=5fbaef93",
+      "title": "Java Kotlin Developer",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc0MTY4ODgzOCIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.pU5GOrZM1w-0saPGBLq71xm6gj9uGmtl6abf5mQaJd0",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      }
+    },
+    {
+      "description": "Location: Vienna (1–2 days on-site per week during onboarding, then 2-4 day per month; otherwise fully remote) Start: ASAP | Duration: 12 months (extension possible) | Workload: 100% Language: English (must-have)  German (nice to have) We are seeking an experienced Java Full Stack Developer with a strong focus on backend development to join our agile team. Your role will involve designing and developing APIs, implementing microservice-based architectures, integrating with databases, and contrib…",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5524618387?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.208144,
+      "salary_min": 91000,
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen"
+      },
+      "title": "Java Full Stack Developer",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1NTI0NjE4Mzg3In0.2eQewEDLklAbCyNEFPsUnDGl6u5XIWSe7miCg4Ok2RI",
+      "longitude": 16.354031,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_type": "contract",
+      "company": {
+        "display_name": "Qualysoft",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2025-12-02T19:54:01Z",
+      "salary_max": 104000,
+      "id": "5524618387",
+      "salary_is_predicted": "0"
+    },
+    {
+      "salary_is_predicted": "0",
+      "title": "Java Backend Developer (m/w)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI0ODAwNTc0MTQ1In0.2FX17fATqjFRY_xdb0RHARCzY3Y3e49dog0ftVTB_2A",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "4800574145",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "redirect_url": "https://www.adzuna.at/details/4800574145?utm_medium=api&utm_source=5fbaef93",
+      "created": "2024-07-30T15:22:31Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "kWallet"
+      },
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Stellenbeschreibung Du möchtest gemeinsam mit uns die Zukunft des mobilen Bezahlens mitgestalten? Bei kWallet wirst du: für den Ausbau und die Weiterentwicklung unseres Backends verantwortlich sein, welches unsere iOS- und Android-Apps koordiniert eng mit unserem iOS- und Android-Team zusammenarbeiten von der Konzeption über die Umsetzung bis zum Deployment involviert sein von Anfang an dabei sein und das Produkt wegweisend beeinflussen können Erforderliche Kenntnisse und Qualifikationen Fundie…"
+    },
+    {
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "redirect_url": "https://www.adzuna.at/details/5862258330?utm_medium=api&utm_source=5fbaef93",
+      "id": "5862258330",
+      "category": {
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "salary_is_predicted": "0",
+      "title": "Software Engineer, Java (Margin Trading)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODYyMjU4MzMwIn0.i6AvzgswuTJO87bHiZYqFlI46bYPxSNGLZwETYi9m3c",
+      "description": "Who we are We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works acro…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-30T16:54:01Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Bitpanda"
+      }
+    },
+    {
+      "description": "Who we are We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works acro…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-21T16:50:25Z",
+      "company": {
+        "display_name": "Bitpanda",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "redirect_url": "https://www.adzuna.at/details/5851112867?utm_medium=api&utm_source=5fbaef93",
+      "id": "5851112867",
+      "category": {
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "title": "Software Engineer, Java (Asset Systems)",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODUxMTEyODY3In0.18GcXB2nmtef5YdjnQug9s92MA9G7lK7c-q4Zdh2w_c"
+    },
+    {
+      "id": "5802284607",
+      "redirect_url": "https://www.adzuna.at/details/5802284607?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Österreich"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODAyMjg0NjA3In0.Wn4aTSyBbEgUiGmAGJv9HU1mQ9XK-syOdLb9i8i9lJE",
+      "salary_is_predicted": "0",
+      "title": "Software Engineer Java (m/w/d)",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Aufgrund unseres stetigen Wachstums im Bereich Forschung & Entwicklung am Standort Linz oder Wien bieten wir ab sofort eine Stelle als Software Engineer Java (m/w/d) Ihre Aufgaben bei uns Entwicklung robuster Backend-Komponenten sowie zukunftssicherer APIs auf Basis von Java Konzeption und Umsetzung modularer Softwarearchitekturen mit OSGi sowie Sicherstellung wartbarer und erweiterbarer Softwarelösungen Design, Implementierung und Optimierung relationaler Datenbankstrukturen unter Einsatz von …",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Sprecher Automation GmbH"
+      },
+      "created": "2026-07-16T06:57:52Z"
+    },
+    {
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "longitude": 16.354031,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODUzNzY3OTg1In0.oYtUKi7XJm-fu42dxfw3-KU6Mv9Fu7o-s2aoAXvs-_c",
+      "title": "Java/Angular Developer (w/m/d)",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.at/details/5853767985?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.208144,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "id": "5853767985",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "ACTIVE SOLUTION GmbH"
+      },
+      "created": "2026-08-23T18:15:10Z",
+      "description": "Hi, wir sind Active Solution! Als erfolgreiche Spezialisten in den Bereichen IT und Engineering entwickeln wir hochwertige Lösungen für Kunden aus den unterschiedlichsten Branchen in Österreich. Unser Team aus über 240 Kolleg*innen arbeitet vor Ort und remote, mit den neuesten Technologien, in freundschaftlicher Atmosphäre und mit flachen Hierarchien. Wenn Du gerne deine Karriere mit Leidenschaft und Eigenverantwortung voranbringen und unser spannendes Benefit-System kennenlernen möchtest - dan…",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "latitude": 48.208144,
+      "redirect_url": "https://www.adzuna.at/details/5833708928?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "id": "5833708928",
+      "category": {
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzMzcwODkyOCIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.4PuCSD5IgM05LRaJo6eDfa9LOtxmx7aMcEnZ0DZ4waw",
+      "longitude": 16.354031,
+      "title": "Junior Java Developer (m/w/d)",
+      "salary_is_predicted": "0",
+      "description": "Du brennst für innovative Technologien und moderne Software? Als Developerin oder Developer bei Senacor schreibst du nicht nur Code – du entwickelst und integrierst geschäftskritische Anwendungen, löst komplexe technische Herausforderungen und arbeitest mit einem modernen Tech-Stack. Was uns auszeichnet? Unsere hands-on mentality! Bei Senacor zählen Coaching auf Augenhöhe, echter Teamgeist und flexible Zusammenarbeit. In interdisziplinären Teams übernimmst du früh Verantwortung – vom Konzept üb…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Senacor Technologies AG"
+      },
+      "created": "2026-08-08T18:14:47Z"
+    },
+    {
+      "company": {
+        "display_name": "Senacor Technologies AG",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-08-09T03:34:35Z",
+      "description": "Du brennst für innovative Technologien und moderne Software? Als Developerin oder Developer bei Senacor schreibst du nicht nur Code – du entwickelst und integrierst geschäftskritische Anwendungen, löst komplexe technische Herausforderungen und arbeitest mit einem modernen Tech-Stack. Was uns auszeichnet? Unsere hands-on mentality! Bei Senacor zählen Coaching auf Augenhöhe, echter Teamgeist und flexible Zusammenarbeit. In interdisziplinären Teams übernimmst du früh Verantwortung – vom Konzept üb…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "title": "Junior Java Developer (m/w/d)",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODM0MTk4NDk0In0.VSGX-gLk9kKEh67cYL4bDdU0PZhuw2XoxnCVcjYf7pU",
+      "longitude": 16.370243,
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien",
+          "Innere Stadt"
+        ],
+        "display_name": "Innere Stadt, Wien",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "latitude": 48.208604,
+      "redirect_url": "https://www.adzuna.at/details/5834198494?utm_medium=api&utm_source=5fbaef93",
+      "id": "5834198494"
+    },
+    {
+      "company": {
+        "display_name": "Lübbers SLP",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-04-05T23:46:39Z",
+      "contract_time": "full_time",
+      "description": "Lübbers SLP sucht einen erfahrenen FRONTEND DEVELOPER (Angular/Java) (m/w/d) für unser Team in Hennersdorf bei Wien, Österreich. In dieser Rolle werden Sie an spannenden Projekten in der Informationstechnologie und Dienstleistungsbranche arbeiten und innovative Lösungen entwickeln. Entwicklung und Wartung von Frontend-Anwendungen mit Angular und Java Zusammenarbeit mit Backend-Entwicklern zur Integration von APIs Erstellung von benutzerfreundlichen und responsiven Webanwendungen Durchführung vo…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "title": "FRONTEND DEVELOPER (Angular/Java) (m/w/d)",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY5MDg3NDAyMiIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.Ooh7lWUxZXg6p12Rb0OMM9PhNSTBDdMfK29seQ3xmFY",
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Österreich"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5690874022?utm_medium=api&utm_source=5fbaef93",
+      "id": "5690874022"
+    },
+    {
+      "description": "Du möchtest in einem kompakten, eingespielten Team an modernen Softwarelösungen arbeiten – mit Gestaltungsspielraum, kurzen Entscheidungswegen und Freude an Entwicklung? Unser Kunde erweitert sein Team - die perfekte Chance für dich. Mitarbeit bei der Konzeption, Entwicklung und Pflege von Java-basierten Backend-Lösungen Implementierung und Testen von Features in einem agilen Umfeld Schreiben von sauberem, wartbarem Code unter Anleitung erfahrener Kolleg:innen Mitwirkung bei Code-Reviews und ak…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "display_name": "talentbird GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-09-01T18:20:44Z",
+      "latitude": 48.208144,
+      "redirect_url": "https://www.adzuna.at/details/5865049126?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "id": "5865049126",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen"
+      },
+      "longitude": 16.354031,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODY1MDQ5MTI2In0.BEOXYKZ5xzYhkRpOdLIShYM2Gxh-HsQcd6EOHRGrVDg",
+      "salary_is_predicted": "0",
+      "title": "Junior Java Software Developer (w/m/d)"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Qualysoft"
+      },
+      "created": "2025-08-20T12:57:29Z",
+      "salary_max": 104000,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_type": "contract",
+      "salary_is_predicted": "0",
+      "id": "5360016741",
+      "description": "We are seeking an experienced Java Full Stack Developer with a strong focus on backend development to join our agile team. You will be responsible for building and maintaining enterprise-grade services and automating business processes using BPMN (ideally with Camunda BPM). Your role will involve designing and developing APIs, implementing microservice-based architectures, and integrating with databases, all while collaborating closely with cross-functional teams in an agile environment. Experi…",
+      "title": "Java Full Stack Developer (f/m/d)",
+      "longitude": 16.354031,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1MzYwMDE2NzQxIn0.p-Hbq7tpyVA9UFj5H0amF-d7_iAPqKfOvmn1ZqjacP8",
+      "salary_min": 98800,
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen"
+      },
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "latitude": 48.208144,
+      "redirect_url": "https://www.adzuna.at/details/5360016741?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "contract_type": "permanent",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Full Stack Java Developer (m/w/d) 38,5 Stunden pro Woche • unbefristet • Frühester Beginn ab sofort Für unseren Kunden, einen führenden IT-Dienstleister im Bankenumfeld im Raum Linz, suchen wir ab sofort eine:n erfahrene:n Full Stack Developer (w/m/d) zur Verstärkung des „Internal Platforms\"-Teams. Du wirst Teil eines agilen Entwicklerteams, das innovative Lösungen für Vertriebsprozesse in der Finanzindustrie gestaltet – technisch anspruchsvoll und mit echtem Impact. Deine Aufgaben Entwicklung …",
+      "contract_time": "full_time",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "iTEC Informationssysteme AG"
+      },
+      "created": "2026-08-27T04:54:51Z",
+      "id": "5857812890",
+      "latitude": 48.290256,
+      "redirect_url": "https://www.adzuna.at/details/5857812890?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich",
+          "Oberösterreich",
+          "Linz"
+        ],
+        "display_name": "Linz, Oberösterreich",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "longitude": 14.293495,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODU3ODEyODkwIn0.BpsfGpSrZZjtrbtwbCh-TaDOBc6R8bhk1gHPrMJe8DE",
+      "salary_is_predicted": "0",
+      "title": "Full Stack Java Developer (m/w/d)",
+      "category": {
+        "tag": "accounting-finance-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Stellen aus Buchhaltung & Finanzwesen"
+      }
+    },
+    {
+      "id": "5857931793",
+      "redirect_url": "https://www.adzuna.at/details/5857931793?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.208144,
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "longitude": 16.354031,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NzkzMTc5MyIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.Q4UfA9ZHgHlYDWwaUQAS7qqV6mhWXIqP6IgB-p8y6Ok",
+      "title": "Professional Java Fullstack Developer (w/m/d)",
+      "salary_is_predicted": "0",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Wir sind das Kompetenzzentrum für Digitalisierung des Public Sectors in Österreich – und damit Teil der kritischen Infrastruktur. Ob ID Austria, FinanzOnline, Unternehmensserviceportal oder digitaler Führerschein am Smartphone: Im BRZ entwickelte Anwendungen und Services vereinfachen Millionen Menschen den Alltag, indem sie Behördenwege mit wenigen Klicks ermöglichen. Im BRZ zu arbeiten heißt, mit dem eigenen Job den österreichischen Public Sector aktiv mitzugestalten. Es bedeutet, modernste Te…",
+      "created": "2026-08-27T07:43:24Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Bundesrechenzentrum GmbH"
+      }
+    },
+    {
+      "company": {
+        "display_name": "STRABAG BRVZ GMBH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-08-29T07:44:38Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Bei STRABAG bauen rund 89.000 Menschen an mehr als 2.400 Standorten weltweit am Fortschritt. Einzigartigkeit und individuelle Stärken kennzeichnen dabei nicht nur unsere Projekte, sondern auch jede:n Einzelne:n von uns. Ob im Hoch- und Ingenieurbau, Straßen- und Tiefbau, Brücken- und Tunnelbau, in der Baustoffproduktion, Projektentwicklung oder im Gebäudemanagement – wir denken Bauen weiter, um der innovativste und nachhaltigste Bautechnologiekonzern Europas zu werden. Chancengleichheit, Vielfa…",
+      "salary_is_predicted": "0",
+      "title": "Fullstack-Entwickler:in mit Java Backend und Vue/Nuxt Frontend",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MDc3NzI2OCIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.agFLxNkFd-Pz52v-AvPUKRe0PlohB8XK7OAQSU2TtHM",
+      "longitude": 13.861359,
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5860777268",
+      "location": {
+        "display_name": "Villach, Kärnten",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Kärnten",
+          "Villach"
+        ]
+      },
+      "redirect_url": "https://www.adzuna.at/details/5860777268?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 46.612878
+    },
+    {
+      "created": "2026-08-29T07:44:38Z",
+      "company": {
+        "display_name": "STRABAG BRVZ GMBH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "description": "Bei STRABAG bauen rund 89.000 Menschen an mehr als 2.400 Standorten weltweit am Fortschritt. Einzigartigkeit und individuelle Stärken kennzeichnen dabei nicht nur unsere Projekte, sondern auch jede:n Einzelne:n von uns. Ob im Hoch- und Ingenieurbau, Straßen- und Tiefbau, Brücken- und Tunnelbau, in der Baustoffproduktion, Projektentwicklung oder im Gebäudemanagement – wir denken Bauen weiter, um der innovativste und nachhaltigste Bautechnologiekonzern Europas zu werden. Chancengleichheit, Vielfa…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "salary_is_predicted": "0",
+      "title": "Fullstack-Entwickler:in mit Java Backend und Vue/Nuxt Frontend",
+      "longitude": 13.554641,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MDc3NzMwMyIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.WbB6iGfSA6fBjsC2CkvO0EcJqtgRCgTjw9K3NkPm3A0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Spittal an der Drau",
+        "area": [
+          "Österreich",
+          "Kärnten",
+          "Spittal an der Drau",
+          "Spittal an der Drau"
+        ]
+      },
+      "latitude": 46.774484,
+      "redirect_url": "https://www.adzuna.at/details/5860777303?utm_medium=api&utm_source=5fbaef93",
+      "id": "5860777303"
+    },
+    {
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "longitude": 14.293495,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MDc3NzI4MiIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.ibjKZW9jJAUFmIfcjSy0gs3_1eglggK6-cOnNc1E2UY",
+      "title": "Fullstack-Entwickler:in mit Java Backend und Vue/Nuxt Frontend",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.at/details/5860777282?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.290256,
+      "location": {
+        "area": [
+          "Österreich",
+          "Oberösterreich",
+          "Linz"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Linz, Oberösterreich"
+      },
+      "id": "5860777282",
+      "company": {
+        "display_name": "STRABAG BRVZ GMBH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-08-29T07:44:38Z",
+      "description": "Bei STRABAG bauen rund 89.000 Menschen an mehr als 2.400 Standorten weltweit am Fortschritt. Einzigartigkeit und individuelle Stärken kennzeichnen dabei nicht nur unsere Projekte, sondern auch jede:n Einzelne:n von uns. Ob im Hoch- und Ingenieurbau, Straßen- und Tiefbau, Brücken- und Tunnelbau, in der Baustoffproduktion, Projektentwicklung oder im Gebäudemanagement – wir denken Bauen weiter, um der innovativste und nachhaltigste Bautechnologiekonzern Europas zu werden. Chancengleichheit, Vielfa…",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "company": {
+        "display_name": "STRABAG BRVZ GMBH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-08-29T07:44:39Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Bei STRABAG bauen rund 89.000 Menschen an mehr als 2.400 Standorten weltweit am Fortschritt. Einzigartigkeit und individuelle Stärken kennzeichnen dabei nicht nur unsere Projekte, sondern auch jede:n Einzelne:n von uns. Ob im Hoch- und Ingenieurbau, Straßen- und Tiefbau, Brücken- und Tunnelbau, in der Baustoffproduktion, Projektentwicklung oder im Gebäudemanagement – wir denken Bauen weiter, um der innovativste und nachhaltigste Bautechnologiekonzern Europas zu werden. Chancengleichheit, Vielfa…",
+      "title": "Fullstack-Entwickler:in mit Java Backend und Vue/Nuxt Frontend",
+      "salary_is_predicted": "0",
+      "longitude": 16.354031,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODYwNzc3MzU2In0.dc5hhAb5_LSsV8nrm0hCK0_Yk8tP4uKDD0Qo2Kj1QrE",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5860777356",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "latitude": 48.208144,
+      "redirect_url": "https://www.adzuna.at/details/5860777356?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Bei STRABAG bauen rund 89.000 Menschen an mehr als 2.400 Standorten weltweit am Fortschritt. Einzigartigkeit und individuelle Stärken kennzeichnen dabei nicht nur unsere Projekte, sondern auch jede:n Einzelne:n von uns. Ob im Hoch- und Ingenieurbau, Straßen- und Tiefbau, Brücken- und Tunnelbau, in der Baustoffproduktion, Projektentwicklung oder im Gebäudemanagement – wir denken Bauen weiter, um der innovativste und nachhaltigste Bautechnologiekonzern Europas zu werden. Chancengleichheit, Vielfa…",
+      "company": {
+        "display_name": "STRABAG BRVZ GMBH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-08-29T07:44:38Z",
+      "id": "5860777279",
+      "redirect_url": "https://www.adzuna.at/details/5860777279?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ]
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODYwNzc3Mjc5In0.AIw8C3c8eC8sqoJB8ci-llr0EqTS15-R2usO5Jlkoqs",
+      "salary_is_predicted": "0",
+      "title": "Fullstack-Entwickler:in mit Java Backend und Vue/Nuxt Frontend",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      }
+    },
+    {
+      "company": {
+        "display_name": "talentbird GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-09-01T16:00:16Z",
+      "description": "Du möchtest in einem kompakten, eingespielten Team an modernen Softwarelösungen arbeiten – mit Gestaltungsspielraum, kurzen Entscheidungswegen und Freude an Entwicklung? Unser Kunde erweitert sein Team - die perfekte Chance für dich.",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODY0NjI1MDg2In0.egwv9PN-i9vumT7OTofO8yiDtDsTeGi1QDIoLZf7Hng",
+      "longitude": 16.370243,
+      "salary_is_predicted": "0",
+      "title": "Junior Java Software Developer (w/m/d)",
+      "redirect_url": "https://www.adzuna.at/details/5864625086?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.208604,
+      "location": {
+        "display_name": "Innere Stadt, Wien",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Innere Stadt"
+        ]
+      },
+      "id": "5864625086"
+    },
+    {
+      "description": "Wir sind das Kompetenzzentrum für Digitalisierung des Public Sectors in Österreich – und damit Teil der kritischen Infrastruktur. Ob ID Austria, FinanzOnline, Unternehmensserviceportal oder digitaler Führerschein am Smartphone: Im BRZ entwickelte Anwendungen und Services vereinfachen Millionen Menschen den Alltag, indem sie Behördenwege mit wenigen Klicks ermöglichen. Im BRZ zu arbeiten heißt, mit dem eigenen Job den österreichischen Public Sector aktiv mitzugestalten. Es bedeutet, modernste Te…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-27T03:59:08Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Bundesrechenzentrum GmbH"
+      },
+      "latitude": 48.208604,
+      "redirect_url": "https://www.adzuna.at/details/5857717836?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien",
+          "Innere Stadt"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Innere Stadt, Wien"
+      },
+      "id": "5857717836",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen"
+      },
+      "longitude": 16.370243,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NzcxNzgzNiIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.mHAejQ2JieBQF5aZNE8AG_pDiHWYr4n4T03tbqVFuZI",
+      "title": "Professional Java Fullstack Developer (w/m/d)",
+      "salary_is_predicted": "0"
+    },
+    {
+      "description": "Willkommen bei BEKO – Österreichs führendem Anbieter technischer Dienstleistungen. Seit über 50 Jahren arbeiten wir bei BEKO an modernen Lösungen und wegweisenden Zukunftsideen für Unternehmen jeder Branche und Größe. Mit einem bunten Team aus kreativen Köpfen und dem gebündelten Know-how von IT-Spezialist*innen und Engineering-Expert*innen denken wir quer, weiter und voraus. Dabei glauben wir vor allem an eines: Fortschritt in allen Farben. Aber wir bei BEKO reden nicht nur von der Zukunft. Wi…",
+      "salary_min": 42000,
+      "category": {
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "longitude": 16.354031,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MTIwMDI4NCIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.uKD7PEd4IOkNtQCGiKnRAZf7Q4xeBal94kwkMnjSzOQ",
+      "title": "Wir  Softwareentwickler Java (w/m/x) für einen Kunden im öffentlichen Bereich",
+      "redirect_url": "https://www.adzuna.at/details/5861200284?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.208144,
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "contract_time": "full_time",
+      "created": "2026-08-29T16:53:40Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "BEKO"
+      },
+      "salary_max": 43200,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "id": "5861200284"
+    },
+    {
+      "company": {
+        "display_name": "ecosio",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-08-11T16:47:46Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Company Description ecosio is a fast-growing, innovative service company and a leading provider of B2B integration, specialising in electronic data interchange (EDI), Web EDI and e-invoicing. ecosio is part of Vertex, Inc., a leading global provider of indirect tax solutions listed on Nasdaq (VERX). Our brand slogan is Connections That Work as we believe strong connections are central to successful business relationships - both external and internal. At ecosio, we hire individuals from all back…",
+      "title": "Full Stack Developer - Java & React (f/m/d)",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzNjgyMzU1MyIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.yw77aaGrO2tFrBF1R44VjK6w1Ev_whbXpDf20mRxsmg",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "id": "5836823553",
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Österreich"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5836823553?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5789444113?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.208144,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "id": "5789444113",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen"
+      },
+      "salary_min": 80080,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1Nzg5NDQ0MTEzIn0.7u0_PLJWgDo_KiJiU4V0qAeAfVvlJw7qWr7k6w6mFV0",
+      "longitude": 16.354031,
+      "salary_is_predicted": "0",
+      "title": "Java Fullstack Developer (w/m/d) Mein Postkorb / eZustellung",
+      "description": "Beschreibung des BRZ Wir sind das Kompetenzzentrum für Digitalisierung des Public Sectors in Österreich – und damit Teil der kritischen Infrastruktur. Ob ID Austria, FinanzOnline, Unternehmensserviceportal oder digitaler Führerschein am Smartphone: Im BRZ entwickelte Anwendungen und Services vereinfachen Millionen Menschen den Alltag, indem sie Behördenwege mit wenigen Klicks ermöglichen. Im BRZ zu arbeiten heißt, mit dem eigenen Job den österreichischen Public Sector aktiv mitzugestalten. Es b…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_max": 80080,
+      "company": {
+        "display_name": "Gemeinde Gabersdorf",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-07-06T01:06:57Z"
+    },
+    {
+      "contract_time": "full_time",
+      "created": "2026-08-12T16:48:11Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "BRZ"
+      },
+      "salary_max": 69011,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "id": "5838401314",
+      "description": "Beschreibung des BRZ Wir sind das Kompetenzzentrum für Digitalisierung des Public Sectors in Österreich – und damit Teil der kritischen Infrastruktur. Ob ID Austria, FinanzOnline, Unternehmensserviceportal oder digitaler Führerschein am Smartphone: Im BRZ entwickelte Anwendungen und Services vereinfachen Millionen Menschen den Alltag, indem sie Behördenwege mit wenigen Klicks ermöglichen. Im BRZ zu arbeiten heißt, mit dem eigenen Job den österreichischen Public Sector aktiv mitzugestalten. Es b…",
+      "longitude": 16.393873,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzODQwMTMxNCIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.VEw8UZH9U7WkKi8PdfZCYWIRZmaQG4ES6MROGlyGV5U",
+      "title": "Java Fullstack Developer (w/m/d) Mein Postkorb / eZustellung",
+      "salary_min": 69011,
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5838401314?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.197021,
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien",
+          "Landstraße"
+        ],
+        "display_name": "Landstraße, Wien",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "description": "At Cloudflight, we’re committed to making a digital difference. It’s a difference that impacts businesses and society alike and one that’s fueled by our passion for technology and our dedication to sparking the brightest ideas in ourselves and others. Your daily tasks will include building sustainable state-of-the-art software solutions following agile methodologies, clean code principles and test-driven development constantly learning and developing your skills within a wide variety of customi…",
+      "latitude": 47.264585,
+      "redirect_url": "https://www.adzuna.at/details/5833562594?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Innsbruck"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Innsbruck, Tirol"
+      },
+      "salary_min": 55356,
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen"
+      },
+      "longitude": 11.40202,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzMzU2MjU5NCIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.hUFu1Y_FStpJaV_Imub6xiyfz4tb55laSHtJ5GqenN8",
+      "title": "Experienced Software Engineer Java / Kotlin (m/f/x)",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "salary_max": 55356,
+      "created": "2026-08-08T16:46:57Z",
+      "company": {
+        "display_name": "Cloudflight",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5833562594",
+      "salary_is_predicted": "0"
+    },
+    {
+      "location": {
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Graz, Steiermark"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5766342063?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 47.070503,
+      "id": "5766342063",
+      "salary_min": 75000,
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "Software Architekt (m/w/d) Java | Enterprise Architektur | Graz",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc2NjM0MjA2MyIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.WPNywkZZZRhf966fRFMfMmle1FjfN89Or6Q9cK34w80",
+      "longitude": 15.439358,
+      "description": "Entwicklung, Definition und Dokumentation von Software- und Architekturstandards für moderne Enterprise-Anwendungen Erstellung von Architektur-, Design- und Entwicklungsrichtlinien für Java- und Web-Anwendungen Analyse bestehender Systemlandschaften sowie Identifikation von Optimierungs- und Modernisierungspotenzialen Konzeption nachhaltiger Softwarearchitekturen mit Fokus auf Skalierbarkeit, Wartbarkeit und Performance Auswahl geeigneter Technologien, Frameworks und Architekturansätze für komp…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_max": 95000,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-06-17T06:57:57Z"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "BEKO"
+      },
+      "created": "2026-07-04T00:59:14Z",
+      "salary_max": 39600,
+      "id": "5787315114",
+      "salary_is_predicted": "0",
+      "description": "Willkommen bei BEKO – Österreichs führendem Anbieter technischer Dienstleistungen. Seit über 50 Jahren arbeiten wir bei BEKO an modernen Lösungen und wegweisenden Zukunftsideen für Unternehmen jeder Branche und Größe. Mit einem bunten Team aus kreativen Köpfen und dem gebündelten Know-how von IT-Spezialist*innen und Engineering-Expert*innen denken wir quer, weiter und voraus. Dabei glauben wir vor allem an eines: Fortschritt in allen Farben. Aber wir bei BEKO reden nicht nur von der Zukunft. Wi…",
+      "redirect_url": "https://www.adzuna.at/details/5787315114?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.208144,
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "category": {
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown"
+      },
+      "salary_min": 38400,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1Nzg3MzE1MTE0In0.DQGHFfZoE687xARIv2uXFrSRpttYGLBOSf42eD92ENg",
+      "longitude": 16.354031,
+      "title": "Wir  Junior Java Entwickler (w/m/x) für einen Kunden im öffentlichen Bereich"
+    },
+    {
+      "salary_min": 56894,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5ODM0MjY1NyIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.VZkebbKYnxIRGxrh0FshKtxfcGriZrkTI3KgMEOky9M",
+      "longitude": 16.393873,
+      "title": "Professional Java Fullstack Developer (w/m/d) - Digitale Aktenführung",
+      "latitude": 48.197021,
+      "redirect_url": "https://www.adzuna.at/details/5798342657?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "display_name": "Landstraße, Wien",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Landstraße"
+        ]
+      },
+      "description": "Beschreibung des BRZ Wir sind das Kompetenzzentrum für Digitalisierung des Public Sectors in Österreich – und damit Teil der kritischen Infrastruktur. Ob ID Austria, FinanzOnline, Unternehmensserviceportal oder digitaler Führerschein am Smartphone: Im BRZ entwickelte Anwendungen und Services vereinfachen Millionen Menschen den Alltag, indem sie Behördenwege mit wenigen Klicks ermöglichen. Im BRZ zu arbeiten heißt, mit dem eigenen Job den österreichischen Public Sector aktiv mitzugestalten. Es b…",
+      "salary_is_predicted": "0",
+      "id": "5798342657",
+      "contract_time": "full_time",
+      "company": {
+        "display_name": "BRZ",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-07-13T01:11:44Z",
+      "salary_max": 56894,
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "description": "Wir bei Devhub IT Solutions arbeiten an spannenden Digitalprojekten für Kunden im DACH-Raum. Von modernen KI-Anwendungen bis zu hochperformanten Enterprise-Plattformen. Aktuell suchen wir für ein langfristiges Projekt im Finanzbereich ab Oktober 2025 nach Verstärkung: Du bist erfahren in Java, Spring Boot und hast Lust, dich in ein komplexes System reinzufuchsen? Dann lies weiter. Wichtig: Für diese Rolle ist ein Hauptwohnsitz in Österreich erforderlich (remote möglich). Bewerbungen aus dem Aus…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_max": 60000,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Devhub IT Solutions GmbH"
+      },
+      "created": "2025-06-17T14:06:22Z",
+      "redirect_url": "https://www.adzuna.at/details/5254643533?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Österreich",
+        "area": [
+          "Österreich"
+        ]
+      },
+      "id": "5254643533",
+      "salary_min": 50000,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1MjU0NjQzNTMzIn0.5_E0UkiVDi2DzSY7BAfObOi77cBdikzvpSwtkTFuI_0",
+      "title": "Java Full Stack Entwickler (m/w/d) - Fokus Backend & Microservices",
+      "salary_is_predicted": "0"
+    },
+    {
+      "description": "Description Location: Vienna, Austria Working hours: Fulltime (38,5 Hours/ Week) With our unified SaaS platform deltaconX, we simplify regulatory compliance, to streamline transaction reporting processes. Since the market launch in 2013, we have been committed to helping businesses meet evolving regulatory demands efficiently. Our platform is the one stop shop for our clients to be compliant with key regulations like EMIR, MiFIR, SFTR, REMIT, MAS, HKMA and many more. As we continue to grow thro…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "display_name": "deltaconX",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-05-27T00:28:08Z",
+      "contract_time": "full_time",
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Österreich"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5741690418?utm_medium=api&utm_source=5fbaef93",
+      "id": "5741690418",
+      "category": {
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown"
+      },
+      "title": "Java / Kotlin Backend Developer (m/f/d) – Scalable SaaS Platform",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc0MTY5MDQxOCIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.ZagEx1wlgsT_I6il7rvbMIIGclqSpHY7NI_zLl3x1s0"
+    },
+    {
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "latitude": 48.208144,
+      "redirect_url": "https://www.adzuna.at/details/5605361743?utm_medium=api&utm_source=5fbaef93",
+      "salary_min": 114400,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "title": "Technical Solution Architect (f/m/d)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYwNTM2MTc0MyIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.gAn9Oy06PI11-00QA39gQ492ygrD3hI1WGTsJly9gQc",
+      "longitude": 16.354031,
+      "description": "Projektbeschreibung Für ein ressortübergreifendes IT-Großprojekt im öffentlichen Sektor suchen wir eine:n erfahrene:n Expert:in für technische Architektur (f/m/d) mit fundierter Erfahrung in der Konzeption, Entwicklung und Integration komplexer JAVA-Architekturen. In dieser Rolle gestalten Sie die technologische Basis des Systems, entwickeln maßgeschneiderte Architekturlösungen und coachen Entwicklerteams im Aufbau stabiler, wartbarer und skalierbarer Frameworks. €440 - €480 a day Ihre Aufgaben…",
+      "id": "5605361743",
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_type": "contract",
+      "created": "2026-01-29T21:46:14Z",
+      "salary_max": 124800,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Qualysoft"
+      }
+    },
+    {
+      "salary_max": 4150,
+      "created": "2025-03-13T10:51:06Z",
+      "company": {
+        "display_name": "con10com",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "con10com besteht seit 2004 und hat seinen Schwerpunkt rund um das Thema Content. Dabei reicht das Portfolio von medienneutraler Werbemittelproduktion über Datenmigration und -pflege bis hin zur Entwicklung und Integration von Softwarelösungen. Unseren Mitarbeitern steht somit ein interessantes und modernes Betätigungsfeld offen. Wir suchen ab sofort: Aufgaben Neu- und Weiterentwicklung von Funktionen und Arbeitsabläufen Fehleranalyse und -behebung Erstellung und Wartung von Schnittstellen zu Dr…",
+      "salary_is_predicted": "0",
+      "title": "Software-Entwickler (m/w/d)",
+      "longitude": 12.323185,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTA5MTAzMTM4MCIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.DkAmQwXrrSM39n83i1W6Y--8F_rGV7uV8-YKv6BHj5M",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_min": 3800,
+      "id": "5091031380",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Reith bei Kitzbühel, Kitzbühel",
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Kitzbühel",
+          "Reith bei Kitzbühel"
+        ]
+      },
+      "latitude": 47.492553,
+      "redirect_url": "https://www.adzuna.at/details/5091031380?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "company": {
+        "display_name": "KSV1870",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-08-27T07:09:17Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Für unseren Standort in Wien suchen wir zum sofortigen Eintritt eine:n Application Manager:in Ihr Aufgabengebiet: Weiterentwicklung, Anpassung und Betreuung von Ihren IT-Applikationen in der KSV1870 Gruppe Ansprechperson als 2nd Level Support Schnittstelle zwischen der Fachabteilung und externen IT-Dienstleistern Beteiligung bei der Gestaltung von Kundensystemen und Umsetzung der IT-Projekte mit internen Key Usern sowie externen Partnern Entwicklung technischer Konzepte und Lösungsansätze für n…",
+      "longitude": 16.354031,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODU3OTEwNTUyIn0.JAflgQ6sq_fhiQxlXQWPJzlqKguXqK__rYtilpRFwjQ",
+      "salary_is_predicted": "0",
+      "title": "Application Manager:in",
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "id": "5857910552",
+      "latitude": 48.208144,
+      "redirect_url": "https://www.adzuna.at/details/5857910552?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "title": "Account Manager (w/m/d) Schwerpunkt IT",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MjY3MzA4OCIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.Ao0xQmsz7NdUqmWOdUMC5PoEEWyrJ3pcFpC17FMh6ik",
+      "longitude": 16.370243,
+      "category": {
+        "tag": "sales-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Vertriebsstellen"
+      },
+      "id": "5862673088",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien",
+          "Innere Stadt"
+        ],
+        "display_name": "Innere Stadt, Wien",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "latitude": 48.208604,
+      "redirect_url": "https://www.adzuna.at/details/5862673088?utm_medium=api&utm_source=5fbaef93",
+      "created": "2026-08-31T03:58:24Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "ACTIVE SOLUTION GmbH"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_type": "contract",
+      "description": "Hi, wir sind Active Solution! Als erfolgreiche Spezialisten in den Bereichen IT und Engineering entwickeln wir hochwertige Lösungen für Kunden aus den unterschiedlichsten Branchen in Österreich. Unser Team aus über 240 Kolleg*innen arbeitet vor Ort und remote, mit den neuesten Technologien, in freundschaftlicher Atmosphäre und mit flachen Hierarchien. Aufgrund unseres starken Wachstums in unserer IT Unit (Beratungsleistungen, Consulting on Demand, Java Development) suchen wir Dich!"
+    },
+    {
+      "salary_min": 93600,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "longitude": 16.354031,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYwNTM2MDE3MiIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.ImV9Sown91AmgaTOPko3aDNgnsvziLtUxYxN9IM-WNA",
+      "title": "Expert Softwareentwicklung (f/m/d)",
+      "latitude": 48.208144,
+      "redirect_url": "https://www.adzuna.at/details/5605360172?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "description": "Für ein langfristiges ressortübergreifendes Transformationsprojekt im öffentlichen Sektor suchen wir eine:n erfahrene:n Expert:in Softwareentwicklung (f/m/d) mit breitem Know-how in der Entwicklung mehrschichtiger Anwendungssysteme. Der Fokus liegt auf Java EE, Angular, PowerBuilder sowie Datenbank- und Middleware-Komponenten im Rahmen der Architekturen TA 2.0 und TA 3.0J . Position: Expert:in Softwareentwicklung (f/m/d) Location: Wien (1–2 Tage/Woche vor Ort), ansonsten Remote Start: Q1 2026 |…",
+      "salary_is_predicted": "0",
+      "id": "5605360172",
+      "created": "2026-01-29T21:45:54Z",
+      "company": {
+        "display_name": "Qualysoft",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_max": 104000,
+      "contract_type": "contract",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5869333945?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.208144,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "id": "5869333945",
+      "category": {
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "longitude": 16.354031,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2OTMzMzk0NSIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.SyCAfcx1KWbAv-D1YlaWrixsHyKuKGuX0K324hHhXNw",
+      "salary_is_predicted": "0",
+      "title": "Application Manager:in",
+      "description": "Der KSV1870 zählt zu den führenden Wirtschaftsplattformen Österreichs mit rund 35.000 Mitgliedern. Seit mehr als 150 Jahren macht die Gruppe Geschäfte durch Risikoprüfungen sicher, stärkt die Liquidität seiner Mitglieder und ermöglicht Wachstum. Das Portfolio reicht von Bonitätsauskünften, Inkasso-Dienstleistungen und Insolvenzvertretungen bis hin zu innovativen Lösungen im Business-Analytics-Bereich, Cybersecurity und Open Banking. Es erwartet Sie ein Team aus erfahrenen Mitarbeitern mit umfas…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "display_name": "KSV1870 Gruppe",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-09-03T18:29:06Z"
+    },
+    {
+      "latitude": 48.208144,
+      "redirect_url": "https://www.adzuna.at/details/5866723502?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "id": "5866723502",
+      "category": {
+        "tag": "engineering-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Technikerstellen"
+      },
+      "longitude": 16.354031,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2NjcyMzUwMiIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.8meUGX6y2Zr-4iwkGVXVRfdvFNL3Id1IHDfKcdWPMIc",
+      "salary_is_predicted": "0",
+      "title": "Data Scientist (m/f/d)",
+      "description": "Job Description ABOUT US: Reporting to the Head of Quants you will be working closely with your colleagues in Quants but also various product owners, developers and traders company wide. Our department is responsible for creating predictive models for both pre-match and in-play betting markets in various sports. This typically requires cleaning up, visualizing, analyzing and interpreting relevant data, as well as implementing the created models in Java and testing them. Publishing and maintaini…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "display_name": "Sportradar",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-09-02T10:26:01Z"
+    },
+    {
+      "category": {
+        "tag": "customer-services-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Kundendienststellen"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MzkxMzA2OSIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.7tRGmUa54fsln2AcdvIKbZq70_ANYvuzDYPUXoBAhNk",
+      "longitude": 16.354031,
+      "salary_is_predicted": "0",
+      "title": "Professional Services Support Mitarbeiter*in (m/w/d)",
+      "latitude": 48.208144,
+      "redirect_url": "https://www.adzuna.at/details/5863913069?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "id": "5863913069",
+      "company": {
+        "display_name": "Be Sharp - Kommunikations- und Marketing GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-09-01T07:34:23Z",
+      "description": "besharp ist innovativer Hersteller von Kommunikationssoftware auf Basis von Omnichannel AI Communications. Mit unsere Software Lösungen vacapo®, vandante® und vallegro® orchestrieren und automatisieren unsere Kunden ihre Service- und Contact Center Kommunikationsprozesse. Die hohe Qualität unserer Produkte und Services ist ein zentraler Bestandteil unserer Unternehmensphilosophie. Zur Verstärkung unseres Teams in Wien suchen wir eine/n neue erfahrene/n Mitarbeiter*in (m/w/d) für den Bereich „Pr…",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "salary_is_predicted": "0",
+      "title": "Software Architect (all genders)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc1OTU2Mzg2NiIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.LdCs0_E6mpGt3R1kUqTr1yyWBduVa_f_XT91dhlH-lc",
+      "longitude": 15.439358,
+      "salary_min": 85000,
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen"
+      },
+      "id": "5759563866",
+      "location": {
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz"
+        ],
+        "display_name": "Graz, Steiermark",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "latitude": 47.070503,
+      "redirect_url": "https://www.adzuna.at/details/5759563866?utm_medium=api&utm_source=5fbaef93",
+      "salary_max": 135000,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-06-11T06:54:13Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Entwicklung und Umsetzung innovativer Softwarearchitekturen für komplexe IT-Systeme mit Java / Jakarta EE und TypeScript / Angular Analyse technischer Anforderungen und Definition nachhaltiger Architekturkonzepte (Modularisierungen, Schnittstellendefinitionen) Unterstützung der Entwicklungsteams bei der Implementierung und Integration von Lösungen Gestaltung des Softwareentwicklungszyklus sowie der Qualitätssicherungsprozesse Evaluierung neuer Technologien und Best Practices zur kontinuierliche…"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTcwNTc1NDgwOCIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.ShiKwndDexEeilHx5WRsgrZVxuer9EY6Px943LldkJY",
+      "salary_is_predicted": "0",
+      "title": "Software Inbetriebnehmer (m/w/d)",
+      "category": {
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown"
+      },
+      "id": "5705754808",
+      "redirect_url": "https://www.adzuna.at/details/5705754808?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Österreich",
+        "area": [
+          "Österreich"
+        ]
+      },
+      "company": {
+        "display_name": "keyman GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-04-21T05:19:05Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Software Inbetriebnehmer (m/w/d) ( weltweit) Für unseren Kunden suchen wir geeignete Mitarbeiter mit einer abgeschlossenen Ausbildung im IT-Bereich sowie Erfahrung mit den Programmiersprachen C++, C# und Java. Die Anstellung findet direkt bei unserem Kunden statt. Sie sind somit ein vollwertiger Mitarbeiter des Unternehmens und auch dort angestellt und versichert. Natürlich stehen Ihnen auch die Vielzahl der Benefits zur Verfügung. Benefits - Was unser Kunde bietet: Werksrestaurant Parkplatz Mi…"
+    },
+    {
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2NTAzNTc1MSIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.GuZSY_TifvIa00bWyR8lhBB5SWR0aktkp5th5leclWo",
+      "longitude": 16.354031,
+      "salary_is_predicted": "0",
+      "title": "Identity & Access Management Engineer:in / Application Manager:in",
+      "redirect_url": "https://www.adzuna.at/details/5865035751?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 48.208144,
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "id": "5865035751",
+      "company": {
+        "display_name": "Bundesanstalt Statistik Österreich",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-09-01T18:13:33Z",
+      "description": "Statistik Austria ist die führende, unabhängige Anbieterin von Daten und Informationen für Bürger:innen, Wirtschaft, Wissenschaft, Politik und Verwaltung. Auf Basis wissenschaftlich hochwertiger Statistiken und Analysen zeichnen wir ein umfassendes und objektives Bild der österreichischen Gesellschaft und Wirtschaft. Mit ihrem breiten Portfolio an Zahlen und Daten liefert Statistik Austria als zentrale Informationsquelle die Grundlagen für eine faktenorientierte öffentliche Debatte und evidenzb…",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "contract_type": "permanent",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Softwareprogrammierer (m/w/d) in Dornbirn Du möchtest Softwarelösungen entwickeln, programmieren und weiterentwickeln? Du arbeitest strukturiert, analytisch und hast Freude an technologischen Herausforderungen? Dann bieten wir Dir als Softwareprogrammierer (m/w/d) eine spannende Karrierechance in einem innovativen Unternehmen im Raum Bregenz & Dornbirn. Deine Aufgaben als Softwareprogrammierer (m/w/d) Entwicklung, Test und Pflege von Softwarelösungen gemäß Anforderungen und Spezifikationen Schr…",
+      "contract_time": "full_time",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Aktiva Personalmanagement GmbH"
+      },
+      "created": "2026-08-31T04:57:28Z",
+      "id": "5862725745",
+      "redirect_url": "https://www.adzuna.at/details/5862725745?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 47.416269,
+      "location": {
+        "display_name": "Schwarzach, Bregenz",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Vorarlberg",
+          "Bregenz",
+          "Schwarzach"
+        ]
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MjcyNTc0NSIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.8UHiut_LBPcIlkg0BsAP21y18xVCuo2Ut2iPpk9RVHA",
+      "longitude": 9.777739,
+      "salary_is_predicted": "0",
+      "title": "Softwareprogrammierer (m/w/d)",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      }
+    },
+    {
+      "description": "Beschreibung des BRZ Wir sind das Kompetenzzentrum für Digitalisierung des Public Sectors in Österreich – und damit Teil der kritischen Infrastruktur. Ob ID Austria, FinanzOnline, Unternehmensserviceportal oder digitaler Führerschein am Smartphone: Im BRZ entwickelte Anwendungen und Services vereinfachen Millionen Menschen den Alltag, indem sie Behördenwege mit wenigen Klicks ermöglichen. Im BRZ zu arbeiten heißt, mit dem eigenen Job den österreichischen Public Sector aktiv mitzugestalten. Es b…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_max": 80080,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Gemeinde Gabersdorf"
+      },
+      "created": "2026-07-02T00:49:40Z",
+      "latitude": 48.208144,
+      "redirect_url": "https://www.adzuna.at/details/5784543318?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "id": "5784543318",
+      "salary_min": 80080,
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen"
+      },
+      "longitude": 16.354031,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1Nzg0NTQzMzE4In0.6ZPx8XqtMlU8kVXSefr-1FrLtPSMdCeAnSmdTguSX9E",
+      "salary_is_predicted": "0",
+      "title": "Professional Fullstack Developer (w/m/d) - Digital Austria Data Exchange"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-26T16:53:27Z",
+      "company": {
+        "display_name": "Aktiva Personalmanagement",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_max": 40929,
+      "contract_time": "full_time",
+      "id": "5856921561",
+      "salary_is_predicted": "0",
+      "description": "Softwareprogrammierer (m/w/d) in Dornbirn Du möchtest Softwarelösungen entwickeln, programmieren und weiterentwickeln? Du arbeitest strukturiert, analytisch und hast Freude an technologischen Herausforderungen? Dann bieten wir Dir als Softwareprogrammierer (m/w/d) eine spannende Karrierechance in einem innovativen Unternehmen im Raum Bregenz & Dornbirn. Deine Aufgaben als Softwareprogrammierer (m/w/d) Entwicklung, Test und Pflege von Softwarelösungen gemäß Anforderungen und Spezifikationen Schr…",
+      "location": {
+        "area": [
+          "Österreich",
+          "Vorarlberg",
+          "Bregenz",
+          "Schwarzach"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Schwarzach, Bregenz"
+      },
+      "latitude": 47.416269,
+      "redirect_url": "https://www.adzuna.at/details/5856921561?utm_medium=api&utm_source=5fbaef93",
+      "title": "Softwareprogrammierer (m/w/d) in Dornbirn",
+      "longitude": 9.777739,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiZUFxVzlkMm44UkdBcXVtYTV2VWVIZyIsImkiOiI1ODU2OTIxNTYxIn0.jKUj-cs2ckk1tDP4lJM41CL2onYnR8WMAXvxtDK_VFA",
+      "salary_min": 40929,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      }
+    },
+    {
+      "id": "5861346026",
+      "location": {
+        "display_name": "Gleisdorf, Weiz",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Weiz",
+          "Gleisdorf"
+        ]
+      },
+      "redirect_url": "https://www.adzuna.at/details/5861346026?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 47.095661,
+      "title": "Software Engineer Projektrealisierung & Core-Entwicklung",
+      "salary_is_predicted": "0",
+      "longitude": 15.703551,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MTM0NjAyNiIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.2-xHYpHQKetTkfeqvHwoS6x_kw25gd367bDT3WUooRk",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Entwickle mit uns die Zukunft von morgen! Stillstand ist für uns ein Fremdwort! Unsere Intralogistiksysteme bewegen weltweit täglich Millionen von Waren. Wir entwickeln ausgeklügelte Materialflusssysteme sowie Lagerautomation für unsere Kunden. Umsetzung von kundenindividuellen Softwareprojekten Analyse, Konzeption und Realisierung von Change Requests Eigenständige Inbetriebnahme und Optimierung von Softwarelösungen beim Kunden Enge Zusammenarbeit mit Entwicklung, Projektleitung und internation…",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "LTW Intralogistics GmbH"
+      },
+      "created": "2026-08-29T18:19:50Z"
+    },
+    {
+      "company": {
+        "display_name": "LTW Intralogistics GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-08-29T18:19:50Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Entwickle mit uns die Zukunft von morgen! Stillstand ist für uns ein Fremdwort! Unsere Intralogistiksysteme bewegen weltweit täglich Millionen von Waren. Wir entwickeln ausgeklügelte Materialflusssysteme sowie Lagerautomation für unsere Kunden. Umsetzung von kundenindividuellen Softwareprojekten Analyse, Konzeption und Realisierung von Change Requests Eigenständige Inbetriebnahme und Optimierung von Softwarelösungen beim Kunden Enge Zusammenarbeit mit Entwicklung, Projektleitung und internation…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MTM0NjAyNyIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.li5u8nLoxF8eOoN8-guTBFDflkYscuelyoSESaB04QA",
+      "title": "Software Engineer Projektrealisierung & Core-Entwicklung",
+      "salary_is_predicted": "0",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen"
+      },
+      "id": "5861346027",
+      "redirect_url": "https://www.adzuna.at/details/5861346027?utm_medium=api&utm_source=5fbaef93",
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "created": "2026-08-29T18:19:50Z",
+      "company": {
+        "display_name": "LTW Intralogistics GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Entwickle mit uns die Zukunft von morgen! Stillstand ist für uns ein Fremdwort! Unsere Intralogistiksysteme bewegen weltweit täglich Millionen von Waren. Wir entwickeln ausgeklügelte Materialflusssysteme sowie Lagerautomation für unsere Kunden. Umsetzung von kundenindividuellen Softwareprojekten Analyse, Konzeption und Realisierung von Change Requests Eigenständige Inbetriebnahme und Optimierung von Softwarelösungen beim Kunden Enge Zusammenarbeit mit Entwicklung, Projektleitung und internation…",
+      "title": "Software Engineer Projektrealisierung & Core-Entwicklung",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MTM0NjAyOCIsInMiOiJlQXFXOWQybjhSR0FxdW1hNXZVZUhnIn0.OHEb7LAQL_LkTjvOXC4Q-4MJrMH7tsKI1MqKZeqhFGU",
+      "longitude": 9.750004,
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5861346028",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wolfurt, Bregenz",
+        "area": [
+          "Österreich",
+          "Vorarlberg",
+          "Bregenz",
+          "Wolfurt"
+        ]
+      },
+      "latitude": 47.46742,
+      "redirect_url": "https://www.adzuna.at/details/5861346028?utm_medium=api&utm_source=5fbaef93"
+    }
+  ],
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "mean": 65580.39,
+  "count": 128
+}

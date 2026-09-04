@@ -1,0 +1,1511 @@
+{
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "count": 59,
+  "results": [
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-25T16:51:50Z",
+      "salary_min": 81120,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NTQ0NDcwOSIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.b0GgwdTmk3II0fvKj-cGKJuD7je7c03rVzA99X1xHos",
+      "title": "Angular / Java Entwickler*in",
+      "description": "IT I Wien I Hybrid I 39 Stunden I Ab 01.11.2026 Unsere Software Entwicklung umfasst viele unterschiedliche Software Produkte für unsere interne Nutzung sowie für unsere Kund*innen. Dazu gehören beispielsweise unsere Web Applikationen, Apps, große Datenbankensysteme für die Stammdatenerfassung, Berechnungen, Geospatialdaten und vieles mehr. Für die Entwicklung mit Angular / Java suchen wir nun Unterstützung. Wenn du dich sowie unsere Produkte gerne voranbringen möchtest, dann freuen wir uns auf …",
+      "id": "5855444709",
+      "longitude": 16.354031,
+      "salary_max": 81120,
+      "latitude": 48.208144,
+      "contract_time": "full_time",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Agrarmarkt Austria"
+      },
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5855444709?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODY4OTQ0OTYzIn0.Aqr5tQ8fX68hcZtQFl9jM51bJ1bYY2qqB_skPmtCBQU",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Innere Stadt"
+        ],
+        "display_name": "Innere Stadt, Wien"
+      },
+      "title": "SW-Entwickler:in – C# / .NET / Angular",
+      "description": "Wir suchen für unseren Kunden eine:n SW-Entwickler:in - C# / .NET / Angular mit einschlägiger Fullstack-Entwicklungserfahrung, um Applikationen in einem zentralen Produktbereich weiterzuentwickeln. TECHSEARCH ist Recruiting-Experte in der Suche und Auswahl von IT und Engineering Spezialistinnen und Spezialisten. Wir sind HR-Beraterinnen für Unternehmen zur Professionalisierung von Recruiting-Prozessen. Wir sind Karriere-Coaches für technische Fachkräfte in der Jobsuche und Karriereplanung.",
+      "salary_is_predicted": "0",
+      "latitude": 48.208604,
+      "created": "2026-09-03T16:03:00Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.370243,
+      "redirect_url": "https://www.adzuna.at/details/5868944963?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "TECHSEARCH - Recruiting von Experten für Experten",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5868944963"
+    },
+    {
+      "description": "Wir suchen für unseren Kunden eine:n SW-Entwickler:in - C# / .NET / Angular mit einschlägiger Fullstack-Entwicklungserfahrung, um Applikationen in einem zentralen Produktbereich weiterzuentwickeln. TECHSEARCH ist Recruiting-Experte in der Suche und Auswahl von IT und Engineering Spezialistinnen und Spezialisten. Wir sind HR-Beraterinnen für Unternehmen zur Professionalisierung von Recruiting-Prozessen. Wir sind Karriere-Coaches für technische Fachkräfte in der Jobsuche und Karriereplanung. Als …",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2OTMzMzY3MyIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.TtD7fw2-z_wPzC6EEWvDmqsQKakl0pzxfd7Xs6d7Rts",
+      "title": "SW-Entwickler:in – C# / .NET / Angular",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "latitude": 48.208144,
+      "created": "2026-09-03T18:29:04Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.354031,
+      "redirect_url": "https://www.adzuna.at/details/5869333673?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT-Stellen"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "TECHSEARCH - Recruiting von Experten für Experten"
+      },
+      "id": "5869333673"
+    },
+    {
+      "id": "5853767985",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "ACTIVE SOLUTION GmbH"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5853767985?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 16.354031,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-23T18:15:10Z",
+      "latitude": 48.208144,
+      "title": "Java/Angular Developer (w/m/d)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1Mzc2Nzk4NSIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.wI9pyEee9WEy0cAoGlpoiY58jSFOM1PfeiZSwJpIwWs",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "description": "Hi, wir sind Active Solution! Als erfolgreiche Spezialisten in den Bereichen IT und Engineering entwickeln wir hochwertige Lösungen für Kunden aus den unterschiedlichsten Branchen in Österreich. Unser Team aus über 240 Kolleg*innen arbeitet vor Ort und remote, mit den neuesten Technologien, in freundschaftlicher Atmosphäre und mit flachen Hierarchien. Wenn Du gerne deine Karriere mit Leidenschaft und Eigenverantwortung voranbringen und unser spannendes Benefit-System kennenlernen möchtest - dan…",
+      "salary_is_predicted": "0"
+    },
+    {
+      "location": {
+        "display_name": "Thalheim bei Wels, Wels-Land",
+        "area": [
+          "Österreich",
+          "Oberösterreich",
+          "Wels-Land",
+          "Thalheim bei Wels"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_is_predicted": "0",
+      "latitude": 48.139481,
+      "salary_max": 46662,
+      "contract_time": "full_time",
+      "company": {
+        "display_name": "Fronius",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT-Stellen"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5713957927?utm_medium=api&utm_source=5fbaef93",
+      "created": "2026-04-30T00:16:57Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "title": "Angular Software Developer (m/w/d)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1NzEzOTU3OTI3In0.NMNzgSbF_nX8d4Ybt0VTDB7HFWuSwnJapAD1Z-8toLc",
+      "description": "Deine Aufgaben: Als Angular Softwareentwickler/-in entwickelst du für unsere Wechselrichter am Embedded Linux-System und trägst damit maßgeblich zur nachhaltigen Energieversorgung bei. Dabei fokussierst du dich unter anderem auf Tätigkeiten wie: Konzeption und Weiterentwicklung unserer Linux-basierten Softwareplattform Entwicklung von Web-basierten UI-Anwendungen auf Linux Systemen Evaluierung neuer Technologien und nachhaltiger Lösungen Qualitätssicherung mittels Erstellung und Durchführung vo…",
+      "salary_min": 46662,
+      "id": "5713957927",
+      "longitude": 14.03498
+    },
+    {
+      "company": {
+        "display_name": "Qualysoft",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5410768185?utm_medium=api&utm_source=5fbaef93",
+      "contract_type": "contract",
+      "latitude": 48.208144,
+      "salary_max": 104000,
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "salary_is_predicted": "0",
+      "id": "5410768185",
+      "longitude": 16.354031,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-09-22T19:32:10Z",
+      "salary_min": 62400,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1NDEwNzY4MTg1In0.Tj3344hynjRbZnxn58jQhutip6x45OXgq-LKyNqdsvM",
+      "title": "Frontend Developer (Angular, UI/UX Designer & Developer)",
+      "description": "Frontend Developer (Angular, UI/UX Designer & Developer) Location: Vienna (1–2 days on-site per week; otherwise remote) Start: ASAP Duration: 12 months (extension possible) Workload: 100% Language: English (must-have), German (nice-to-have) Our client in the telecommunications sector is running a large-scale modernization and transformation initiative. We are looking for a Frontend Developer with a strong focus on UI/UX design and implementation . You will not only develop robust Angular applic…"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-04-05T23:46:39Z",
+      "contract_time": "full_time",
+      "description": "Lübbers SLP sucht einen erfahrenen FRONTEND DEVELOPER (Angular/Java) (m/w/d) für unser Team in Hennersdorf bei Wien, Österreich. In dieser Rolle werden Sie an spannenden Projekten in der Informationstechnologie und Dienstleistungsbranche arbeiten und innovative Lösungen entwickeln. Entwicklung und Wartung von Frontend-Anwendungen mit Angular und Java Zusammenarbeit mit Backend-Entwicklern zur Integration von APIs Erstellung von benutzerfreundlichen und responsiven Webanwendungen Durchführung vo…",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Österreich"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1NjkwODc0MDIyIn0.sjIbTiQOUBruiDs6cGzFw1gqJXeQj-ddjg57OcJKUOg",
+      "title": "FRONTEND DEVELOPER (Angular/Java) (m/w/d)",
+      "id": "5690874022",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Lübbers SLP"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5690874022?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "id": "5867154410",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT-Stellen"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "ADMIRAL Technologies"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5867154410?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 16.370243,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-09-02T15:58:44Z",
+      "latitude": 48.208604,
+      "salary_is_predicted": "0",
+      "description": "We develop & operate entertainment software. As the technology arm of the ADMIRAL Group, we are passionate about creating an innovative product experience for our customers and becoming one of the leading technology providers in the sports betting sector, both nationally and internationally. Working at ADMIRAL Technologies means being part of an internationally successful group and still experiencing the flexibility and spirit of a start-up. Develop yourself and with us the software solutions o…",
+      "title": "Full Stack Developer .NET & Angular (m/f/x)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2NzE1NDQxMCIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.pM2y36zagw90OwkNvY3wuWnaqRc7T4EvHGmaM3SAeWs",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Innere Stadt"
+        ],
+        "display_name": "Innere Stadt, Wien"
+      }
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgwMTkyNDk3NyIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0._-oxKainI6WIQ75Tc030p7Bj7Cf4_VORUe-fEfWCyc4",
+      "location": {
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ]
+      },
+      "title": "AI & Full-Stack-Entwickler (w/m/d) im Bereich Angular und C#/.NET",
+      "description": "Line of Service Tax Industry/Sector Not Applicable Specialism Technology Strategy Management Level Associate Job Description & Summary Bist du bereit, einen Unterschied zu machen? PwC Österreich ist mit rund 1500 Mitarbeitenden an 5 Standorten eines der größten Prüfungs- und Beratungsunternehmen des Landes. Wir entwickeln nicht nur deine Fähigkeiten - wir fördern dich, um dein volles Potenzial zu entfalten. Von der Arbeit an den neuesten Technologien bis zur Zusammenarbeit mit Branchenexpert:in…",
+      "salary_is_predicted": "0",
+      "salary_min": 89440,
+      "salary_max": 89440,
+      "contract_time": "full_time",
+      "created": "2026-07-16T01:25:13Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.at/details/5801924977?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "PricewaterhouseCoopers"
+      },
+      "category": {
+        "label": "Beraterstellen",
+        "tag": "consultancy-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5801924977"
+    },
+    {
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "salary_is_predicted": "0",
+      "latitude": 48.208144,
+      "salary_max": 104000,
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.at/details/5605360172?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "Qualysoft",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1NjA1MzYwMTcyIn0.ct_lgHVn-GD725ZruK-QPAtnJqGFvxXaFhRiPuvSaZE",
+      "title": "Expert Softwareentwicklung (f/m/d)",
+      "description": "Für ein langfristiges ressortübergreifendes Transformationsprojekt im öffentlichen Sektor suchen wir eine:n erfahrene:n Expert:in Softwareentwicklung (f/m/d) mit breitem Know-how in der Entwicklung mehrschichtiger Anwendungssysteme. Der Fokus liegt auf Java EE, Angular, PowerBuilder sowie Datenbank- und Middleware-Komponenten im Rahmen der Architekturen TA 2.0 und TA 3.0J . Position: Expert:in Softwareentwicklung (f/m/d) Location: Wien (1–2 Tage/Woche vor Ort), ansonsten Remote Start: Q1 2026 |…",
+      "salary_min": 93600,
+      "created": "2026-01-29T21:45:54Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.354031,
+      "id": "5605360172"
+    },
+    {
+      "id": "5830321632",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "company": {
+        "display_name": "IBM",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.at/land/ad/5830321632?se=PiaMBN6n8RG3wLV0hmxVNw&utm_medium=api&utm_source=5fbaef93&v=F25D54088862004DDFA308F9690259557259A23B",
+      "longitude": 16.354031,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-06T12:37:40Z",
+      "latitude": 48.208144,
+      "salary_is_predicted": "0",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and crea…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzMDMyMTYzMiIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.StnY-yS02-OUmMe_b6kZzXtz_kfelZouIu0I4WIGFcE",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "title": "Java Developer mit Kafka (f/m/x)"
+    },
+    {
+      "salary_is_predicted": "0",
+      "description": "Entwicklung, Definition und Dokumentation von Software- und Architekturstandards für moderne Enterprise-Anwendungen Erstellung von Architektur-, Design- und Entwicklungsrichtlinien für Java- und Web-Anwendungen Analyse bestehender Systemlandschaften sowie Identifikation von Optimierungs- und Modernisierungspotenzialen Konzeption nachhaltiger Softwarearchitekturen mit Fokus auf Skalierbarkeit, Wartbarkeit und Performance Auswahl geeigneter Technologien, Frameworks und Architekturansätze für komp…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1NzY2MzQyMDYzIn0.uEF6B0e62--PPprbACGcWIOL-Gkr9wn9rOqOF6xxJW0",
+      "location": {
+        "display_name": "Graz, Steiermark",
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "title": "Software Architekt (m/w/d) Java | Enterprise Architektur | Graz",
+      "salary_min": 75000,
+      "latitude": 47.070503,
+      "salary_max": 95000,
+      "created": "2026-06-17T06:57:57Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 15.439358,
+      "redirect_url": "https://www.adzuna.at/details/5766342063?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT-Stellen"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5766342063"
+    },
+    {
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "eurofunk KAPPACHER GmbH"
+      },
+      "id": "5461735631",
+      "redirect_url": "https://www.adzuna.at/details/5461735631?utm_medium=api&utm_source=5fbaef93",
+      "created": "2025-10-24T01:56:37Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "FRONTEND WEB DEVELOPER (m/w/d) Hagenberg im Mühlkreis Linz Salzburg St. Johann im Pongau Berufserfahrung Vollzeit ALL ABOUT: CREATING SAFETY BY TECHNOLOGY Sinnstiftend, nachhaltig und agil. Vernetzt, innovativ und modern. Einzigartig, dynamisch und international. Mit 360°-Kommunikations- und Leitstellenlösungen schaffen wir Sicherheit. Einsatzorganisationen, Industriekunden und internationale Flughäfen zählen zu unserem Kundenportfolio. In der Symbiose aus Innovation, Qualität und modernster Te…",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ2MTczNTYzMSIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.j3CptCJo3o6sUPbLMa8CWA84RDu-nXiM89ACRs-FFyw",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ],
+        "display_name": "Österreich"
+      },
+      "title": "FRONTEND WEB DEVELOPER (m/w/d)"
+    },
+    {
+      "longitude": 16.236662,
+      "redirect_url": "https://www.adzuna.at/details/5751248871?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "Data Unit Ag",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "id": "5751248871",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc1MTI0ODg3MSIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.meEwvH9wogc4QerDC-Oh8SKIzZBYWV8lrx0v53mbDkw",
+      "title": "Sommerpraktika Produkt Entwicklung",
+      "location": {
+        "display_name": "Baden",
+        "area": [
+          "Österreich",
+          "Niederösterreich",
+          "Baden",
+          "Baden"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_is_predicted": "0",
+      "description": "Motivation Plattform für Studierende der Uni Zrh Das erwartet dich Mitgestaltung und Mitarbeit in unserem Product Development Team. Du darfst mit aktuellen Technologien an produktiven Web-Applikationen mitarbeiten. Wir verwenden aktuelle Technogien wie: Kotlin, Angular, OpenShift, Gitlab Das bringst du mit Motivation Wissen im Umgang mit OOP Git Web-Applikationen oder Cloud-Technologien Kontakt Du hast Fragen zu dieser Stelle, melde dich bei Mischa Imbiscuso unter 41 41 925 17 17. Über uns Die …",
+      "latitude": 48.003589,
+      "contract_time": "full_time",
+      "created": "2026-06-04T00:26:54Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5759563866?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 15.439358,
+      "id": "5759563866",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "salary_max": 135000,
+      "latitude": 47.070503,
+      "salary_min": 85000,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz"
+        ],
+        "display_name": "Graz, Steiermark"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1NzU5NTYzODY2In0.U1oEnKQc2yrgOYRYN4ATWloOQ4Ze4WdPVwMfbH6d1Ok",
+      "title": "Software Architect (all genders)",
+      "description": "Entwicklung und Umsetzung innovativer Softwarearchitekturen für komplexe IT-Systeme mit Java / Jakarta EE und TypeScript / Angular Analyse technischer Anforderungen und Definition nachhaltiger Architekturkonzepte (Modularisierungen, Schnittstellendefinitionen) Unterstützung der Entwicklungsteams bei der Implementierung und Integration von Lösungen Gestaltung des Softwareentwicklungszyklus sowie der Qualitätssicherungsprozesse Evaluierung neuer Technologien und Best Practices zur kontinuierliche…",
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-06-11T06:54:13Z"
+    },
+    {
+      "created": "2026-08-27T07:43:24Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODU3OTMxNzkzIn0.6Imy9bHTPbeZtGV6CocxKwG4dF6Kq4XvAjTwmOY8jUQ",
+      "title": "Professional Java Fullstack Developer (w/m/d)",
+      "salary_is_predicted": "0",
+      "description": "Wir sind das Kompetenzzentrum für Digitalisierung des Public Sectors in Österreich – und damit Teil der kritischen Infrastruktur. Ob ID Austria, FinanzOnline, Unternehmensserviceportal oder digitaler Führerschein am Smartphone: Im BRZ entwickelte Anwendungen und Services vereinfachen Millionen Menschen den Alltag, indem sie Behördenwege mit wenigen Klicks ermöglichen. Im BRZ zu arbeiten heißt, mit dem eigenen Job den österreichischen Public Sector aktiv mitzugestalten. Es bedeutet, modernste Te…",
+      "latitude": 48.208144,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Bundesrechenzentrum GmbH"
+      },
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5857931793",
+      "longitude": 16.354031,
+      "redirect_url": "https://www.adzuna.at/details/5857931793?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "id": "5861346026",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "LTW Intralogistics GmbH"
+      },
+      "category": {
+        "label": "Unknown",
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5861346026?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 15.703551,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-29T18:19:50Z",
+      "latitude": 47.095661,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODYxMzQ2MDI2In0.9Hn8e20R2pK2jA5zpfscYHVZZnR2AhOnS9hxcu-Sdc8",
+      "title": "Software Engineer Projektrealisierung & Core-Entwicklung",
+      "location": {
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Weiz",
+          "Gleisdorf"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Gleisdorf, Weiz"
+      },
+      "description": "Entwickle mit uns die Zukunft von morgen! Stillstand ist für uns ein Fremdwort! Unsere Intralogistiksysteme bewegen weltweit täglich Millionen von Waren. Wir entwickeln ausgeklügelte Materialflusssysteme sowie Lagerautomation für unsere Kunden. Umsetzung von kundenindividuellen Softwareprojekten Analyse, Konzeption und Realisierung von Change Requests Eigenständige Inbetriebnahme und Optimierung von Softwarelösungen beim Kunden Enge Zusammenarbeit mit Entwicklung, Projektleitung und internation…",
+      "salary_is_predicted": "0"
+    },
+    {
+      "created": "2026-08-29T18:19:50Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MTM0NjAyNyIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.c3KlqMBLwqiYY-gN87De6foGDcZnfHB1blnDCKux8vc",
+      "title": "Software Engineer Projektrealisierung & Core-Entwicklung",
+      "location": {
+        "display_name": "Österreich",
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_is_predicted": "0",
+      "description": "Entwickle mit uns die Zukunft von morgen! Stillstand ist für uns ein Fremdwort! Unsere Intralogistiksysteme bewegen weltweit täglich Millionen von Waren. Wir entwickeln ausgeklügelte Materialflusssysteme sowie Lagerautomation für unsere Kunden. Umsetzung von kundenindividuellen Softwareprojekten Analyse, Konzeption und Realisierung von Change Requests Eigenständige Inbetriebnahme und Optimierung von Softwarelösungen beim Kunden Enge Zusammenarbeit mit Entwicklung, Projektleitung und internation…",
+      "company": {
+        "display_name": "LTW Intralogistics GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT-Stellen"
+      },
+      "id": "5861346027",
+      "redirect_url": "https://www.adzuna.at/details/5861346027?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODYxMzQ2MDI4In0.pW3x2dRViNO0vtOInr6WnoMN5hq2Ixy5PWqyHsdGMu4",
+      "location": {
+        "display_name": "Wolfurt, Bregenz",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Vorarlberg",
+          "Bregenz",
+          "Wolfurt"
+        ]
+      },
+      "title": "Software Engineer Projektrealisierung & Core-Entwicklung",
+      "description": "Entwickle mit uns die Zukunft von morgen! Stillstand ist für uns ein Fremdwort! Unsere Intralogistiksysteme bewegen weltweit täglich Millionen von Waren. Wir entwickeln ausgeklügelte Materialflusssysteme sowie Lagerautomation für unsere Kunden. Umsetzung von kundenindividuellen Softwareprojekten Analyse, Konzeption und Realisierung von Change Requests Eigenständige Inbetriebnahme und Optimierung von Softwarelösungen beim Kunden Enge Zusammenarbeit mit Entwicklung, Projektleitung und internation…",
+      "salary_is_predicted": "0",
+      "latitude": 47.46742,
+      "created": "2026-08-29T18:19:50Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 9.750004,
+      "redirect_url": "https://www.adzuna.at/details/5861346028?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "LTW Intralogistics GmbH"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "id": "5861346028"
+    },
+    {
+      "longitude": 16.354031,
+      "redirect_url": "https://www.adzuna.at/details/5861346029?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "LTW Intralogistics GmbH"
+      },
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5861346029",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODYxMzQ2MDI5In0.--8Wbit0E13EqS5eEfyCZoNR_p9Nut2y6aw2ha9zfQs",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich"
+      },
+      "title": "Software Engineer Projektrealisierung & Core-Entwicklung",
+      "salary_is_predicted": "0",
+      "description": "Entwickle mit uns die Zukunft von morgen! Stillstand ist für uns ein Fremdwort! Unsere Intralogistiksysteme bewegen weltweit täglich Millionen von Waren. Wir entwickeln ausgeklügelte Materialflusssysteme sowie Lagerautomation für unsere Kunden. Umsetzung von kundenindividuellen Softwareprojekten Analyse, Konzeption und Realisierung von Change Requests Eigenständige Inbetriebnahme und Optimierung von Softwarelösungen beim Kunden Enge Zusammenarbeit mit Entwicklung, Projektleitung und internation…",
+      "latitude": 48.208144,
+      "created": "2026-08-29T18:19:50Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "longitude": 16.354031,
+      "id": "5524618387",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1NTI0NjE4Mzg3In0.NuPW30-kl1PsjS4O3RP7y6QXUUZYoyiP2bq3TWcQ9Wk",
+      "title": "Java Full Stack Developer",
+      "description": "Location: Vienna (1–2 days on-site per week during onboarding, then 2-4 day per month; otherwise fully remote) Start: ASAP | Duration: 12 months (extension possible) | Workload: 100% Language: English (must-have)  German (nice to have) We are seeking an experienced Java Full Stack Developer with a strong focus on backend development to join our agile team. Your role will involve designing and developing APIs, implementing microservice-based architectures, integrating with databases, and contrib…",
+      "salary_min": 91000,
+      "created": "2025-12-02T19:54:01Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.at/details/5524618387?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "Qualysoft",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "salary_is_predicted": "0",
+      "salary_max": 104000,
+      "latitude": 48.208144
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5461735623?utm_medium=api&utm_source=5fbaef93",
+      "id": "5461735623",
+      "company": {
+        "display_name": "eurofunk KAPPACHER GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ2MTczNTYyMyIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.cACKSW22pMVdWt4jZLj-Yf9a5eMkZWAogCKl3GPn1SM",
+      "title": "FRONTEND WEB DEVELOPER (m/f/d)",
+      "location": {
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ]
+      },
+      "description": "FRONTEND WEB DEVELOPER (m/f/d) Hagenberg im Mühlkreis Linz Salzburg St. Johann im Pongau Work experience Fulltime ALL ABOUT: CREATING SAFETY BY TECHNOLOGY Together, we make safety smarter, faster, and more effective. Be part of a team where your work has a real impact on the world around you. At eurofunk, we shape the future of public safety, industry, and transport with our cutting-edge 360° communication and control center solutions. Through innovation, sustainability, and state-of-the-art te…",
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-10-24T01:56:37Z"
+    },
+    {
+      "longitude": 14.293495,
+      "id": "5840359406",
+      "description": "Willkommen bei BEKO – Österreichs führendem Anbieter technischer Dienstleistungen. Seit über 50 Jahren arbeiten wir bei BEKO an modernen Lösungen und wegweisenden Zukunftsideen für Unternehmen jeder Branche und Größe. Mit einem bunten Team aus kreativen Köpfen und dem gebündelten Know-how von IT-Spezialist*innen und Engineering-Expert*innen denken wir quer, weiter und voraus. Dabei glauben wir vor allem an eines: Fortschritt in allen Farben. Aber wir bei BEKO reden nicht nur von der Zukunft. Wi…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MDM1OTQwNiIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.rthqUiIxUJSvlE0AFZ8TwCcpY99b1xPnDEvX0zlo0zc",
+      "title": "Wir  Backend Entwickler C#/.NET (w/m/x) für einen internationalen Kunden im Industriebereich",
+      "salary_min": 46800,
+      "created": "2026-08-13T16:46:47Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.at/details/5840359406?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "company": {
+        "display_name": "BEKO",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Oberösterreich",
+          "Linz"
+        ],
+        "display_name": "Linz, Oberösterreich"
+      },
+      "contract_time": "full_time",
+      "latitude": 48.290256,
+      "salary_max": 48000
+    },
+    {
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Interad Software GmbH"
+      },
+      "id": "5699053483",
+      "redirect_url": "https://www.adzuna.at/details/5699053483?utm_medium=api&utm_source=5fbaef93",
+      "created": "2026-04-14T15:45:14Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Du willst nicht einfach nur Software entwickeln, sondern echte Lösungen schaffen? Dann werde Teil unseres Teams in Graz – wir freuen uns auf deine Bewerbung! Aufgaben Leitung technischer Projekte mit Fokus auf die Einhaltung von Qualitätsstandards und wirtschaftlichen Zielsetzungen Schnittstellenfunktion zwischen KundInnen und Entwicklungsteam zur Definition passgenauer Softwarelösungen Individuelle Softwareentwicklung und Weiterentwicklung innovativer Web-Applikationen mit .NET Core, Microsoft…",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY5OTA1MzQ4MyIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.m8uwdl1y32iG-3toxHxSqvoVg74xBt6Zom9FodmrZqA",
+      "title": "Fullstack Softwareentwickler und Projektleiter (.NET, WEB) (m/w/d)",
+      "location": {
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Österreich"
+      },
+      "salary_min": 55356,
+      "salary_max": 55356
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-05-18T17:14:40Z",
+      "salary_max": 43000,
+      "salary_min": 43000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTczMzIzNDQwOCIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.iI4Su7iofpcYPQzja8MmeVsKTyzqxnx7ZnPon7y13T0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich"
+      },
+      "title": "Entwickler (m/w/d)",
+      "description": "Hey, wir sind HELFERLINE aus Wien – ein innovatives und schnell wachsendes Plattform-Unternehmen. Tasks Zur Verstärkung unseres motivierten Teams suchen wir eine versierte Entwicklerin oder einen versierten Entwickler. Wir betreiben und entwickeln unter anderem: eine Flutter-/Dart-App Angular- und React-Frontends ein C#-/.NET-Backend eine SQL-Datenbank Du musst nicht alle diese Technologien beherrschen – aber du solltest uns in den meisten Bereichen unterstützen können und Lust haben, dich in N…",
+      "salary_is_predicted": "0",
+      "id": "5733234408",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "HELFERLINE GmbH"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5733234408?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5798342657?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "BRZ",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien",
+          "Landstraße"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Landstraße, Wien"
+      },
+      "contract_time": "full_time",
+      "latitude": 48.197021,
+      "salary_max": 56894,
+      "longitude": 16.393873,
+      "id": "5798342657",
+      "description": "Beschreibung des BRZ Wir sind das Kompetenzzentrum für Digitalisierung des Public Sectors in Österreich – und damit Teil der kritischen Infrastruktur. Ob ID Austria, FinanzOnline, Unternehmensserviceportal oder digitaler Führerschein am Smartphone: Im BRZ entwickelte Anwendungen und Services vereinfachen Millionen Menschen den Alltag, indem sie Behördenwege mit wenigen Klicks ermöglichen. Im BRZ zu arbeiten heißt, mit dem eigenen Job den österreichischen Public Sector aktiv mitzugestalten. Es b…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5ODM0MjY1NyIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.8TkSQtLn76TJKNHTGmFpmlqu6UU-FFoRA-Z-QMZDV4o",
+      "title": "Professional Java Fullstack Developer (w/m/d) - Digitale Aktenführung",
+      "salary_min": 56894,
+      "created": "2026-07-13T01:11:44Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-07-06T01:06:57Z",
+      "latitude": 48.208144,
+      "salary_max": 80080,
+      "salary_min": 80080,
+      "description": "Beschreibung des BRZ Wir sind das Kompetenzzentrum für Digitalisierung des Public Sectors in Österreich – und damit Teil der kritischen Infrastruktur. Ob ID Austria, FinanzOnline, Unternehmensserviceportal oder digitaler Führerschein am Smartphone: Im BRZ entwickelte Anwendungen und Services vereinfachen Millionen Menschen den Alltag, indem sie Behördenwege mit wenigen Klicks ermöglichen. Im BRZ zu arbeiten heißt, mit dem eigenen Job den österreichischen Public Sector aktiv mitzugestalten. Es b…",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4OTQ0NDExMyIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.JLObhkkyP1bdZo4EcvnYjN4mOQ5VBZKP3uhh85dLtTI",
+      "title": "Java Fullstack Developer (w/m/d) Mein Postkorb / eZustellung",
+      "id": "5789444113",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "Gemeinde Gabersdorf",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5789444113?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 16.354031
+    },
+    {
+      "location": {
+        "area": [
+          "Österreich",
+          "Wien",
+          "Landstraße"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Landstraße, Wien"
+      },
+      "salary_is_predicted": "0",
+      "salary_max": 69011,
+      "latitude": 48.197021,
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.at/details/5838401314?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "BRZ",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODM4NDAxMzE0In0.0Xr7n_K6mXpaknR8D3EekosrTNTPns5D507Cua1UMoE",
+      "title": "Java Fullstack Developer (w/m/d) Mein Postkorb / eZustellung",
+      "description": "Beschreibung des BRZ Wir sind das Kompetenzzentrum für Digitalisierung des Public Sectors in Österreich – und damit Teil der kritischen Infrastruktur. Ob ID Austria, FinanzOnline, Unternehmensserviceportal oder digitaler Führerschein am Smartphone: Im BRZ entwickelte Anwendungen und Services vereinfachen Millionen Menschen den Alltag, indem sie Behördenwege mit wenigen Klicks ermöglichen. Im BRZ zu arbeiten heißt, mit dem eigenen Job den österreichischen Public Sector aktiv mitzugestalten. Es b…",
+      "salary_min": 69011,
+      "created": "2026-08-12T16:48:11Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.393873,
+      "id": "5838401314"
+    },
+    {
+      "description": "Als Teil unseres Teams wirst du eine Vielzahl an Anwendungen für unsere Kunden in der Transportbranche entwickeln. Von der automatisierten Planung und Sendungsverfolgung mit Telematik-Systemen bis hin zu mobilen Apps für Fahrer gibt es keine Grenzen für deine Kreativität. Bewirb Dich jetzt bei uns bei Translogica als Software Engineer und werde Teil unseres Teams! HAST DU LUST AUF ein junges, dynamisches Team mit ausgezeichnetem Arbeitsklima einen professionelle, Scrum-basierten Entwicklungspro…",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MTc2NzQwMiIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.dIDrANri-DzEX2ION2lU4kosXWnx3SliJ757YYGAnVM",
+      "location": {
+        "display_name": "Brigittenau, Wien",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Brigittenau"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "title": "Software Engineer (m/w/d)",
+      "contract_time": "full_time",
+      "latitude": 48.237721,
+      "created": "2026-08-14T13:15:43Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.375306,
+      "contract_type": "permanent",
+      "redirect_url": "https://www.adzuna.at/details/5841767402?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "Translogica GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5841767402"
+    },
+    {
+      "latitude": 47.221832,
+      "contract_time": "full_time",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MTc2NzQwMSIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.RzLBVtJmerVY9ex-jT-jdRaATdnFmsDcnMG8mRG4Wjc",
+      "title": "Software Engineer (m/w/d)",
+      "location": {
+        "display_name": "Mutters, Innsbruck-Land",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Innsbruck-Land",
+          "Mutters"
+        ]
+      },
+      "description": "Als Teil unseres Teams wirst du eine Vielzahl an Anwendungen für unsere Kunden in der Transportbranche entwickeln. Von der automatisierten Planung und Sendungsverfolgung mit Telematik-Systemen bis hin zu mobilen Apps für Fahrer gibt es keine Grenzen für deine Kreativität. Bewirb Dich jetzt bei uns bei Translogica als Software Engineer und werde Teil unseres Teams! HAST DU LUST AUF ein junges, dynamisches Team mit ausgezeichnetem Arbeitsklima einen professionelle, Scrum-basierten Entwicklungspro…",
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-14T13:15:43Z",
+      "redirect_url": "https://www.adzuna.at/details/5841767401?utm_medium=api&utm_source=5fbaef93",
+      "contract_type": "permanent",
+      "longitude": 11.388521,
+      "id": "5841767401",
+      "company": {
+        "display_name": "Translogica GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      }
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-05-02T00:29:57Z",
+      "salary_min": 32400,
+      "description": "Einleitung ECOexperts, als Teil der SPIE Gruppe, entwirft, entwickelt und implementiert Leitsysteme für kritische Infrastrukturen und Versorgungseinrichtungen, wie z.B. Tunnel, Energieparks, und stellt sicher, dass diese ständig einsatzbereit, sicher vor Cyberangriffen und skalierbar für die Zukunft sind. Für die Umsetzung von Kundenanlagen suchen wir zur Verstärkung unseres Teams: Automatisierungstechniker m/w/d Standort: Lebring Kennziffer: 2026-0114 Arbeitszeit: Vollzeit Deine Aufgaben: Real…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1NzE2MjkzODU0In0.fkPkxlLgVycnamP-ugcChdcI7RDkWbJ-jZ5MZYQWqUg",
+      "title": "Automatisierungstechniker",
+      "id": "5716293854",
+      "longitude": 15.502697,
+      "contract_time": "full_time",
+      "salary_max": 54000,
+      "latitude": 46.843679,
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Leibnitz",
+          "Lang"
+        ],
+        "display_name": "Lang, Leibnitz"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "ECOexperts Automation"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5716293854?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "contract_type": "permanent",
+      "longitude": 14.293495,
+      "redirect_url": "https://www.adzuna.at/details/5857812890?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "iTEC Informationssysteme AG"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Stellen aus Buchhaltung & Finanzwesen",
+        "tag": "accounting-finance-jobs"
+      },
+      "id": "5857812890",
+      "title": "Full Stack Java Developer (m/w/d)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NzgxMjg5MCIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.YTtnKzVfAXbVKpSTbGbAq25FhqRACbAgGrc_Svfrvmk",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Oberösterreich",
+          "Linz"
+        ],
+        "display_name": "Linz, Oberösterreich"
+      },
+      "description": "Full Stack Java Developer (m/w/d) 38,5 Stunden pro Woche • unbefristet • Frühester Beginn ab sofort Für unseren Kunden, einen führenden IT-Dienstleister im Bankenumfeld im Raum Linz, suchen wir ab sofort eine:n erfahrene:n Full Stack Developer (w/m/d) zur Verstärkung des „Internal Platforms\"-Teams. Du wirst Teil eines agilen Entwicklerteams, das innovative Lösungen für Vertriebsprozesse in der Finanzindustrie gestaltet – technisch anspruchsvoll und mit echtem Impact. Deine Aufgaben Entwicklung …",
+      "salary_is_predicted": "0",
+      "latitude": 48.290256,
+      "contract_time": "full_time",
+      "created": "2026-08-27T04:54:51Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "created": "2026-08-28T07:43:17Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "description": "IVM spezialisiert sich seit 40 Jahren auf die Ziele ihrer Projektpartner*innen und ihrer Kunden im technischen Umfeld. Mit Hilfe unserer technisch affinen Wissensträger*innen schaffen wir jeden Wunsch zu erfüllen. Werden Sie Consultant bei IVM und arbeiten Sie an spannenden Projekten bei den Top Unternehmen Österreichs! Job-Nr.: 107127 Einsatzort: Großraum Graz Fachbereich: Software & IT Art der Anstellung: Vollzeit Gehalt (Brutto/Monat): von 4.500 bis 5.200 Euro Entwicklung und Weiterentwicklu…",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz"
+        ],
+        "display_name": "Graz, Steiermark"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODU5NDA0NTQ2In0.qZOTZiVKCg79GGiSxadNPn7ZbpEyKuHxodUSr9UOyss",
+      "title": "Full Stack-Entwickler*in (m/w/d)",
+      "latitude": 47.070503,
+      "category": {
+        "label": "Unknown",
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "IVM Technical Consultants",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5859404546",
+      "longitude": 15.439358,
+      "redirect_url": "https://www.adzuna.at/details/5859404546?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "created": "2026-08-26T09:09:40Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "description": "Our client, a leading Software, Information and Communication Technologies company, operates internationally (Athens, Brussels, Luxembourg, Copenhagen, Stockholm, London, Nicosia, Hong-Kong, Valetta, etc). Our client is a renowned supplier of IT services to government institutions, multinational corporations, public administrations and multinational companies, research and academic institutes. Role Overview Our client currently has a vacancy for a Full Stack Developer fluent in English, to offe…",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NjUwMjU4NSIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.CXiLBULJ80qjZSuF8jo2S9wkw-4pSbO1amVIy7BgTtc",
+      "title": "Full Stack Developer",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "Black Pen Recruitment",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5856502585",
+      "redirect_url": "https://www.adzuna.at/details/5856502585?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "salary_is_predicted": "0",
+      "description": "Wir, die Black Tusk GmbH, suchen nach einem/einer motivierten Entwickler_in für unseren Standort in Graz. Wir arbeiten an Projekten und Produkten, die das Gesundheitswesen modernisieren und interoperable Datenräume Realität werden lassen. Unsere Vision ist es, eine führende Rolle in der digitalen Transformation des Gesundheitswesens in der DACH-Region zu übernehmen – durch interoperable, vernetzte Ökosysteme für eine sicherere und gesündere Zukunft. Arbeitest auch Du gerne in einem Team, das de…",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ],
+        "display_name": "Österreich"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTU3NTE0MDgxNiIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.MIsVA15sq6sPs3cvqfdscqBMx_RLBginyhhLGuS3L1I",
+      "title": "Full Stack Entwickler_in (m/w/d)",
+      "salary_min": 38400,
+      "salary_max": 38400,
+      "created": "2026-01-09T03:23:31Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.at/details/5575140816?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "Black Tusk GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5575140816"
+    },
+    {
+      "company": {
+        "display_name": "IVM Technical Consultants",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5862343571",
+      "longitude": 16.354031,
+      "redirect_url": "https://www.adzuna.at/details/5862343571?utm_medium=api&utm_source=5fbaef93",
+      "created": "2026-08-30T18:20:07Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "title": "Full-Stack Entwickler*in C#/.NET (m/w/d)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODYyMzQzNTcxIn0.yt0iNGgxDwWGd7oOXiuYaMuN1_hszMqiwha8y2xfdBw",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "description": "IVM spezialisiert sich seit 40 Jahren auf die Ziele ihrer Projektpartner*innen und ihrer Kunden im technischen Umfeld. Mit Hilfe unserer technisch affinen Wissensträger*innen schaffen wir jeden Wunsch zu erfüllen. Werden Sie Consultant bei IVM und arbeiten Sie an spannenden Projekten bei den Top Unternehmen Österreichs! Job-Nr.: 107185 Einsatzort: Südliches Wien Fachbereich: Software & IT Art der Anstellung: Vollzeit Gehalt (Brutto/Monat): ab € 3.500,- Kontinuierliche Neu- und Weiterentwicklung…",
+      "salary_is_predicted": "0",
+      "latitude": 48.208144
+    },
+    {
+      "description": "REKORD Fenster ist der Partner in Sachen Fenster und Türen sowie Sonnen- und Insektenschutz für jedes Budget mit regionaler Qualität aus Österreich. Viele reden über KI. Wir setzen sie ein. Bei REKORD automatisieren wir Prozesse, bauen eigene digitale Lösungen und nutzen KI längst im Alltag – nicht als Schlagwort, sondern als Werkzeug. Und trotzdem bleiben wir, was wir sind: ein bodenständiges, österreichweites Unternehmen mit kurzen Wegen und klaren Werten. Du bekommst von uns genügend Zeit, d…",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODY3Mjg5MjcyIn0.9lpHjfYN2e_A2vCvJx4JlkEKQSblwMntfPJI9GnlZX8",
+      "title": "IT-Allrounder mit Spaß an KI (m/w/d) für die REKORD-Franchise Zentrale in Villach",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Kärnten",
+          "Villach"
+        ],
+        "display_name": "Villach, Kärnten"
+      },
+      "latitude": 46.612878,
+      "created": "2026-09-02T18:22:21Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 13.861359,
+      "redirect_url": "https://www.adzuna.at/details/5867289272?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT-Stellen"
+      },
+      "company": {
+        "display_name": "Rekord Franchise GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5867289272"
+    },
+    {
+      "latitude": 47.17457,
+      "title": "Embedded Linux Software Entwickler (m/w/d) [83208]",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1Nzk1MTAwODE0In0.jCf1irzFrPpXXL06ZZZw0Kw7ABAeJvXAV1jT-FcZVn0",
+      "location": {
+        "display_name": "Nenzing, Bludenz",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Vorarlberg",
+          "Bludenz",
+          "Nenzing"
+        ]
+      },
+      "description": "Embedded Linux Software Entwickler (m/w/d) Informationstechnologie / Software | Job-ID 83208 Das sind deine Aufgaben Entwurf, Implementierung und Weiterentwicklung von Embedded-Software für Steuerungssysteme mobiler Arbeitsmaschinen Entwicklung von Anwendungen in C/C++ auf Linux-basierten Systemen, idealerweise im Embedded-Umfeld Umsetzung technischer Anforderungen in strukturierte und wartbare Softwarelösungen Mitwirkung bei der Weiterentwicklung der Systemarchitektur im Team über den gesamten…",
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-07-10T06:46:13Z",
+      "redirect_url": "https://www.adzuna.at/details/5795100814?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 9.656511,
+      "id": "5795100814",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Liebherr-Werk Nenzing GmbH"
+      },
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      }
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-09-03T18:28:25Z",
+      "latitude": 48.347693,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODY5MzMxMTAwIn0.QZCdnWz3bboreRNCfrPiwxEmpyFuOofWc_ctBu4gVqo",
+      "location": {
+        "display_name": "Korneuburg",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Niederösterreich",
+          "Korneuburg",
+          "Korneuburg"
+        ]
+      },
+      "title": "Full Stack Entwickler (w/m/d)",
+      "description": "AgrarCommander ist die führende Farm-Management-Software für österreichische Landwirte. Er vereinfacht mit modernster Technologie den digitalen Alltag auf dem Betrieb. Nähere Informationen findest du auf: AgrarCommander GesmbH Full Stack Entwickler (w/m/d) Dienstort: Korneuburg Du entwickelst moderne, userorientierte Web- und Mobile-Anwendungen für den AgrarCommander – von der Web-App bis zur Progressive Web App (PWA) Als Full Stack Entwickler:in arbeitest du an Frontend und Backend, entwickels…",
+      "salary_is_predicted": "0",
+      "id": "5869331100",
+      "company": {
+        "display_name": "RWA Raiffeisen Ware Austria AG",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5869331100?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 16.331932
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-25T18:18:25Z",
+      "latitude": 48.208144,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODU1NTg3NTYyIn0.JI4YEBQomKTrTnEvETVkO6dcdyaIWYDxjdLd9wordo8",
+      "location": {
+        "display_name": "Wien, Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "title": "Fullstack Developer (all genders)",
+      "salary_is_predicted": "0",
+      "description": "adesso Austria gehört zu den Top-Technologie- und Beratungsunternehmen in Österreich mit Geschäftsstellen in Wien und Graz und ist Teil der adesso Gruppe. Gemeinsam und auf Augenhöhe mit unseren Kunden setzen wir agile Digitalisierungsprojekte um. Unseren Erfolg aber erreichen wir nur durch eins: die Menschen bei adesso! Wir legen in gleichem Maße großen Wert auf die persönliche Situation jedes adessi, auf die Zusammenarbeit in den Teams und auf unsere Identität als adesso Austria. Was uns verb…",
+      "id": "5855587562",
+      "company": {
+        "display_name": "adesso Austria GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5855587562?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 16.354031
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5855587560?utm_medium=api&utm_source=5fbaef93",
+      "id": "5855587560",
+      "category": {
+        "label": "Unknown",
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "adesso Austria GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "description": "adesso Austria gehört zu den Top-Technologie- und Beratungsunternehmen in Österreich mit Geschäftsstellen in Wien und Graz und ist Teil der adesso Gruppe. Gemeinsam und auf Augenhöhe mit unseren Kunden setzen wir agile Digitalisierungsprojekte um. Unseren Erfolg aber erreichen wir nur durch eins: die Menschen bei adesso! Wir legen in gleichem Maße großen Wert auf die persönliche Situation jedes adessi, auf die Zusammenarbeit in den Teams und auf unsere Identität als adesso Austria. Was uns verb…",
+      "salary_is_predicted": "0",
+      "title": "Fullstack Developer (all genders)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NTU4NzU2MCIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.fSSQQwmozFlWbGUFT3KemVL-PTgTn3TuKOyRbA4-c7U",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ],
+        "display_name": "Österreich"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-25T18:18:25Z"
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5855587563?utm_medium=api&utm_source=5fbaef93",
+      "longitude": 15.439358,
+      "id": "5855587563",
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "adesso Austria GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "latitude": 47.070503,
+      "description": "adesso Austria gehört zu den Top-Technologie- und Beratungsunternehmen in Österreich mit Geschäftsstellen in Wien und Graz und ist Teil der adesso Gruppe. Gemeinsam und auf Augenhöhe mit unseren Kunden setzen wir agile Digitalisierungsprojekte um. Unseren Erfolg aber erreichen wir nur durch eins: die Menschen bei adesso! Wir legen in gleichem Maße großen Wert auf die persönliche Situation jedes adessi, auf die Zusammenarbeit in den Teams und auf unsere Identität als adesso Austria. Was uns verb…",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODU1NTg3NTYzIn0.1Llm8-Nsks-eEplFL64VIREqyZf617QZGOhR2gv7j3g",
+      "location": {
+        "display_name": "Graz, Steiermark",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz"
+        ]
+      },
+      "title": "Fullstack Developer (all genders)",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-25T18:18:25Z"
+    },
+    {
+      "description": "Die HR Group Personaldienstleistung ist spezialisiert auf Human Resources Management . Unsere Zielgruppen sind Fach- und Führungskräfte im kaufmännischen und technischen Bereich . Wir begleiten Absolvent:innen, Fachkräfte und Spezialist:innen auf ihrem Karriereweg und unterstützen Unternehmen dabei, die passenden Talente für ihre Teams zu finden. Sie suchen eine neue berufliche Herausforderung? Dann sind Sie bei uns genau richtig, denn… …zur Verstärkung unseres HR Group Personaldienstleistungs-…",
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Graz-Umgebung, Steiermark",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Steiermark",
+          "Graz-Umgebung"
+        ]
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODU5ODg4MDc1In0.OlvtTsd0fg8rxONrAbqsxhwpCZs88oeijJ0ad33i7v4",
+      "title": "Full Stack Developer (m/w/d)",
+      "latitude": 47.076332,
+      "created": "2026-08-28T18:19:25Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 15.432347,
+      "redirect_url": "https://www.adzuna.at/details/5859888075?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "HR Group Personaldienstleistung GmbH"
+      },
+      "id": "5859888075"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-28T18:19:25Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODU5ODg4MDM5In0.7YeVPh6peML4mbUKAZBObz5zH0GA9V3foVZ6nk-woyU",
+      "location": {
+        "display_name": "Österreich",
+        "area": [
+          "Österreich"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "title": "Full Stack Developer (m/w/d)",
+      "salary_is_predicted": "0",
+      "description": "Die HR Group Personaldienstleistung ist spezialisiert auf Human Resources Management . Unsere Zielgruppen sind Fach- und Führungskräfte im kaufmännischen und technischen Bereich . Wir begleiten Absolvent:innen, Fachkräfte und Spezialist:innen auf ihrem Karriereweg und unterstützen Unternehmen dabei, die passenden Talente für ihre Teams zu finden. Sie suchen eine neue berufliche Herausforderung? Dann sind Sie bei uns genau richtig, denn… …zur Verstärkung unseres HR Group Personaldienstleistungs-…",
+      "id": "5859888039",
+      "company": {
+        "display_name": "HR Group Personaldienstleistung GmbH",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5859888039?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5866570633?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "Wüstenrot Gruppe",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen",
+        "tag": "it-jobs"
+      },
+      "id": "5866570633",
+      "title": "Mobile App Developer (m/w/d)",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2NjU3MDYzMyIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.GZnKSxu443h_QyRbeteNuOmUak_rrHBjb-2DazA2eso",
+      "location": {
+        "display_name": "Österreich",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich"
+        ]
+      },
+      "salary_is_predicted": "0",
+      "description": "Komm in unser Team als: Mobile App Developer (m/w/d) Dienstort: Salzburg, Wien oder deine Wohnung Die Wüstenrot Technology GmbH gehört im Bereich der Informationstechnologie zu den größten Arbeitgebern im Raum Salzburg. Wir entwickeln, implementieren, unterstützen und servicieren die IT der Unternehmensgruppe Wüstenrot im In- und Ausland. Entwicklung unserer All-Finanz-App: Du entwickelst und implementierst neue Funktionen für alle Bereiche der App - von Banking über Versicherungen bis hin zu B…",
+      "created": "2026-09-02T07:33:33Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODY2NTcwNjM0In0.gAuDC4UrC3KmACWg6BC9wLiZ2f1BfsSz9F_elzqDQyc",
+      "title": "Mobile App Developer (m/w/d)",
+      "location": {
+        "display_name": "Salzburg",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Salzburg",
+          "Salzburg"
+        ]
+      },
+      "description": "Komm in unser Team als: Mobile App Developer (m/w/d) Dienstort: Salzburg, Wien oder deine Wohnung Die Wüstenrot Technology GmbH gehört im Bereich der Informationstechnologie zu den größten Arbeitgebern im Raum Salzburg. Wir entwickeln, implementieren, unterstützen und servicieren die IT der Unternehmensgruppe Wüstenrot im In- und Ausland. Entwicklung unserer All-Finanz-App: Du entwickelst und implementierst neue Funktionen für alle Bereiche der App - von Banking über Versicherungen bis hin zu B…",
+      "salary_is_predicted": "0",
+      "latitude": 47.801436,
+      "created": "2026-09-02T07:33:33Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 13.038507,
+      "redirect_url": "https://www.adzuna.at/details/5866570634?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "display_name": "Wüstenrot Gruppe",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5866570634"
+    },
+    {
+      "created": "2026-09-02T18:22:23Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "Österreich",
+          "Oberösterreich",
+          "Linz-Land",
+          "Traun"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Traun, Linz-Land"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODY3Mjg5NTcyIn0.PNl28Mc7JM1-CwHQ_Eknuby660K5q7O_8zNvNwyrr94",
+      "title": "Programmierer / Softwareentwickler (w/m/d) - Eigenentwicklungen Telekommunikation",
+      "description": "Wir verbinden Digitalisierung mit Kommunikation – und entwickeln Lösungen, die im Alltag unserer Kunden wirken. Neben unserem modularen Portfolio arbeiten wir gezielt an Eigenentwicklungen , die Unternehmen dabei unterstützen, Telekommunikation transparenter, steuerbarer und intelligenter zu machen. Als inhabergeführtes Unternehmen mit flacher Hierarchie, klaren Entscheidungen und echter Verantwortung setzen wir auf Substanz – im Code wie im Gespräch. Unsere Vision: In der DACH-Region der bevor…",
+      "salary_is_predicted": "0",
+      "latitude": 48.225239,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "digicom)) GmbH"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "id": "5867289572",
+      "longitude": 14.232723,
+      "redirect_url": "https://www.adzuna.at/details/5867289572?utm_medium=api&utm_source=5fbaef93"
+    },
+    {
+      "contract_time": "full_time",
+      "latitude": 48.197021,
+      "salary_max": 65000,
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Landstraße, Wien",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Landstraße"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Mavie"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5843144737?utm_medium=api&utm_source=5fbaef93",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-15T16:48:25Z",
+      "salary_min": 65000,
+      "description": "General information Mavie supports companies in caring for the health of their employees. With many years of expertise, tailored solutions and both digital and analogue services. We offer solution-oriented short-term counselling for employees and Company Assistance (trainings, workshops, seminars…) for our clients. All our solutions are tailor-made and adapted to the ever-changing challenges of our times. Because we believe that mental and physical health is something special and valuable, and …",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODQzMTQ0NzM3In0.qAaxIWHqqNPA45MhDUUPe-nAYeZYfhLgOwlwpR5W7UI",
+      "title": "Software Engineer (m/f/d) – Lifestyle Check & Wellabe Lab Systems",
+      "id": "5843144737",
+      "longitude": 16.393873
+    },
+    {
+      "company": {
+        "display_name": "Cloudflight",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT-Stellen"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5833562594?utm_medium=api&utm_source=5fbaef93",
+      "latitude": 47.264585,
+      "salary_max": 55356,
+      "contract_time": "full_time",
+      "location": {
+        "display_name": "Innsbruck, Tirol",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Tirol",
+          "Innsbruck"
+        ]
+      },
+      "salary_is_predicted": "0",
+      "id": "5833562594",
+      "longitude": 11.40202,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-08T16:46:57Z",
+      "salary_min": 55356,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzMzU2MjU5NCIsInMiOiJQaWFNQk42bjhSRzN3TFYwaG14Vk53In0.qyPftZKoOWMiX_61MLFKgCYrww30XN8ajp0Arqf2V50",
+      "title": "Experienced Software Engineer Java / Kotlin (m/f/x)",
+      "description": "At Cloudflight, we’re committed to making a digital difference. It’s a difference that impacts businesses and society alike and one that’s fueled by our passion for technology and our dedication to sparking the brightest ideas in ourselves and others. Your daily tasks will include building sustainable state-of-the-art software solutions following agile methodologies, clean code principles and test-driven development constantly learning and developing your skills within a wide variety of customi…"
+    },
+    {
+      "salary_is_predicted": "0",
+      "description": "Wir entwickeln Software, Teams und Organisationen – seit über 30 Jahren. Wenn sich Technologie, Zusammenarbeit und Denken verändern, entsteht mehr als nur ein neues Produkt – es entsteht ein neues Selbstbild. Genau diesen Weg gestalten wir gemeinsam mit unseren Kund:innen. Die TechTalk Expert:innen agieren dabei immer auf Augenhöhe, partnerschaftlich und mit Handschlagqualität. Unser Portfolio wächst mit den Herausforderungen unserer Kund:innen, beginnend mit der Entwicklung individueller Softw…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGlhTUJONm44Ukczd0xWMGhteFZOdyIsImkiOiI1ODYxMzQ1NzE3In0.AAXDLDvL6iPb53NBAGQ_UdublpTitQSD7j47i6znpF8",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich"
+      },
+      "title": ".NET Intermediate Developer (m/w/d)",
+      "latitude": 48.208144,
+      "created": "2026-08-29T18:19:43Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 16.354031,
+      "redirect_url": "https://www.adzuna.at/details/5861345717?utm_medium=api&utm_source=5fbaef93",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT-Stellen",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "TechTalk GmbH"
+      },
+      "id": "5861345717"
+    }
+  ],
+  "mean": 67606.79
+}

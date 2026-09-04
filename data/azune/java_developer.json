@@ -1,0 +1,159 @@
+{
+  "mean": 39000,
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "count": 5,
+  "results": [
+    {
+      "redirect_url": "https://www.adzuna.at/land/ad/5830321632?se=7pup-N2n8RGFQ8r7cmJIsQ&utm_medium=api&utm_source=5fbaef93&v=F25D54088862004DDFA308F9690259557259A23B",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiN3B1cC1OMm44UkdGUThyN2NtSklzUSIsImkiOiI1ODMwMzIxNjMyIn0.qGoMv3512R4uTOJmMZF_LYzqv0-F-A2fanpwvoWybiw",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "IBM"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Österreich",
+          "Wien"
+        ],
+        "display_name": "Wien, Österreich"
+      },
+      "title": "Java Developer mit Kafka (f/m/x)",
+      "longitude": 16.354031,
+      "id": "5830321632",
+      "created": "2026-08-06T12:37:40Z",
+      "latitude": 48.208144,
+      "salary_is_predicted": "0",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and crea…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown",
+        "label": "Unknown"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "title": "Junior Java Developer (m/w/d)",
+      "longitude": 16.354031,
+      "id": "5833708928",
+      "redirect_url": "https://www.adzuna.at/details/5833708928?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Senacor Technologies AG"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzMzcwODkyOCIsInMiOiI3cHVwLU4ybjhSR0ZROHI3Y21KSXNRIn0.WS3NDvS_5AtEwBaWq5HeJVpPqeP9zMyw3Li0OLbPpI8",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "salary_is_predicted": "0",
+      "description": "Du brennst für innovative Technologien und moderne Software? Als Developerin oder Developer bei Senacor schreibst du nicht nur Code – du entwickelst und integrierst geschäftskritische Anwendungen, löst komplexe technische Herausforderungen und arbeitest mit einem modernen Tech-Stack. Was uns auszeichnet? Unsere hands-on mentality! Bei Senacor zählen Coaching auf Augenhöhe, echter Teamgeist und flexible Zusammenarbeit. In interdisziplinären Teams übernimmst du früh Verantwortung – vom Konzept üb…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT-Stellen",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "created": "2026-08-08T18:14:47Z",
+      "latitude": 48.208144
+    },
+    {
+      "redirect_url": "https://www.adzuna.at/details/5834198494?utm_medium=api&utm_source=5fbaef93",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Senacor Technologies AG"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzNDE5ODQ5NCIsInMiOiI3cHVwLU4ybjhSR0ZROHI3Y21KSXNRIn0.j4cNKDpgCi7rdOUpKsDFUmHrSK-2EonvQeVxc4JYijU",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Innere Stadt, Wien",
+        "area": [
+          "Österreich",
+          "Wien",
+          "Innere Stadt"
+        ]
+      },
+      "longitude": 16.370243,
+      "title": "Junior Java Developer (m/w/d)",
+      "id": "5834198494",
+      "created": "2026-08-09T03:34:35Z",
+      "latitude": 48.208604,
+      "salary_is_predicted": "0",
+      "description": "Du brennst für innovative Technologien und moderne Software? Als Developerin oder Developer bei Senacor schreibst du nicht nur Code – du entwickelst und integrierst geschäftskritische Anwendungen, löst komplexe technische Herausforderungen und arbeitest mit einem modernen Tech-Stack. Was uns auszeichnet? Unsere hands-on mentality! Bei Senacor zählen Coaching auf Augenhöhe, echter Teamgeist und flexible Zusammenarbeit. In interdisziplinären Teams übernimmst du früh Verantwortung – vom Konzept üb…",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT-Stellen"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "latitude": 48.290256,
+      "contract_type": "permanent",
+      "created": "2026-08-27T04:54:51Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "Stellen aus Buchhaltung & Finanzwesen",
+        "tag": "accounting-finance-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "Full Stack Java Developer (m/w/d) 38,5 Stunden pro Woche • unbefristet • Frühester Beginn ab sofort Für unseren Kunden, einen führenden IT-Dienstleister im Bankenumfeld im Raum Linz, suchen wir ab sofort eine:n erfahrene:n Full Stack Developer (w/m/d) zur Verstärkung des „Internal Platforms\"-Teams. Du wirst Teil eines agilen Entwicklerteams, das innovative Lösungen für Vertriebsprozesse in der Finanzindustrie gestaltet – technisch anspruchsvoll und mit echtem Impact. Deine Aufgaben Entwicklung …",
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Linz, Oberösterreich",
+        "area": [
+          "Österreich",
+          "Oberösterreich",
+          "Linz"
+        ]
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiN3B1cC1OMm44UkdGUThyN2NtSklzUSIsImkiOiI1ODU3ODEyODkwIn0.jfWv_dev1lYqddpocoEdOCiI4ySQznYC2KWE7UjhmLo",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "iTEC Informationssysteme AG"
+      },
+      "redirect_url": "https://www.adzuna.at/details/5857812890?utm_medium=api&utm_source=5fbaef93",
+      "contract_time": "full_time",
+      "id": "5857812890",
+      "longitude": 14.293495,
+      "title": "Full Stack Java Developer (m/w/d)"
+    },
+    {
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.at/details/5787315114?utm_medium=api&utm_source=5fbaef93",
+      "id": "5787315114",
+      "salary_max": 39600,
+      "salary_is_predicted": "0",
+      "category": {
+        "label": "Unknown",
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4NzMxNTExNCIsInMiOiI3cHVwLU4ybjhSR0ZROHI3Y21KSXNRIn0.rptTMTgtoBgWmarBiJsIicXPG-ZNjoLAfEAp5voG_sI",
+      "company": {
+        "display_name": "BEKO",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Wien, Österreich",
+        "area": [
+          "Österreich",
+          "Wien"
+        ]
+      },
+      "title": "Wir  Junior Java Entwickler (w/m/x) für einen Kunden im öffentlichen Bereich",
+      "longitude": 16.354031,
+      "salary_min": 38400,
+      "created": "2026-07-04T00:59:14Z",
+      "latitude": 48.208144,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Willkommen bei BEKO – Österreichs führendem Anbieter technischer Dienstleistungen. Seit über 50 Jahren arbeiten wir bei BEKO an modernen Lösungen und wegweisenden Zukunftsideen für Unternehmen jeder Branche und Größe. Mit einem bunten Team aus kreativen Köpfen und dem gebündelten Know-how von IT-Spezialist*innen und Engineering-Expert*innen denken wir quer, weiter und voraus. Dabei glauben wir vor allem an eines: Fortschritt in allen Farben. Aber wir bei BEKO reden nicht nur von der Zukunft. Wi…"
+    }
+  ]
+}
