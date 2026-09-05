@@ -1,493 +1,1046 @@
-{
-  "results": [
-    {
-      "title": "Applied AI Engineer",
-      "id": "5830571387",
-      "contract_time": "full_time",
-      "redirect_url": "https://www.adzuna.at/details/5830571387?utm_medium=api&utm_source=5fbaef93",
-      "company": {
-        "__CLASS__": "Adzuna::API::Response::Company",
-        "display_name": "Bjak"
+[
+  {
+    "mean": 55628,
+    "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+    "results": [
+      {
+        "created": "2026-08-06T16:45:40Z",
+        "salary_is_predicted": "0",
+        "company": {
+          "display_name": "Bjak",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "location": {
+          "display_name": "Österreich",
+          "area": [
+            "Österreich"
+          ],
+          "__CLASS__": "Adzuna::API::Response::Location"
+        },
+        "title": "Applied AI Engineer",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzMDU3MTM4NyIsInMiOiJydVpld2wybzhSR21zSXVqRTQyU0dBIn0.Pf5GNRqvLv_2mDX7deiUsbUDHM5D_YWk8EIw9QcEXhU",
+        "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
+        "redirect_url": "https://www.adzuna.at/details/5830571387?utm_medium=api&utm_source=5fbaef93",
+        "category": {
+          "label": "IT-Stellen",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "tag": "it-jobs"
+        },
+        "id": "5830571387",
+        "contract_time": "full_time"
       },
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzMDU3MTM4NyIsInMiOiJhbEN4OHQybjhSR0ZROHI3Y21KSXNRIn0.pq7QFRXav3fp2w6QcAe137LrG8cGSBf6obfc68b5Vqo",
-      "location": {
-        "__CLASS__": "Adzuna::API::Response::Location",
-        "display_name": "Österreich",
-        "area": [
-          "Österreich"
-        ]
+      {
+        "location": {
+          "display_name": "Thalheim bei Wels, Wels-Land",
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich",
+            "Oberösterreich",
+            "Wels-Land",
+            "Thalheim bei Wels"
+          ]
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "company": {
+          "display_name": "Fronius",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "salary_is_predicted": "0",
+        "created": "2026-04-30T00:17:54Z",
+        "longitude": 14.03498,
+        "id": "5713958328",
+        "contract_time": "full_time",
+        "category": {
+          "label": "Unknown",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "tag": "unknown"
+        },
+        "redirect_url": "https://www.adzuna.at/details/5713958328?utm_medium=api&utm_source=5fbaef93",
+        "title": "AI Engineer (m/w/d)",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTcxMzk1ODMyOCIsInMiOiJydVpld2wybzhSR21zSXVqRTQyU0dBIn0.LDTV5YiqVGN97UtQkI69P3ylhOzrEmPeb_YpAV2PJdY",
+        "description": "In dieser Rolle entwickelst du KI-Lösungen, die einen echten Mehrwert schaffen. Du arbeitest an Anwendungen rund um LLMs, RAG und agentenbasierte Systeme und begleitest Projekte vom ersten Prototyp bis zum skalierbaren Produktiveinsatz. Mit einem modernen Tech‑Stack, viel Gestaltungsspielraum und einem agilen Umfeld bieten wir dir die ideale Basis, um deine Expertise einzubringen und gemeinsam KI‑Technologien weiter voranzutreiben. Deine Aufgaben: Spezialisierung auf Retrieval-Augmented Generat…",
+        "latitude": 48.139481
       },
-      "salary_is_predicted": "0",
-      "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
-      "category": {
-        "label": "IT-Stellen",
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "tag": "it-jobs"
+      {
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ2OTI4NDExOCIsInMiOiJydVpld2wybzhSR21zSXVqRTQyU0dBIn0.naRVsujfqzvwUt1eBYbUclMGkv_R_4e5v-h8idUB0Ec",
+        "description": "Ihre Aufgaben Entwicklung und Umsetzung einer unternehmensweiten KI-Strategie in direkter Berichtslinie zur Eigentümer - Geschäftsführung | Identifikation, Analyse, Bewertung sowie Priorisierung von KI-Potentialen in Produktion und Verwaltung | Auswahl geeigneter KI-Technologien und -Methoden für spezifische Anwendungsfälle | Planung, Koordination und Durchführung von KI-Projekten - einschließlich Schulung der Anwender | Eigenverantwortliche Entwicklung, Implementierung und Betreuung von KI-Anw…",
+        "redirect_url": "https://www.adzuna.at/details/5469284118?utm_medium=api&utm_source=5fbaef93",
+        "title": "AI Engineer (m/w/d)",
+        "category": {
+          "tag": "other-general-jobs",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "Sonstige/Allgemeine Stellen"
+        },
+        "id": "5469284118",
+        "salary_is_predicted": "0",
+        "company": {
+          "display_name": "binderholz",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "created": "2025-10-29T11:36:57Z",
+        "location": {
+          "area": [
+            "Österreich"
+          ],
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "display_name": "Österreich"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job"
       },
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "created": "2026-08-06T16:45:40Z"
-    },
-    {
-      "salary_is_predicted": "0",
-      "description": "In dieser Rolle entwickelst du KI-Lösungen, die einen echten Mehrwert schaffen. Du arbeitest an Anwendungen rund um LLMs, RAG und agentenbasierte Systeme und begleitest Projekte vom ersten Prototyp bis zum skalierbaren Produktiveinsatz. Mit einem modernen Tech‑Stack, viel Gestaltungsspielraum und einem agilen Umfeld bieten wir dir die ideale Basis, um deine Expertise einzubringen und gemeinsam KI‑Technologien weiter voranzutreiben. Deine Aufgaben: Spezialisierung auf Retrieval-Augmented Generat…",
-      "category": {
-        "label": "Unknown",
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "tag": "unknown"
+      {
+        "category": {
+          "tag": "unknown",
+          "label": "Unknown",
+          "__CLASS__": "Adzuna::API::Response::Category"
+        },
+        "latitude": 47.489983,
+        "title": "AI Engineer (f/m/d)",
+        "location": {
+          "display_name": "Reutte",
+          "area": [
+            "Österreich",
+            "Tirol",
+            "Reutte",
+            "Reutte"
+          ],
+          "__CLASS__": "Adzuna::API::Response::Location"
+        },
+        "longitude": 10.727386,
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Plansee"
+        },
+        "contract_time": "full_time",
+        "id": "5797413258",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5NzQxMzI1OCIsInMiOiJydVpld2wybzhSR21zSXVqRTQyU0dBIn0.AL_51eJaI6hUBHvlqYrjlXAfexoW8vEhVcciHRQcT-k",
+        "description": "Was uns stark macht? Unsere Mitarbeiterinnen und Mitarbeiter in 50 Ländern weltweit, die täglich mit Leidenschaft an innovativen Lösungen aus Wolfram und Molybdän für die Hightech-Welt arbeiten. Unser Standort in Reutte ist der Hauptsitz und größte Produktionsstandort der Plansee Gruppe. Hier sind die Geschäftsbereiche Plansee und CERATIZIT sowie zentrale Konzernfunktionen angesiedelt, die Innovationen entlang der gesamten Wertschöpfungskette der Pulvermetallurgie umsetzen. Werden Sie Teil eine…",
+        "redirect_url": "https://www.adzuna.at/details/5797413258?utm_medium=api&utm_source=5fbaef93",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "salary_max": 55356,
+        "salary_min": 55356,
+        "created": "2026-07-12T01:09:45Z",
+        "salary_is_predicted": "0"
       },
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "created": "2026-04-30T00:17:54Z",
-      "latitude": 48.139481,
-      "title": "AI Engineer (m/w/d)",
-      "longitude": 14.03498,
-      "id": "5713958328",
-      "redirect_url": "https://www.adzuna.at/details/5713958328?utm_medium=api&utm_source=5fbaef93",
-      "contract_time": "full_time",
-      "company": {
-        "__CLASS__": "Adzuna::API::Response::Company",
-        "display_name": "Fronius"
+      {
+        "created": "2026-09-03T16:02:01Z",
+        "longitude": 16.370243,
+        "company": {
+          "display_name": "Fabasoft International Services GmbH",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "salary_is_predicted": "0",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "location": {
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich",
+            "Wien",
+            "Innere Stadt"
+          ],
+          "display_name": "Innere Stadt, Wien"
+        },
+        "redirect_url": "https://www.adzuna.at/details/5868944677?utm_medium=api&utm_source=5fbaef93",
+        "description": "Fabasoft ist ein führender Anbieter innovativer Softwareprodukte, die Unternehmen stärken und deren digitale Transformation vorantreiben. Unser Erfolg basiert auf einem ambitionierten Team, das mit Leidenschaft und Tatkraft neue Maßstäbe setzt, stets höchste Exzellenz anstrebt und Verantwortung für nachhaltiges Wachstum übernimmt. Wir glauben an kontinuierliche Weiterentwicklung und schaffen ein Umfeld, in dem deine Ideen zählen und du aktiv zur Unternehmensstrategie beitragen kannst. Du hast F…",
+        "title": "AI Engineer (w/m/d)",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2ODk0NDY3NyIsInMiOiJydVpld2wybzhSR21zSXVqRTQyU0dBIn0.6rVsppZ2a_Izm4jims5PdTT53hYQN2FszXSulOHUh4U",
+        "latitude": 48.208604,
+        "id": "5868944677",
+        "category": {
+          "tag": "it-jobs",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "IT-Stellen"
+        }
       },
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYWxDeDh0Mm44UkdGUThyN2NtSklzUSIsImkiOiI1NzEzOTU4MzI4In0.CD5V75ipfKHx6C3WIjqOQciIQeUTs0uvFdsv1gpqc9s",
-      "location": {
-        "area": [
-          "Österreich",
-          "Oberösterreich",
-          "Wels-Land",
-          "Thalheim bei Wels"
-        ],
-        "display_name": "Thalheim bei Wels, Wels-Land",
-        "__CLASS__": "Adzuna::API::Response::Location"
+      {
+        "redirect_url": "https://www.adzuna.at/details/5870112379?utm_medium=api&utm_source=5fbaef93",
+        "description": "Fabasoft ist ein führender Anbieter innovativer Softwareprodukte, die Unternehmen stärken und deren digitale Transformation vorantreiben. Unser Erfolg basiert auf einem ambitionierten Team, das mit Leidenschaft und Tatkraft neue Maßstäbe setzt, stets höchste Exzellenz anstrebt und Verantwortung für nachhaltiges Wachstum übernimmt. Wir glauben an kontinuierliche Weiterentwicklung und schaffen ein Umfeld, in dem deine Ideen zählen und du aktiv zur Unternehmensstrategie beitragen kannst. Du hast F…",
+        "title": "AI Engineer (w/m/d)",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoicnVaZXdsMm84Ukdtc0l1akU0MlNHQSIsImkiOiI1ODcwMTEyMzc5In0.AxEW7KfRYB6Dw6UHjC4aI0LtACHZ8JNUbwJGfOLlr5E",
+        "latitude": 48.208144,
+        "id": "5870112379",
+        "category": {
+          "label": "IT-Stellen",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "tag": "it-jobs"
+        },
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Fabasoft International Services GmbH"
+        },
+        "salary_is_predicted": "0",
+        "longitude": 16.354031,
+        "created": "2026-09-04T07:29:44Z",
+        "location": {
+          "display_name": "Wien, Österreich",
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich",
+            "Wien"
+          ]
+        },
+        "__CLASS__": "Adzuna::API::Response::Job"
+      },
+      {
+        "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
+        "redirect_url": "https://www.adzuna.at/details/5796272323?utm_medium=api&utm_source=5fbaef93",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5NjI3MjMyMyIsInMiOiJydVpld2wybzhSR21zSXVqRTQyU0dBIn0.G03WhmJ-r8J9nhhXKdgY-eGgirG8m5kq2qztRWWToSs",
+        "title": "Applied AI Engineer - AI Finance Agent",
+        "contract_time": "full_time",
+        "id": "5796272323",
+        "category": {
+          "tag": "accounting-finance-jobs",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "Stellen aus Buchhaltung & Finanzwesen"
+        },
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Bjak"
+        },
+        "salary_is_predicted": "0",
+        "created": "2026-07-11T01:13:55Z",
+        "location": {
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich"
+          ],
+          "display_name": "Österreich"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job"
+      },
+      {
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "location": {
+          "display_name": "Wien, Österreich",
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich",
+            "Wien"
+          ]
+        },
+        "created": "2026-08-17T13:44:42Z",
+        "salary_is_predicted": "0",
+        "company": {
+          "display_name": "Digitl GmbH",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "category": {
+          "tag": "unknown",
+          "label": "Unknown",
+          "__CLASS__": "Adzuna::API::Response::Category"
+        },
+        "id": "5845130051",
+        "title": "Generative AI Engineer (all Genders) for Vienna",
+        "description": "Digitl ist ein junges und innovatives Unternehmen im Bereich Marketing und Cloud-Technologie. In einem kollaborativen und cross-funktionalen Umfeld entwickeln wir neue Konzepte, um unsere Kunden verschiedener Branchen in eine digital geprägte Zukunft zu führen. Werde Teil davon und bringe als Generative AI Engineer deine eigenen frischen und zukunftsweisenden Ideen ein, um gemeinsam die weitere Entwicklung von Digitl mitzugestalten. Als Generative AI Engineer besteht deine Rolle darin, Multi-Ag…",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoicnVaZXdsMm84Ukdtc0l1akU0MlNHQSIsImkiOiI1ODQ1MTMwMDUxIn0.UFsSgfVi9cA6X7Nt8SCgjjluUWdyJlwOAbOHO7nnbqI",
+        "redirect_url": "https://www.adzuna.at/details/5845130051?utm_medium=api&utm_source=5fbaef93"
+      },
+      {
+        "created": "2026-06-28T00:50:38Z",
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "digitl.com"
+        },
+        "salary_is_predicted": "0",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "location": {
+          "display_name": "Österreich",
+          "area": [
+            "Österreich"
+          ],
+          "__CLASS__": "Adzuna::API::Response::Location"
+        },
+        "description": "Digitl ist ein junges und innovatives Unternehmen im Bereich Marketing und Cloud-Technologie. In einem kollaborativen und cross-funktionalen Umfeld entwickeln wir neue Konzepte, um unsere Kunden verschiedener Branchen in eine digital geprägte Zukunft zu führen. Werde Teil davon und bringe als Generative AI Engineer deine eigenen frischen und zukunftsweisenden Ideen ein, um gemeinsam die weitere Entwicklung von Digitl mitzugestalten. Als Generative AI Engineer besteht deine Rolle darin, Multi-Ag…",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoicnVaZXdsMm84Ukdtc0l1akU0MlNHQSIsImkiOiI1Nzc5NTMyNzI1In0.me9zaBA_nVjKks8MyqyOgbVkcOcBRshMvbQHDPxxD8k",
+        "title": "Generative AI Engineer (all Genders) for Vienna",
+        "redirect_url": "https://www.adzuna.at/details/5779532725?utm_medium=api&utm_source=5fbaef93",
+        "id": "5779532725",
+        "contract_time": "full_time",
+        "category": {
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "IT-Stellen",
+          "tag": "it-jobs"
+        }
+      },
+      {
+        "category": {
+          "tag": "it-jobs",
+          "label": "IT-Stellen",
+          "__CLASS__": "Adzuna::API::Response::Category"
+        },
+        "contract_time": "full_time",
+        "id": "5833562476",
+        "redirect_url": "https://www.adzuna.at/details/5833562476?utm_medium=api&utm_source=5fbaef93",
+        "description": "At Cloudflight, we’re committed to making a digital difference. It’s a difference that impacts businesses and society alike and one that’s fueled by our passion for technology and our dedication to sparking the brightest ideas in ourselves and others. Role Overview We are looking for a Platform AI Engineer who will design, build, and scale our AI platform capabilities, enabling seamless model development, deployment, monitoring, and lifecycle management across the organization. You will bring t…",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzMzU2MjQ3NiIsInMiOiJydVpld2wybzhSR21zSXVqRTQyU0dBIn0.FzJTSH3fltVJiA4hh59KuMkEuw7-C_GpuYNeFbqbs5E",
+        "title": "AI Engineer - Agentic Plattform (m/f/x)",
+        "location": {
+          "display_name": "Österreich",
+          "area": [
+            "Österreich"
+          ],
+          "__CLASS__": "Adzuna::API::Response::Location"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "salary_max": 55356,
+        "salary_is_predicted": "0",
+        "company": {
+          "display_name": "Cloudflight",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "salary_min": 55356,
+        "created": "2026-08-08T16:46:44Z"
+      },
+      {
+        "redirect_url": "https://www.adzuna.at/details/5781764893?utm_medium=api&utm_source=5fbaef93",
+        "description": "Sachbearbeiter Vertragsverwaltung Privatkunden (w/m/d). Vollzeit. Wien - 1. Bezirk. Unbefristet. Was in vielen anderen Unternehmen nur leere Versprechen sind, ist bei uns oberste Regel: &Los. Es steht für das Vertrauen, das wir in unsere Mitarbeitenden und deren Fähigkeiten setzen. Denn wir sind überzeugt, dass ein gemeinsamer Erfolg nur möglich ist, wenn jeder den nötigen Freiraum bekommt, Talente bestmöglich einzusetzen. Das bringt nicht nur Sie persönlich weiter, sondern das gesamte Unterneh…",
+        "title": "Sachbearbeiter Vertragsverwaltung Privatkunden (w/m/d).",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4MTc2NDg5MyIsInMiOiJydVpld2wybzhSR21zSXVqRTQyU0dBIn0.8PPqCiG9vfZkgTT7GCoxLuOg_wwuO4MyaEyWOPLzjZw",
+        "latitude": 48.208144,
+        "id": "5781764893",
+        "category": {
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "Unknown",
+          "tag": "unknown"
+        },
+        "created": "2026-06-30T06:44:10Z",
+        "longitude": 16.354031,
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Helvetia Versicherungen AG"
+        },
+        "salary_is_predicted": "0",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "location": {
+          "display_name": "Wien, Österreich",
+          "area": [
+            "Österreich",
+            "Wien"
+          ],
+          "__CLASS__": "Adzuna::API::Response::Location"
+        }
+      },
+      {
+        "salary_is_predicted": "0",
+        "salary_min": 46800,
+        "created": "2026-08-12T16:46:51Z",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "salary_max": 46800,
+        "redirect_url": "https://www.adzuna.at/details/5838400480?utm_medium=api&utm_source=5fbaef93",
+        "description": "Dein Beitrag zur Lösung Moderne AI-Lösungen gemeinsam mit Kund:innen von der Idee bis zur produktiven Umsetzung entwickeln. AI-Potenziale in Geschäftsprozessen erkennen, Use Cases ableiten und realistische Roadmaps entwickeln. Workshops, Discovery Sessions und Beratungstermine moderieren und technische Möglichkeiten verständlich übersetzen. Lösungen rund um Generative AI, Copilot, AI Agents, Automatisierung und datengetriebene Anwendungen konzipieren und begleiten. Presales und Sales bei Angebo…",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzODQwMDQ4MCIsInMiOiJydVpld2wybzhSR21zSXVqRTQyU0dBIn0.r4D2SafDA_IlD5SZSmuqngnO2u8tKyBkwZT3hp09I2Q",
+        "id": "5838400480",
+        "contract_time": "full_time",
+        "company": {
+          "display_name": "NAVAX",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "longitude": 16.298167,
+        "location": {
+          "display_name": "Liesing, Wien",
+          "area": [
+            "Österreich",
+            "Wien",
+            "Liesing"
+          ],
+          "__CLASS__": "Adzuna::API::Response::Location"
+        },
+        "latitude": 48.137322,
+        "title": "AI Consultant (m/w/d)",
+        "category": {
+          "label": "Beraterstellen",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "tag": "consultancy-jobs"
+        }
+      },
+      {
+        "location": {
+          "display_name": "Österreich",
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich"
+          ]
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "company": {
+          "display_name": "Bjak",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "salary_is_predicted": "0",
+        "created": "2026-07-12T01:09:24Z",
+        "contract_time": "full_time",
+        "id": "5797412592",
+        "category": {
+          "label": "Unknown",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "tag": "unknown"
+        },
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5NzQxMjU5MiIsInMiOiJydVpld2wybzhSR21zSXVqRTQyU0dBIn0.8RxMfklj_oECEEbKs1Xs-xmMNf4OEjOZvnyrHSmiE7Q",
+        "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
+        "title": "Full Stack Engineer",
+        "redirect_url": "https://www.adzuna.at/details/5797412592?utm_medium=api&utm_source=5fbaef93"
+      },
+      {
+        "location": {
+          "display_name": "Österreich",
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich"
+          ]
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "salary_is_predicted": "0",
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Bjak"
+        },
+        "created": "2026-07-12T01:09:12Z",
+        "category": {
+          "tag": "it-jobs",
+          "label": "IT-Stellen",
+          "__CLASS__": "Adzuna::API::Response::Category"
+        },
+        "contract_time": "full_time",
+        "id": "5797412268",
+        "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5NzQxMjI2OCIsInMiOiJydVpld2wybzhSR21zSXVqRTQyU0dBIn0.MVMSyDkpskXH39sfNCdIfhk6swK_MhCf6OayyY-hGtQ",
+        "title": "Android Developer",
+        "redirect_url": "https://www.adzuna.at/details/5797412268?utm_medium=api&utm_source=5fbaef93"
+      },
+      {
+        "contract_time": "full_time",
+        "id": "5797411996",
+        "category": {
+          "label": "IT-Stellen",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "tag": "it-jobs"
+        },
+        "redirect_url": "https://www.adzuna.at/details/5797411996?utm_medium=api&utm_source=5fbaef93",
+        "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoicnVaZXdsMm84Ukdtc0l1akU0MlNHQSIsImkiOiI1Nzk3NDExOTk2In0.IbTnzhYo80CJ54XbtpPlHW3KUlq8rn4obGJywXCGxPk",
+        "title": "iOS Developer",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "location": {
+          "display_name": "Österreich",
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich"
+          ]
+        },
+        "created": "2026-07-12T01:09:04Z",
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Bjak"
+        },
+        "salary_is_predicted": "0"
+      },
+      {
+        "location": {
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich"
+          ],
+          "display_name": "Österreich"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "salary_is_predicted": "0",
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Bjak"
+        },
+        "created": "2026-07-29T16:43:25Z",
+        "category": {
+          "tag": "it-jobs",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "IT-Stellen"
+        },
+        "id": "5819845444",
+        "contract_time": "full_time",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgxOTg0NTQ0NCIsInMiOiJydVpld2wybzhSR21zSXVqRTQyU0dBIn0.FYPiPj3KWqvOzy3rsJ-9tvq_Y1H5BsT4DjjTKlhiNtQ",
+        "title": "iOS Developer - AI Finance Agent",
+        "description": "About KIRA Our mission is to make money smart, reliable and within reach for everyone. In 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, it's the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in Asia and it includes spending, saving, investing, exchanging, travelling, and more. Our objective is to build tools that will help people get more from their money and at …",
+        "redirect_url": "https://www.adzuna.at/details/5819845444?utm_medium=api&utm_source=5fbaef93"
+      },
+      {
+        "category": {
+          "tag": "it-jobs",
+          "label": "IT-Stellen",
+          "__CLASS__": "Adzuna::API::Response::Category"
+        },
+        "contract_time": "full_time",
+        "id": "5816881894",
+        "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
+        "title": "Android Developer - AI Finance Agent",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoicnVaZXdsMm84Ukdtc0l1akU0MlNHQSIsImkiOiI1ODE2ODgxODk0In0.nl60a8g1HXYaNUcegtMo0WbxYf6lQpEF8TKHzqLLwrc",
+        "redirect_url": "https://www.adzuna.at/details/5816881894?utm_medium=api&utm_source=5fbaef93",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "location": {
+          "display_name": "Österreich",
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich"
+          ]
+        },
+        "created": "2026-07-27T01:25:35Z",
+        "salary_is_predicted": "0",
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Bjak"
+        }
+      },
+      {
+        "contract_time": "full_time",
+        "id": "5859744099",
+        "category": {
+          "tag": "it-jobs",
+          "label": "IT-Stellen",
+          "__CLASS__": "Adzuna::API::Response::Category"
+        },
+        "redirect_url": "https://www.adzuna.at/details/5859744099?utm_medium=api&utm_source=5fbaef93",
+        "title": "Machine Learning Ops Engineer (all genders)",
+        "description": "We love the magic of memory keeping At Journi, we’re on a mission to build the world’s most-downloaded printing app. With over 10 million users worldwide, we help people turn their favorite moments into beautifully designed Photo Books and Prints. Our smart AI makes the process fast, simple, and joyful, so our users can spend less time editing and more time reliving their best stories. We’re looking for an enthusiastic Machine Learning Ops Engineer to play a key role across the entire ML lifecy…",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1OTc0NDA5OSIsInMiOiJydVpld2wybzhSR21zSXVqRTQyU0dBIn0.ILewKWgiTbFJu8USbcabqUOOJXAZcsg7XecrDEi-uMM",
+        "location": {
+          "display_name": "Wien, Österreich",
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich",
+            "Wien"
+          ]
+        },
+        "salary_max": 65000,
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "company": {
+          "display_name": "Journi",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "salary_is_predicted": "0",
+        "created": "2026-08-28T16:53:18Z",
+        "salary_min": 65000
       }
-    },
-    {
-      "title": "AI Engineer (m/w/d)",
-      "id": "5469284118",
-      "redirect_url": "https://www.adzuna.at/details/5469284118?utm_medium=api&utm_source=5fbaef93",
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYWxDeDh0Mm44UkdGUThyN2NtSklzUSIsImkiOiI1NDY5Mjg0MTE4In0.gHeNA17-CNKYIrBfM3Ds9LtlIfueJlAC93KNjJJPU2c",
-      "company": {
-        "display_name": "binderholz",
-        "__CLASS__": "Adzuna::API::Response::Company"
+    ],
+    "count": 18
+  },
+  {
+    "mean": 55628,
+    "results": [
+      {
+        "created": "2026-08-06T16:45:40Z",
+        "id": "5830571387",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "category": {
+          "label": "IT-Stellen",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "tag": "it-jobs"
+        },
+        "salary_is_predicted": "0",
+        "title": "Applied AI Engineer",
+        "location": {
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich"
+          ],
+          "display_name": "Österreich"
+        },
+        "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzMDU3MTM4NyIsInMiOiJESUlldzEybzhSR09oTE83SDF4Yk1RIn0.h4Aq9eyUzfS7bPDnQQbc-gZXdgeWIS77YmGg63DyhrA",
+        "contract_time": "full_time",
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Bjak"
+        },
+        "redirect_url": "https://www.adzuna.at/details/5830571387?utm_medium=api&utm_source=5fbaef93"
       },
-      "location": {
-        "__CLASS__": "Adzuna::API::Response::Location",
-        "area": [
-          "Österreich"
-        ],
-        "display_name": "Österreich"
+      {
+        "redirect_url": "https://www.adzuna.at/details/5713958328?utm_medium=api&utm_source=5fbaef93",
+        "company": {
+          "display_name": "Fronius",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "contract_time": "full_time",
+        "description": "In dieser Rolle entwickelst du KI-Lösungen, die einen echten Mehrwert schaffen. Du arbeitest an Anwendungen rund um LLMs, RAG und agentenbasierte Systeme und begleitest Projekte vom ersten Prototyp bis zum skalierbaren Produktiveinsatz. Mit einem modernen Tech‑Stack, viel Gestaltungsspielraum und einem agilen Umfeld bieten wir dir die ideale Basis, um deine Expertise einzubringen und gemeinsam KI‑Technologien weiter voranzutreiben. Deine Aufgaben: Spezialisierung auf Retrieval-Augmented Generat…",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTcxMzk1ODMyOCIsInMiOiJESUlldzEybzhSR09oTE83SDF4Yk1RIn0.WJk2x5vzj-XHI8R9FnkAj30wnLmr_gSSibU0uFpHw5k",
+        "location": {
+          "display_name": "Thalheim bei Wels, Wels-Land",
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich",
+            "Oberösterreich",
+            "Wels-Land",
+            "Thalheim bei Wels"
+          ]
+        },
+        "title": "AI Engineer (m/w/d)",
+        "salary_is_predicted": "0",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "longitude": 14.03498,
+        "category": {
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "tag": "unknown",
+          "label": "Unknown"
+        },
+        "id": "5713958328",
+        "latitude": 48.139481,
+        "created": "2026-04-30T00:17:54Z"
       },
-      "salary_is_predicted": "0",
-      "description": "Ihre Aufgaben Entwicklung und Umsetzung einer unternehmensweiten KI-Strategie in direkter Berichtslinie zur Eigentümer - Geschäftsführung | Identifikation, Analyse, Bewertung sowie Priorisierung von KI-Potentialen in Produktion und Verwaltung | Auswahl geeigneter KI-Technologien und -Methoden für spezifische Anwendungsfälle | Planung, Koordination und Durchführung von KI-Projekten - einschließlich Schulung der Anwender | Eigenverantwortliche Entwicklung, Implementierung und Betreuung von KI-Anw…",
-      "category": {
-        "label": "Sonstige/Allgemeine Stellen",
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "tag": "other-general-jobs"
+      {
+        "id": "5469284118",
+        "created": "2025-10-29T11:36:57Z",
+        "title": "AI Engineer (m/w/d)",
+        "salary_is_predicted": "0",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "category": {
+          "label": "Sonstige/Allgemeine Stellen",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "tag": "other-general-jobs"
+        },
+        "description": "Ihre Aufgaben Entwicklung und Umsetzung einer unternehmensweiten KI-Strategie in direkter Berichtslinie zur Eigentümer - Geschäftsführung | Identifikation, Analyse, Bewertung sowie Priorisierung von KI-Potentialen in Produktion und Verwaltung | Auswahl geeigneter KI-Technologien und -Methoden für spezifische Anwendungsfälle | Planung, Koordination und Durchführung von KI-Projekten - einschließlich Schulung der Anwender | Eigenverantwortliche Entwicklung, Implementierung und Betreuung von KI-Anw…",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRElJZXcxMm84UkdPaExPN0gxeGJNUSIsImkiOiI1NDY5Mjg0MTE4In0.w3rUxfe66dj-AutersOxfrrkBQEIzm2n3z9bcq7ofDo",
+        "location": {
+          "area": [
+            "Österreich"
+          ],
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "display_name": "Österreich"
+        },
+        "redirect_url": "https://www.adzuna.at/details/5469284118?utm_medium=api&utm_source=5fbaef93",
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "binderholz"
+        }
       },
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "created": "2025-10-29T11:36:57Z"
-    },
-    {
-      "salary_is_predicted": "0",
-      "category": {
-        "tag": "unknown",
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "label": "Unknown"
+      {
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Plansee"
+        },
+        "contract_time": "full_time",
+        "description": "Was uns stark macht? Unsere Mitarbeiterinnen und Mitarbeiter in 50 Ländern weltweit, die täglich mit Leidenschaft an innovativen Lösungen aus Wolfram und Molybdän für die Hightech-Welt arbeiten. Unser Standort in Reutte ist der Hauptsitz und größte Produktionsstandort der Plansee Gruppe. Hier sind die Geschäftsbereiche Plansee und CERATIZIT sowie zentrale Konzernfunktionen angesiedelt, die Innovationen entlang der gesamten Wertschöpfungskette der Pulvermetallurgie umsetzen. Werden Sie Teil eine…",
+        "category": {
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "Unknown",
+          "tag": "unknown"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "longitude": 10.727386,
+        "salary_is_predicted": "0",
+        "salary_max": 55356,
+        "salary_min": 55356,
+        "redirect_url": "https://www.adzuna.at/details/5797413258?utm_medium=api&utm_source=5fbaef93",
+        "location": {
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "display_name": "Reutte",
+          "area": [
+            "Österreich",
+            "Tirol",
+            "Reutte",
+            "Reutte"
+          ]
+        },
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5NzQxMzI1OCIsInMiOiJESUlldzEybzhSR09oTE83SDF4Yk1RIn0.Vxys2BDtbTDdlhppj5KIIAcr8ElqfBT_HGBC6mqnk14",
+        "title": "AI Engineer (f/m/d)",
+        "created": "2026-07-12T01:09:45Z",
+        "id": "5797413258",
+        "latitude": 47.489983
       },
-      "salary_max": 55356,
-      "id": "5797413258",
-      "contract_time": "full_time",
-      "redirect_url": "https://www.adzuna.at/details/5797413258?utm_medium=api&utm_source=5fbaef93",
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "description": "Was uns stark macht? Unsere Mitarbeiterinnen und Mitarbeiter in 50 Ländern weltweit, die täglich mit Leidenschaft an innovativen Lösungen aus Wolfram und Molybdän für die Hightech-Welt arbeiten. Unser Standort in Reutte ist der Hauptsitz und größte Produktionsstandort der Plansee Gruppe. Hier sind die Geschäftsbereiche Plansee und CERATIZIT sowie zentrale Konzernfunktionen angesiedelt, die Innovationen entlang der gesamten Wertschöpfungskette der Pulvermetallurgie umsetzen. Werden Sie Teil eine…",
-      "salary_min": 55356,
-      "created": "2026-07-12T01:09:45Z",
-      "latitude": 47.489983,
-      "longitude": 10.727386,
-      "title": "AI Engineer (f/m/d)",
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYWxDeDh0Mm44UkdGUThyN2NtSklzUSIsImkiOiI1Nzk3NDEzMjU4In0.4_sz1nwStvHynWy0RZKJn4dq0CpEAU0Tr-c3wDBqqnI",
-      "company": {
-        "display_name": "Plansee",
-        "__CLASS__": "Adzuna::API::Response::Company"
+      {
+        "title": "AI Engineer (w/m/d)",
+        "salary_is_predicted": "0",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "category": {
+          "label": "IT-Stellen",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "tag": "it-jobs"
+        },
+        "longitude": 16.370243,
+        "id": "5868944677",
+        "latitude": 48.208604,
+        "created": "2026-09-03T16:02:01Z",
+        "redirect_url": "https://www.adzuna.at/details/5868944677?utm_medium=api&utm_source=5fbaef93",
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Fabasoft International Services GmbH"
+        },
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRElJZXcxMm84UkdPaExPN0gxeGJNUSIsImkiOiI1ODY4OTQ0Njc3In0.zmW3CT6A1-hXVjbzfxt7OwhlqSvqsKNFheFwyQ73Tq4",
+        "description": "Fabasoft ist ein führender Anbieter innovativer Softwareprodukte, die Unternehmen stärken und deren digitale Transformation vorantreiben. Unser Erfolg basiert auf einem ambitionierten Team, das mit Leidenschaft und Tatkraft neue Maßstäbe setzt, stets höchste Exzellenz anstrebt und Verantwortung für nachhaltiges Wachstum übernimmt. Wir glauben an kontinuierliche Weiterentwicklung und schaffen ein Umfeld, in dem deine Ideen zählen und du aktiv zur Unternehmensstrategie beitragen kannst. Du hast F…",
+        "location": {
+          "area": [
+            "Österreich",
+            "Wien",
+            "Innere Stadt"
+          ],
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "display_name": "Innere Stadt, Wien"
+        }
       },
-      "location": {
-        "__CLASS__": "Adzuna::API::Response::Location",
-        "display_name": "Reutte",
-        "area": [
-          "Österreich",
-          "Tirol",
-          "Reutte",
-          "Reutte"
-        ]
+      {
+        "created": "2026-09-04T07:29:44Z",
+        "latitude": 48.208144,
+        "id": "5870112379",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "longitude": 16.354031,
+        "category": {
+          "tag": "it-jobs",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "IT-Stellen"
+        },
+        "salary_is_predicted": "0",
+        "title": "AI Engineer (w/m/d)",
+        "location": {
+          "display_name": "Wien, Österreich",
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich",
+            "Wien"
+          ]
+        },
+        "description": "Fabasoft ist ein führender Anbieter innovativer Softwareprodukte, die Unternehmen stärken und deren digitale Transformation vorantreiben. Unser Erfolg basiert auf einem ambitionierten Team, das mit Leidenschaft und Tatkraft neue Maßstäbe setzt, stets höchste Exzellenz anstrebt und Verantwortung für nachhaltiges Wachstum übernimmt. Wir glauben an kontinuierliche Weiterentwicklung und schaffen ein Umfeld, in dem deine Ideen zählen und du aktiv zur Unternehmensstrategie beitragen kannst. Du hast F…",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRElJZXcxMm84UkdPaExPN0gxeGJNUSIsImkiOiI1ODcwMTEyMzc5In0.Pose27ig4iVzZR5heIDfimy4cex7jyHxfe9oANf5Cgc",
+        "company": {
+          "display_name": "Fabasoft International Services GmbH",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "redirect_url": "https://www.adzuna.at/details/5870112379?utm_medium=api&utm_source=5fbaef93"
+      },
+      {
+        "redirect_url": "https://www.adzuna.at/details/5796272323?utm_medium=api&utm_source=5fbaef93",
+        "contract_time": "full_time",
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Bjak"
+        },
+        "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5NjI3MjMyMyIsInMiOiJESUlldzEybzhSR09oTE83SDF4Yk1RIn0.yYlgQsU7yAJZSKc5TddGI3vD4XIkkC8GiS2R1kSBmeI",
+        "location": {
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich"
+          ],
+          "display_name": "Österreich"
+        },
+        "salary_is_predicted": "0",
+        "title": "Applied AI Engineer - AI Finance Agent",
+        "category": {
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "Stellen aus Buchhaltung & Finanzwesen",
+          "tag": "accounting-finance-jobs"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "id": "5796272323",
+        "created": "2026-07-11T01:13:55Z"
+      },
+      {
+        "id": "5845130051",
+        "created": "2026-08-17T13:44:42Z",
+        "title": "Generative AI Engineer (all Genders) for Vienna",
+        "salary_is_predicted": "0",
+        "category": {
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "Unknown",
+          "tag": "unknown"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "Digitl ist ein junges und innovatives Unternehmen im Bereich Marketing und Cloud-Technologie. In einem kollaborativen und cross-funktionalen Umfeld entwickeln wir neue Konzepte, um unsere Kunden verschiedener Branchen in eine digital geprägte Zukunft zu führen. Werde Teil davon und bringe als Generative AI Engineer deine eigenen frischen und zukunftsweisenden Ideen ein, um gemeinsam die weitere Entwicklung von Digitl mitzugestalten. Als Generative AI Engineer besteht deine Rolle darin, Multi-Ag…",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0NTEzMDA1MSIsInMiOiJESUlldzEybzhSR09oTE83SDF4Yk1RIn0.7UteByG1_jKGkcRi6TeAEbOVQCIiTFSH9nGX7I6Ztqo",
+        "location": {
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "display_name": "Wien, Österreich",
+          "area": [
+            "Österreich",
+            "Wien"
+          ]
+        },
+        "redirect_url": "https://www.adzuna.at/details/5845130051?utm_medium=api&utm_source=5fbaef93",
+        "company": {
+          "display_name": "Digitl GmbH",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        }
+      },
+      {
+        "title": "Generative AI Engineer (all Genders) for Vienna",
+        "salary_is_predicted": "0",
+        "category": {
+          "label": "IT-Stellen",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "tag": "it-jobs"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "id": "5779532725",
+        "created": "2026-06-28T00:50:38Z",
+        "redirect_url": "https://www.adzuna.at/details/5779532725?utm_medium=api&utm_source=5fbaef93",
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "digitl.com"
+        },
+        "contract_time": "full_time",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc3OTUzMjcyNSIsInMiOiJESUlldzEybzhSR09oTE83SDF4Yk1RIn0.cutS2LT9cE0_i14kUemUKgXW4nGN4lvJTRRRRVxhi3k",
+        "description": "Digitl ist ein junges und innovatives Unternehmen im Bereich Marketing und Cloud-Technologie. In einem kollaborativen und cross-funktionalen Umfeld entwickeln wir neue Konzepte, um unsere Kunden verschiedener Branchen in eine digital geprägte Zukunft zu führen. Werde Teil davon und bringe als Generative AI Engineer deine eigenen frischen und zukunftsweisenden Ideen ein, um gemeinsam die weitere Entwicklung von Digitl mitzugestalten. Als Generative AI Engineer besteht deine Rolle darin, Multi-Ag…",
+        "location": {
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "display_name": "Österreich",
+          "area": [
+            "Österreich"
+          ]
+        }
+      },
+      {
+        "description": "At Cloudflight, we’re committed to making a digital difference. It’s a difference that impacts businesses and society alike and one that’s fueled by our passion for technology and our dedication to sparking the brightest ideas in ourselves and others. Role Overview We are looking for a Platform AI Engineer who will design, build, and scale our AI platform capabilities, enabling seamless model development, deployment, monitoring, and lifecycle management across the organization. You will bring t…",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzMzU2MjQ3NiIsInMiOiJESUlldzEybzhSR09oTE83SDF4Yk1RIn0.wEWeXG7o6SUw11NwMILEmXOeNVw0Jc-DYbTerxHKtAs",
+        "location": {
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich"
+          ],
+          "display_name": "Österreich"
+        },
+        "redirect_url": "https://www.adzuna.at/details/5833562476?utm_medium=api&utm_source=5fbaef93",
+        "salary_min": 55356,
+        "contract_time": "full_time",
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Cloudflight"
+        },
+        "salary_max": 55356,
+        "id": "5833562476",
+        "created": "2026-08-08T16:46:44Z",
+        "salary_is_predicted": "0",
+        "title": "AI Engineer - Agentic Plattform (m/f/x)",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "category": {
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "IT-Stellen",
+          "tag": "it-jobs"
+        }
+      },
+      {
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "longitude": 16.354031,
+        "category": {
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "Unknown",
+          "tag": "unknown"
+        },
+        "title": "Sachbearbeiter Vertragsverwaltung Privatkunden (w/m/d).",
+        "salary_is_predicted": "0",
+        "created": "2026-06-30T06:44:10Z",
+        "id": "5781764893",
+        "latitude": 48.208144,
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Helvetia Versicherungen AG"
+        },
+        "redirect_url": "https://www.adzuna.at/details/5781764893?utm_medium=api&utm_source=5fbaef93",
+        "location": {
+          "area": [
+            "Österreich",
+            "Wien"
+          ],
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "display_name": "Wien, Österreich"
+        },
+        "description": "Sachbearbeiter Vertragsverwaltung Privatkunden (w/m/d). Vollzeit. Wien - 1. Bezirk. Unbefristet. Was in vielen anderen Unternehmen nur leere Versprechen sind, ist bei uns oberste Regel: &Los. Es steht für das Vertrauen, das wir in unsere Mitarbeitenden und deren Fähigkeiten setzen. Denn wir sind überzeugt, dass ein gemeinsamer Erfolg nur möglich ist, wenn jeder den nötigen Freiraum bekommt, Talente bestmöglich einzusetzen. Das bringt nicht nur Sie persönlich weiter, sondern das gesamte Unterneh…",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRElJZXcxMm84UkdPaExPN0gxeGJNUSIsImkiOiI1NzgxNzY0ODkzIn0.DXcy5gb9St3vEH-4k3zcGIqO4RSFILTKs13U6ke4FaE"
+      },
+      {
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "NAVAX"
+        },
+        "contract_time": "full_time",
+        "description": "Dein Beitrag zur Lösung Moderne AI-Lösungen gemeinsam mit Kund:innen von der Idee bis zur produktiven Umsetzung entwickeln. AI-Potenziale in Geschäftsprozessen erkennen, Use Cases ableiten und realistische Roadmaps entwickeln. Workshops, Discovery Sessions und Beratungstermine moderieren und technische Möglichkeiten verständlich übersetzen. Lösungen rund um Generative AI, Copilot, AI Agents, Automatisierung und datengetriebene Anwendungen konzipieren und begleiten. Presales und Sales bei Angebo…",
+        "category": {
+          "tag": "consultancy-jobs",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "Beraterstellen"
+        },
+        "longitude": 16.298167,
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "salary_is_predicted": "0",
+        "salary_max": 46800,
+        "salary_min": 46800,
+        "redirect_url": "https://www.adzuna.at/details/5838400480?utm_medium=api&utm_source=5fbaef93",
+        "location": {
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich",
+            "Wien",
+            "Liesing"
+          ],
+          "display_name": "Liesing, Wien"
+        },
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRElJZXcxMm84UkdPaExPN0gxeGJNUSIsImkiOiI1ODM4NDAwNDgwIn0.o7I_yL0uBeua1RBgrXaM7hkEK8nmI9sX7O6Z6FVqsgs",
+        "title": "AI Consultant (m/w/d)",
+        "created": "2026-08-12T16:46:51Z",
+        "id": "5838400480",
+        "latitude": 48.137322
+      },
+      {
+        "salary_is_predicted": "0",
+        "title": "Full Stack Engineer",
+        "category": {
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "Unknown",
+          "tag": "unknown"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "id": "5797412592",
+        "created": "2026-07-12T01:09:24Z",
+        "redirect_url": "https://www.adzuna.at/details/5797412592?utm_medium=api&utm_source=5fbaef93",
+        "contract_time": "full_time",
+        "company": {
+          "display_name": "Bjak",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5NzQxMjU5MiIsInMiOiJESUlldzEybzhSR09oTE83SDF4Yk1RIn0.nl5vT5j2py7ieI0mcjsIILudZzjj8o5JX4IAHX2oeOc",
+        "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
+        "location": {
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "display_name": "Österreich",
+          "area": [
+            "Österreich"
+          ]
+        }
+      },
+      {
+        "created": "2026-07-12T01:09:12Z",
+        "id": "5797412268",
+        "category": {
+          "label": "IT-Stellen",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "tag": "it-jobs"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "title": "Android Developer",
+        "salary_is_predicted": "0",
+        "location": {
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich"
+          ],
+          "display_name": "Österreich"
+        },
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5NzQxMjI2OCIsInMiOiJESUlldzEybzhSR09oTE83SDF4Yk1RIn0.x-4rzCfAK6u_fy3VqeGahODxGm2rUIroqc6T6Sio834",
+        "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
+        "company": {
+          "display_name": "Bjak",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "contract_time": "full_time",
+        "redirect_url": "https://www.adzuna.at/details/5797412268?utm_medium=api&utm_source=5fbaef93"
+      },
+      {
+        "id": "5797411996",
+        "created": "2026-07-12T01:09:04Z",
+        "title": "iOS Developer",
+        "salary_is_predicted": "0",
+        "category": {
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "IT-Stellen",
+          "tag": "it-jobs"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRElJZXcxMm84UkdPaExPN0gxeGJNUSIsImkiOiI1Nzk3NDExOTk2In0.wgpXz3SmKTPuUh_kyXlBtUzG8vPvg8S1IYOOE1y_iy4",
+        "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
+        "location": {
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "display_name": "Österreich",
+          "area": [
+            "Österreich"
+          ]
+        },
+        "redirect_url": "https://www.adzuna.at/details/5797411996?utm_medium=api&utm_source=5fbaef93",
+        "company": {
+          "display_name": "Bjak",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "contract_time": "full_time"
+      },
+      {
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgxOTg0NTQ0NCIsInMiOiJESUlldzEybzhSR09oTE83SDF4Yk1RIn0.8eAMOMyhz6LiuABUJv2AGoqq0TcZ6jHAb4rUTi5TY7c",
+        "description": "About KIRA Our mission is to make money smart, reliable and within reach for everyone. In 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, it's the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in Asia and it includes spending, saving, investing, exchanging, travelling, and more. Our objective is to build tools that will help people get more from their money and at …",
+        "location": {
+          "area": [
+            "Österreich"
+          ],
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "display_name": "Österreich"
+        },
+        "redirect_url": "https://www.adzuna.at/details/5819845444?utm_medium=api&utm_source=5fbaef93",
+        "contract_time": "full_time",
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Bjak"
+        },
+        "id": "5819845444",
+        "created": "2026-07-29T16:43:25Z",
+        "salary_is_predicted": "0",
+        "title": "iOS Developer - AI Finance Agent",
+        "category": {
+          "label": "IT-Stellen",
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "tag": "it-jobs"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job"
+      },
+      {
+        "company": {
+          "display_name": "Bjak",
+          "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "contract_time": "full_time",
+        "redirect_url": "https://www.adzuna.at/details/5816881894?utm_medium=api&utm_source=5fbaef93",
+        "location": {
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "display_name": "Österreich",
+          "area": [
+            "Österreich"
+          ]
+        },
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRElJZXcxMm84UkdPaExPN0gxeGJNUSIsImkiOiI1ODE2ODgxODk0In0.Kxq6gsMLRhYeg1WBXN53ZpuWykTt_3aEATS1vAahWg4",
+        "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
+        "category": {
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "IT-Stellen",
+          "tag": "it-jobs"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "title": "Android Developer - AI Finance Agent",
+        "salary_is_predicted": "0",
+        "created": "2026-07-27T01:25:35Z",
+        "id": "5816881894"
+      },
+      {
+        "created": "2026-08-28T16:53:18Z",
+        "id": "5859744099",
+        "salary_max": 65000,
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "category": {
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "tag": "it-jobs",
+          "label": "IT-Stellen"
+        },
+        "title": "Machine Learning Ops Engineer (all genders)",
+        "salary_is_predicted": "0",
+        "location": {
+          "display_name": "Wien, Österreich",
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "area": [
+            "Österreich",
+            "Wien"
+          ]
+        },
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRElJZXcxMm84UkdPaExPN0gxeGJNUSIsImkiOiI1ODU5NzQ0MDk5In0.wrk4ItJqmj_5t4X1ReFH-NJDJ8q23hZuBl2uAdNtpcc",
+        "description": "We love the magic of memory keeping At Journi, we’re on a mission to build the world’s most-downloaded printing app. With over 10 million users worldwide, we help people turn their favorite moments into beautifully designed Photo Books and Prints. Our smart AI makes the process fast, simple, and joyful, so our users can spend less time editing and more time reliving their best stories. We’re looking for an enthusiastic Machine Learning Ops Engineer to play a key role across the entire ML lifecy…",
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Journi"
+        },
+        "contract_time": "full_time",
+        "salary_min": 65000,
+        "redirect_url": "https://www.adzuna.at/details/5859744099?utm_medium=api&utm_source=5fbaef93"
       }
-    },
-    {
-      "latitude": 48.208604,
-      "created": "2026-09-03T16:02:01Z",
-      "description": "Fabasoft ist ein führender Anbieter innovativer Softwareprodukte, die Unternehmen stärken und deren digitale Transformation vorantreiben. Unser Erfolg basiert auf einem ambitionierten Team, das mit Leidenschaft und Tatkraft neue Maßstäbe setzt, stets höchste Exzellenz anstrebt und Verantwortung für nachhaltiges Wachstum übernimmt. Wir glauben an kontinuierliche Weiterentwicklung und schaffen ein Umfeld, in dem deine Ideen zählen und du aktiv zur Unternehmensstrategie beitragen kannst. Du hast F…",
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "category": {
-        "tag": "it-jobs",
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "label": "IT-Stellen"
-      },
-      "salary_is_predicted": "0",
-      "location": {
-        "display_name": "Innere Stadt, Wien",
-        "area": [
-          "Österreich",
-          "Wien",
-          "Innere Stadt"
-        ],
-        "__CLASS__": "Adzuna::API::Response::Location"
-      },
-      "redirect_url": "https://www.adzuna.at/details/5868944677?utm_medium=api&utm_source=5fbaef93",
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYWxDeDh0Mm44UkdGUThyN2NtSklzUSIsImkiOiI1ODY4OTQ0Njc3In0.QP9gBdD2155nNlYb8FeorzRwv2a5yqv-vxAe0U1F7eQ",
-      "company": {
-        "__CLASS__": "Adzuna::API::Response::Company",
-        "display_name": "Fabasoft International Services GmbH"
-      },
-      "id": "5868944677",
-      "longitude": 16.370243,
-      "title": "AI Engineer (w/m/d)"
-    },
-    {
-      "contract_time": "full_time",
-      "redirect_url": "https://www.adzuna.at/details/5796272323?utm_medium=api&utm_source=5fbaef93",
-      "company": {
-        "display_name": "Bjak",
-        "__CLASS__": "Adzuna::API::Response::Company"
-      },
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYWxDeDh0Mm44UkdGUThyN2NtSklzUSIsImkiOiI1Nzk2MjcyMzIzIn0.Xgyp67meK5SxdVhoVybygan-73NgcoxuIFP824LNG8E",
-      "location": {
-        "__CLASS__": "Adzuna::API::Response::Location",
-        "area": [
-          "Österreich"
-        ],
-        "display_name": "Österreich"
-      },
-      "title": "Applied AI Engineer - AI Finance Agent",
-      "id": "5796272323",
-      "created": "2026-07-11T01:13:55Z",
-      "salary_is_predicted": "0",
-      "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "category": {
-        "tag": "accounting-finance-jobs",
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "label": "Stellen aus Buchhaltung & Finanzwesen"
-      }
-    },
-    {
-      "id": "5845130051",
-      "title": "Generative AI Engineer (all Genders) for Vienna",
-      "location": {
-        "area": [
-          "Österreich",
-          "Wien"
-        ],
-        "display_name": "Wien, Österreich",
-        "__CLASS__": "Adzuna::API::Response::Location"
-      },
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0NTEzMDA1MSIsInMiOiJhbEN4OHQybjhSR0ZROHI3Y21KSXNRIn0.432GYLvv-sfadiidu7qC_W-gMP21X82xEFbct3dstZI",
-      "company": {
-        "__CLASS__": "Adzuna::API::Response::Company",
-        "display_name": "Digitl GmbH"
-      },
-      "redirect_url": "https://www.adzuna.at/details/5845130051?utm_medium=api&utm_source=5fbaef93",
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "category": {
-        "tag": "unknown",
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "label": "Unknown"
-      },
-      "description": "Digitl ist ein junges und innovatives Unternehmen im Bereich Marketing und Cloud-Technologie. In einem kollaborativen und cross-funktionalen Umfeld entwickeln wir neue Konzepte, um unsere Kunden verschiedener Branchen in eine digital geprägte Zukunft zu führen. Werde Teil davon und bringe als Generative AI Engineer deine eigenen frischen und zukunftsweisenden Ideen ein, um gemeinsam die weitere Entwicklung von Digitl mitzugestalten. Als Generative AI Engineer besteht deine Rolle darin, Multi-Ag…",
-      "salary_is_predicted": "0",
-      "created": "2026-08-17T13:44:42Z"
-    },
-    {
-      "title": "Generative AI Engineer (all Genders) for Vienna",
-      "id": "5779532725",
-      "redirect_url": "https://www.adzuna.at/details/5779532725?utm_medium=api&utm_source=5fbaef93",
-      "contract_time": "full_time",
-      "company": {
-        "__CLASS__": "Adzuna::API::Response::Company",
-        "display_name": "digitl.com"
-      },
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYWxDeDh0Mm44UkdGUThyN2NtSklzUSIsImkiOiI1Nzc5NTMyNzI1In0.DxdZapFrNfi9wnnvjgUtvxNo2hEndG5BVepmMAcIK1U",
-      "location": {
-        "display_name": "Österreich",
-        "area": [
-          "Österreich"
-        ],
-        "__CLASS__": "Adzuna::API::Response::Location"
-      },
-      "salary_is_predicted": "0",
-      "description": "Digitl ist ein junges und innovatives Unternehmen im Bereich Marketing und Cloud-Technologie. In einem kollaborativen und cross-funktionalen Umfeld entwickeln wir neue Konzepte, um unsere Kunden verschiedener Branchen in eine digital geprägte Zukunft zu führen. Werde Teil davon und bringe als Generative AI Engineer deine eigenen frischen und zukunftsweisenden Ideen ein, um gemeinsam die weitere Entwicklung von Digitl mitzugestalten. Als Generative AI Engineer besteht deine Rolle darin, Multi-Ag…",
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "category": {
-        "tag": "it-jobs",
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "label": "IT-Stellen"
-      },
-      "created": "2026-06-28T00:50:38Z"
-    },
-    {
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzMzU2MjQ3NiIsInMiOiJhbEN4OHQybjhSR0ZROHI3Y21KSXNRIn0.sO7V3MmZnQ_g0xPXFe5wjU8WmHflOxY6q7TP2S--yEI",
-      "company": {
-        "__CLASS__": "Adzuna::API::Response::Company",
-        "display_name": "Cloudflight"
-      },
-      "contract_time": "full_time",
-      "redirect_url": "https://www.adzuna.at/details/5833562476?utm_medium=api&utm_source=5fbaef93",
-      "location": {
-        "__CLASS__": "Adzuna::API::Response::Location",
-        "area": [
-          "Österreich"
-        ],
-        "display_name": "Österreich"
-      },
-      "title": "AI Engineer - Agentic Plattform (m/f/x)",
-      "id": "5833562476",
-      "salary_min": 55356,
-      "created": "2026-08-08T16:46:44Z",
-      "salary_max": 55356,
-      "salary_is_predicted": "0",
-      "category": {
-        "label": "IT-Stellen",
-        "tag": "it-jobs",
-        "__CLASS__": "Adzuna::API::Response::Category"
-      },
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "description": "At Cloudflight, we’re committed to making a digital difference. It’s a difference that impacts businesses and society alike and one that’s fueled by our passion for technology and our dedication to sparking the brightest ideas in ourselves and others. Role Overview We are looking for a Platform AI Engineer who will design, build, and scale our AI platform capabilities, enabling seamless model development, deployment, monitoring, and lifecycle management across the organization. You will bring t…"
-    },
-    {
-      "latitude": 48.208144,
-      "created": "2026-06-30T06:44:10Z",
-      "category": {
-        "label": "Unknown",
-        "tag": "unknown",
-        "__CLASS__": "Adzuna::API::Response::Category"
-      },
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "description": "Sachbearbeiter Vertragsverwaltung Privatkunden (w/m/d). Vollzeit. Wien - 1. Bezirk. Unbefristet. Was in vielen anderen Unternehmen nur leere Versprechen sind, ist bei uns oberste Regel: &Los. Es steht für das Vertrauen, das wir in unsere Mitarbeitenden und deren Fähigkeiten setzen. Denn wir sind überzeugt, dass ein gemeinsamer Erfolg nur möglich ist, wenn jeder den nötigen Freiraum bekommt, Talente bestmöglich einzusetzen. Das bringt nicht nur Sie persönlich weiter, sondern das gesamte Unterneh…",
-      "salary_is_predicted": "0",
-      "location": {
-        "display_name": "Wien, Österreich",
-        "area": [
-          "Österreich",
-          "Wien"
-        ],
-        "__CLASS__": "Adzuna::API::Response::Location"
-      },
-      "company": {
-        "__CLASS__": "Adzuna::API::Response::Company",
-        "display_name": "Helvetia Versicherungen AG"
-      },
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4MTc2NDg5MyIsInMiOiJhbEN4OHQybjhSR0ZROHI3Y21KSXNRIn0.6_x4LjyYxge8ne9THRw_zuHibLy9Y2RYb8HZFYvbaqM",
-      "redirect_url": "https://www.adzuna.at/details/5781764893?utm_medium=api&utm_source=5fbaef93",
-      "id": "5781764893",
-      "title": "Sachbearbeiter Vertragsverwaltung Privatkunden (w/m/d).",
-      "longitude": 16.354031
-    },
-    {
-      "title": "AI Consultant (m/w/d)",
-      "longitude": 16.298167,
-      "company": {
-        "__CLASS__": "Adzuna::API::Response::Company",
-        "display_name": "NAVAX"
-      },
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYWxDeDh0Mm44UkdGUThyN2NtSklzUSIsImkiOiI1ODM4NDAwNDgwIn0.YcC_FrcjtpWysHKl3sFJOjgH5e1rpXQXoMffqsfa4Nw",
-      "location": {
-        "__CLASS__": "Adzuna::API::Response::Location",
-        "area": [
-          "Österreich",
-          "Wien",
-          "Liesing"
-        ],
-        "display_name": "Liesing, Wien"
-      },
-      "description": "Dein Beitrag zur Lösung Moderne AI-Lösungen gemeinsam mit Kund:innen von der Idee bis zur produktiven Umsetzung entwickeln. AI-Potenziale in Geschäftsprozessen erkennen, Use Cases ableiten und realistische Roadmaps entwickeln. Workshops, Discovery Sessions und Beratungstermine moderieren und technische Möglichkeiten verständlich übersetzen. Lösungen rund um Generative AI, Copilot, AI Agents, Automatisierung und datengetriebene Anwendungen konzipieren und begleiten. Presales und Sales bei Angebo…",
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "created": "2026-08-12T16:46:51Z",
-      "salary_min": 46800,
-      "latitude": 48.137322,
-      "id": "5838400480",
-      "contract_time": "full_time",
-      "redirect_url": "https://www.adzuna.at/details/5838400480?utm_medium=api&utm_source=5fbaef93",
-      "salary_is_predicted": "0",
-      "category": {
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "tag": "consultancy-jobs",
-        "label": "Beraterstellen"
-      },
-      "salary_max": 46800
-    },
-    {
-      "created": "2026-07-12T01:09:24Z",
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "category": {
-        "label": "Unknown",
-        "tag": "unknown",
-        "__CLASS__": "Adzuna::API::Response::Category"
-      },
-      "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
-      "salary_is_predicted": "0",
-      "location": {
-        "area": [
-          "Österreich"
-        ],
-        "display_name": "Österreich",
-        "__CLASS__": "Adzuna::API::Response::Location"
-      },
-      "company": {
-        "__CLASS__": "Adzuna::API::Response::Company",
-        "display_name": "Bjak"
-      },
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5NzQxMjU5MiIsInMiOiJhbEN4OHQybjhSR0ZROHI3Y21KSXNRIn0.DYTTsN3qgQAlgTEPKS383-NElGiOECbKJuqajtmLuBw",
-      "redirect_url": "https://www.adzuna.at/details/5797412592?utm_medium=api&utm_source=5fbaef93",
-      "contract_time": "full_time",
-      "id": "5797412592",
-      "title": "Full Stack Engineer"
-    },
-    {
-      "id": "5797412268",
-      "title": "Android Developer",
-      "location": {
-        "__CLASS__": "Adzuna::API::Response::Location",
-        "display_name": "Österreich",
-        "area": [
-          "Österreich"
-        ]
-      },
-      "redirect_url": "https://www.adzuna.at/details/5797412268?utm_medium=api&utm_source=5fbaef93",
-      "contract_time": "full_time",
-      "company": {
-        "__CLASS__": "Adzuna::API::Response::Company",
-        "display_name": "Bjak"
-      },
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYWxDeDh0Mm44UkdGUThyN2NtSklzUSIsImkiOiI1Nzk3NDEyMjY4In0.3stjOZmis-DieuEcuFOnq_2nILch0wY4eDUXF4LTGek",
-      "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
-      "category": {
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "tag": "it-jobs",
-        "label": "IT-Stellen"
-      },
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "salary_is_predicted": "0",
-      "created": "2026-07-12T01:09:12Z"
-    },
-    {
-      "location": {
-        "__CLASS__": "Adzuna::API::Response::Location",
-        "display_name": "Österreich",
-        "area": [
-          "Österreich"
-        ]
-      },
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc5NzQxMTk5NiIsInMiOiJhbEN4OHQybjhSR0ZROHI3Y21KSXNRIn0.nSVnFq88iCwXBPBcTvkxfC2m10ipB7wqmtAqDnSS5A8",
-      "company": {
-        "display_name": "Bjak",
-        "__CLASS__": "Adzuna::API::Response::Company"
-      },
-      "redirect_url": "https://www.adzuna.at/details/5797411996?utm_medium=api&utm_source=5fbaef93",
-      "contract_time": "full_time",
-      "id": "5797411996",
-      "title": "iOS Developer",
-      "created": "2026-07-12T01:09:04Z",
-      "category": {
-        "tag": "it-jobs",
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "label": "IT-Stellen"
-      },
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
-      "salary_is_predicted": "0"
-    },
-    {
-      "created": "2026-07-29T16:43:25Z",
-      "salary_is_predicted": "0",
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "category": {
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "tag": "it-jobs",
-        "label": "IT-Stellen"
-      },
-      "description": "About KIRA Our mission is to make money smart, reliable and within reach for everyone. In 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, it's the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in Asia and it includes spending, saving, investing, exchanging, travelling, and more. Our objective is to build tools that will help people get more from their money and at …",
-      "company": {
-        "display_name": "Bjak",
-        "__CLASS__": "Adzuna::API::Response::Company"
-      },
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYWxDeDh0Mm44UkdGUThyN2NtSklzUSIsImkiOiI1ODE5ODQ1NDQ0In0.x58R_V8P1ZEVM2A76vSmuaRwjmYXzC1nq0ky3pgTjOo",
-      "contract_time": "full_time",
-      "redirect_url": "https://www.adzuna.at/details/5819845444?utm_medium=api&utm_source=5fbaef93",
-      "location": {
-        "__CLASS__": "Adzuna::API::Response::Location",
-        "display_name": "Österreich",
-        "area": [
-          "Österreich"
-        ]
-      },
-      "title": "iOS Developer - AI Finance Agent",
-      "id": "5819845444"
-    },
-    {
-      "salary_is_predicted": "0",
-      "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission…",
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "category": {
-        "label": "IT-Stellen",
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "tag": "it-jobs"
-      },
-      "created": "2026-07-27T01:25:35Z",
-      "title": "Android Developer - AI Finance Agent",
-      "id": "5816881894",
-      "redirect_url": "https://www.adzuna.at/details/5816881894?utm_medium=api&utm_source=5fbaef93",
-      "contract_time": "full_time",
-      "company": {
-        "__CLASS__": "Adzuna::API::Response::Company",
-        "display_name": "Bjak"
-      },
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgxNjg4MTg5NCIsInMiOiJhbEN4OHQybjhSR0ZROHI3Y21KSXNRIn0.aaZmpW9fNaoqaxwyYxEplXSevyWlxzWC9uH_YnqhtYs",
-      "location": {
-        "__CLASS__": "Adzuna::API::Response::Location",
-        "display_name": "Österreich",
-        "area": [
-          "Österreich"
-        ]
-      }
-    },
-    {
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1OTc0NDA5OSIsInMiOiJhbEN4OHQybjhSR0ZROHI3Y21KSXNRIn0.Ys6fXZaum9Hd-xf0vd5HeWTA_6d9XF-la8TmGCk-jow",
-      "company": {
-        "__CLASS__": "Adzuna::API::Response::Company",
-        "display_name": "Journi"
-      },
-      "contract_time": "full_time",
-      "redirect_url": "https://www.adzuna.at/details/5859744099?utm_medium=api&utm_source=5fbaef93",
-      "location": {
-        "__CLASS__": "Adzuna::API::Response::Location",
-        "area": [
-          "Österreich",
-          "Wien"
-        ],
-        "display_name": "Wien, Österreich"
-      },
-      "title": "Machine Learning Ops Engineer (all genders)",
-      "id": "5859744099",
-      "salary_min": 65000,
-      "created": "2026-08-28T16:53:18Z",
-      "salary_max": 65000,
-      "salary_is_predicted": "0",
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "category": {
-        "tag": "it-jobs",
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "label": "IT-Stellen"
-      },
-      "description": "We love the magic of memory keeping At Journi, we’re on a mission to build the world’s most-downloaded printing app. With over 10 million users worldwide, we help people turn their favorite moments into beautifully designed Photo Books and Prints. Our smart AI makes the process fast, simple, and joyful, so our users can spend less time editing and more time reliving their best stories. We’re looking for an enthusiastic Machine Learning Ops Engineer to play a key role across the entire ML lifecy…"
-    }
-  ],
-  "count": 17,
-  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
-  "mean": 55628
-}
+    ],
+    "count": 18,
+    "__CLASS__": "Adzuna::API::Response::JobSearchResults"
+  }
+]

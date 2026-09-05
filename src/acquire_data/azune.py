@@ -1,3 +1,5 @@
+import math
+
 import requests
 import os
 import json
@@ -8,7 +10,7 @@ load_dotenv()
 ADZUNA_APP_ID = os.getenv("ADZUNA_APP_ID")
 ADZUNA_API_KEY = os.getenv("ADZUNA_API_KEY")
 
-url = "https://api.adzuna.com/v1/api/jobs/at/search/1"
+url = "https://api.adzuna.com/v1/api/jobs/at/search/"
 url_hist_avg = "https://api.adzuna.com/v1/api/jobs/at/history"
 url_histogram = "https://api.adzuna.com/v1/api/jobs/at/histogram"
 
@@ -23,9 +25,18 @@ def load_all_adzuna():
             "what_phrase": phrase,
             "what_exclude": "senior lead",
         }
-        response = requests.get(url, params)
+        response = requests.get(url + "1", params)
+        data = response.json()
+        count = data["count"]
+        pages = math.ceil(count / 50) 
+        results_list = []
+        results_list.append(data)
+
+        for i in range(1, pages+1):
+            response = requests.get(url + str(i), params)
+            results_list.append(response.json())
         with open(f"data/azune/{phrase.replace(' ', '_')}.json", "w", encoding="utf-8") as f:
-            json.dump(response.json(), f, indent=2, ensure_ascii=False)
+            json.dump(results_list, f, indent=2, ensure_ascii=False)
 
 
 def historical_avg():
@@ -57,4 +68,4 @@ def histogram_salary():
 
 
 if __name__ == "__main__":
-    histogram_salary()
+    load_all_adzuna()
