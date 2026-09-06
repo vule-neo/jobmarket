@@ -51,7 +51,7 @@ samo_pokrajine = pokrajine - {"Wien", "Salzburg"}
 
 # (?!...Umgebung) jer 'Wien-Umgebung' je okrug u Nizoj Austriji, ne Bec.
 # \bWien\b ne hvata 'Wiener Neudorf' - iza 'Wien' dolazi slovo, nema granice.
-wien_re = r"\bWien\b(?!\s*-?\s*Umgebung)"
+wien_re = r"\b(?:Wien|Vienna)\b(?!\s*-?\s*Umgebung)"
 # becki postanski brojevi su cetverocifreni: 1010-1230, uvijek 1XX0
 wien_postanski_re = r"\b1\d{2}0\b"
 
@@ -79,6 +79,25 @@ def _je_bec(display_name, area):
     return False
 
 
+# isti grad pod dva imena - karriere.at pise zvanicno, Adzuna skraceno
+grad_aliasi = {
+    "Klagenfurt am Wörthersee": "Klagenfurt",
+    "Sankt Pölten": "St. Pölten",
+}
+
+# 'Salzburg (Stadt)' i 'Salzburg (Land)' - grad je isti, zagrada je administrativna
+zagrada_re = r"\s*\((?:Stadt|Land|Umgebung)\)\s*$"
+
+
+def _ocisti_grad(grad):
+    """Skida administrativne dodatke i svodi poznate sinonime na jedno ime."""
+    if not grad:
+        return None
+
+    grad = re.sub(zagrada_re, "", grad.strip())
+    return grad_aliasi.get(grad, grad)
+
+
 def normalize_city(display_name, area):
     """'Innere Stadt, Wien' -> 'Wien', 'Graz, Steiermark' -> 'Graz'.
 
@@ -96,11 +115,12 @@ def normalize_city(display_name, area):
     # Zadnji element je najkonkretniji, ali samo ako je ispod pokrajine -
     # ['Österreich', 'Tirol'] nema grad.
     if len(area) >= 3:
-        return area[-1]
+        return _ocisti_grad(area[-1])
 
     # bez upotrebljive area - prvi dio prije zareza
     grad = display_name.split(",")[0].strip()
     grad = re.sub(postanski_prefiks_re, "", grad)
+    grad = _ocisti_grad(grad)
 
     if not grad or grad == "Österreich" or grad in samo_pokrajine:
         return None
@@ -175,8 +195,15 @@ zaposlenje_mapa = {
     "geringfugig": "part_time",
     "internship": "internship",
     "praktikum": "internship",
+    "praktika": "internship",
+    "diplomarbeit": "internship",
+    "dissertation": "internship",
+    "lehre": "apprenticeship",
+    "lehrstelle": "apprenticeship",
     "contract": "contract",
     "freelance": "contract",
+    "freelancer_in": "contract",
+    "projektarbeit": "contract",
     "werkvertrag": "contract",
 }
 
@@ -184,14 +211,20 @@ zaposlenje_mapa = {
 def normalize_employment(vrijednost):
     """'full-time', 'Vollzeit', 'full_time' -> 'full_time'.
 
+    karriere.at zna poslati vise oblika odjednom ('vollzeit, teilzeit') -
+    uzima se prvi, jer je to primarni oblik zaposlenja u oglasu.
+
     Nepoznat oblik vraca None umjesto da ga propusti dalje neociscenog -
     tako se u statistici odmah vidi da ga treba dodati u mapu.
     """
     if not vrijednost:
         return None
 
-    kljuc = vrijednost.strip().lower().replace("-", "_").replace(" ", "_")
+    prvi = vrijednost.split(",")[0]
+
+    kljuc = prvi.strip().lower().replace("-", "_").replace(" ", "_")
     kljuc = kljuc.replace("ü", "u").replace("ä", "a").replace("ö", "o")
+    kljuc = kljuc.replace("*", "_").replace("/", "_")
 
     return zaposlenje_mapa.get(kljuc)
 
@@ -227,12 +260,32 @@ def job_fingerprint(title, company_id):
 
 
 def normalize_locations(session):
-    """Popuni Location.city i Location.region. Vraca broj izmijenjenih."""
-    izmijenjeno = 0
+    """Popuni Location.city i Location.region. Vraca broj izmijenjenih.
 
-    for lokacija in session.execute(select(Location)).scalars():
+    Drugi prolaz popunjava pokrajinu iz vlastitih podataka: karriere.at
+    salje goli grad ('Linz'), a Adzuna isti taj grad salje sa pokrajinom
+    ('Linz, Oberösterreich'). Mapa se gradi iz prvog izvora i primjenjuje
+    na drugi - bez rucno kucane tabele austrijskih gradova.
+    """
+    lokacije = list(session.execute(select(Location)).scalars())
+
+    izmijenjeno = 0
+    novo = {}
+
+    for lokacija in lokacije:
         grad = normalize_city(lokacija.display_name, lokacija.area)
         pokrajina = normalize_region(lokacija.display_name, lokacija.area)
+        novo[lokacija.id] = [grad, pokrajina]
+
+    grad_u_pokrajinu = {
+        grad: pokrajina for grad, pokrajina in novo.values() if grad and pokrajina
+    }
+
+    for lokacija in lokacije:
+        grad, pokrajina = novo[lokacija.id]
+
+        if grad and not pokrajina:
+            pokrajina = grad_u_pokrajinu.get(grad)
 
         if lokacija.city != grad or lokacija.region != pokrajina:
             lokacija.city = grad

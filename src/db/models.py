@@ -88,7 +88,8 @@ class Job(Base):
     salary_period: Mapped[Optional[str]] = mapped_column(String(16))
     salary_is_predicted: Mapped[Optional[bool]]
 
-    employment_type: Mapped[Optional[str]] = mapped_column(String(32))
+    # karriere.at umije poslati kombinaciju: 'vollzeit, freelancer*in, projektarbeit'
+    employment_type: Mapped[Optional[str]] = mapped_column(String(120))
     employment_type_norm: Mapped[Optional[str]] = mapped_column(String(32))
     remote_option: Mapped[Optional[str]] = mapped_column(String(32))
     category_label: Mapped[Optional[str]] = mapped_column(String(120))

@@ -15,6 +15,19 @@ actor_id = "santamaria-automations/karriere-at-scraper"
 PRICE_START = 0.001
 PRICE_JOB_WITH_DETAILS = 0.005
 
+# isti pojmovi kao za Adzunu - da se izvori mogu porediti jedan s drugim
+SEARCH_PHRASES = [
+    "data science",
+    "data engineer",
+    "ai engineer",
+    "java",
+    "java developer",
+    "springboot",
+    "angular",
+    "python",
+    "data analyst",
+]
+
 
 def probe_karriere_at(max_results=20, max_per_query=10):
     """Jedan jeftin testni run da vidimo kakve podatke actor vraca.
@@ -45,7 +58,27 @@ def fetch_existing_run(run_id):
     return save_run_items(run)
 
 
-def save_run_items(run):
+def fetch_karriere_at(max_results, max_per_query=100, location=None):
+    """Puno preuzimanje. Bez location parametra hvata cijelu Austriju -
+    normalize_city ionako rasporedi oglase po gradovima.
+
+    maxResults je tvrdi cap i jedina stvar koja stoji izmedju nas i racuna.
+    """
+    params = {
+        "searchQueries": SEARCH_PHRASES,
+        "sortBy": "date",
+        "includeJobDetails": True,      # zbog description_full - to je cijela poenta
+        "maxResultsPerQuery": max_per_query,
+        "maxResults": max_results,
+    }
+    if location:
+        params["location"] = location
+
+    run = client.actor(actor_id).call(run_input=params)
+    return save_run_items(run)
+
+
+def save_run_items(run, path=None):
     # Run je pydantic model, ne dict - atributi su snake_case
     # neuspio run vraca prazan dataset, ne damo mu da prepise dobre podatke
     if run.status != "SUCCEEDED":
@@ -53,11 +86,16 @@ def save_run_items(run):
 
     items = list(client.dataset(run.default_dataset_id).iterate_items())
 
+    # svaki run u svoj fajl - ingest cita data/apify/*.json, pa se stari
+    # placeni podaci ne smiju prepisati novim runom
+    if path is None:
+        path = f"data/apify/run_{run.id}.json"
+
     os.makedirs("data/apify", exist_ok=True)
-    with open("data/apify/probe.json", "w", encoding="utf-8") as f:
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(items, f, indent=2, ensure_ascii=False)
 
-    print(f"Run {run.id} SUCCEEDED, {len(items)} oglasa -> data/apify/probe.json")
+    print(f"Run {run.id} SUCCEEDED, {len(items)} oglasa -> {path}")
     if run.usage_total_usd is not None:
         print(f"Stvarni trosak runa: ${run.usage_total_usd:.4f}")
     return items
@@ -69,10 +107,16 @@ if __name__ == "__main__":
         fetch_existing_run(sys.argv[sys.argv.index("--run") + 1])
         sys.exit(0)
 
+    # --max N mijenja cap; bez njega ostaje jeftin probe od 20 oglasa
     max_results = 20
+    if "--max" in sys.argv:
+        max_results = int(sys.argv[sys.argv.index("--max") + 1])
+
     cost = PRICE_START + max_results * PRICE_JOB_WITH_DETAILS
     if "--yes" not in sys.argv:
         print(f"Ovo je PLACEN poziv. Procijenjeni trosak: ${cost:.3f} (do {max_results} oglasa).")
         print("Pokreni sa --yes ako si siguran.")
         sys.exit(1)
-    probe_karriere_at(max_results=max_results)
+
+    print(f"Pokrecem run za do {max_results} oglasa (~${cost:.2f})...")
+    fetch_karriere_at(max_results=max_results)
