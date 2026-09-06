@@ -1,0 +1,726 @@
+<title>Alatnica jobmarketa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  --paper:#F6F8FA; --surface:#FFFFFF; --surface-2:#ECF0F5; --line:#D7DDE6;
+  --ink:#161A21; --ink-2:#4B5563; --ink-3:#79828F;
+  --accent:#22557E; --accent-soft:#E3EDF6;
+  --out:#186B49; --out-soft:#E2F1E9;
+  --warn:#95560F; --warn-soft:#F9EFE1;
+  --radius:6px;
+  --mono:"IBM Plex Mono",ui-monospace,"Cascadia Mono",Consolas,monospace;
+  --sans:"IBM Plex Sans",-apple-system,Segoe UI,Roboto,sans-serif;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#101318; --surface:#161A21; --surface-2:#1D232C; --line:#2A323D;
+    --ink:#E2E7EE; --ink-2:#A5AFBE; --ink-3:#7A8492;
+    --accent:#7FB2DF; --accent-soft:#182635;
+    --out:#69C79C; --out-soft:#152720;
+    --warn:#D59D5F; --warn-soft:#282115;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#101318; --surface:#161A21; --surface-2:#1D232C; --line:#2A323D;
+  --ink:#E2E7EE; --ink-2:#A5AFBE; --ink-3:#7A8492;
+  --accent:#7FB2DF; --accent-soft:#182635;
+  --out:#69C79C; --out-soft:#152720;
+  --warn:#D59D5F; --warn-soft:#282115;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px 96px}
+
+/* ---------- zaglavlje ---------- */
+header.top{padding:56px 0 28px;border-bottom:1px solid var(--line)}
+header.top h1{font-family:var(--serif);font-weight:600;font-size:clamp(34px,5vw,52px);line-height:1.05;margin:0 0 12px;letter-spacing:-.01em;text-wrap:balance}
+header.top p.lede{margin:0;max-width:64ch;color:var(--ink-2);font-size:17px}
+.facts{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.fact{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:8px 12px;font-family:var(--mono);font-size:12.5px;color:var(--ink-2)}
+.fact b{color:var(--accent);font-weight:500;font-variant-numeric:tabular-nums}
+
+/* ---------- raspored ---------- */
+.cols{display:grid;grid-template-columns:196px minmax(0,1fr);gap:48px;align-items:start;margin-top:36px}
+nav.toc{position:sticky;top:20px;font-size:13.5px;max-height:calc(100vh - 40px);overflow-y:auto}
+nav.toc strong{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);margin:20px 0 8px}
+nav.toc strong:first-child{margin-top:0}
+nav.toc a{display:block;color:var(--ink-2);text-decoration:none;padding:3px 0 3px 10px;border-left:2px solid var(--line);line-height:1.35}
+nav.toc a:hover{color:var(--accent);border-left-color:var(--accent);background:var(--accent-soft)}
+nav.toc a .num{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-right:6px;font-variant-numeric:tabular-nums}
+nav.toc a:focus-visible,main a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+
+/* ---------- sekcije ---------- */
+section.part{padding-top:44px}
+section.part>h2{font-family:var(--serif);font-size:32px;font-weight:600;margin:0 0 6px;letter-spacing:-.01em}
+section.part>h2 .k{font-family:var(--mono);font-size:13px;color:var(--ink-3);display:block;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px;font-weight:400}
+section.part>p.intro{margin:0 0 8px;color:var(--ink-2);max-width:70ch}
+h3.sub{font-size:17px;font-weight:600;margin:38px 0 12px;padding-top:14px;border-top:1px solid var(--line);display:flex;gap:10px;align-items:baseline}
+h3.sub .num{font-family:var(--mono);font-size:13px;color:var(--accent);font-variant-numeric:tabular-nums;flex:none}
+p.what{margin:0 0 14px;color:var(--ink-2);max-width:70ch}
+
+/* ---------- tabela funkcija ---------- */
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+table.fn{border-collapse:collapse;width:100%;font-size:13.5px;min-width:560px}
+table.fn th{text-align:left;font-family:var(--mono);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);font-weight:500;padding:9px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
+table.fn td{padding:9px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+table.fn tr:last-child td{border-bottom:none}
+table.fn td:first-child{font-family:var(--mono);font-size:12.5px;color:var(--accent);white-space:nowrap;font-weight:500}
+table.fn td:nth-child(2){color:var(--ink)}
+table.fn td:nth-child(3){color:var(--ink-3);font-size:12.5px}
+table.fn code{font-family:var(--mono);font-size:12px;background:var(--surface-2);padding:1px 4px;border-radius:3px;color:var(--ink-2)}
+
+/* ---------- kod + izlaz ---------- */
+.demo{margin:16px 0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--surface)}
+.demo .cap{font-family:var(--mono);font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);padding:8px 14px;border-bottom:1px solid var(--line);background:var(--surface-2)}
+.demo pre{margin:0;padding:14px;overflow-x:auto;font-family:var(--mono);font-size:12.5px;line-height:1.65;color:var(--ink)}
+.demo pre.out{border-top:1px dashed var(--line);background:var(--out-soft);color:var(--ink-2);font-size:12px}
+.demo pre.out b{color:var(--out);font-weight:500}
+.demo pre .c{color:var(--ink-3)}
+.demo pre .s{color:var(--out)}
+.demo pre .kw{color:var(--accent);font-weight:500}
+
+/* ---------- napomene ---------- */
+.note{border-left:3px solid var(--warn);background:var(--warn-soft);padding:11px 15px;margin:16px 0;font-size:13.5px;border-radius:0 var(--radius) var(--radius) 0;color:var(--ink-2);max-width:76ch}
+.note b{color:var(--warn);font-weight:600}
+.note code,p.what code,li code{font-family:var(--mono);font-size:12.5px;background:var(--surface-2);padding:1px 4px;border-radius:3px;color:var(--ink)}
+
+/* ---------- chips ---------- */
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0}
+.chips .lab{font-family:var(--mono);font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);width:100%;margin-bottom:2px}
+.chips span{font-family:var(--mono);font-size:12px;background:var(--surface);border:1px solid var(--line);color:var(--ink-2);padding:3px 8px;border-radius:20px}
+
+/* ---------- mapa faza ---------- */
+.map{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));margin-top:18px}
+.map div{background:var(--surface);padding:14px 16px}
+.map h4{margin:0 0 6px;font-size:13px;font-weight:600}
+.map h4 span{font-family:var(--mono);font-size:11px;color:var(--accent);display:block;font-weight:400;letter-spacing:.06em}
+.map p{margin:0;font-family:var(--mono);font-size:11.5px;color:var(--ink-2);line-height:1.75}
+
+ul.tight{margin:10px 0;padding-left:20px;color:var(--ink-2);max-width:72ch}
+ul.tight li{margin:4px 0}
+footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);color:var(--ink-3);font-size:12.5px;font-family:var(--mono)}
+@media (max-width:880px){
+  .cols{grid-template-columns:1fr;gap:20px}
+  nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);padding-bottom:16px;columns:2;column-gap:24px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<div class="wrap">
+
+<header class="top">
+  <h1>Alatnica jobmarketa</h1>
+  <p class="lede">Funkcije koje ti stvarno trebaju za faze 2&ndash;4 ovog projekta &mdash; pandas, SQLAlchemy 2.0 i Python standardna biblioteka. Svaki primjer je pokrenut na tvojim podacima; brojevi u izlazima su stvarni, ne izmišljeni.</p>
+  <div class="facts">
+    <div class="fact">izvor: <b>data/azune/*.json</b></div>
+    <div class="fact">sirovih redova: <b>901</b></div>
+    <div class="fact">jedinstvenih: <b>445</b></div>
+    <div class="fact">u bazi: <b>465</b> job</div>
+    <div class="fact">pandas <b>3.0.5</b></div>
+  </div>
+</header>
+
+<div class="cols">
+<nav class="toc">
+  <strong>pandas</strong>
+  <a href="#p1"><span class="num">1.1</span>Učitavanje</a>
+  <a href="#p2"><span class="num">1.2</span>Prvi pogled</a>
+  <a href="#p3"><span class="num">1.3</span>Filtriranje</a>
+  <a href="#p4"><span class="num">1.4</span>Nedostajuće</a>
+  <a href="#p5"><span class="num">1.5</span>Duplikati</a>
+  <a href="#p6"><span class="num">1.6</span>Tekst &middot; .str</a>
+  <a href="#p7"><span class="num">1.7</span>Datumi &middot; .dt</a>
+  <a href="#p8"><span class="num">1.8</span>Nove kolone</a>
+  <a href="#p9"><span class="num">1.9</span>Grupisanje</a>
+  <a href="#p10"><span class="num">1.10</span>Sortiranje</a>
+  <a href="#p11"><span class="num">1.11</span>Spajanje</a>
+  <a href="#p12"><span class="num">1.12</span>Preoblikovanje</a>
+  <a href="#p13"><span class="num">1.13</span>Upis</a>
+  <strong>SQLAlchemy</strong>
+  <a href="#s1"><span class="num">2.1</span>select / where</a>
+  <a href="#s2"><span class="num">2.2</span>Agregacije</a>
+  <a href="#s3"><span class="num">2.3</span>Join</a>
+  <a href="#s4"><span class="num">2.4</span>Izvršavanje</a>
+  <a href="#s5"><span class="num">2.5</span>Upis</a>
+  <a href="#s6"><span class="num">2.6</span>Debug</a>
+  <strong>Python</strong>
+  <a href="#y1"><span class="num">3.1</span>dict i liste</a>
+  <a href="#y2"><span class="num">3.2</span>collections</a>
+  <a href="#y3"><span class="num">3.3</span>re &middot; regex</a>
+  <a href="#y4"><span class="num">3.4</span>pathlib / json</a>
+  <a href="#y5"><span class="num">3.5</span>datetime</a>
+  <a href="#y6"><span class="num">3.6</span>f-string</a>
+  <strong>Na kraju</strong>
+  <a href="#mapa"><span class="num">4</span>Šta gdje treba</a>
+</nav>
+
+<main>
+
+<section class="part" id="pandas">
+  <h2><span class="k">Dio 1</span>pandas</h2>
+  <p class="intro">DataFrame je tabela u memoriji: kolone imaju tip, redovi imaju indeks. Ne petljaj po njemu <code>for</code> petljom &mdash; skoro sve što ti treba je jedna vektorska operacija nad cijelom kolonom.</p>
+
+  <h3 class="sub" id="p1"><span class="num">1.1</span>Učitavanje podataka</h3>
+  <p class="what">Tvoji fajlovi nisu ravni: vrh fajla je lista stranica, oglasi su u <code>page["results"]</code>, a <code>company</code> i <code>location</code> su ugniježdeni dictovi. Zato ne <code>read_json</code>, nego <code>json_normalize</code>.</p>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Kad</th></tr>
+    <tr><td>pd.json_normalize(rows, sep="_")</td><td>ugniježdeni dict &rarr; ravne kolone: <code>company.display_name</code> postaje <code>company_display_name</code></td><td>tvoj glavni ulaz</td></tr>
+    <tr><td>pd.read_json(path)</td><td>cijeli fajl odjednom</td><td>samo ako je JSON već ravna lista</td></tr>
+    <tr><td>pd.DataFrame(lista_dictova)</td><td>lista dictova &rarr; tabela</td><td>kad si sam sklopio redove</td></tr>
+    <tr><td>pd.read_sql(stmt, conn)</td><td>rezultat SQLAlchemy upita &rarr; DataFrame</td><td>analiza nad bazom</td></tr>
+    <tr><td>pd.read_csv(path)</td><td>CSV; <code>sep=</code>, <code>encoding=</code>, <code>dtype=</code>, <code>parse_dates=</code></td><td>uvoz izvana</td></tr>
+    <tr><td>pd.concat([df1, df2])</td><td>lijepi više tabela jednu ispod druge</td><td>adzuna + karriere.at</td></tr>
+  </table></div>
+  <div class="demo">
+    <div class="cap">svih 9 pretraga u jednu tabelu</div>
+<pre><span class="kw">import</span> json, pandas <span class="kw">as</span> pd
+<span class="kw">from</span> pathlib <span class="kw">import</span> Path
+
+rows = []
+<span class="kw">for</span> p <span class="kw">in</span> Path(<span class="s">"data/azune"</span>).glob(<span class="s">"*.json"</span>):
+    <span class="kw">for</span> stranica <span class="kw">in</span> json.load(p.open(encoding=<span class="s">"utf-8"</span>)):
+        rows += stranica.get(<span class="s">"results"</span>, [])
+
+df = pd.json_normalize(rows, sep=<span class="s">"_"</span>)
+df.shape</pre>
+<pre class="out">(<b>901</b>, <b>22</b>)   <span class="c"># 901 red, 22 kolone</span>
+
+kolone: created, title, description, id, contract_time, contract_type,
+        company_display_name, location_display_name, location_area,
+        category_label, category_tag, salary_min, salary_max,
+        salary_is_predicted, latitude, longitude, redirect_url, ...</pre>
+  </div>
+  <div class="note"><b>Zapamti:</b> <code>sep="_"</code> daje ista imena kolona koja već koristiš u <code>adzune_adjust()</code> &mdash; <code>company_display_name</code>. Bez njega dobijaš tačku u imenu i onda ne radi <code>df.company_display_name</code>.</div>
+
+  <h3 class="sub" id="p2"><span class="num">1.2</span>Prvi pogled na podatke</h3>
+  <p class="what">Prije bilo kakve obrade &mdash; koliko ih ima, kojeg su tipa, šta fali, gdje su gluposti.</p>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>df.shape</td><td><code>(redova, kolona)</code></td><td>atribut, bez zagrada</td></tr>
+    <tr><td>df.columns / df.dtypes</td><td>imena kolona / tipovi</td><td><code>object</code> = tekst</td></tr>
+    <tr><td>df.head(5) / .tail() / .sample(5)</td><td>prvih / zadnjih / nasumičnih n redova</td><td><code>sample</code> otkriva više od <code>head</code></td></tr>
+    <tr><td>df.info()</td><td>kolone + broj popunjenih + tip + memorija</td><td>prva komanda uvijek</td></tr>
+    <tr><td>df.describe()</td><td>count, mean, std, min, kvartili, max</td><td>samo brojevi</td></tr>
+    <tr><td>df.describe(include="object")</td><td>count, unique, top, freq</td><td>za tekst</td></tr>
+    <tr><td>df.nunique()</td><td>broj različitih vrijednosti po koloni</td><td>otkriva šifarnike</td></tr>
+    <tr><td>df.to_string()</td><td>ispis bez skraćivanja</td><td>za print u terminalu</td></tr>
+  </table></div>
+  <div class="demo">
+    <div class="cap">describe() odmah nađe smeće u platama</div>
+<pre>df[[<span class="s">"salary_min"</span>, <span class="s">"salary_max"</span>]].describe().round(0)</pre>
+<pre class="out">       salary_min  salary_max
+count       322.0       322.0    <span class="c"># od 901 &mdash; plata postoji za trećinu</span>
+mean      58425.0     66033.0
+std       35634.0     54873.0
+min          <b>50.0</b>        <b>80.0</b>    <span class="c"># satnica, ne godišnja</span>
+25%       40929.0     43200.0
+50%       55307.0     55356.0
+75%       70000.0     80860.0
+max      288000.0    <b>750000.0</b>    <span class="c"># outlier ili greška izvora</span></pre>
+  </div>
+  <div class="note"><b>Nalaz na tvojim podacima:</b> min 50 i max 750&nbsp;000 u istoj koloni znače da izvor miješa satnice, mjesečne i godišnje iznose. Zato ti u modelu i postoji <code>salary_period</code> &mdash; dok ga ne popuniš, prosjek plate je besmislen broj.</div>
+
+  <h3 class="sub" id="p3"><span class="num">1.3</span>Izbor kolona i filtriranje redova</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Oblik</th><th>Šta vraća</th><th>Napomena</th></tr>
+    <tr><td>df["title"]</td><td>Series (jedna kolona)</td><td>jedne uglaste</td></tr>
+    <tr><td>df[["title","id"]]</td><td>DataFrame (više kolona)</td><td>dvostruke uglaste</td></tr>
+    <tr><td>df.loc[maska, "title"]</td><td>izbor po <em>imenu</em> kolone i uslovu</td><td>za upis: <code>df.loc[m,"x"]=1</code></td></tr>
+    <tr><td>df.iloc[0:5, 0:3]</td><td>izbor po <em>poziciji</em></td><td>rijetko treba</td></tr>
+    <tr><td>df[df.salary_min &gt; 60000]</td><td>redovi koji zadovoljavaju uslov</td><td>maska = Series True/False</td></tr>
+    <tr><td>df[(a) &amp; (b)]</td><td>dva uslova</td><td><code>&amp; | ~</code>, <b>obavezno zagrade</b></td></tr>
+    <tr><td>.isin(["Wien","Graz"])</td><td>vrijednost u listi</td><td>zamjena za mnogo <code>or</code></td></tr>
+    <tr><td>.between(40000, 90000)</td><td>opseg, uključivo</td><td></td></tr>
+    <tr><td>df.query("salary_min &gt; 60000")</td><td>isto, kao tekst upita</td><td>čitljivije za duže uslove</td></tr>
+  </table></div>
+  <div class="demo">
+    <div class="cap">bečki oglasi s platom iznad 60k</div>
+<pre>m = df.location_display_name.str.startswith(<span class="s">"Wien"</span>, na=<span class="kw">False</span>) & (df.salary_min &gt; 60000)
+df.loc[m, [<span class="s">"title"</span>, <span class="s">"company_display_name"</span>, <span class="s">"salary_min"</span>]].head(3)</pre>
+<pre class="out"><span class="c"># koristi se & a ne "and" &mdash; "and" nad Series baca:</span>
+ValueError: The truth value of a Series is ambiguous</pre>
+  </div>
+
+  <h3 class="sub" id="p4"><span class="num">1.4</span>Nedostajuće vrijednosti</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>df.isna() / .notna()</td><td>tabela True/False</td><td><code>isnull</code> je isto</td></tr>
+    <tr><td>df.isna().sum()</td><td>broj praznih po koloni</td><td>najkorisniji jednoredak</td></tr>
+    <tr><td>df.dropna(subset=["salary_min"])</td><td>izbaci redove bez plate</td><td>bez <code>subset</code> briše previše</td></tr>
+    <tr><td>df.fillna(0) / .fillna("nepoznato")</td><td>popuni prazno</td><td><b>ne izmišljaj platu</b></td></tr>
+    <tr><td>df.col.fillna(df.col.median())</td><td>popuna medijanom</td><td>za ML, ne za prikaz</td></tr>
+    <tr><td>na=False u .str metodama</td><td>NaN znači "ne odgovara"</td><td>inače pukne filter</td></tr>
+  </table></div>
+  <div class="demo">
+    <div class="cap">šta stvarno fali</div>
+<pre>df.isna().sum().sort_values(ascending=<span class="kw">False</span>).head(6)</pre>
+<pre class="out">contract_type           <b>815</b>   <span class="c"># praktično beskorisna kolona</span>
+contract_time           594
+salary_min              579
+salary_max              579
+latitude                279
+company_display_name     <b>24</b>   <span class="c"># zato je company_id u modelu Optional</span></pre>
+  </div>
+
+  <h3 class="sub" id="p5"><span class="num">1.5</span>Duplikati</h3>
+  <p class="what">Ovo ti je trenutno najveći problem u podacima: isti oglas se pojavljuje u više pretraga &mdash; <code>java.json</code> i <code>java_developer.json</code> vraćaju iste oglase.</p>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>df.duplicated(subset=["id"])</td><td>True za svako <em>ponovno</em> pojavljivanje</td><td>prvo pojavljivanje = False</td></tr>
+    <tr><td>df.duplicated().sum()</td><td>koliko ih ima</td><td></td></tr>
+    <tr><td>df.drop_duplicates(subset=["id"])</td><td>zadrži prvi, izbaci ostale</td><td><code>keep="last"</code> / <code>keep=False</code></td></tr>
+    <tr><td>df[df.duplicated(["id"], keep=False)]</td><td>prikaži <em>sve</em> primjerke duplikata</td><td>provjera prije brisanja</td></tr>
+    <tr><td>df.value_counts(["title","company_display_name"])</td><td>duplikati bez zajedničkog id-a</td><td>isti oglas iz dva izvora</td></tr>
+  </table></div>
+  <div class="demo">
+    <div class="cap">stvarni obim preklapanja</div>
+<pre>df.id.duplicated().sum()
+df.drop_duplicates(subset=[<span class="s">"id"</span>]).shape</pre>
+<pre class="out"><b>456</b>            <span class="c"># više od pola redova je višak</span>
+(<b>445</b>, 22)     <span class="c"># 901 &rarr; 445 stvarnih oglasa</span></pre>
+  </div>
+  <div class="note"><b>Veza sa bazom:</b> zato tvoj <code>UniqueConstraint("source","source_job_id")</code> + <code>on_conflict_do_update</code> radi posao &mdash; baza je već odbila 456 dupliranih upisa i zato imaš 445 adzuna redova, a ne 901. U pandasu isti posao radi <code>drop_duplicates</code>.</div>
+
+  <h3 class="sub" id="p6"><span class="num">1.6</span>Tekst &mdash; pristupnik .str</h3>
+  <p class="what">Sve string metode rade nad cijelom kolonom preko <code>.str</code>. Ovo je osnova Faze 4 (vađenje vještina).</p>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>.str.lower() / .upper() / .strip()</td><td>normalizacija oblika</td><td>prvi korak uvijek</td></tr>
+    <tr><td>.str.contains(pat, case=False, na=False)</td><td>maska: sadrži li šablon</td><td>prima regex</td></tr>
+    <tr><td>.str.startswith / .endswith</td><td>doslovan početak/kraj</td><td>brže od regexa</td></tr>
+    <tr><td>.str.replace(pat, new, regex=True)</td><td>zamjena &mdash; skidanje HTML-a, viška razmaka</td><td></td></tr>
+    <tr><td>.str.extract(r"(...)")</td><td>vadi <em>prvu</em> grupu u novu kolonu</td><td>seniority, plata</td></tr>
+    <tr><td>.str.extractall / .findall</td><td>sva pojavljivanja</td><td>više vještina po oglasu</td></tr>
+    <tr><td>.str.split(",", expand=True)</td><td>dijeli u više kolona</td><td>"Wien, Österreich"</td></tr>
+    <tr><td>.str.len()</td><td>dužina teksta</td><td>otkriva odsječene opise</td></tr>
+    <tr><td>.str.normalize("NFKD")</td><td>rastavlja umlaute</td><td>Ö &rarr; O + dijakritik</td></tr>
+  </table></div>
+  <div class="demo">
+    <div class="cap">Java != JavaScript &mdash; pravilo iz tvog CLAUDE.md</div>
+<pre>naivno = df.title.str.contains(<span class="s">"java"</span>, case=<span class="kw">False</span>, na=<span class="kw">False</span>)
+tacno  = df.title.str.contains(<span class="s">r"\bjava\b(?!script)"</span>, case=<span class="kw">False</span>, na=<span class="kw">False</span>)
+
+pd.Series([<span class="s">"Java Developer"</span>, <span class="s">"JavaScript Engineer"</span>]).str.contains(<span class="s">"java"</span>, case=<span class="kw">False</span>)</pre>
+<pre class="out">naivno.sum() = <b>102</b>      tacno.sum() = <b>102</b>
+<span class="c"># u tvom uzorku nema nijednog JavaScript naslova, pa razlika još ne puca &mdash;</span>
+<span class="c"># ali na demo stringovima naivni oblik hvata oba:</span>
+0    <b>True</b>
+1    <b>True</b>   &larr; JavaScript upao kao "Java"</pre>
+  </div>
+  <div class="note"><b>Nalaz:</b> Adzuna šalje samo odsječen opis (~500 znakova, završava sa &hellip;) &mdash; zato riječ <code>java</code> u koloni <code>description</code> nalazi samo 16 oglasa. Za ozbiljno vađenje vještina trebaće ti puni tekst preko <code>redirect_url</code> ili iz karriere.at izvora.</div>
+
+  <h3 class="sub" id="p7"><span class="num">1.7</span>Datumi &mdash; pristupnik .dt</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>pd.to_datetime(s, utc=True)</td><td>tekst &rarr; datum</td><td>bez ovoga <code>.dt</code> ne postoji</td></tr>
+    <tr><td>.dt.year / .month / .date</td><td>dijelovi datuma</td><td></td></tr>
+    <tr><td>.dt.to_period("M")</td><td>mjesečni klaster za trendove</td><td>takođe <code>"W"</code>, <code>"Q"</code></td></tr>
+    <tr><td>.dt.day_name()</td><td>naziv dana</td><td>kad firme objavljuju</td></tr>
+    <tr><td>.dt.tz_convert("Europe/Vienna")</td><td>UTC &rarr; lokalno vrijeme</td><td>samo na tz-aware</td></tr>
+    <tr><td>(pd.Timestamp.now(tz="UTC") - kol).dt.days</td><td>starost oglasa u danima</td><td>Timedelta</td></tr>
+    <tr><td>df.resample("ME", on="created")</td><td>vremenska agregacija</td><td>alternativa groupby</td></tr>
+  </table></div>
+  <div class="demo">
+    <div class="cap">koliko su tvoji podaci svježi</div>
+<pre>created = pd.to_datetime(df.created, utc=<span class="kw">True</span>)
+created.dt.to_period(<span class="s">"M"</span>).value_counts().sort_index().tail(5)</pre>
+<pre class="out">2026-05     45
+2026-06     52
+2026-07    173
+2026-08    <b>389</b>    <span class="c"># glavnina uzorka</span>
+2026-09    128
+<span class="c"># ima ih i iz 2024 &mdash; stari oglasi koje izvor još vraća</span></pre>
+  </div>
+  <h3 class="sub" id="p8"><span class="num">1.8</span>Nove kolone i transformacija</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>df["nova"] = izraz</td><td>dodaje kolonu</td><td>najjednostavnije</td></tr>
+    <tr><td>df.assign(nova=..., druga=...)</td><td>isto, ali vraća novi DataFrame</td><td>ulančavanje bez mijenjanja originala</td></tr>
+    <tr><td>np.where(uslov, a, b)</td><td>vektorski if/else</td><td>brzo, za dvije grane</td></tr>
+    <tr><td>np.select([u1,u2], [a,b], default=c)</td><td>vektorski if/elif/else</td><td>seniority pravila</td></tr>
+    <tr><td>.map({"Wien":"Vienna"})</td><td>zamjena po rječniku</td><td>taksonomija vještina</td></tr>
+    <tr><td>.apply(fn)</td><td>proizvoljna funkcija po elementu/redu</td><td>spor &mdash; zadnja opcija</td></tr>
+    <tr><td>.astype("float") / ("category")</td><td>promjena tipa</td><td><code>category</code> štedi memoriju</td></tr>
+    <tr><td>pd.to_numeric(s, errors="coerce")</td><td>tekst &rarr; broj, smeće &rarr; NaN</td><td>ne puca na lošem redu</td></tr>
+    <tr><td>pd.cut(s, bins=[0,45000,70000,999999], labels=[...])</td><td>broj &rarr; kategorija</td><td>platni razredi</td></tr>
+    <tr><td>df.rename(columns={...}) / .drop(columns=[...])</td><td>preimenuj / izbaci</td><td></td></tr>
+  </table></div>
+  <div class="demo">
+    <div class="cap">seniority iz naslova, po pravilima</div>
+<pre><span class="kw">import</span> numpy <span class="kw">as</span> np
+t = df.title.str.lower()
+
+df[<span class="s">"seniority"</span>] = np.select(
+    [t.str.contains(<span class="s">r"\b(senior|sr\.|lead|principal)\b"</span>, na=<span class="kw">False</span>),
+     t.str.contains(<span class="s">r"\b(junior|jr\.|praktikant|intern)\b"</span>, na=<span class="kw">False</span>)],
+    [<span class="s">"senior"</span>, <span class="s">"junior"</span>],
+    default=<span class="s">"mid"</span>,
+)
+df.seniority.value_counts()</pre>
+<pre class="out"><span class="c"># na tvom uzorku: junior 11, senior 0, ostalo mid</span>
+<span class="c"># nula seniora nije greška regexa &mdash; austrijski naslovi rijetko</span>
+<span class="c"># pišu "Senior"; seniority se češće krije u tekstu ("3+ Jahre")</span></pre>
+  </div>
+  <div class="chips"><span class="lab">postoji još</span><span>pd.qcut</span><span>.clip()</span><span>.round()</span><span>.abs()</span><span>.rank()</span><span>.shift()</span><span>.diff()</span><span>.pipe()</span><span>.where()</span><span>.mask()</span><span>.replace()</span></div>
+
+  <h3 class="sub" id="p9"><span class="num">1.9</span>Grupisanje i brojanje</h3>
+  <p class="what">Ovdje se dobija odgovor na sva pitanja iz Faze 3: koji grad, koja firma, koja vještina, koja plata.</p>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>s.value_counts()</td><td>koliko puta se javlja svaka vrijednost</td><td>najkorišćenija funkcija u pandasu</td></tr>
+    <tr><td>.value_counts(normalize=True)</td><td>udio umjesto broja</td><td>procenti</td></tr>
+    <tr><td>.value_counts(dropna=False)</td><td>i prazne broji</td><td>važno za tvoje podatke</td></tr>
+    <tr><td>df.groupby("grad")</td><td>podijeli redove u grupe</td><td>sam po sebi ne radi ništa</td></tr>
+    <tr><td>.agg(n=("id","size"), avg=("salary_min","mean"))</td><td>više statistika, imenovane kolone</td><td>preporučeni oblik</td></tr>
+    <tr><td>.size() / .count()</td><td>broj redova / broj nepraznih</td><td>razlika je NaN</td></tr>
+    <tr><td>.nunique()</td><td>koliko različitih firmi po gradu</td><td></td></tr>
+    <tr><td>.transform("mean")</td><td>vraća grupnu vrijednost na svaki red</td><td>za "iznad prosjeka grada"</td></tr>
+    <tr><td>.filter(lambda g: len(g) &gt;= 5)</td><td>zadrži samo dovoljno velike grupe</td><td>protiv lažnih prosjeka</td></tr>
+    <tr><td>.reset_index()</td><td>indeks natrag u kolonu</td><td>poslije skoro svakog groupby</td></tr>
+  </table></div>
+  <div class="demo">
+    <div class="cap">prosječna plata po gradu, samo grupe s dovoljno oglasa</div>
+<pre>(df.dropna(subset=[<span class="s">"salary_min"</span>])
+   .groupby(<span class="s">"location_display_name"</span>)
+   .agg(n=(<span class="s">"id"</span>, <span class="s">"size"</span>), avg=(<span class="s">"salary_min"</span>, <span class="s">"mean"</span>))
+   .query(<span class="s">"n &gt;= 5"</span>)
+   .sort_values(<span class="s">"n"</span>, ascending=<span class="kw">False</span>)
+   .round(0))</pre>
+<pre class="out">location_display_name       n      avg
+Wien, Österreich          119  <b>67475</b>
+Österreich                 61  62675     <span class="c"># "cijela Austrija" &mdash; nije grad!</span>
+Graz, Steiermark           21  65120
+Landstraße, Wien           13  68102     <span class="c"># bečki kvart, treba spojiti sa Wien</span>
+Innere Stadt, Wien          9  47412     <span class="c"># isto</span></pre>
+  </div>
+  <div class="note"><b>Ovo je posao Faze 2:</b> <code>Wien</code>, <code>Wien, Österreich</code>, <code>Innere Stadt, Wien</code> i <code>Landstraße, Wien</code> su isti grad. Zato u modelu <code>Location</code> imaš prazna polja <code>city</code> i <code>region</code> &mdash; njih puni normalizacija, a onda se grupiše po <code>city</code>, ne po <code>display_name</code>.</div>
+
+  <h3 class="sub" id="p10"><span class="num">1.10</span>Sortiranje i vrhovi liste</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>df.sort_values("salary_min", ascending=False)</td><td>sortiranje po koloni</td><td>lista kolona = više kriterija</td></tr>
+    <tr><td>sort_values(..., na_position="first")</td><td>gdje idu NaN</td><td>podrazumijevano na kraj</td></tr>
+    <tr><td>df.nlargest(10, "salary_max")</td><td>top n bez punog sortiranja</td><td>brže i kraće</td></tr>
+    <tr><td>df.nsmallest(10, "salary_min")</td><td>dno liste</td><td>traženje grešaka</td></tr>
+    <tr><td>s.idxmax() / .idxmin()</td><td>indeks reda s maksimumom</td><td>pa <code>df.loc[idx]</code></td></tr>
+    <tr><td>df.sort_index()</td><td>sortiranje po indeksu</td><td>poslije groupby po datumu</td></tr>
+  </table></div>
+
+  <h3 class="sub" id="p11"><span class="num">1.11</span>Spajanje tabela</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>pd.concat([a, b], ignore_index=True)</td><td>jedna ispod druge (isti stubovi)</td><td>adzuna + karriere.at</td></tr>
+    <tr><td>pd.concat([a, b], axis=1)</td><td>jedna pored druge</td><td>spaja po indeksu</td></tr>
+    <tr><td>a.merge(b, on="company_id", how="left")</td><td>SQL JOIN nad DataFrame-ovima</td><td><code>how</code>: left/inner/outer</td></tr>
+    <tr><td>merge(..., validate="m:1")</td><td>provjerava da desna strana nema duplikate</td><td>hvata tihi eksplozivni join</td></tr>
+    <tr><td>merge(..., indicator=True)</td><td>kolona <code>_merge</code>: odakle je red došao</td><td>debug spajanja</td></tr>
+    <tr><td>merge(..., suffixes=("_job","_co"))</td><td>imena kad se kolone poklope</td><td></td></tr>
+  </table></div>
+  <div class="note"><b>Klasična greška:</b> ako desna tabela ima duplikate ključa, <code>merge</code> će tiho umnožiti redove &mdash; 445 oglasa postane 900. <code>validate="m:1"</code> u tom slučaju baca grešku umjesto da ti pokvari statistiku.</div>
+
+  <h3 class="sub" id="p12"><span class="num">1.12</span>Preoblikovanje</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>df.explode("skills")</td><td>lista u ćeliji &rarr; jedan red po elementu</td><td><b>ključno za Fazu 4</b></td></tr>
+    <tr><td>pd.pivot_table(df, index=, columns=, values=, aggfunc=)</td><td>ukrštena tabela s agregacijom</td><td>grad &times; seniority</td></tr>
+    <tr><td>pd.crosstab(a, b)</td><td>brza tabela učestalosti</td><td>bez agregacije</td></tr>
+    <tr><td>df.melt(id_vars=, value_vars=)</td><td>široko &rarr; dugačko</td><td>priprema za crtanje</td></tr>
+    <tr><td>df.stack() / .unstack()</td><td>okretanje nivoa indeksa</td><td>poslije groupby s 2 ključa</td></tr>
+  </table></div>
+  <div class="demo">
+    <div class="cap">explode: iz liste vještina u tabelu tražnje</div>
+<pre>df[<span class="s">"skills"</span>] = df.description.str.findall(
+    <span class="s">r"(?i)\b(java|spring|python|docker|kubernetes|sql|aws)\b"</span>)
+
+(df.explode(<span class="s">"skills"</span>)          <span class="c"># jedan red = jedna vještina jednog oglasa</span>
+   .skills.str.lower()
+   .value_counts())</pre>
+<pre class="out"><span class="c"># ovo je tačno oblik koji ti treba za tabelu JobSkill u bazi:</span>
+<span class="c"># explode napravi parove (job_id, skill), a njih upisuješ redom</span></pre>
+  </div>
+
+  <h3 class="sub" id="p13"><span class="num">1.13</span>Upis rezultata</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>df.to_csv(path, index=False)</td><td>CSV</td><td><code>index=False</code> gotovo uvijek</td></tr>
+    <tr><td>df.to_json(path, orient="records", force_ascii=False)</td><td>JSON lista objekata</td><td><code>force_ascii=False</code> čuva Ö</td></tr>
+    <tr><td>df.to_parquet(path)</td><td>kompaktan binarni format, čuva tipove</td><td>za međurezultate pipeline-a</td></tr>
+    <tr><td>df.to_sql("job", engine, if_exists="append")</td><td>direktno u Postgres</td><td>za analitiku; upis oglasa radi tvoj upsert</td></tr>
+    <tr><td>df.plot(kind="barh") / .hist()</td><td>brzi grafik preko matplotliba</td><td>za notebook, ne za produkciju</td></tr>
+  </table></div>
+</section>
+
+<section class="part" id="sqlalchemy">
+  <h2><span class="k">Dio 2</span>SQLAlchemy 2.0</h2>
+  <p class="intro">Ti već pišeš moderni stil (<code>select()</code> + <code>session.execute()</code>), ne stari <code>session.query()</code>. Ovdje je ostatak tog jezika &mdash; upiti koji ti trebaju za analitiku i za FastAPI endpointe.</p>
+
+  <h3 class="sub" id="s1"><span class="num">2.1</span>select, where, order_by</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Konstrukcija</th><th>Šta radi</th><th>SQL</th></tr>
+    <tr><td>select(Job)</td><td>cijeli objekti</td><td>SELECT job.*</td></tr>
+    <tr><td>select(Job.title, Job.salary_min)</td><td>samo kolone</td><td>SELECT title, salary_min</td></tr>
+    <tr><td>.where(Job.source == "adzuna")</td><td>uslov</td><td>WHERE</td></tr>
+    <tr><td>.where(a, b)</td><td>dva uslova = AND</td><td>AND</td></tr>
+    <tr><td>or_(a, b) / and_(a, b) / not_(a)</td><td>eksplicitna logika</td><td>OR / AND / NOT</td></tr>
+    <tr><td>Job.source.in_(["adzuna","karriere_at"])</td><td>lista vrijednosti</td><td>IN</td></tr>
+    <tr><td>Job.salary_min.is_not(None)</td><td>ima vrijednost</td><td>IS NOT NULL</td></tr>
+    <tr><td>Job.title.ilike("%java%")</td><td>pretraga bez razlike velikih slova</td><td>ILIKE (Postgres)</td></tr>
+    <tr><td>Job.salary_min.between(40000, 90000)</td><td>opseg</td><td>BETWEEN</td></tr>
+    <tr><td>.order_by(desc(Job.posted_at))</td><td>sortiranje</td><td>ORDER BY ... DESC</td></tr>
+    <tr><td>.limit(20).offset(40)</td><td>stranica rezultata</td><td>LIMIT/OFFSET</td></tr>
+    <tr><td>.distinct()</td><td>bez ponavljanja</td><td>DISTINCT</td></tr>
+  </table></div>
+
+  <h3 class="sub" id="s2"><span class="num">2.2</span>Agregacije: func</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Konstrukcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>func.count(Job.id)</td><td>broj redova</td><td>uz <code>select_from()</code> kad nema kolona</td></tr>
+    <tr><td>func.avg / func.sum / func.min / func.max</td><td>statistike</td><td>vraća Decimal &mdash; <code>float()</code> za pandas</td></tr>
+    <tr><td>func.percentile_cont(0.5).within_group(...)</td><td>medijan u Postgresu</td><td>otporniji na outliere od avg</td></tr>
+    <tr><td>func.coalesce(Job.salary_min, 0)</td><td>zamjena za NULL</td><td></td></tr>
+    <tr><td>.label("n")</td><td>ime kolone rezultata</td><td>onda <code>order_by(desc("n"))</code></td></tr>
+    <tr><td>.group_by(Company.name)</td><td>grupisanje</td><td>GROUP BY</td></tr>
+    <tr><td>.having(func.count(Job.id) &gt;= 5)</td><td>filter <em>nad grupama</em></td><td>where je nad redovima</td></tr>
+  </table></div>
+  <div class="demo">
+    <div class="cap">koje firme najviše objavljuju &mdash; pokrenuto na tvojoj bazi</div>
+<pre>q = (select(Company.name, func.count(Job.id).label(<span class="s">"n"</span>))
+     .join(Job, Job.company_id == Company.id)
+     .group_by(Company.name)
+     .order_by(desc(<span class="s">"n"</span>))
+     .limit(5))
+
+<span class="kw">for</span> r <span class="kw">in</span> session.execute(q):
+    print(r.name, r.n)</pre>
+<pre class="out">Qualysoft                     <b>14</b>
+NXP Semiconductors            <b>10</b>
+Landesberufsschule Amstetten   9
+STRABAG BRVZ GMBH              9
+Fronius                        7</pre>
+  </div>
+
+  <h3 class="sub" id="s3"><span class="num">2.3</span>Join i učitavanje veza</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Konstrukcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>.join(Company, Job.company_id == Company.id)</td><td>INNER JOIN</td><td>izbacuje oglase bez firme</td></tr>
+    <tr><td>.outerjoin(Company, ...)</td><td>LEFT JOIN</td><td>čuva 24 oglasa bez firme</td></tr>
+    <tr><td>.join(Job.company)</td><td>join preko relationship-a</td><td>uslov se izvodi sam</td></tr>
+    <tr><td>.options(selectinload(Job.company))</td><td>unaprijed učitaj vezu, jednim dodatnim upitom</td><td>lijek za N+1</td></tr>
+    <tr><td>.options(joinedload(Job.location))</td><td>učitaj vezu istim upitom</td><td>za "many-to-one"</td></tr>
+    <tr><td>aliased(Company)</td><td>ista tabela dvaput u upitu</td><td>rijetko ovdje</td></tr>
+  </table></div>
+  <div class="note"><b>N+1 problem:</b> ako uzmeš 100 oglasa pa u petlji čitaš <code>job.company.name</code>, SQLAlchemy pošalje 101 upit. <code>selectinload</code> to svede na 2. Ovo će te ugristi čim FastAPI počne vraćati liste oglasa.</div>
+
+  <h3 class="sub" id="s4"><span class="num">2.4</span>Izvršavanje i čitanje rezultata</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Poziv</th><th>Vraća</th><th>Kad</th></tr>
+    <tr><td>session.execute(stmt)</td><td>Result &mdash; redovi kao imenovane torke</td><td>kad biraš kolone</td></tr>
+    <tr><td>.scalars().all()</td><td>lista objekata (prva kolona)</td><td>kad biraš <code>select(Job)</code></td></tr>
+    <tr><td>.scalar_one_or_none()</td><td>jedan objekat ili None</td><td>tvoj <code>get_or_create</code></td></tr>
+    <tr><td>.scalar_one()</td><td>jedan &mdash; ili greška</td><td>kad mora postojati</td></tr>
+    <tr><td>.first()</td><td>prvi red ili None</td><td>uz <code>order_by</code></td></tr>
+    <tr><td>.all() / .mappings().all()</td><td>svi redovi / redovi kao dictovi</td><td><code>mappings</code> je zgodno za JSON</td></tr>
+    <tr><td>session.get(Job, 5)</td><td>dohvat po primarnom ključu</td><td>najkraći put</td></tr>
+    <tr><td>pd.read_sql(stmt, session.connection())</td><td>upit pravo u DataFrame</td><td>most ka Dijelu 1</td></tr>
+  </table></div>
+  <div class="demo">
+    <div class="cap">iz baze pravo u pandas</div>
+<pre>df = pd.read_sql(
+    select(Job.title, Job.salary_min).where(Job.salary_min.is_not(<span class="kw">None</span>)),
+    session.connection())
+df.shape, df.salary_min.dtype</pre>
+<pre class="out">(<b>181</b>, 2)  float64    <span class="c"># Numeric iz baze stiže kao float, spreman za statistiku</span></pre>
+  </div>
+
+  <h3 class="sub" id="s5"><span class="num">2.5</span>Upis</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Poziv</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>session.add(obj) / add_all([...])</td><td>označi objekat za upis</td><td>još nije u bazi</td></tr>
+    <tr><td>session.flush()</td><td>pošalji SQL, dobij <code>id</code>, bez potvrde</td><td>treba ti za strani ključ</td></tr>
+    <tr><td>session.commit()</td><td>potvrdi transakciju</td><td>jednom na kraju, ne u petlji</td></tr>
+    <tr><td>session.rollback()</td><td>poništi sve od zadnjeg commita</td><td>u <code>except</code> grani</td></tr>
+    <tr><td>insert(Model).values(...)</td><td>INSERT bez ORM objekta</td><td>brže za mnogo redova</td></tr>
+    <tr><td>.on_conflict_do_update(index_elements=[...], set_={...})</td><td>UPSERT (samo Postgres)</td><td>tvoj obrazac</td></tr>
+    <tr><td>.on_conflict_do_nothing()</td><td>preskoči postojeće</td><td>kad ne želiš osvježavanje</td></tr>
+    <tr><td>stmt.excluded.kolona</td><td>vrijednost koja je htjela ući</td><td>samo unutar upserta</td></tr>
+    <tr><td>update(Job).where(...).values(...)</td><td>masovna izmjena</td><td>za normalizaciju kolona</td></tr>
+  </table></div>
+  <div class="note"><b>flush vs commit:</b> <code>flush</code> šalje SQL da bi baza dodijelila <code>id</code> (zato ti je u <code>get_or_create_company</code>), ali se sve još može poništiti. <code>commit</code> je konačan. Zato u <code>main()</code> imaš jedan commit na kraju &mdash; sve ili ništa.</div>
+
+  <h3 class="sub" id="s6"><span class="num">2.6</span>Kad ne radi</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Alat</th><th>Šta pokazuje</th></tr>
+    <tr><td>print(str(stmt))</td><td>generisani SQL, bez baze</td></tr>
+    <tr><td>create_engine(url, echo=True)</td><td>svaki poslani upit u konzoli</td></tr>
+    <tr><td>stmt.compile(engine, compile_kwargs={"literal_binds": True})</td><td>SQL sa upisanim vrijednostima &mdash; za kopiranje u psql</td></tr>
+    <tr><td>session.expire_all()</td><td>natjeraj ponovno čitanje iz baze</td></tr>
+  </table></div>
+  <div class="demo">
+    <div class="cap">upit se može ispisati i bez konekcije</div>
+<pre>print(str(q))</pre>
+<pre class="out">SELECT company.name, count(job.id) AS n
+FROM company JOIN job ON job.company_id = company.id
+GROUP BY company.name ORDER BY n DESC
+LIMIT :param_1</pre>
+  </div>
+</section>
+<section class="part" id="python">
+  <h2><span class="k">Dio 3</span>Python za obradu podataka</h2>
+  <p class="intro">Ovo je alat za dio posla koji pandas ne pokriva: čitanje fajlova, adapteri po izvoru, parsiranje plata i brojanje prije nego što uopšte napraviš DataFrame.</p>
+
+  <h3 class="sub" id="y1"><span class="num">3.1</span>dict, liste, ulančavanje</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Konstrukcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>d.get("kljuc")</td><td>vrijednost ili None &mdash; ne puca</td><td>tvoj obrazac u adapterima</td></tr>
+    <tr><td>d.get("company", {}).get("display_name")</td><td>siguran ulaz u ugniježdeni dict</td><td>prazan dict kao odbrana</td></tr>
+    <tr><td>d.setdefault("k", [])</td><td>uzmi ili postavi ako fali</td><td>gradnja mapa</td></tr>
+    <tr><td>{**a, **b} ili a | b</td><td>spajanje rječnika</td><td>desni pobjeđuje</td></tr>
+    <tr><td>[f(x) for x in lista if uslov]</td><td>list comprehension</td><td>zamjena za petlju + append</td></tr>
+    <tr><td>{k: v for k, v in d.items() if v}</td><td>dict comprehension</td><td>izbacivanje praznih polja</td></tr>
+    <tr><td>set(a) &amp; set(b) / - / |</td><td>presjek / razlika / unija</td><td><b>osnova match score-a</b></td></tr>
+    <tr><td>sorted(lista, key=lambda x: x["n"], reverse=True)</td><td>sortiranje po ključu</td><td></td></tr>
+    <tr><td>enumerate(lista, start=1) / zip(a, b)</td><td>indeks uz element / uparivanje</td><td></td></tr>
+    <tr><td>any(...) / all(...)</td><td>ima li bar jedan / svi</td><td>uz generator izraz</td></tr>
+  </table></div>
+  <div class="demo">
+    <div class="cap">poklapanje vještina &mdash; skupovi rade sav posao</div>
+<pre>moje  = {<span class="s">"java"</span>, <span class="s">"spring"</span>, <span class="s">"postgresql"</span>, <span class="s">"docker"</span>}
+oglas = {<span class="s">"java"</span>, <span class="s">"spring"</span>, <span class="s">"kubernetes"</span>, <span class="s">"aws"</span>}
+
+imam  = moje & oglas          <span class="c"># presjek: šta se poklapa</span>
+fali  = oglas - moje          <span class="c"># razlika: skill gap</span>
+score = len(imam) / len(oglas)</pre>
+<pre class="out">imam  = {<b>'java', 'spring'</b>}
+fali  = {<b>'kubernetes', 'aws'</b>}
+score = <b>0.5</b>      <span class="c"># Match Score, ne "50% kvalifikovan"</span></pre>
+  </div>
+
+  <h3 class="sub" id="y2"><span class="num">3.2</span>collections</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>Counter(lista)</td><td>broji pojavljivanja</td><td>value_counts bez pandasa</td></tr>
+    <tr><td>Counter(...).most_common(10)</td><td>top n parova (vrijednost, broj)</td><td>tražnja za vještinama</td></tr>
+    <tr><td>defaultdict(list)</td><td>dict koji sam pravi praznu listu</td><td>grupisanje bez provjere</td></tr>
+    <tr><td>defaultdict(int)</td><td>brojač bez inicijalizacije</td><td></td></tr>
+    <tr><td>Counter(a) - Counter(b)</td><td>razlika brojanja</td><td>promjena tražnje kroz vrijeme</td></tr>
+  </table></div>
+
+  <h3 class="sub" id="y3"><span class="num">3.3</span>Regularni izrazi &mdash; modul re</h3>
+  <p class="what">Ovo je alat za plate, godine iskustva i vještine. Ovdje se dobija <code>salary_min</code> i <code>salary_max</code> iz teksta.</p>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>re.search(pat, s)</td><td>prvo poklapanje ili None</td><td>najčešća</td></tr>
+    <tr><td>re.findall(pat, s)</td><td>lista svih poklapanja</td><td>za sve brojeve u tekstu</td></tr>
+    <tr><td>re.finditer(pat, s)</td><td>isto, ali s pozicijama</td><td>kad ti treba kontekst</td></tr>
+    <tr><td>re.sub(pat, novo, s)</td><td>zamjena &mdash; skidanje HTML tagova</td><td><code>re.sub(r"&lt;[^&gt;]+&gt;", "", s)</code></td></tr>
+    <tr><td>re.split(r"[,;/]", s)</td><td>dijeljenje po više razdjelnika</td><td></td></tr>
+    <tr><td>re.compile(pat)</td><td>unaprijed pripremljen šablon</td><td>brže u petlji od 900 oglasa</td></tr>
+    <tr><td>m.group(1) / m.groupdict()</td><td>uhvaćena grupa / imenovane grupe</td><td><code>(?P&lt;min&gt;\d+)</code></td></tr>
+  </table></div>
+  <div class="tw"><table class="fn">
+    <tr><th>Šablon</th><th>Znači</th><th>Primjer</th></tr>
+    <tr><td>\d+</td><td>jedna ili više cifara</td><td>55000</td></tr>
+    <tr><td>\b</td><td>granica riječi</td><td><code>\bjava\b</code> ne hvata "javadoc"</td></tr>
+    <tr><td>(?i)</td><td>ignoriši veličinu slova</td><td>umjesto <code>flags=re.I</code></td></tr>
+    <tr><td>(?!script)</td><td>negativni pogled naprijed</td><td>Java ali ne JavaScript</td></tr>
+    <tr><td>(a|b)</td><td>ili</td><td><code>(EUR|€)</code></td></tr>
+    <tr><td>[.\s]*</td><td>tačke i razmaci, koliko god</td><td>za "55.000" i "55 000"</td></tr>
+    <tr><td>r"..."</td><td>sirovi string</td><td><b>uvijek</b> za regex</td></tr>
+  </table></div>
+  <div class="demo">
+    <div class="cap">parsiranje plate iz sva četiri oblika koja se javljaju</div>
+<pre><span class="kw">import</span> re
+
+<span class="kw">def</span> parsiraj_platu(s):
+    brojevi = re.findall(<span class="s">r"\d[\d.\s]*\d|\d"</span>, s.replace(<span class="s">"\xa0"</span>, <span class="s">" "</span>))
+    <span class="kw">return</span> [int(b.replace(<span class="s">"."</span>, <span class="s">""</span>).replace(<span class="s">" "</span>, <span class="s">""</span>)) <span class="kw">for</span> b <span class="kw">in</span> brojevi]</pre>
+<pre class="out">'€55.000 - €70.000'         &rarr; [<b>55000, 70000</b>]
+'55000-70000 EUR'           &rarr; [<b>55000, 70000</b>]
+'ab €60.000'                &rarr; [<b>60000</b>]        <span class="c"># samo min</span>
+'ab EUR 3.500 brutto/Monat' &rarr; [<b>3500</b>]         <span class="c"># mjesečno! period = monthly</span></pre>
+  </div>
+  <div class="note"><b>Pazi:</b> <code>3.500</code> u njemačkom je 3500, ne 3.5 &mdash; zato se tačke brišu, a ne tumače kao decimalne. I ako u tekstu piše <code>Monat</code> / <code>monatlich</code>, upisuješ <code>salary_period="monthly"</code>, inače ti 3500 uleti u statistiku godišnjih plata.</div>
+
+  <h3 class="sub" id="y4"><span class="num">3.4</span>pathlib i json</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>Path("data/azune").glob("*.json")</td><td>svi fajlovi po šablonu</td><td><code>rglob</code> ide i u podfoldere</td></tr>
+    <tr><td>path.stem / .name / .suffix</td><td>ime bez ekstenzije / puno ime / ekstenzija</td><td>tvoj pojam pretrage</td></tr>
+    <tr><td>path.open(encoding="utf-8")</td><td>otvaranje s enkodiranjem</td><td><b>obavezno</b> na Windowsu</td></tr>
+    <tr><td>path.read_text(encoding="utf-8")</td><td>cijeli fajl kao string</td><td></td></tr>
+    <tr><td>path.exists() / .mkdir(parents=True, exist_ok=True)</td><td>provjera / kreiranje foldera</td><td></td></tr>
+    <tr><td>json.load(f) / json.loads(s)</td><td>fajl / string &rarr; Python</td><td></td></tr>
+    <tr><td>json.dump(obj, f, ensure_ascii=False, indent=2)</td><td>upis čitljivog JSON-a</td><td>bez toga Ö postane Ö</td></tr>
+  </table></div>
+  <div class="note"><b>Zašto encoding="utf-8":</b> Windows podrazumijeva cp1252, pa bez ovog argumenta austrijski umlauti (Ö, ä, ß) pucaju pri čitanju. U tvojim fajlovima su ispravno zapisani &mdash; provjereno.</div>
+
+  <h3 class="sub" id="y5"><span class="num">3.5</span>datetime</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Funkcija</th><th>Šta radi</th><th>Napomena</th></tr>
+    <tr><td>datetime.fromisoformat(s)</td><td>ISO tekst &rarr; datetime</td><td>tvoj <code>_parse_datetime</code></td></tr>
+    <tr><td>dt.replace(tzinfo=timezone.utc)</td><td>dodaj vremensku zonu golom datumu</td><td>kolona je tz-aware</td></tr>
+    <tr><td>datetime.now(timezone.utc)</td><td>sada, sa zonom</td><td>ne koristi goli <code>now()</code></td></tr>
+    <tr><td>(a - b).days</td><td>razlika u danima</td><td>starost oglasa</td></tr>
+    <tr><td>dt.strftime("%Y-%m-%d")</td><td>datum &rarr; tekst</td><td>za ispis</td></tr>
+    <tr><td>timedelta(days=30)</td><td>pomak u vremenu</td><td>filter "zadnjih 30 dana"</td></tr>
+  </table></div>
+
+  <h3 class="sub" id="y6"><span class="num">3.6</span>f-string za ispis</h3>
+  <div class="tw"><table class="fn">
+    <tr><th>Oblik</th><th>Rezultat</th><th>Za šta</th></tr>
+    <tr><td>f"{x:.0f}"</td><td>67475</td><td>plata bez decimala</td></tr>
+    <tr><td>f"{x:,.0f}"</td><td>67,475</td><td>hiljade</td></tr>
+    <tr><td>f"{ime:20}"</td><td>lijevo poravnato na 20</td><td>tabele u terminalu</td></tr>
+    <tr><td>f"{n:&gt;5}"</td><td>desno poravnato</td><td>brojevi u koloni</td></tr>
+    <tr><td>f"{udio:.1%}"</td><td>42.3%</td><td>procenti</td></tr>
+    <tr><td>f"{promjenljiva=}"</td><td>promjenljiva=5</td><td>brzi debug ispis</td></tr>
+  </table></div>
+</section>
+
+<section class="part" id="mapa">
+  <h2><span class="k">Dio 4</span>Šta gdje treba</h2>
+  <p class="intro">Iste funkcije, poredane po fazama iz tvog plana &mdash; da znaš šta učiš sljedeće, a šta može čekati.</p>
+  <div class="map">
+    <div>
+      <h4><span>Faza 2</span>Čišćenje i normalizacija</h4>
+      <p>drop_duplicates<br>str.strip / lower / replace<br>str.extract &middot; re.findall<br>np.select &middot; map<br>to_numeric(errors="coerce")<br>update() nad Job</p>
+    </div>
+    <div>
+      <h4><span>Faza 3</span>Analiza tržišta</h4>
+      <p>value_counts<br>groupby + agg<br>describe &middot; median<br>pivot_table &middot; crosstab<br>to_period("M")<br>read_sql &middot; df.plot</p>
+    </div>
+    <div>
+      <h4><span>Faza 4</span>NLP i vještine</h4>
+      <p>str.findall &middot; re.compile<br>explode<br>Counter.most_common<br>map (taksonomija)<br>insert JobSkill</p>
+    </div>
+    <div>
+      <h4><span>Faza 5</span>CV i poklapanje</h4>
+      <p>set &amp; / - / |<br>sorted(key=...)<br>selectinload<br>merge(validate="m:1")</p>
+    </div>
+    <div>
+      <h4><span>Faza 7</span>Mašinsko učenje</h4>
+      <p>dropna &middot; fillna(median)<br>pd.cut &middot; get_dummies<br>astype("category")<br>train_test_split</p>
+    </div>
+    <div>
+      <h4><span>Faza 8</span>API</h4>
+      <p>limit / offset<br>ilike &middot; in_<br>mappings().all()<br>scalar_one_or_none</p>
+    </div>
+  </div>
+
+  <h3 class="sub"><span class="num">&there4;</span>Tri stvari koje ti podaci već traže</h3>
+  <ul class="tight">
+    <li><b>Grad nije <code>display_name</code>.</b> <code>Wien</code>, <code>Wien, Österreich</code>, <code>Innere Stadt, Wien</code> i <code>Landstraße, Wien</code> su jedan grad, a <code>Österreich</code> (198 oglasa) uopšte nije grad. Dok se ne popuni <code>Location.city</code>, svaka statistika po gradu je pogrešna.</li>
+    <li><b>Plate nisu uporedive.</b> Raspon od 50 do 750 000 znači da su pomiješane satnice, mjesečni i godišnji iznosi. Prvo <code>salary_period</code>, pa tek onda prosjeci.</li>
+    <li><b>Opisi su odsječeni.</b> Adzuna vraća oko 500 znakova &mdash; dovoljno za trend, premalo za ozbiljno vađenje vještina. Za Fazu 4 treba puni tekst.</li>
+  </ul>
+</section>
+
+<footer>
+  Primjeri pokrenuti nad data/azune (901 red, 445 jedinstvenih) i lokalnom Postgres bazom (465 oglasa) &middot; pandas 3.0.5 &middot; SQLAlchemy 2.0
+</footer>
+
+</main>
+</div>
+</div>

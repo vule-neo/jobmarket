@@ -79,14 +79,21 @@ class Job(Base):
 
     salary_min: Mapped[Optional[Decimal]] = mapped_column(Numeric(12, 2))
     salary_max: Mapped[Optional[Decimal]] = mapped_column(Numeric(12, 2))
+
+    salary_min_yearly: Mapped[Optional[Decimal]] = mapped_column(Numeric(12, 2))
+    salary_max_yearly: Mapped[Optional[Decimal]] = mapped_column(Numeric(12, 2))
+
     salary_currency: Mapped[Optional[str]] = mapped_column(String(3))
     # 'yearly' ili 'monthly' - karriere.at ima oba, bez ovoga se plate ne smiju porediti
     salary_period: Mapped[Optional[str]] = mapped_column(String(16))
     salary_is_predicted: Mapped[Optional[bool]]
 
     employment_type: Mapped[Optional[str]] = mapped_column(String(32))
+    employment_type_norm: Mapped[Optional[str]] = mapped_column(String(32))
     remote_option: Mapped[Optional[str]] = mapped_column(String(32))
     category_label: Mapped[Optional[str]] = mapped_column(String(120))
+
+    duplicate_of : Mapped[Optional[str]] = mapped_column(String(32))
 
     url: Mapped[Optional[str]] = mapped_column(Text)
 

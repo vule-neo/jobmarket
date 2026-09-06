@@ -1,0 +1,643 @@
+<title>Normalizacija oglasa</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;700&display=swap">
+<style>
+  :root {
+    --paper:      #eef0ee;
+    --surface:    #f7f8f7;
+    --ink:        #141b19;
+    --muted:      #5f6f6a;
+    --accent:     #0d6157;
+    --accent-dim: #d3e2de;
+    --warn:       #b5502a;
+    --warn-dim:   #f0dcd2;
+    --rule:       #ccd4d1;
+    --code-bg:    #e4e8e6;
+
+    --display: "Fraunces", Georgia, serif;
+    --body:    "Source Sans 3", system-ui, sans-serif;
+    --mono:    "JetBrains Mono", ui-monospace, "Cascadia Mono", monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:      #0f1513;
+      --surface:    #171f1d;
+      --ink:        #dde5e2;
+      --muted:      #90a19c;
+      --accent:     #54c3ab;
+      --accent-dim: #1d332e;
+      --warn:       #e3906a;
+      --warn-dim:   #33221a;
+      --rule:       #2a3633;
+      --code-bg:    #1b2422;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:      #0f1513;
+    --surface:    #171f1d;
+    --ink:        #dde5e2;
+    --muted:      #90a19c;
+    --accent:     #54c3ab;
+    --accent-dim: #1d332e;
+    --warn:       #e3906a;
+    --warn-dim:   #33221a;
+    --rule:       #2a3633;
+    --code-bg:    #1b2422;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 6rem;
+  }
+
+  /* ---------- naslovnica ---------- */
+  .cover { border-bottom: 2px solid var(--ink); padding-bottom: 2rem; margin-bottom: 3.5rem; }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 1rem;
+  }
+  h1 {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: clamp(2.4rem, 6vw, 3.9rem);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+    margin: 0 0 1rem;
+    text-wrap: balance;
+  }
+  .standfirst {
+    font-size: 1.15rem;
+    color: var(--muted);
+    max-width: 40rem;
+    margin: 0;
+  }
+
+  /* ---------- sekcije ---------- */
+  section { margin-bottom: 4rem; }
+
+  .head { display: flex; gap: 1.25rem; align-items: baseline; margin-bottom: 1.5rem; }
+  .num {
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--accent);
+    padding-top: 0.55rem;
+    flex: none;
+    min-width: 2.2rem;
+  }
+  h2 {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: clamp(1.6rem, 3.4vw, 2.15rem);
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin: 0;
+    text-wrap: balance;
+  }
+  h3 {
+    font-family: var(--body);
+    font-weight: 600;
+    font-size: 1.02rem;
+    letter-spacing: 0.01em;
+    margin: 2rem 0 0.6rem;
+  }
+  p { max-width: 40rem; margin: 0 0 1rem; }
+  ul, ol { max-width: 40rem; padding-left: 1.2rem; }
+  li { margin-bottom: 0.45rem; }
+  strong { font-weight: 600; }
+  code {
+    font-family: var(--mono);
+    font-size: 0.86em;
+    background: var(--code-bg);
+    padding: 0.1em 0.36em;
+    border-radius: 3px;
+  }
+
+  /* ---------- izmjereno iz baze ---------- */
+  .measured {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 1.15rem 1.35rem;
+    margin: 1.5rem 0;
+    overflow-x: auto;
+  }
+  .measured-label {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    display: block;
+    margin-bottom: 0.8rem;
+  }
+  .measured table { border-collapse: collapse; font-family: var(--mono); font-size: 0.84rem; width: 100%; }
+  .measured td { padding: 0.2rem 1.1rem 0.2rem 0; white-space: nowrap; }
+  .measured td.n { text-align: right; font-variant-numeric: tabular-nums; color: var(--accent); font-weight: 700; padding-right: 1.4rem; }
+
+  /* ---------- problem ---------- */
+  .problem {
+    border-left: 3px solid var(--warn);
+    background: var(--warn-dim);
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 0 4px 4px 0;
+  }
+  .problem p { margin: 0; max-width: none; }
+  .problem .tag {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--warn);
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0.4rem;
+  }
+
+  /* ---------- kod ---------- */
+  pre {
+    font-family: var(--mono);
+    font-size: 0.83rem;
+    line-height: 1.55;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 1rem 1.15rem;
+    overflow-x: auto;
+    margin: 1.2rem 0;
+  }
+  pre code { background: none; padding: 0; font-size: inherit; }
+
+  /* ---------- tabele ---------- */
+  .scroll { overflow-x: auto; margin: 1.4rem 0; }
+  table.spec { border-collapse: collapse; width: 100%; font-size: 0.93rem; min-width: 34rem; }
+  table.spec th {
+    text-align: left;
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 400;
+    border-bottom: 1px solid var(--ink);
+    padding: 0 1rem 0.5rem 0;
+  }
+  table.spec td { padding: 0.62rem 1rem 0.62rem 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  table.spec td:first-child { font-family: var(--mono); font-size: 0.83rem; white-space: nowrap; color: var(--accent); }
+
+  /* ---------- tehnologija ---------- */
+  .tech { border-top: 1px solid var(--rule); padding-top: 1.1rem; margin-top: 1.6rem; }
+  .tech h3 { margin-top: 0; }
+  .tech dl { margin: 0.6rem 0 0; max-width: 40rem; }
+  .tech dt {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 0.7rem;
+  }
+  .tech dd { margin: 0.15rem 0 0; }
+
+  /* ---------- zadatak ---------- */
+  .zadatak {
+    border: 2px solid var(--accent);
+    border-radius: 4px;
+    padding: 1.4rem 1.6rem;
+    margin-top: 1.5rem;
+    background: var(--accent-dim);
+  }
+  .zadatak h3 { margin-top: 0; color: var(--accent); }
+  .zadatak ol { margin-bottom: 0; }
+
+  footer {
+    border-top: 1px solid var(--rule);
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    font-size: 0.88rem;
+    color: var(--muted);
+  }
+
+  @media (max-width: 34rem) {
+    .head { flex-direction: column; gap: 0.3rem; }
+    .num { padding-top: 0; }
+  }
+</style>
+
+<div class="wrap">
+
+<header class="cover">
+  <p class="eyebrow">Faza 2 &middot; jobmarket</p>
+  <h1>Normalizacija oglasa</h1>
+  <p class="standfirst">
+    Faza 1 je dovela 465 oglasa u PostgreSQL. Ali oglasi su unutra onakvi kakvi su stigli &mdash;
+    Beč je zapisan na 18 načina, plate se mjere u dvije različite jedinice, a isti posao stoji u bazi po više puta.
+    Ovo je gradivo za fazu koja to čisti.
+  </p>
+</header>
+
+<section>
+  <div class="head"><span class="num">00</span><h2>Gdje smo stali</h2></div>
+
+  <p>
+    Pipeline iz Faze 1 čita sirovi JSON, prevodi ga kroz adaptere u zajednički oblik i upisuje u
+    četiri tabele. Pokretanje je idempotentno &mdash; drugi prolaz ne mijenja nijedan broj.
+  </p>
+
+  <div class="measured">
+    <span class="measured-label">Izmjereno u tvojoj bazi &middot; <code>python -m src.pipeline.ingest</code></span>
+    <table>
+      <tr><td class="n">465</td><td>raw_job</td><td>netaknuti originali, JSONB</td></tr>
+      <tr><td class="n">465</td><td>job</td><td>445 Adzuna + 20 karriere.at</td></tr>
+      <tr><td class="n">252</td><td>company</td><td>iz 921 pojavljivanja</td></tr>
+      <tr><td class="n">74</td><td>location</td><td>kolone city i region još prazne</td></tr>
+    </table>
+  </div>
+
+  <p>
+    Faza 1 je namjerno <strong>ništa ne dira</strong>. To nije lijenost nego princip: dok god sirovi podaci
+    stoje netaknuti u <code>raw_job</code>, svako pravilo čišćenja možeš promijeniti i pustiti ponovo,
+    bez ijednog novog API poziva. Kod karriere.at to znači i bez novog plaćanja.
+  </p>
+  <p>
+    Faza 2 je prvi korak koji <strong>tumači</strong> podatke. Zato je i rizičnija &mdash; svako pravilo koje
+    napišeš je odluka koja može biti pogrešna.
+  </p>
+</section>
+
+<section>
+  <div class="head"><span class="num">01</span><h2>Beč napisan na osamnaest načina</h2></div>
+
+  <p>
+    Adzuna i karriere.at zapisuju lokaciju kako im dođe. Rezultat je da jedan grad u tvojoj bazi
+    postoji kao osamnaest različitih redova.
+  </p>
+
+  <div class="measured">
+    <span class="measured-label">Lokacije koje sadrže &bdquo;Wien&ldquo; &middot; 207 oglasa ukupno</span>
+    <table>
+      <tr><td class="n">136</td><td>Wien, Österreich</td></tr>
+      <tr><td class="n">20</td><td>Innere Stadt, Wien</td></tr>
+      <tr><td class="n">17</td><td>Wien</td></tr>
+      <tr><td class="n">10</td><td>Landstraße, Wien</td></tr>
+      <tr><td class="n">4</td><td>Leopoldstadt, Wien</td></tr>
+      <tr><td class="n">3</td><td>Liesing, Wien &middot; Margareten, Wien &middot; Wieden, Wien</td></tr>
+      <tr><td class="n">1</td><td>1020 Wien</td></tr>
+      <tr><td class="n">1</td><td>Wien 10. Bezirk (Favoriten)</td></tr>
+      <tr><td class="n">&hellip;</td><td>još 8 bečkih kvartova</td></tr>
+    </table>
+  </div>
+
+  <div class="problem">
+    <span class="tag">Zašto je ovo problem</span>
+    <p>
+      Pitanje &bdquo;koliko IT poslova ima u Beču&ldquo; danas daje odgovor <strong>136</strong>.
+      Tačan odgovor je <strong>207</strong>. Grafikon &bdquo;poslovi po gradu&ldquo; pokazao bi
+      Innere Stadt i Landstraße kao zasebne gradove, iako su to bečki kvartovi.
+    </p>
+  </div>
+
+  <h3>Kako se rješava</h3>
+  <p>
+    Popunjavaš kolone <code>location.city</code> i <code>location.region</code>, koje smo namjerno
+    ostavili prazne u Fazi 1. Sirovi <code>display_name</code> ostaje netaknut &mdash; ne prepisuješ ga.
+  </p>
+  <p>Tri izvora informacije, po pouzdanosti:</p>
+  <ol>
+    <li><strong><code>location.area</code></strong> &mdash; Adzuna daje hijerarhiju
+      <code>['Österreich', 'Wien']</code>. Kad postoji, drugi element je savezna pokrajina.</li>
+    <li><strong>Rječnik bečkih kvartova</strong> &mdash; Beč ima 23 kvarta sa imenima
+      (Innere Stadt, Leopoldstadt, Landstraße&hellip;). Fiksna lista od 23 unosa rješava većinu.</li>
+    <li><strong>Poštanski broj</strong> &mdash; <code>1020 Wien</code>: bečki brojevi su oblika
+      <code>1XX0</code>. Regularni izraz ih hvata.</li>
+  </ol>
+
+  <div class="problem">
+    <span class="tag">Zamka</span>
+    <p>
+      <code>Schwechat, Wien-Umgebung</code> i <code>Wiener Neudorf, Mödling</code>
+      sadrže &bdquo;Wien&ldquo; ali <strong>nisu Beč</strong> &mdash; to su okolna mjesta u Donjoj Austriji.
+      Naivno <code>if "Wien" in ime</code> ih pogrešno svrstava. Zato ide lista kvartova,
+      a ne pretraga podniza.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="head"><span class="num">02</span><h2>Plate u dvije jedinice</h2></div>
+
+  <p>
+    Adzuna uvijek daje godišnji iznos. karriere.at daje ono što u oglasu piše &mdash; a austrijski
+    oglasi često navode mjesečnu bruto platu.
+  </p>
+
+  <div class="measured">
+    <span class="measured-label">salary_period u tabeli job</span>
+    <table>
+      <tr><td class="n">458</td><td>yearly</td></tr>
+      <tr><td class="n">7</td><td>monthly</td><td>3131.30 &middot; 3267.00 &middot; 3378.48 &middot; 3500.00 &middot; 3890.00 &middot; 4300.00 &middot; 4470.00</td></tr>
+    </table>
+  </div>
+
+  <div class="problem">
+    <span class="tag">Zašto je ovo problem</span>
+    <p>
+      <code>AVG(salary_min)</code> preko cijele tabele sabira 4300 i 65000 kao da su isti podatak.
+      Prosjek ispada niži nego što jeste, i to nasumično &mdash; ovisno o tome koliko je mjesečnih
+      oglasa uzorak zahvatio.
+    </p>
+  </div>
+
+  <h3>Austrijski detalj koji mijenja račun</h3>
+  <p>
+    Naivna konverzija je <code>mjesečno &times; 12</code>. <strong>U Austriji je to pogrešno.</strong>
+    Kolektivni ugovori predviđaju <strong>14 mjesečnih plata</strong> godišnje &mdash; dvanaest redovnih
+    plus <em>Urlaubsgeld</em> (13.) i <em>Weihnachtsgeld</em> (14.). Zato oglasi navode
+    &bdquo;14&times; jährlich&ldquo;.
+  </p>
+
+  <pre><code>4300 &times; 12 = 51 600     &lt;- pogresno, potcjenjuje za 8600
+4300 &times; 14 = 60 200     &lt;- tako Austrijanac cita taj oglas</code></pre>
+
+  <p>
+    Ovo je razlog zašto se domenska pravila ne smiju pogađati. Ista greška bi ti iskrivila
+    svaku kasniju analizu plata i model u Fazi 7.
+  </p>
+
+  <h3>Kako se rješava</h3>
+  <p>
+    Nova kolona <code>salary_min_yearly</code> (i <code>max</code>), popunjena konverzijom.
+    Originalni <code>salary_min</code> i <code>salary_period</code> <strong>ostaju</strong> &mdash;
+    ne prepisuješ izmjereni podatak izvedenim.
+  </p>
+
+  <div class="problem">
+    <span class="tag">Zamka</span>
+    <p>
+      Kolona je <code>Numeric</code>, pa ti Python vraća <code>Decimal</code>, ne <code>float</code>.
+      <code>Decimal("4300") * 14</code> radi; <code>Decimal("4300") * 1.5</code> baca
+      <code>TypeError</code>. Množi cijelim brojem ili <code>Decimal</code>-om.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="head"><span class="num">03</span><h2>Crtica protiv donje crte</h2></div>
+
+  <p>Najmanji problem u fazi, i najbrži za popraviti &mdash; ali savršen primjer kako izvori nisu usaglašeni.</p>
+
+  <div class="measured">
+    <span class="measured-label">employment_type u tabeli job</span>
+    <table>
+      <tr><td class="n">286</td><td>NULL</td><td>Adzuna ga ne daje u 91% slučajeva</td></tr>
+      <tr><td class="n">133</td><td>full_time</td><td>Adzuna</td></tr>
+      <tr><td class="n">26</td><td>part_time</td><td>Adzuna</td></tr>
+      <tr><td class="n">19</td><td>full-time</td><td>karriere.at</td></tr>
+      <tr><td class="n">1</td><td>part-time</td><td>karriere.at</td></tr>
+    </table>
+  </div>
+
+  <p>
+    <code>full_time</code> i <code>full-time</code> su ista stvar, razlikuju se u jednom znaku.
+    Grupisanje po toj koloni daje četiri kategorije umjesto dvije. Rješenje je rječnik preslikavanja
+    u jedan dogovoreni oblik i nova kolona <code>employment_type_norm</code>.
+  </p>
+</section>
+
+<section>
+  <div class="head"><span class="num">04</span><h2>Isti posao, dva reda</h2></div>
+
+  <p>
+    Faza 1 dedupira po <code>(source, source_job_id)</code>. To hvata isti oglas nađen pod više
+    pojmova pretrage &mdash; ali ne hvata isti posao objavljen dvaput.
+  </p>
+
+  <div class="measured">
+    <span class="measured-label">Preostali duplikati</span>
+    <table>
+      <tr><td class="n">38</td><td>parova (naslov + firma)</td><td>ponovljenih unutar same Adzune</td></tr>
+      <tr><td class="n">5</td><td>naslova</td><td>postoje i na Adzuni i na karriere.at</td></tr>
+    </table>
+  </div>
+
+  <div class="problem">
+    <span class="tag">Odluka koju moraš donijeti svjesno</span>
+    <p>
+      Da li su &bdquo;Java Developer&ldquo; kod iste firme, objavljen dvaput, isti posao ili dva otvorena mjesta?
+      Ne znaš pouzdano. Zato duplikate <strong>označavaš</strong> kolonom <code>duplicate_of</code>,
+      a <strong>ne brišeš</strong> &mdash; brisanje je nepovratno, oznaka nije.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="head"><span class="num">05</span><h2>Tehnologije</h2></div>
+
+  <p>Faza 2 ne uvodi nijednu novu bazu ni servis. Uvodi četiri alata, i svaki rješava konkretan problem odozgo.</p>
+
+  <div class="tech">
+    <h3>Alembic migracija &mdash; već ga znaš</h3>
+    <dl>
+      <dt>Čemu ovdje</dt>
+      <dd>Nove kolone: <code>location.city</code> i <code>region</code> već postoje, ali trebaju ti
+        <code>job.salary_min_yearly</code>, <code>salary_max_yearly</code>,
+        <code>employment_type_norm</code>, <code>duplicate_of</code>.</dd>
+      <dt>Zašto ne ručno u pgAdminu</dt>
+      <dd>Sada u bazi imaš 465 oglasa koje ne želiš izgubiti. Migracija <strong>dodaje</strong>
+        kolonu bez diranja postojećih redova. I na drugom računaru se odvrti sama.</dd>
+      <dt>Postupak</dt>
+      <dd>Dopuniš <code>models.py</code> &rarr; <code>alembic revision --autogenerate</code> &rarr;
+        pročitaš generisani fajl &rarr; <code>alembic upgrade head</code>.</dd>
+    </dl>
+  </div>
+
+  <div class="tech">
+    <h3>Modul <code>re</code> &mdash; regularni izrazi</h3>
+    <dl>
+      <dt>Šta je</dt>
+      <dd>Jezik za opis obrazaca u tekstu. <code>r"\b1\d{3}\b"</code> znači
+        &bdquo;četiri cifre koje počinju jedinicom, kao zasebna riječ&ldquo; &mdash; bečki poštanski broj.</dd>
+      <dt>Čemu ovdje</dt>
+      <dd>Vađenje poštanskog broja iz <code>1020 Wien</code> i broja kvarta iz
+        <code>Wien 10. Bezirk (Favoriten)</code>.</dd>
+      <dt>Alternativa i zašto ne</dt>
+      <dd>Za fiksnu listu od 23 kvarta rječnik je čitljiviji i brži od regexa.
+        Regex koristi <strong>samo</strong> tamo gdje je obrazac stvarno promjenjiv &mdash; brojevi jesu, imena nisu.</dd>
+      <dt>Pravilo</dt>
+      <dd>Ako regex ne razumiješ na prvo čitanje, prekomplikovan je. Podijeli ga na dva.</dd>
+    </dl>
+  </div>
+
+  <div class="tech">
+    <h3>pandas</h3>
+    <dl>
+      <dt>Šta je</dt>
+      <dd>Biblioteka za tabelarne podatke. <code>DataFrame</code> je tabela u memoriji &mdash;
+        kao Excel list kojim upravljaš kodom.</dd>
+      <dt>Čemu ovdje</dt>
+      <dd>Da <strong>vidiš</strong> šta imaš prije nego napišeš pravilo.
+        <code>pd.read_sql("SELECT display_name FROM location", engine)</code> pa
+        <code>.value_counts()</code> ti za dva reda pokaže svih 74 lokacije poredanih po učestalosti.</dd>
+      <dt>Šta pandas <em>nije</em></dt>
+      <dd>Nije zamjena za bazu. Podaci ostaju u PostgreSQL-u; pandas je alat za gledanje i istraživanje.
+        Upis normalizovanih vrijednosti ide kroz SQLAlchemy, kao dosad.</dd>
+    </dl>
+  </div>
+
+  <div class="tech">
+    <h3>pytest</h3>
+    <dl>
+      <dt>Čemu ovdje</dt>
+      <dd>Funkcije normalizacije su <strong>čiste</strong> &mdash; primaju string, vraćaju string,
+        ne diraju bazu. To je najlakša stvar za testiranje i najkorisnija.</dd>
+      <dt>Konkretno</dt>
+      <dd><code>normalize_city("Innere Stadt, Wien") == "Wien"</code>,
+        <code>normalize_city("Schwechat, Wien-Umgebung") != "Wien"</code>.
+        Ta druga tvrdnja je vrijednija &mdash; ona čuva zamku iz sekcije 01.</dd>
+      <dt>Koliko</dt>
+      <dd>Deset testova koji pokrivaju stvarne rubne slučajeve iz tvojih podataka.
+        Ne juri pokrivenost.</dd>
+    </dl>
+  </div>
+</section>
+
+<section>
+  <div class="head"><span class="num">06</span><h2>Funkcije koje ćeš napisati</h2></div>
+
+  <p>
+    Novi fajl <code>src/pipeline/normalize.py</code>. Prvih pet su čiste funkcije &mdash;
+    bez baze, bez sesije, lako se testiraju.
+  </p>
+
+  <div class="scroll">
+  <table class="spec">
+    <thead>
+      <tr><th>Funkcija</th><th>Prima &rarr; vraća</th><th>Šta radi</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>normalize_city</td>
+        <td>display_name, area &rarr; str | None</td>
+        <td>Prvo lista 23 bečka kvarta, pa poštanski broj <code>1XX0</code>, pa prvi dio prije zareza. Pazi na Wien-Umgebung.</td>
+      </tr>
+      <tr>
+        <td>normalize_region</td>
+        <td>display_name, area &rarr; str | None</td>
+        <td>Devet saveznih pokrajina. Kad <code>area</code> postoji, drugi element je pokrajina.</td>
+      </tr>
+      <tr>
+        <td>to_yearly</td>
+        <td>Decimal, period &rarr; Decimal | None</td>
+        <td>Množi sa 14 za <code>monthly</code>, propušta <code>yearly</code>. Bez perioda vraća None &mdash; ne pogađa.</td>
+      </tr>
+      <tr>
+        <td>normalize_employment</td>
+        <td>str &rarr; str | None</td>
+        <td>Rječnik: <code>full_time</code>, <code>full-time</code> &rarr; <code>full_time</code>.</td>
+      </tr>
+      <tr>
+        <td>job_fingerprint</td>
+        <td>title, company_id &rarr; str</td>
+        <td>Ključ za prepoznavanje duplikata: naslov na mala slova, bez viška razmaka, plus firma.</td>
+      </tr>
+      <tr>
+        <td>normalize_locations</td>
+        <td>session &rarr; int</td>
+        <td>Prođe kroz 74 lokacije, popuni <code>city</code> i <code>region</code>. Vraća koliko ih je izmijenjeno.</td>
+      </tr>
+      <tr>
+        <td>normalize_jobs</td>
+        <td>session &rarr; int</td>
+        <td>Popuni <code>salary_*_yearly</code> i <code>employment_type_norm</code> za svih 465.</td>
+      </tr>
+      <tr>
+        <td>mark_duplicates</td>
+        <td>session &rarr; int</td>
+        <td>Grupiše po otisku, u svakoj grupi najstariji ostaje glavni, ostalima upiše <code>duplicate_of</code>.</td>
+      </tr>
+      <tr>
+        <td>main</td>
+        <td>&mdash;</td>
+        <td>Otvori sesiju, pozove tri gornje, jedan <code>commit()</code>, ispiše brojeve.</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>
+    Isti obrazac kao <code>ingest.py</code>: čiste funkcije odvojene od onih koje diraju bazu,
+    jedan <code>commit()</code> na kraju, pokretanje mora biti ponovljivo bez posljedica.
+  </p>
+</section>
+
+<section>
+  <div class="head"><span class="num">07</span><h2>Redoslijed i provjera</h2></div>
+
+  <p>Redoslijed nije proizvoljan &mdash; svaki korak se oslanja na prethodni.</p>
+
+  <ol>
+    <li><strong>Pogledaj podatke</strong> pandasom prije nego napišeš ijedno pravilo.</li>
+    <li><strong>Dopuni <code>models.py</code></strong> četirima novim kolonama.</li>
+    <li><strong>Migracija</strong> &mdash; autogenerate, pročitaj, upgrade.</li>
+    <li><strong>Čiste funkcije</strong> plus testovi za njih. Testovi prije nego ih pustiš na bazu.</li>
+    <li><strong>Funkcije nad bazom</strong>, pa <code>main()</code>.</li>
+    <li><strong>Provjeri</strong> upitima ispod.</li>
+  </ol>
+
+  <h3>Šta mora izaći</h3>
+  <pre><code>-- Bec kao jedan grad, ne kao 18 redova
+SELECT city, COUNT(*) FROM job j
+  JOIN location l ON l.id = j.location_id
+  GROUP BY 1 ORDER BY 2 DESC LIMIT 5;
+-- Wien mora biti 207, ne 136
+
+-- sve plate uporedive
+SELECT COUNT(*) FROM job WHERE salary_min_yearly IS NOT NULL;
+-- 181
+
+-- dvije kategorije umjesto cetiri
+SELECT employment_type_norm, COUNT(*) FROM job GROUP BY 1;
+
+-- oznaceni duplikati, nijedan obrisan
+SELECT COUNT(*) FROM job WHERE duplicate_of IS NOT NULL;
+SELECT COUNT(*) FROM job;   -- i dalje 465</code></pre>
+
+  <p>
+    Zadnji red je najvažniji. <strong>Faza 2 ne smije obrisati nijedan oglas.</strong>
+    Ako broj padne ispod 465, negdje si izgubio podatak.
+  </p>
+
+  <div class="zadatak">
+    <h3>Zadatak</h3>
+    <ol>
+      <li>Pusti pandas nad tabelom <code>location</code> i ispiši svih 74 zapisa. Prepiši rukom 23 bečka kvarta koje prepoznaješ.</li>
+      <li>Napiši <code>normalize_city</code> i <code>to_yearly</code> &mdash; obje su čiste, ne diraj bazu.</li>
+      <li>Napiši testove za njih, uključujući onaj koji tvrdi da <code>Schwechat, Wien-Umgebung</code> <strong>nije</strong> Beč.</li>
+      <li>Tek kad testovi prolaze, kreni na migraciju i funkcije nad bazom.</li>
+    </ol>
+  </div>
+</section>
+
+<footer>
+  Gradivo za Fazu 2 projekta jobmarket &middot; svi brojevi izmjereni u bazi nakon
+  <code>python -m src.pipeline.ingest</code> &middot; 465 oglasa, 252 firme, 74 lokacije
+</footer>
+
+</div>
